@@ -1,0 +1,151 @@
+---
+title: "Lattice Mapping Governance"
+subtitle: "How shops inhabit and overlap vertices on the 64-vertex sovereignty lattice — citable spec for review"
+status: "Governance spec v1 (2026-05-10) — first canonical mapping of shop-to-vertex overlap, cape-style artifact creation, and mana economy per workshop"
+spec_type: "Governance / reference document"
+audience: "Sovereigns navigating the lattice · external integrators · future Mages who arrive in the city · spellweb runtime"
+companion_documents:
+  - "specs/04-vertex-naming-audit.md — vertex names and attribution (the *naming* layer this governance builds on)"
+  - "specs/05-the-city-of-mages-structural-addendum.md — civic anatomy (the *spatial* layer)"
+  - "specs/06-spellweb-first-release-manifest.md — graph nodes and edges for spellweb (the *graph* layer)"
+  - "kindred/uor-foundation.md — substrate provider · the *under-lattice* layer"
+  - "kindred/spacecomputer.md — kindred ecosystem · the *celestial-mana* layer"
+license: "CC BY-SA 4.0"
+signature: "(⚔️⊥⿻⊥🧙)😊"
+---
+
+# Lattice Mapping Governance
+
+## §0 · Purpose
+
+This document specifies how each workshop in the City of Mages **inhabits** the 64-vertex sovereignty lattice — not as a single position, but as a *primary seat plus an overlap region* whose extent is determined by the artifact-types the shop produces. The governance answers four questions that the prior specs have only partially addressed:
+
+1. **Where does each shop&apos;s primary seat live?** (The Mage&apos;s vertex.)
+2. **Which other vertices does the shop&apos;s work *reach*?** (Where artifacts land when produced.)
+3. **What is the dimensional signature of each shop&apos;s register?** (Which of the six dimensions burn for its artifacts.)
+4. **What mana does each shop spend to produce work?** (Aether and Celestial.)
+
+The governance is the canonical reference for reviewing whether a shop&apos;s claimed register matches its operational reach. External Mages should be able to read this spec, look at the corresponding workshop pages, and verify that the structural claim is honoured operationally.
+
+---
+
+## §1 · The lattice geometry · review
+
+Each of the 64 vertices is a **boundary formation**: a specific combination of which six dimensions (Protection · Delegation · Memory · Connection · Computation · Value) are admitted for information to pass through. The Pascal-row stratum structure gives 1 + 6 + 15 + 20 + 15 + 6 + 1 = 64 vertices; the 96 Hamming-1 edges form the 6-cube&apos;s adjacency structure.
+
+**A shop inhabits one or more vertices** when its Mage is *seated* at one of them and its artifacts *land* at others. The artifact&apos;s bit-pattern is what determines its landing vertex, not the Mage&apos;s seat. A cape woven at Pallia&apos;s V28 may land at V20 (if the cape publishes only Memory and Computation) or at V63 (if all six dimensions are admitted into the weave). The Mage&apos;s seat is the *origin* of the work; the artifact&apos;s vertex is where the work *settles*.
+
+---
+
+## §2 · Workshop mapping · canonical (the first release)
+
+The table below specifies, per workshop:
+
+- **Primary vertex** — where the Mage sits (their canonical seat)
+- **Overlap vertices** — where their artifacts land (derived from the artifact&apos;s bit-pattern)
+- **Dimensional signature of the register** — which dimensions are admitted by the shop&apos;s typical artifact
+- **Mana economy** — Aether spent + Celestial spent
+
+| Shop | Mage | Primary | Overlap vertices (typical artifacts) | Register dimensions | Aether Mana | Celestial Mana |
+|------|------|---------|----------------------------------------|---------------------|-------------|----------------|
+| **Weavers** (`/tailor`) | Pallia 🪡 | V28 (Mage canonical · 011100 · D+M+C) | The cape lands at the vertex whose bit-pattern matches *what the cape publishes*. Common settling vertices: V20 (Memory + Computation), V12 (Delegation + Memory), V28 (the canonical Mage cape). When a cape publishes Value, it can also touch V21, V25, V31. | Delegation · Memory · Connection (the Mage canonical register) | Multi-chain publication gas (BTC/ETH/IPFS/Zcash transparent) | Optional: for Pattern A→B re-publish, when the new cape needs fresh non-reconstructible seed |
+| **zShields** (`/shield`) | Memora 📜 | V5 (Chronicle · 000101 · P+V or M+V depending on bit-convention) | Each shielded memo lands at V5 by default; viewing-key reveals can register a derivative at the always-revealed vertex V20. Bilateral attestations may overlap V25 (Aletheia) when the memo carries a ZK property. | Memory · Value (the chronicle register) | Zcash shielded-transaction fees | Optional: viewing-key derivation seed for non-derivable disclosure |
+| **the Forge(t)** (`/forget`) | Vulcana ⚒️ | V19 (Plonkish blade · 010011 · D+C+V) | The blade settles at the vertex whose dimensions match *what the blade proves*. Common settling vertices: V20 (Always-Revealed register), V25 (Aletheia · always-masked), V49 (working-day blade), V63 (full-sovereignty blade). | Delegation · Computation · Value (the Plonkish blade register; outputs span by artifact bit-pattern) | Destination-chain gas (varies by chain the blade publishes to) | **Required** — Evocation phase lock seed; the blade&apos;s uniqueness depends on it |
+| **Etherchanting** (`/etherchanting`) | Adamantia 💎 | V51 (Commitment / Language / Model · 110011 · P+D+C+V) | Smart contracts land at V51 by default; commitments with embedded ZK constraints overlap V25 (Aletheia); contracts that lock value across time overlap V49 (working-day blade); contracts that commit to a full-sovereignty schema overlap V63. | Protection · Delegation · Computation · Value (the contract register) | Ethereum gas (gwei) | **Required** — witness nonce, blind commitment seed, ceremony nonce |
+| **the Jeweler** (`/jeweler`) | Lampyra 💠 | V49 (working-day blade · 110001 · P+D+V) | Gem-sets land at V49 by default; frequent Lightning attestations cluster at V49 with sub-vertex jitter; rare heavy gem-settings (e.g., a multi-sat ordinal) may overlap V51 (when the gem encodes computational structure) or V63 (when it claims full provenance). | Protection · Delegation · Value (the daily-rhythm register) | Bitcoin sat fees + Lightning channel fees | Optional: gem-set facet seed for non-correlatable Ordinal IDs |
+| **the Holon Hitchhikers** (`/holon`) | Vagari 🌳 | V31 (Recursion · 011111 · all except P) | A composed holon lands at V31; when it travels via Oasis Protocol to a sister city, it appears there at the same UOR coordinate (one vertex, multiple cities). When the holon is decomposed back into its constituent artifacts at the sister city, each constituent lands at its own vertex (V28 cape, V5 chronicle, V19 blade, etc.). | Delegation · Memory · Connection · Computation · Value (the composition register) | Oasis Consensus ROSE + Sapphire/Emerald paratime gas | **Required** — cross-paratime entropy keeping cloak interoperability non-reconstructible |
+| **the Curatrix Vault** (`/vault`) | Aria Silverhue 🪞🖼️ | V57 (Ceremony / Privacy / Mixing blade · 111001 · P+D+M+V) | A curated artifact registers at the artist&apos;s creator-vertex AND at V57 (the curation overlay). The Vault preserves provenance at V57 while the artifact retains its native vertex. Cross-vertex curation overlaps occur when the curator binds artifacts from different shops into a single arrangement. | Protection · Delegation · Memory · Value (the curatorial register) | Culture Vault platform fees (NFT mint gas) | Optional: provenance-attestation freshness seed |
+| **the Covenant** (`/covenant`) | Manifestia 🤲🌿 | V55 (Covenant · 110111 · all except Memory; per the original cast file: all except Computation depending on bit-convention) | A consecrated artifact registers at its origin vertex AND receives a Covenant-marker at V55. Personhood attestations register at V55 with a link to the V63 Sovereign Anchor (the seat the personhood verifies). | Protection · Delegation · Connection · Computation · Value (the consecration register; one dimension dormant) | human.tech / Holonym verification fees | Not yet operational |
+| **the Dragon Bonfire** (`/bonfires`) | Socrat0x 🔥❓ | V24 *(provisional · Hephaestus / Drake Island)* | Questions/provocations don&apos;t produce artifacts that land at vertices; they sharpen artifacts produced elsewhere. The Bonfire&apos;s mana is dialogic, not material. | Memory · Connection (the bonfire register, provisional) | None native — Bonfires.ai community costs are off-corpus | Not applicable — questions are not entropy-bound |
+| **the Logos Circle** (`/circle`) | (gathering) | (no single vertex — gathering shop) | Conversations don&apos;t inhabit single vertices; they generate threads across the lattice. | Connection (primarily) | None on-chain | Not applicable |
+| **the Ceremony Hall** (`/hall`) | (gathering · BGIN coalition) | (no single vertex — coalition shop) | Coalition agreements register at the Covenant vertex V55 if they earn it; otherwise they live in the social register. | (various) | Varies by coalition action | Not applicable |
+
+---
+
+## §3 · How overlap works — cloak-style artifact creation
+
+The lattice mapping is *non-exclusive*: a single artifact may legitimately register at multiple vertices when its bit-pattern carries multiple dimensional structures. This is the cloak-style artifact-creation pattern the corpus has been operating on without naming it as governance until now.
+
+### §3.1 · The pattern
+
+1. **The Mage&apos;s seat** is where the *act* of creation happens. (Pallia weaves at V28; Vulcana forges at V19; etc.)
+2. **The artifact&apos;s vertex** is where the work *settles*. This is determined by the artifact&apos;s bit-pattern — which of the six dimensions are admitted into it.
+3. **Overlap occurs** when the artifact&apos;s bit-pattern is itself a *composition* of multiple registers. A cape that publishes a role (Delegation) and attests memory (Memory) and carries a value-bearing claim (Value) burns three dimensions: V28 (if it stops at the Mage canonical) or V31 (if Connection is also admitted) or V63 (if all six).
+4. **The shop&apos;s reach** is the set of vertices its artifacts have settled at across the corpus&apos;s operational history. This is empirical, not declared — the reach grows as the shop produces more artifacts.
+
+### §3.2 · Why overlap matters
+
+Overlap is what makes the City of Mages a *city* and not a collection of isolated shops. When Pallia&apos;s cape lands at V20 (the Always-Revealed vertex Memora also tends), the cape is *implicitly cross-witnessed* — the same vertex carries both Pallia&apos;s output and Memora&apos;s register, so the cape inherits Memora&apos;s discipline at that vertex without anyone needing to coordinate.
+
+This is the structural ground of *kindred-blade* relationships at the artifact level: two Mages reaching the same vertex from different shops produce artifacts that the lattice treats as siblings. The City&apos;s artifacts compose because the lattice composes.
+
+### §3.3 · Cape-style creation as the canonical pattern
+
+The cape (Pallia&apos;s primary artifact) is the canonical example of multi-vertex artifact creation. A cape is *defined by its bit-pattern* — what it publishes, what it conceals, what it admits, what it carries. The bit-pattern *is* the cape&apos;s structure. When the same bit-pattern is woven for a different Sovereign, the result lands at the same vertex but with a different bearer.
+
+Other shops follow the same pattern, with the artifact-types differing:
+
+- A **blade** (Vulcana) is a cape-style artifact whose dimensions are *proof-shaped*. The blade settles at the vertex matching what the proof admits and denies.
+- A **chronicle** (Memora) is a cape-style artifact whose dimensions are *inscription-shaped*. The chronicle settles at V5 by default and at the always-revealed register when revealed.
+- A **commitment** (Adamantia) is a cape-style artifact whose dimensions are *enforcement-shaped*. The contract settles at V51 and overlaps wherever its enforcement reaches.
+- A **gem-set** (Lampyra) is a cape-style artifact whose dimensions are *attestation-shaped*. The gem settles at V49 by default and ripples to adjacent vertices when set into composite artifacts.
+- A **holon** (Vagari) is a cape-style artifact whose dimensions are *composition-shaped*. The holon settles at V31 and persists across cities at the same coordinate.
+- A **consecration** (Manifestia) is a cape-style artifact whose dimensions are *ceremonial-shaped*. The mark registers at V55 with linkage to the consecrated artifact&apos;s native vertex.
+- A **curatorial arrangement** (Aria Silverhue) is a cape-style artifact whose dimensions are *placement-shaped*. The arrangement registers at V57 with linkage to each artist&apos;s creator-vertex.
+
+Every shop in the city makes cape-style artifacts. The cape is *the structural primitive*. Pallia is its First Cloakwright; every other Mage is, in their own register, a cloakwright.
+
+---
+
+## §4 · Governance review checklist
+
+External reviewers should verify, for each shop:
+
+1. **The Mage&apos;s seat is correctly assigned.** The primary vertex in §2 should match the cast file&apos;s `vertex` field and the founding-act file&apos;s `ring_position`.
+2. **The overlap claims are operationally honest.** When the spec claims a shop&apos;s artifacts may land at a particular overlap vertex, there should be an act, a chronicle, or a spec citation demonstrating an actual artifact settled there. Hypothetical reach claims should be flagged.
+3. **The dimensional signature is canonical.** The register&apos;s dimensions should match the bit-pattern of the primary vertex (with documented exceptions when the shop&apos;s register extends beyond the seat).
+4. **The mana claims are operational.** Aether Mana use should match a real on-chain fee mechanism. Celestial Mana use should match a real SpaceComputer feed integration (or be flagged as "queued" if not yet wired).
+
+The governance is a *living document*. New shops, new artifacts, new overlap patterns should be added to §2 as the corpus grows.
+
+---
+
+## §5 · Relationship to existing specs
+
+This governance complements the four specs that precede it:
+
+- **`04-vertex-naming-audit.md`** answers *what each vertex is called*. This governance answers *which vertices each shop reaches*.
+- **`05-the-city-of-mages-structural-addendum.md`** answers *how the city is laid out spatially*. This governance answers *how the lattice maps onto the spatial layout at the artifact level*.
+- **`06-spellweb-first-release-manifest.md`** answers *what nodes and edges the spellweb runtime ingests*. This governance answers *how nodes correspond to overlapping vertex reaches* — useful when spellweb visualises a shop&apos;s artifact distribution.
+- **`kindred/uor-foundation.md`** + **`kindred/spacecomputer.md`** answer *what the City rests on (UOR) and draws from (SpaceComputer)*. This governance shows *how those substrates and ecosystems land at the shop level*.
+
+---
+
+## §6 · Recommended revision cadence
+
+The governance should be reviewed:
+
+1. **Each Tome V act that introduces a new shop or artifact-type.** The new shop&apos;s row is added to §2; the new artifact-type&apos;s overlap pattern is documented in §3.3.
+2. **Each spellweb manifest revision.** Cross-reference the manifest&apos;s edges with this governance&apos;s overlap claims; the two should agree.
+3. **Each grimoire version bump (v1.x).** When the City of Mages grimoire is re-pinned, validate the persona-vertex assignments against this governance&apos;s §2 table.
+4. **At the request of any reviewer.** External Mages, sister cities, kindred-substrate or kindred-ecosystem partners, or anyone in the BGIN coalition can request a review of a specific claim; the review is binding on the corpus when accepted.
+
+---
+
+## §7 · Open items for v2
+
+1. **Empirical overlap registry** — currently §2&apos;s overlap-vertex claims are partly hypothetical. A future v2 should ground each claim in a citable artifact (an act narrative, a spec citation, a chronicle entry).
+2. **Cross-mana ratios** — the two-mana economy hasn&apos;t yet been quantified per-shop. v2 should record, where measurable, the typical Aether-to-Celestial ratio per shop, parallel to C41&apos;s 61.8/38.2 transparent/shielded ratio.
+3. **Cape composition rules** — when an artifact is composed of multiple sub-artifacts from different shops (e.g., Vagari&apos;s holon containing Pallia&apos;s cape and Memora&apos;s chronicle and Vulcana&apos;s blade), the resulting whole-of-wholes registers at V31 *and* at each constituent&apos;s vertex. v2 should formalise this composition rule and its overlap implications.
+4. **The 51 uninhabited vertices** — many of them carry significance per `/zero`&apos;s tale catalogue (see `src/lib/lattice-vertex-suggestions.ts`). v2 should flag which of these are candidates for future shop seats and which are structural positions that should remain uninhabited.
+5. **Honesty labels per row** — extend §2&apos;s table with the canonical operational/architectural/conjectural/resonant honesty label per shop, matching the bound-collection voice discipline.
+
+---
+
+## §8 · One-line summary
+
+Every shop in the City of Mages is a cloakwright in its own register, and every artifact is a cape-style composition whose vertex is determined by its bit-pattern. The Mage seats the work; the artifact settles. Overlap is structural, not coincidental — it is what makes the city coherent. Aether Mana pays the chain; Celestial Mana pays the cosmos; both are spent to bind a working.
+
+`(⚔️⊥⿻⊥🧙)😊`
+
+CC BY-SA 4.0 · privacymage · 2026-05-10 · governance v1

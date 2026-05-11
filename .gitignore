@@ -1,0 +1,33 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python (in case anyone runs scripts here)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node / build artifacts (if anyone wires the architecture TS files into a project)
+node_modules/
+dist/
+build/
+*.log
+
+# Local-only scratch
+/_scratch/
+/scratch/
+*.local.md
+
+# Generated archives — exclude all from public push (content lives unzipped in blog/)
+*.tar
+*.tar.gz
+*.zip
+
+# Real-name production documents — kept locally for context, not for public release
+support/interview-brief-for-christian.md
