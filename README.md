@@ -132,7 +132,7 @@ cityofmages/
 ├── JOIN_THE_CITY.md                   ← onboarding for ecosystems "sending a Mage"
 ├── INCANTATION_PROTOCOL.md            ← the coherence protocol · how a change propagates across the universe
 ├── WORKSHOP_LATTICE_AUDIT.md          ← per-workshop vertex mapping · overlap rules · drift catalogue
-├── SPELLWEB_ITEM_CREATION_GUIDE.md    ← how a constellation becomes a blade · the full import/export contract
+├── SPELLWEB_ARTEFACT_CREATION_GUIDE.md ← how a constellation becomes an artefact · the full import/export contract · RUN·E·CRAFT ⊥ ART·E·FACT
 ├── INTEGRATION_ARCHITECTURE.md        ← cityofmages × skills × personas × blades · working hypothesis
 ├── LICENSE.md                         ← CC BY-SA 4.0
 │
@@ -225,7 +225,7 @@ Five versions live in [`grimoire/`](grimoire/). The grimoire is **parallel** to 
 | [v1.1.0](grimoire/city_of_mages_grimoire_v1_1_0.json) | 2026-05-10 | **Pinned** | Per-spell inscription · narrative_anchor · cross_spellbook_resonance · 39 spells |
 | [v1.2.0](grimoire/city_of_mages_grimoire_v1_2_0.json) | 2026-05-10 | **Pinned** | Tome V Act 15 · C47 · kindred substrate (UOR) |
 | [v1.2.3](grimoire/city_of_mages_grimoire_v1_2_3.json) | 2026-05-11 | Historical snapshot | Luca at V0 · SpaceComputer · two-mana economy · Arcane register |
-| [v1.2.4](grimoire/city_of_mages_grimoire_v1_2_4.json) | 2026-05-11 | **Current head · awaits re-pin** | **Metabolism complete · four mana axes · four structural-relationship categories formalised · Scrying Glass + Loom of Programmable Covenants + Fan Passport named** |
+| [v1.2.4](grimoire/city_of_mages_grimoire_v1_2_4.json) | 2026-05-11 | **Current head · awaits re-pin** | **Metabolism complete · four mana axes · four structural-relationship categories formalised · Scrying Glass + Loom of Programmable Covenants named; relationship-axis VRC residue accumulates across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes — see `workshop_artefact_taxonomy`)** |
 
 **Pinned CIDs**
 - v1.1: `bafkreidv7cwwlcnuzw3eyhcbbvoccy7do2lmwrmmtrszn62ninzxj3idti`
@@ -260,7 +260,7 @@ The City spends and accumulates value across **four axes**. Each axis has its ow
         │  finds affinity     7th Capital in motion              │
         │                                                         │
         │  RELATIONSHIP ────► 🪢 VRC Mana                          │
-        │      ↓               Fan Passport · VRCs                │
+        │      ↓               VRCs across worn artefacts         │
         │  stores residue     Loom of Programmable Covenants     │
         │                                                         │
         └─────────────────────────────────────────────────────────┘
@@ -271,7 +271,7 @@ The City spends and accumulates value across **four axes**. Each axis has its ow
 | 1 | **Landing** | chain-mana (plural by chain) | Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana | All four variants operational |
 | 2 | **Entropy** | Arcane ⊥ Celestial | ✨ ⊥ 🌌 | Both operational; Celestial wired at 3 shops |
 | 3 | **Coordination** *(NEW · v1.2.4)* | 🔭 Resonance Mana | 🔭 | Architectural · Scrying Glass primitive named, awaits operational impl |
-| 4 | **Relationship** *(NEW · v1.2.4)* | 🪢 VRC Mana | 🪢 | Architectural · Fan Passport + Loom of Programmable Covenants named, awaits VRC issuance surface |
+| 4 | **Relationship** *(NEW · v1.2.4)* | 🪢 VRC Mana | 🪢 | Architectural · VRCs accumulate across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes); Loom of Programmable Covenants is the production form, compiling against the worn collection; awaits VRC issuance |
 
 Full spec: [tomes/specs/08-mana-types-and-swordsman-stances.md](tomes/specs/08-mana-types-and-swordsman-stances.md).
 v1.2.4 source-of-truth chronicle: [chronicles/2026-05-11_v1_2_4_metabolism_complete_suite_patch_roadmap.md](chronicles/2026-05-11_v1_2_4_metabolism_complete_suite_patch_roadmap.md).

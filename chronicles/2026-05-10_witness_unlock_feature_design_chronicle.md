@@ -15,10 +15,10 @@
 
 ## §1 · Why this chronicle exists
 
-The eleven workshop constellation templates landed on 2026-05-10. Each template, when traced on the spellweb, produces a `blade.md` that the Sovereign brings back to the workshop to unlock trust. The flow is:
+The eleven workshop constellation templates landed on 2026-05-10. Each template, when traced on the spellweb, produces a `artefact.md` that the Sovereign brings back to the workshop to unlock trust. The flow is:
 
 ```
-download constellation.md → spellweb traces → export blade.md → /shop imports blade.md → trust unlocks
+download constellation.md → spellweb traces → export artefact.md → /shop imports artefact.md → trust unlocks
 ```
 
 What's been **left open** is the reverse direction: what happens *on the spellweb* when the Sovereign witnesses a blade. Today, every node on the spellweb is visible from first load. The City of Mages is fully rendered; every workshop, every cast member, every vertex, every gateway is there from the start. There is no progressive disclosure.
@@ -60,7 +60,7 @@ The Witness Unlock generalises this lighting from the master's achievement page 
 
 ## §3 · The unlock cascade
 
-When a Sovereign witnesses a `blade.md` from `<shop>`, the spellweb fires a cascade. Each register is independent; failures degrade gracefully (a missing secret node doesn't break the vertex lighting).
+When a Sovereign witnesses a `artefact.md` from `<shop>`, the spellweb fires a cascade. Each register is independent; failures degrade gracefully (a missing secret node doesn't break the vertex lighting).
 
 ### §3.1 · Register A — Vertex Lighting
 
@@ -118,7 +118,7 @@ The spellweb gains a new **Inventory Menu**, accessed by clicking either orb. Tw
 - Equipped **Gem + Bolt** (bilateral) → a faint line between the two orbs lights with the Topaz gem
 - (etc per artefact)
 
-**Inventory carries through to the Witness Forge.** When a Sovereign forges a new blade.md, the equipped artefacts are recorded in the blade's metadata as `equipped: ['artefact-witness-blade', 'artefact-cloak']`. The forged blade carries proof of which artefacts were active at the moment of the forging.
+**Inventory carries through to the Witness Forge.** When a Sovereign forges a new artefact.md, the equipped artefacts are recorded in the blade's metadata as `equipped: ['artefact-witness-blade', 'artefact-cloak']`. The forged blade carries proof of which artefacts were active at the moment of the forging.
 
 **The lattice IS the menu.** No separate UI surface; the 64-vertex render *is* the inventory. Clicking an artefact slot opens a small popover with its name, root name, class, archetype, wielder, and an "equip / unequip" toggle. Witnessed artefacts also show their forge-date and constellation version.
 
@@ -153,9 +153,9 @@ function secretNodeOpacity(node: SpellwebNode, runningStratum: number): number {
 **Two states.** The opacity has both a **live** form (during evocation, transient) and a **persistent** form (after witness, recorded):
 
 - **Live during evocation** — running stratum climbs as the Sovereign laps; secret nodes fade in as the formula climbs. If the Sovereign stops at stratum 4 (Heavy), the nodes are at their stratum-4 opacity for the rest of the session.
-- **Persistent after witness** — when the blade.md is forged at stratum N, that stratum is recorded as the workshop's **achieved tier** in localStorage. On every subsequent visit, the secret nodes render at their achieved-tier opacity (the floor). Re-evoking and reaching a higher stratum **raises** the floor; lower walks do not lower it.
+- **Persistent after witness** — when the artefact.md is forged at stratum N, that stratum is recorded as the workshop's **achieved tier** in localStorage. On every subsequent visit, the secret nodes render at their achieved-tier opacity (the floor). Re-evoking and reaching a higher stratum **raises** the floor; lower walks do not lower it.
 
-**Re-evocation is rewarding.** A Sovereign who walks `/tailor` at stratum 3 (Heavy) gets a Heavy-tier Cloak Weave blade and sees the Weavers' secret nodes at 50% opacity. Returning later and walking the constellation again at stratum 6 (Dragon) raises the achieved tier and pushes the secret nodes to full opacity. The blade.md history shows both walks; the inventory carries the highest-tier achievement.
+**Re-evocation is rewarding.** A Sovereign who walks `/tailor` at stratum 3 (Heavy) gets a Heavy-tier Cloak Weave blade and sees the Weavers' secret nodes at 50% opacity. Returning later and walking the constellation again at stratum 6 (Dragon) raises the achieved tier and pushes the secret nodes to full opacity. The artefact.md history shows both walks; the inventory carries the highest-tier achievement.
 
 **This is the Forge(t)'s discipline made operational** (per `CEREMONY_EVOLUTION.md §4`). The first walk is forgettable; the second walk re-asks; the dragon-tier walk is the final form. Forgetting is structural — the *low-stratum* runs aren't lost, they just stop gating the reveal.
 
@@ -225,7 +225,7 @@ Per-Sovereign; not graph-mutation. Cleared by clearing browser storage.
 ### §5.4 · Event
 
 ```typescript
-// Fired by spellweb's import flow when a blade.md from a workshop is witnessed:
+// Fired by spellweb's import flow when a artefact.md from a workshop is witnessed:
 window.dispatchEvent(new CustomEvent('spellweb:workshop-witnessed', {
   detail: { shopId: 'shop-tailor', constellationVersion: 'tailor-cloak-weave-v1', timestamp: ... }
 }));
@@ -243,7 +243,7 @@ For the trust-task loop to close, the master site needs to know when a Sovereign
 
 The user's framing was specific: the witnessed workshop yields a **special artefact** that changes the Sovereign's experience of the spellweb. Three layers of artefact:
 
-1. **The `blade.md` itself** — the portable proof. Lives in the Sovereign's downloads. Already exists.
+1. **The `artefact.md` itself** — the portable proof. Lives in the Sovereign's downloads. Already exists.
 2. **The unlock state in spellweb** — the per-Sovereign localStorage record that says "this Sovereign has earned this workshop's full revelation". New.
 3. **The orb accent + secret-node ring** — the visible accumulation. As the Sovereign witnesses more, the spellweb becomes visibly *theirs* in a way it isn't on first load. This is the trust task's reward — not a badge, but a deepening of the graph.
 
@@ -267,7 +267,7 @@ The third layer is the one the master site doesn't currently express. The master
 
 - **Cross-Sovereign witness state** — each Sovereign's unlocks are private. A Sovereign who has witnessed all 11 workshops cannot show another Sovereign their unlocks; the trust task is individual. (A future feature could enable bilateral unlock-sharing, but v1 is solo.)
 - **Workshop achievement leaderboard** — out of scope; the spellweb is not a game.
-- **NFT-style attestation of unlocks** — the `blade.md` IS the portable proof. No additional minting needed.
+- **NFT-style attestation of unlocks** — the `artefact.md` IS the portable proof. No additional minting needed.
 - **Master-side rendering of unlocked secret nodes** — those live in the spellweb's graph only. The master's `/guide/achievements §2 Lattice` lights vertices; it doesn't reveal secret nodes. Defer until the spellweb feature ships.
 - **Per-Sovereign animation styling** — the orb-trail rainbow is universal across Sovereigns at v1. Personalisation can come later.
 
@@ -275,7 +275,7 @@ The third layer is the one the master site doesn't currently express. The master
 
 ## §9 · The trust task framing
 
-> *The workshop's constellation is the path. The blade.md is the proof you walked it. The witness-unlock is the city's recognition that you did.*
+> *The workshop's constellation is the path. The artefact.md is the proof you walked it. The witness-unlock is the city's recognition that you did.*
 
 This sentence is load-bearing. The Witness Unlock makes the spellweb a record of trust earned, not just a knowledge graph rendered. The Sovereign who comes back to the spellweb after witnessing eight workshops sees a different city than the first-time visitor — the city the Sovereign has helped to render.
 

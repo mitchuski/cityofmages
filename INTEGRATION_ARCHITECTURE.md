@@ -66,7 +66,7 @@ The agentprivacy corpus's foundational primitive is the **dual-agent split**: ev
                                       │  all three contribute fields to
                                       ▼
                   ┌──────────────────────────────────────────┐
-                  │            blade.md (artefact)            │
+                  │            artefact.md (artefact)            │
                   │                                          │
                   │    one Sovereign's local witness of      │
                   │    one workshop walk on one date         │
@@ -84,11 +84,11 @@ The agentprivacy corpus's foundational primitive is the **dual-agent split**: ev
 | **skills** *(agentprivacy-skills · extant)* | The **Mage-side capability library** — skill/spell definitions, the operational layer of grimoire spells, mana-axis spend per skill | Persona identities; Swordsman stance definitions; world model |
 | **blades** *(zk blades forge · extant, or new)* | The **Swordsman-side boundary catalog** — stance definitions, blade templates, proof shapes a workshop can emit | Persona identities; Mage spell definitions; world model |
 
-### §1.2 · The blade.md is the integration point
+### §1.2 · The artefact.md is the integration point
 
-Every blade.md (the artefact a Sovereign carries home from a spellweb walk) **draws fields from all four repos**. See [SPELLWEB_ITEM_CREATION_GUIDE §3.1](SPELLWEB_ITEM_CREATION_GUIDE.md) for the full frontmatter contract. The field ownership maps as follows:
+Every artefact.md (the artefact a Sovereign carries home from a spellweb walk) **draws fields from all four repos**. See [SPELLWEB_ARTEFACT_CREATION_GUIDE §3.1](SPELLWEB_ARTEFACT_CREATION_GUIDE.md) for the full frontmatter contract. The field ownership maps as follows:
 
-| blade.md field | Canonical owner | Hypothesis flag |
+| artefact.md field | Canonical owner | Hypothesis flag |
 |---|---|---|
 | `constellation_id`, `constellation_version` | **cityofmages** (from the template) | ✅ confirmed |
 | `workshop`, `workshop_route`, `workshop_gem`, `workshop_gem_color` | **cityofmages** | ✅ confirmed |
@@ -122,7 +122,7 @@ skills:<skill-id>             # e.g. skills:pallia-cloak-weave · skills:vulcana
 blades:<blade-id>             # e.g. blades:cloak-blade-template · blades:cloak-bearer-stance
 ```
 
-Each ID resolves against its repo's canonical index. The cross-references are bidirectional where structural; unidirectional where the architecture commits asymmetry (e.g. a Sovereign-held blade.md instance references the schemas but the schemas do not reference instances).
+Each ID resolves against its repo's canonical index. The cross-references are bidirectional where structural; unidirectional where the architecture commits asymmetry (e.g. a Sovereign-held artefact.md instance references the schemas but the schemas do not reference instances).
 
 ### §2.2 · Where cross-refs land in cityofmages
 
@@ -194,7 +194,7 @@ The pattern is: **every cross-repo reference uses the `<repo>:<id>` convention; 
 
 ## §3 · Propagation across repos
 
-The [INCANTATION_PROTOCOL.md](INCANTATION_PROTOCOL.md) currently defines four recipes (A grimoire bump · B add cast · C add Tome V act · D switch symbol), plus the proposed Recipe E (constellation update) in [SPELLWEB_ITEM_CREATION_GUIDE.md §8](SPELLWEB_ITEM_CREATION_GUIDE.md). Multi-repo changes require **extended recipes** that touch more than cityofmages.
+The [INCANTATION_PROTOCOL.md](INCANTATION_PROTOCOL.md) currently defines four recipes (A grimoire bump · B add cast · C add Tome V act · D switch symbol), plus the proposed Recipe E (constellation update) in [SPELLWEB_ARTEFACT_CREATION_GUIDE.md §8](SPELLWEB_ARTEFACT_CREATION_GUIDE.md). Multi-repo changes require **extended recipes** that touch more than cityofmages.
 
 ### §3.1 · Recipe B+ (Add a cast member · multi-repo)
 
@@ -275,9 +275,9 @@ When the personas / skills / blades repo-side docs arrive, this document needs r
 
 The four-axis mana framework is canonical (spec 08 v1.3). The **per-workshop quantification** is deferred to workshop-level deliberation. When that lands, the skills repo will likely carry the per-skill mana cost specifications; the blades repo will carry the per-stance mana cost (if any); cityofmages will reference both. This integration doc will need a §5 then capturing the resolved economy.
 
-### §4.5 · The `swordsman_stance` field in blade.md
+### §4.5 · The `swordsman_stance` field in artefact.md
 
-Currently the SPELLWEB_ITEM_CREATION_GUIDE §3.1 frontmatter contract doesn't specify a `swordsman_stance` field. Per spec 08 v1.3, every working has a stance. When the blades repo schema lands, §3.1 should grow a `swordsman_stance` row alongside the `mana_spent` quadruple — completing the Mage ⊥ Swordsman duality at the blade.md contract.
+Currently the SPELLWEB_ARTEFACT_CREATION_GUIDE §3.1 frontmatter contract doesn't specify a `swordsman_stance` field. Per spec 08 v1.3, every working has a stance. When the blades repo schema lands, §3.1 should grow a `swordsman_stance` row alongside the `mana_spent` quadruple — completing the Mage ⊥ Swordsman duality at the artefact.md contract.
 
 ---
 
@@ -314,7 +314,7 @@ Until then: **the model below is the corpus's current best guess.** Sibling-repo
 
 ## §7 · One-line summary
 
-The City of Mages is the **world model**. The three sibling repos are the **operational libraries**: personas (who walks) · skills (what Mages cast) · blades (what Swordsmen hold). Every blade.md a Sovereign carries home is the integration point — it draws fields from all four repos and witnesses one moment of their alignment. The architecture admits this much; the schemas are still arriving.
+The City of Mages is the **world model**. The three sibling repos are the **operational libraries**: personas (who walks) · skills (what Mages cast) · blades (what Swordsmen hold). Every artefact.md a Sovereign carries home is the integration point — it draws fields from all four repos and witnesses one moment of their alignment. The architecture admits this much; the schemas are still arriving.
 
 `(⚔️⊥⿻⊥🧙)😊`
 

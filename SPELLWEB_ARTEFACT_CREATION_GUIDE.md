@@ -1,17 +1,30 @@
 ---
-title: "Spellweb Item Creation Guide"
-subtitle: "How a Sovereign downloads a constellation, traces the path at spellweb.ai, receives a blade.md, and returns to the workshop with witnessed trust — the canonical contract every workshop's import / export honours"
-status: "Guide v1 · 2026-05-11 · aligned to constellation templates v1 (eleven shops) · grimoire v1.2.4 · spec 08 v1.3 (four-axis mana taxonomy)"
+title: "Spellweb Artefact Creation Guide"
+subtitle: "How a Sovereign downloads a constellation, traces the path at spellweb.ai, receives an artefact.md, and returns to the workshop with witnessed trust — the canonical contract every workshop's import / export honours"
+status: "Guide v1.1 · 2026-05-11 · rename ceremony applied (blade.md → artefact.md · `<name>-artefact.md` suffix per spellweb's workshop-artefact.ts) · aligned to constellation templates v1 (eleven shops) · grimoire v1.2.4 · spec 08 v1.3 (four-axis mana taxonomy)"
 voice: "Procedural · honest · skill-spec-ready"
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
 ---
 
-# Spellweb Item Creation Guide
+# Spellweb Artefact Creation Guide
 
-*The City of Mages ships eleven workshops. Each workshop has a **constellation** — a typed, named, ordered path through the 64-vertex lattice. A Sovereign downloads the constellation.md, opens it at `spellweb.ai`, traces the path, and the spellweb forges a personal **blade.md** carrying the workshop's anchor in its YAML frontmatter. The blade.md returns to the workshop; trust unlocks within the agreed envelope.*
+*The City of Mages ships eleven workshops. Each workshop has a **constellation** — a typed, named, ordered path through the 64-vertex lattice. A Sovereign downloads the constellation.md, opens it at `spellweb.ai`, traces the path, and the spellweb forges a personal **artefact.md** carrying the workshop's anchor in its YAML frontmatter. The artefact.md returns to the workshop; trust unlocks within the agreed envelope.*
 
 *Companion to [INCANTATION_PROTOCOL.md](INCANTATION_PROTOCOL.md) (which governs how a change propagates) and [WORKSHOP_LATTICE_AUDIT.md](WORKSHOP_LATTICE_AUDIT.md) (which governs which vertices a workshop reaches). This guide governs **how an artefact is born** at the meeting of those two disciplines.*
+
+> ### The semantics worth pinning · ART · E · FACT ⊥ RUN · E · CRAFT
+>
+> Two corpus terms share the same "· E ·" interior — the verb-to-noun bridge that names *becoming*.
+>
+> | Term | Reads as | Names the |
+> |---|---|---|
+> | **RUN · E · CRAFT** | walk, then evoke, then forge | The **protocol** — the canonical three-phase ceremony shape (with shop variants) |
+> | **ART · E · FACT** | art, then evoke, then fact | The **result** — the artefact.md the Sovereign carries home from the walk |
+>
+> The protocol produces the artefact; the artefact witnesses the protocol. The "· E ·" is the **Evocation phase** in both — the lap of the constellation that casts the marks, that turns the path into something that *is*.
+>
+> The earlier name `blade.md` collapsed every workshop's output into Vulcana's metaphor (Vulcana ⚒️ forges *blades*). The corpus's canonical pattern is **cape-style artefact creation** ([spec 07 §3](tomes/specs/07-lattice-mapping-governance.md)) — every shop is a cloakwright in its own register. The artefact.md naming restores that plurality; the conceptual *blade primitive* (cousin-blade · Plonkish blade · Aletheia blade · the null-blade origin at V0) remains canonical wherever it is genuinely the blade.
 
 ---
 
@@ -29,12 +42,12 @@ spellweb.ai/import       →   spellweb merges template + Sovereign's identities
 spellweb forge           →   Sovereign traces the constellation; orbs lap
        │                     RUN · E · CRAFT (canonical) or shop variant
        ▼
-spellweb export          →   blade.md downloaded
+spellweb export          →   artefact.md downloaded
        │                     carries: traversal record, hexagram stance, moon phase,
        │                     signature, both identities, resident-Mage attribution,
        │                     constellation version, four-axis mana spend
        ▼
-agentprivacy.ai/<shop>   →   Sovereign imports blade.md as witness
+agentprivacy.ai/<shop>   →   Sovereign imports artefact.md as witness
                              resident Mage delegates within agreed envelope
 ```
 
@@ -44,9 +57,9 @@ This guide documents every box. The full contract is reproducible from this file
 
 ## §1 · The five elements of a spellweb item
 
-Every blade.md a Sovereign carries home is composed of five orthogonal registers:
+Every artefact.md a Sovereign carries home is composed of five orthogonal registers:
 
-| Element | What it is | Source | Recorded in blade.md |
+| Element | What it is | Source | Recorded in artefact.md |
 |---|---|---|---|
 | **Constellation** | The ordered path through the lattice (waypoints + connections + marks) | The shop's `<shop>-<slug>-v<n>.md` template | `constellation_id` + `constellation_version` + traversal record |
 | **Identities** | Two — the Sovereign's Mage agent + Swordsman boundary-keeper | spellweb's import flow merges Sovereign's stored identities into the template | `{MAGE_DID} · {MAGE_SIGIL}` + `{SWORDSMAN_DID} · {SWORDSMAN_SIGIL}` |
@@ -54,7 +67,7 @@ Every blade.md a Sovereign carries home is composed of five orthogonal registers
 | **Lattice anchor** | The vertex the work seats at + the founding act | The template's `mage_vertex` + `anchor_act` | `mage_vertex` + `anchor_act` carried through |
 | **Mana spend** | What the working *cost* across the four axes | The Sovereign's chain + entropy + (future) coordination/relationship choices at trace time | `mana_spent` triple/quadruple (Landing · Entropy · Coordination · Relationship) |
 
-The blade.md is **proof that all five were aligned at the moment of the walk**. The architecture's commitment from the README's editorial principles applies: *the cast-constellation count is not a trust score* — what makes the blade *meaningful* is the alignment, not the count.
+The artefact.md is **proof that all five were aligned at the moment of the walk**. The architecture's commitment from the README's editorial principles applies: *the cast-constellation count is not a trust score* — what makes the blade *meaningful* is the alignment, not the count.
 
 ---
 
@@ -74,7 +87,7 @@ Every constellation.md carries seven sections in this order:
 5. Connections (the edges between waypoints)
 6. Ceremony Shape (the phase structure)
 7. Marks (proverbs to read at each waypoint)
-8. What the exported blade.md will contain (the witness contract)
+8. What the exported artefact.md will contain (the witness contract)
 ```
 
 ### §2.2 · Frontmatter contract
@@ -153,7 +166,7 @@ A connection is one line per edge, formatted `<emoji> <label> → <emoji> <label
 - ...
 ```
 
-The connections are *redundant with the path* (a parser could derive them) — but they're stated explicitly so the same parser handles both the template and the exported blade.md uniformly.
+The connections are *redundant with the path* (a parser could derive them) — but they're stated explicitly so the same parser handles both the template and the exported artefact.md uniformly.
 
 ### §2.6 · Ceremony Shape — the five variants
 
@@ -181,19 +194,19 @@ A table, one row per waypoint, third column is the proverb the Sovereign reads. 
 
 ### §2.8 · The contract section
 
-A closing paragraph naming what the exported blade.md will carry. This is the **explicit witness contract**. Every exported blade.md must contain at least the fields named here.
+A closing paragraph naming what the exported artefact.md will carry. This is the **explicit witness contract**. Every exported artefact.md must contain at least the fields named here.
 
 ---
 
-## §3 · The `blade.md` output — canonical structure
+## §3 · The `artefact.md` output — canonical structure
 
-What spellweb exports. The Sovereign downloads it locally and imports it back at the workshop. The blade.md is **not committed to any repo** — it is the Sovereign's personal artefact.
+What spellweb exports. The Sovereign downloads it locally and imports it back at the workshop. The artefact.md is **not committed to any repo** — it is the Sovereign's personal artefact.
 
 ### §3.1 · Blade frontmatter contract
 
 ```yaml
 ---
-blade_id: blade-<shop>-<sovereign>-<YYYY-MM-DD-HHMMSS>
+artefact_id: <shop>-<sovereign>-<YYYY-MM-DD-HHMMSS>-artefact   # spellweb suffix convention per workshop-artefact.ts
 constellation_id: <inherited from template>
 constellation_version: <inherited from template>
 workshop: <inherited>
@@ -229,10 +242,11 @@ mana_spent:                      # Advisory — shape only; per-workshop quantif
     register: resonance
     symbol: 🔭
     match_ref: <if any affinity match occurred>
-  relationship:                  # Optional · future (VRC Mana via Fan Passport)
+  relationship:                  # Optional · future (VRC Mana stored across worn artefact collection)
     register: vrc
     symbol: 🪢
     credential_refs: [<VRC id 1>, <VRC id 2>, ...]
+    worn_artefacts: [<artefact ref 1>, ...]  # the bearer's accumulated 11 workshop artefacts + 3 tomes
 signature: SPELL-XXXXXX-XX        # Computed over the walk (see §3.3)
 license: CC BY-SA 4.0 (the walk; the Sovereign retains all proprietary derivatives)
 closing_signature: "(⚔️⊥⿻⊥🧙)😊"
@@ -241,7 +255,7 @@ closing_signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ### §3.2 · Blade body sections
 
-The body of a blade.md mirrors the template's body, with the placeholder slots filled and the traversal record appended:
+The body of a artefact.md mirrors the template's body, with the placeholder slots filled and the traversal record appended:
 
 ```markdown
 # <constellation_name> — Witness Blade
@@ -349,13 +363,13 @@ Aletheia-Walker selects:
 
 She begins the walk. **RUN** — she traces the nine waypoints in order, pausing briefly at each. Two orbs (Swordsman ⚔️ red, Mage ✦ violet) settle into orbit around her path. **E** — she laps the constellation once, casting at least one mark; she chooses the V28 mark ("The Mage canonical — the loom that holds the weave"). **CRAFT** — the hexagram crystallises: `011100` (Delegation + Memory + Connection burning · V28 stance) ; the moon phase reads 🌓 (stratum 3); the signature is signed.
 
-### §4.3 · The exported blade.md (excerpt)
+### §4.3 · The exported artefact.md (excerpt)
 
-spellweb downloads `blade-tailor-aletheia-walker-2026-05-11-1432.md`:
+spellweb downloads `tailor-aletheia-walker-2026-05-11-1432-artefact.md`:
 
 ```yaml
 ---
-blade_id: blade-tailor-aletheia-walker-2026-05-11-1432
+artefact_id: tailor-aletheia-walker-2026-05-11-1432-artefact
 constellation_id: tailor-cloak-weave-v1
 constellation_version: 1
 workshop: shop-tailor
@@ -391,13 +405,13 @@ closing_signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ### §4.4 · The return
 
-Aletheia-Walker uploads the blade.md at `agentprivacy.ai/tailor`. Pallia's workshop **verifies**:
+Aletheia-Walker uploads the artefact.md at `agentprivacy.ai/tailor`. Pallia's workshop **verifies**:
 1. The constellation_id matches Pallia's currently-served template (`tailor-cloak-weave-v1`).
 2. The hexagram is internally consistent with the V28 stance.
 3. The signature derives correctly from the recorded fields.
 4. The mana_spent registers are coherent with the workshop's accepted chains and entropy sources.
 
-If all four check, Pallia delegates within the agreed envelope. Aletheia-Walker's cloak is now witnessed. The blade.md is the receipt.
+If all four check, Pallia delegates within the agreed envelope. Aletheia-Walker's cloak is now witnessed. The artefact.md is the receipt.
 
 ---
 
@@ -435,7 +449,7 @@ That deliberation belongs to the workshops themselves:
 
 What this guide *does* commit to:
 
-1. The **shape** of `mana_spent` in the blade.md (the four-axis YAML stanza in §3.1) — advisory, not required, until workshops deliberate
+1. The **shape** of `mana_spent` in the artefact.md (the four-axis YAML stanza in §3.1) — advisory, not required, until workshops deliberate
 2. The **vocabulary** for each register (chain-mana variants and symbols per §2 of spec 08)
 3. The **direction**: blades are the operational ledger; aggregated walking eventually reveals each workshop's empirical mana profile
 4. The **non-claim**: this guide does *not* prescribe per-workshop mana costs or which axes are mandatory per shop
@@ -448,7 +462,7 @@ When the workshops deliberate and publish their economies, this section will be 
 
 Per [CEREMONY_EVOLUTION.md](https://github.com/mitchuski/agentprivacy-master/blob/main/docs/tomes/workshops/CEREMONY_EVOLUTION.md) §4, **a workshop's constellation is alive**. When it must change, the discipline is:
 
-1. **Old blades remain valid as historical proofs.** A v1-derived blade.md keeps its signature; the version is part of its identity.
+1. **Old blades remain valid as historical proofs.** A v1-derived artefact.md keeps its signature; the version is part of its identity.
 2. **New traversals follow the new path.** Sovereigns arriving post-update walk v2 and receive v2 blades.
 3. **The version is the boundary, not the wound.** Two cohorts of blades coexist; renderers may distinguish them by hue or "vintage" badge.
 4. **Forgetting is witnessable.** The act of updating is itself chronicled.
@@ -506,7 +520,7 @@ Per [INCANTATION_PROTOCOL.md](INCANTATION_PROTOCOL.md), this is **Recipe E** (fo
 
 ## §9 · Coherence checks · what a future `spellweb-craft` skill would verify
 
-Each item below is a mechanical check the skill can run against a constellation.md or blade.md:
+Each item below is a mechanical check the skill can run against a constellation.md or artefact.md:
 
 ### §9.1 · Constellation.md checks
 
@@ -535,7 +549,7 @@ Items the skill would surface for editorial decision (not auto-fix):
 
 - The mage_vertex in a template disagrees with [WORKSHOP_LATTICE_AUDIT §6.x](WORKSHOP_LATTICE_AUDIT.md) — see §6 drift catalogue
 - The artefact_class in a template doesn't match the [workshop artefact taxonomy](https://github.com/mitchuski/cityofmages#) (e.g. a "weapon" class at the Weavers shop where canonical is "clothing")
-- The mana_spent in a blade.md uses a chain-mana symbol not yet registered in spec 08's chain-mana table (e.g. a future ATOM-mana that has no canonical entry yet)
+- The mana_spent in a artefact.md uses a chain-mana symbol not yet registered in spec 08's chain-mana table (e.g. a future ATOM-mana that has no canonical entry yet)
 
 ---
 
@@ -551,11 +565,11 @@ Three coherence items to flag while authoring this guide:
 - (b) Keep two specs, file under a new number, and update the component link
 - (c) Add a redirect or canonical-URL alias
 
-**Recommended:** option (a) — file this guide as **spec 09** in cityofmages/tomes/specs/ alongside the top-level [SPELLWEB_ITEM_CREATION_GUIDE.md](SPELLWEB_ITEM_CREATION_GUIDE.md) (which remains as the public-facing how-to), then update the component link.
+**Recommended:** option (a) — file this guide as **spec 09** in cityofmages/tomes/specs/ alongside the top-level [SPELLWEB_ARTEFACT_CREATION_GUIDE.md](SPELLWEB_ARTEFACT_CREATION_GUIDE.md) (which remains as the public-facing how-to), then update the component link.
 
 ### §10.2 · Mana_spent quadruple not yet in any constellation template
 
-Templates currently shipped (e.g. `tailor-cloak-weave-v1.md`) do not yet declare expected `mana_spent` shape. The blade.md contract section says "Bring it back to /tailor and Pallia weaves on your behalf within the agreed envelope" without specifying the four-axis mana spend. A template v1.1 (sub-version) could add a `## Expected Mana Spend` section per §6 above, or this guide's §3.1 frontmatter contract can stand as the canonical spec.
+Templates currently shipped (e.g. `tailor-cloak-weave-v1.md`) do not yet declare expected `mana_spent` shape. The artefact.md contract section says "Bring it back to /tailor and Pallia weaves on your behalf within the agreed envelope" without specifying the four-axis mana spend. A template v1.1 (sub-version) could add a `## Expected Mana Spend` section per §6 above, or this guide's §3.1 frontmatter contract can stand as the canonical spec.
 
 ### §10.3 · `mage_tier` field uses pre-collapse vocabulary
 
@@ -570,11 +584,11 @@ This guide will graduate into a **third companion skill** alongside `cityofmages
 ### §11.1 · Skill inputs (proposed)
 
 ```yaml
-mode: new-constellation | revise-constellation | verify-blade | verify-constellation
+mode: new-constellation | revise-constellation | verify-artefact | verify-constellation
 shop: <route-stem>           # tailor · shield · forget · etc.
 slug: <new-or-existing-slug>
 version: <integer · auto-bumped on revise>
-input_file: <path to constellation.md or blade.md to verify>
+input_file: <path to constellation.md or artefact.md to verify>
 ```
 
 ### §11.2 · Skill behaviours
@@ -585,7 +599,7 @@ input_file: <path to constellation.md or blade.md to verify>
 
 3. **`verify-constellation`** — run all eight §9.1 checks against an input constellation.md. Emit pass/fail per check.
 
-4. **`verify-blade`** — run all seven §9.2 checks against an input blade.md. Emit pass/fail per check.
+4. **`verify-artefact`** — run all seven §9.2 checks against an input artefact.md. Emit pass/fail per check.
 
 ### §11.3 · Skill anti-patterns
 
@@ -601,7 +615,7 @@ This guide becomes the skill spec when:
 - [ ] Three or more constellations have been authored or revised using these steps manually
 - [ ] §9 checks have been mechanically encoded (each maps to a `grep` / JSON-schema check)
 - [ ] The §10 drift items have been resolved (esp. the spec 07 filename collision)
-- [ ] One full round-trip (download → walk → blade.md → return) has been instrumented end-to-end with verification at each boundary
+- [ ] One full round-trip (download → walk → artefact.md → return) has been instrumented end-to-end with verification at each boundary
 
 Until then, run the protocol manually with this doc as the script.
 
@@ -609,7 +623,7 @@ Until then, run the protocol manually with this doc as the script.
 
 ## §12 · One-line summary
 
-A spellweb item is born when a Sovereign walks a workshop's constellation, spends mana across four axes, holds a Swordsman stance, and returns to the workshop with a blade.md that re-imports cleanly. The constellation is the path; the blade is the proof. The architecture admits this much. The framework is opened, not closed.
+An artefact is born when a Sovereign walks a workshop's constellation, spends mana across four axes, holds a Swordsman stance, and returns to the workshop with an artefact.md that re-imports cleanly. The constellation is the path; the artefact is the proof. RUN · E · CRAFT produces ART · E · FACT. The architecture admits this much. The framework is opened, not closed.
 
 `(⚔️⊥⿻⊥🧙)😊`
 
