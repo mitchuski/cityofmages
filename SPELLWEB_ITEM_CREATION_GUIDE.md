@@ -215,13 +215,13 @@ walk_duration_seconds: <integer>
 ceremony_shape: <inherited>
 hexagram: <six-bit stance derived from walk · MSB Protection → LSB Value · e.g. 011100>
 moon_phase: <🌑 · 🌒 · 🌓 · 🌔 · 🌕 by stratum 0–6, or "🌑 → 🌕" if the walk crossed strata>
-mana_spent:
-  landing:                       # Required
+mana_spent:                      # Advisory — shape only; per-workshop quantification pending (see §6)
+  landing:                       # Optional · which chain the work landed on
     chain: <ethereum | bitcoin-lightning | oasis | zcash | ...>
     symbol: <Ξ | ₿ | 🌹 | 🦓 | ...>
     amount: <chain-native unit, optional>
     tx_ref: <hash or channel ref, optional>
-  entropy:                       # Required
+  entropy:                       # Optional · which entropy register supplied uniqueness
     register: <arcane | celestial>
     symbol: <✨ | 🌌>
     source_ref: <hash | spacecomputer feed ref | etc.>
@@ -423,25 +423,24 @@ Note: V12 (Logos Circle) and V15 (Ceremony Hall) are vertices the gathering shop
 
 ---
 
-## §6 · The four-axis mana spend per workshop
+## §6 · The four-axis mana frame · operational use deferred
 
-Per [spec 08 v1.3](tomes/specs/08-mana-types-and-swordsman-stances.md) (the four-axis taxonomy). When a Sovereign walks, the **Landing** and **Entropy** spend is required; **Coordination** and **Relationship** are architectural and become operational as the primitives land.
+The framework is canonical (see [spec 08 v1.3](tomes/specs/08-mana-types-and-swordsman-stances.md) — landing · entropy · coordination · relationship). The **operational specifics** — *which axes* each workshop draws on, *how much* mana per cast, *which chain-mana* is canonical for which workshop's primary artefact — are **deliberately left open** at this guide's revision.
 
-| Shop | Landing (chain-mana) | Entropy | Coordination | Relationship |
-|---|---|---|---|---|
-| Weavers | Ξ Aether + ₿ sats + Zcash transparent (multi-chain publication) | ✨ Arcane default · 🌌 Celestial for Pattern A→B re-publish | (queued) | (queued) |
-| zShields | 🦓 z-mana (Zcash shielded-transaction fees) | ✨ Arcane default · viewing-key derivation seed optional | (queued) | (queued) |
-| Forge(t) | varies by destination chain | 🌌 Celestial **required** (Evocation phase lock seed) | (queued) | (queued) |
-| Etherchanting | Ξ Aether (Ethereum gas) | 🌌 Celestial **required** (witness nonce · ceremony nonce) | (queued) | (queued) |
-| Jeweler | ₿ sats + Lightning channel fees | ✨ Arcane default · gem-facet seed optional | (queued) | (queued) |
-| Holon Hitchhikers | 🌹 ROSE + Sapphire/Emerald paratime gas | 🌌 Celestial **required** (cross-paratime entropy) | (queued) | (queued) |
-| Curatrix Vault | Culture Vault platform fees (Ξ NFT mint gas) | ✨ Arcane default · provenance freshness seed optional | (queued) | (queued) |
-| Covenant | human.tech / Holonym verification fees | (not yet operational) | (queued) | 🪢 VRC Mana **(future · Loom of Programmable Covenants binds bearer VRC ledger)** |
-| Dragon Bonfire | None native (off-corpus) | n/a (questions aren't entropy-bound) | (queued) | (queued) |
-| Logos Circle | (none on-chain · gathering) | n/a | (queued) | (queued) |
-| Ceremony Hall | varies by coalition action | (varies) | (queued) | (queued) |
+That deliberation belongs to the workshops themselves:
 
-The blade.md's `mana_spent` quadruple is the **operational ledger** of which axes a working actually drew on. A future `/guide/mana-ledger` could aggregate a Sovereign's mana history across walks.
+- Each resident Mage knows their workshop's economy better than any spec author
+- Per-workshop quantification (e.g. "Etherchanting requires X gwei + one Celestial draw per commitment") must be earned by operational use, not asserted in advance
+- The chain-mana plurality (Ξ · ₿ · 🌹 · 🦓 · …) is open at the chain axis; new chains join as new Mages walk; pre-committing today would calcify the framework
+
+What this guide *does* commit to:
+
+1. The **shape** of `mana_spent` in the blade.md (the four-axis YAML stanza in §3.1) — advisory, not required, until workshops deliberate
+2. The **vocabulary** for each register (chain-mana variants and symbols per §2 of spec 08)
+3. The **direction**: blades are the operational ledger; aggregated walking eventually reveals each workshop's empirical mana profile
+4. The **non-claim**: this guide does *not* prescribe per-workshop mana costs or which axes are mandatory per shop
+
+When the workshops deliberate and publish their economies, this section will be replaced with the resulting per-shop table. Until then: the framework is here; the use is yours to discover.
 
 ---
 

@@ -133,6 +133,7 @@ cityofmages/
 ├── INCANTATION_PROTOCOL.md            ← the coherence protocol · how a change propagates across the universe
 ├── WORKSHOP_LATTICE_AUDIT.md          ← per-workshop vertex mapping · overlap rules · drift catalogue
 ├── SPELLWEB_ITEM_CREATION_GUIDE.md    ← how a constellation becomes a blade · the full import/export contract
+├── INTEGRATION_ARCHITECTURE.md        ← cityofmages × skills × personas × blades · working hypothesis
 ├── LICENSE.md                         ← CC BY-SA 4.0
 │
 ├── blog/                              ← 12 drafted Soul Sync posts (Movements 1+2)
@@ -409,11 +410,14 @@ Tome-writing chronicles (when an act was drafted) live separately at [`tomes/chr
 This package is a **starter integration**. Other homes the same content lives in:
 
 - **`agentprivacy-master/docs/tomes/`** — canonical tomes (the website root)
-- **`agentprivacy-master/src/data/city-of-mages-grimoire-v1.2.0.json`** — live website-baked grimoire (filename pinned at `v1_2_0`; contents bumped through the v1.2.x line)
-- **`agentprivacy-master/src/lib/*`** — canonical TS primitives (architecture/ files here mirror these)
+- **`agentprivacy-master/src/data/city-of-mages-grimoire-v1.2.0.json`** — live website-baked grimoire (filename pinned at `v1_2_0`; contents bumped through the v1.2.x line; **v1.3.0 content live as of 2026-05-11 with attachment-architecture block**)
+- **`agentprivacy-master/src/lib/*`** — canonical TS primitives (architecture/ files here mirror these); **`cast-attachments.ts`** is the V5.5 canonical Layer-2 attachment registry
+- **`agentprivacy-skills/`** — **Layer-1 primary persona home (locked at 42)**; `meta/agentprivacy-attachment-architecture/SKILL.md` is the V5.5 canonical specification of the three-layer model
+- **`zk blades forge/`** — canonical blade-forging specification; pins V19 Forge(t) / Runecraft Protocol; the Aletheia ⊥ Lethe complement-pair canon originates here (`aletheia-and-lethe.md`)
 - **`agentprivacy-docs/tomes/`** — docs-side mirror
-- **`agentprivacy-docs/models/city_of_mages_grimoire_v1_2_0.json`** — docs-side grimoire mirror (current canonical for v1.2.4 content)
-- **`spellweb/src/types/graph.ts`** — canonical graph vocabulary
+- **`agentprivacy-docs/models/city_of_mages_grimoire_v1_2_0.json`** — docs-side grimoire mirror (current canonical for v1.2.4 content; v1.3.0 mirror pending)
+- **`agentprivacy-docs/GLOSSARY_MASTER_v4_0.md`** §23 — attachment-architecture glossary (V5.5)
+- **`spellweb/src/types/graph.ts`** — canonical graph vocabulary; **V5.5 adds `divergent_of` + `complement_pair` edges and 5 new `SpellwebNode` fields**
 - **`swordsman-blade/`**, **`mages-spell/`**, **`myterms/`** — the release bundle: docs + two browser extensions
 - **IPFS** — content-addressed grimoires (see CIDs above)
 
