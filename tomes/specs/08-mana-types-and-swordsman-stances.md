@@ -1,6 +1,6 @@
 ---
 title: "Mana Types and Swordsman Stances · the Open Taxonomy"
-subtitle: "How each ecosystem expresses a Mage-side mana form and a Swordsman-side boundary stance — three registers, two axes (landing + entropy); open framework extensible by every ecosystem the City visits"
+subtitle: "How each ecosystem expresses a Mage-side mana form and a Swordsman-side boundary stance — four mana axes (landing · entropy · coordination · relationship); open framework extensible by every ecosystem the City visits"
 status: "Open taxonomy v1.3 (2026-05-11) — aligned to grimoire v1.2.4. **Four mana axes** today: (1) landing — chain-mana (plural by chain); (2) entropy — ✨ Arcane ⊥ 🌌 Celestial; (3) coordination — 🔭 Resonance Mana (Bilateral Witness · Scrying Glass primitive · 7th Capital in motion); (4) relationship — 🪢 VRC Mana (Fan Passport · Verifiable Relationship Credentials · Loom of Programmable Covenants). More chain-mana variants and registers arrive as ecosystems and primitives mature."
 spec_type: "Governance / taxonomy spec"
 audience: "Sovereigns navigating the lattice · ecosystem integrators · future Mages who arrive in the city · spellweb runtime"
@@ -36,7 +36,7 @@ This is the dual-agent split (Soulbis ⊥ Soulbae) made operational at the ecosy
 
 ## §2 · Mana types · the registry
 
-The City of Mages opens with **three operational mana registers across two axes**. The chain-mana register is itself plural by chain — each chain whose Mages walk the City contributes its own chain-mana type under its own symbol. The list grows as ecosystems join.
+The City of Mages operates across **four mana axes** (v1.2.4 metabolism complete). The landing axis carries chain-mana — itself plural by chain (each chain whose Mages walk the City contributes its own chain-mana type under its own symbol) — and the entropy axis is binary; the coordination and relationship axes each carry one named register (open to additions). The list grows as ecosystems join and primitives mature.
 
 ### §2.1 · Landing axis · chain-mana (plural by chain)
 
@@ -168,7 +168,7 @@ This is what cape-style artifact creation means at the framework level: the latt
 - **Operational** for **Celestial Mana** 🌌 as cosmic entropy from SpaceComputer — `spacecomputer.io` is live; the feed is consumable; satellite-anchored measurement underlies the supply.
 - **Operational** for **Arcane Mana** ✨ as the algorithmic-entropy register — PRNGs, hash chains, deterministic seeds, chain-derived randomness; the architecture has been spending Arcane Mana implicitly since the lattice opened; v1.2.3 names the register so the architecture's choice (Arcane vs Celestial) becomes legible per working.
 - **Architectural** for the **two-sided economy** framing (Mage spends mana · Swordsman holds stance) as the canonical reading of every working — rooted in the dual-agent split (Soulbis ⊥ Soulbae).
-- **Architectural** for the **three-register two-axis structure** (landing axis: chain-mana plural by chain; entropy axis: Arcane ⊥ Celestial) — specified here for the first time at the spec layer; recorded in grimoire v1.2.3.
+- **Architectural** for the **four-axis metabolism** (landing: chain-mana plural by chain; entropy: ✨ Arcane ⊥ 🌌 Celestial; coordination: 🔭 Resonance Mana via the Scrying Glass primitive; relationship: 🪢 VRC Mana via the Fan Passport / Loom of Programmable Covenants) — specified across grimoire v1.2.2 → v1.2.4 and locked at the spec layer here.
 - **Architectural** for the **stance registry in §3** — each row names an operational form already in use; the framing as "Swordsman stance" is new and is the contribution this spec makes.
 - **Conjectural** for every entry in the **anticipated additions** tables — these are flagged as candidates, not commitments. Each becomes operational when an ecosystem actually teaches the City to consume the supply or hold the stance.
 - **Resonant** for the framework&apos;s cosmological grounding — the entropy-axis Arcane ⊥ Celestial parallels the Sun-Moon binding the Celestial Ceremony at `/poems` has been teaching since the First Person Spellbook opened (Sun-side / Aletheia / V25 ↔ Aether Ξ; Moon-side / Lethe / V38 ↔ Celestial 🌌; mapping suggestive, not yet formal).

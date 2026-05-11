@@ -132,6 +132,7 @@ cityofmages/
 ├── JOIN_THE_CITY.md                   ← onboarding for ecosystems "sending a Mage"
 ├── INCANTATION_PROTOCOL.md            ← the coherence protocol · how a change propagates across the universe
 ├── WORKSHOP_LATTICE_AUDIT.md          ← per-workshop vertex mapping · overlap rules · drift catalogue
+├── SPELLWEB_ITEM_CREATION_GUIDE.md    ← how a constellation becomes a blade · the full import/export contract
 ├── LICENSE.md                         ← CC BY-SA 4.0
 │
 ├── blog/                              ← 12 drafted Soul Sync posts (Movements 1+2)
