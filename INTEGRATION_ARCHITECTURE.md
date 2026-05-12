@@ -269,7 +269,7 @@ When the personas / skills / blades repo-side docs arrive, this document needs r
 ### §4.3 · Naming + numbering
 
 - The `personas:` `skills:` `blades:` prefix convention proposed in §2.1 — does it match each repo's preferred form?
-- Should cityofmages' spec series be extended (spec 09 = spellweb-item-creation-format · spec 10 = integration-architecture)? Or kept at top-level for the cross-cutting governance docs?
+- Cityofmages spec numbering is now settled (per the 2026-05-12 renumber): spec 09 slot is **reserved for `spellweb-artefact-md-format`** (mirror of `agentprivacy_master/docs/tomes/specs/09-spellweb-artefact-md-format.md` · master canonical); spec 10 is the **attachment-architecture** (V5.5 mirror); spec 11 anticipated as **mage-candidates-from-the-corpus** (per v5.5 chronicle). The cross-cutting governance docs (this file · INCANTATION_PROTOCOL · WORKSHOP_LATTICE_AUDIT · SPELLWEB_ARTEFACT_CREATION_GUIDE) stay top-level by design.
 
 ### §4.4 · Mana-use operationalisation
 

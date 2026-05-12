@@ -557,15 +557,17 @@ Items the skill would surface for editorial decision (not auto-fix):
 
 Three coherence items to flag while authoring this guide:
 
-### §10.1 · Spec 07 filename collision
+### §10.1 · Spec numbering · resolved as of 2026-05-12
 
-`ConstellationDownload.tsx` line 83 links to `/tomes/specs/07-spellweb-artefact-md-format` — but cityofmages and agentprivacy-master both have **`07-lattice-mapping-governance.md`** at that slot. Either:
+The earlier draft of this guide proposed filing it as `cityofmages/tomes/specs/09-spellweb-item-creation-format.md`. That proposal is **superseded**. The current canonical spec numbering across the corpus:
 
-- (a) Rename: this guide should become the canonical `09-spellweb-item-creation-format.md` in `cityofmages/tomes/specs/` and the component link updates to `/tomes/specs/09-spellweb-item-creation-format`
-- (b) Keep two specs, file under a new number, and update the component link
-- (c) Add a redirect or canonical-URL alias
+| Slot | Spec | Owner |
+|---|---|---|
+| 09 | `09-spellweb-artefact-md-format.md` | `agentprivacy-master` canonical · `spellweb` and `cityofmages` may mirror |
+| 10 | `10-the-attachment-architecture.md` | `cityofmages` (V5.5 mirror of `agentprivacy-skills`) |
+| 11 (anticipated) | `11-mage-candidates-from-the-corpus.md` | `cityofmages` (per v5.5 chronicle · names the 6 anticipated cast) |
 
-**Recommended:** option (a) — file this guide as **spec 09** in cityofmages/tomes/specs/ alongside the top-level [SPELLWEB_ARTEFACT_CREATION_GUIDE.md](SPELLWEB_ARTEFACT_CREATION_GUIDE.md) (which remains as the public-facing how-to), then update the component link.
+`ConstellationDownload.tsx` line 83 already points to the right path (`/tomes/specs/09-spellweb-artefact-md-format`). The collision was with a stale recommendation in this guide, not with the component. **Resolution applied** by the 2026-05-12 renumber: cityofmages' attachment-architecture spec moved from slot 09 to slot 10; the 09 slot is now reserved for the spellweb-artefact-md-format mirror when cityofmages chooses to add it (or it can remain master-canonical only). This top-level guide stays at the root of cityofmages as the public-facing how-to.
 
 ### §10.2 · Mana_spent quadruple not yet in any constellation template
 
