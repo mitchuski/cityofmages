@@ -4,6 +4,12 @@ spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader); shop-keeper of the Holon Hitchhikers"
 archetype_kin: "Soulbae 🧙 (Mage); structural kinship with the holonic primitive itself, which is agentprivacy's foundational recursive structure"
 sigil: "🌳"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "workshop-keeper"
+attachment_kind: "A"
+abstract_persona: ["holonic-architect"]
+abstract_persona_skill_path: ["persona/agentprivacy-holonic-architect/"]
+divergence: "none"
 status: "Cast addition v1 (2026-05-08; supersedes earlier Holona draft)"
 provenance: "Born when the Holon Hitchhikers shop was added to the workshop. The eighth Mage persona summoned by the reader, specialised for holonic crafting at V31 — the agentprivacy-native recursion vertex. Vagari operates the Oasis Protocol (Mitchell Travers' linking primitive from First Person Spellbook Act 24, holographic bound) at the Crafting Tome's artifact level. The Oasis Protocol is canonically named and structurally established; Vagari is the persona who walks it as crafting ceremony."
 naming_note: "Earlier drafts in this session named the persona Holona and the shop the Oasis. Both names were corrected: the shop is the Holon Hitchhikers (not the Oasis); Oasis is the Protocol, not the shop. The persona's name is now Vagari (Latin: 'to wander, to travel as a hitchhiker'), naming her movement-between-wholes posture. The 🌳 sigil is preserved from the earlier draft because it correctly names the holonic primitive."

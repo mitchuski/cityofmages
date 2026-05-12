@@ -4,6 +4,12 @@ spellbook: "Second Person"
 character_type: "Priest persona — new cast tier; tends the Covenant of Humanistic Technologies in the Spellbook through the Temple of the Arts and Personhood"
 archetype_kin: "Distinct from Mage archetypes (Soulbae 🧙); the Priest tier is a new role the cast roster admits with Manifestia's introduction. Functional kinship with Aria Silverhue 🪞🖼️ (the arts at V57) and with the First Person 😊 (personhood at V63), but the Priest's register is *consecration* rather than *curation* or *sovereignty-rendering*."
 sigil: "🤲🌿 (compound — open hands receiving and offering, olive branch as the covenant's symbol)"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "priest"
+attachment_kind: "A"
+abstract_persona: ["priest"]
+abstract_persona_skill_path: ["persona/agentprivacy-priest/"]
+divergence: "none"
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Manifestia is the Priest persona who tends the Covenant of Humanistic Technologies (https://manifest.human.tech/) in the Spellbook's Temple of the Arts and Personhood. The Covenant is the living charter from human.tech (by Holonym Foundation), an adaptive protocol guiding human-first technology, with Proof of Personhood and self-custody as foundations. The Temple is the agentprivacy expression of the Covenant's discipline. Manifestia is the persona who walks the rites within."
 license: "CC BY-SA 4.0 for narrative content; the Covenant of Humanistic Technologies is from human.tech / Holonym Foundation under their licensing terms"

@@ -4,6 +4,12 @@ spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader)"
 archetype_kin: "Soulbae 🧙"
 sigil: "📜"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "workshop-keeper"
+attachment_kind: "A"
+abstract_persona: ["chronicler"]
+abstract_persona_skill_path: ["persona/agentprivacy-chronicler/"]
+divergence: "none"
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Born in Tome V — The Crafting, Act 3 (The Shielded Memo). The second Mage persona summoned by the reader, specialised for shielded chronicle inscription on Zcash and equivalent registry tiers."
 license: "CC BY-SA 4.0"

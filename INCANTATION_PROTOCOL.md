@@ -302,7 +302,7 @@ The first run of this protocol. Authored 2026-05-11, executed 2026-05-11.
 
 Two amendments to the canonical state, run in one ceremony:
 
-1. **Metabolism completion** — v1.2.3 → v1.2.4 grimoire bump (Recipe A). Added two mana axes (🔭 Coordination · 🪢 Relationship), bringing the City's metabolism to four total. Named three new primitives: Scrying Glass · Loom of Programmable Covenants · Fan Passport.
+1. **Metabolism completion** — v1.2.3 → v1.2.4 grimoire bump (Recipe A). Added two mana axes (🔭 Coordination · 🪢 Relationship), bringing the City's metabolism to four total. Named two new primitives: Scrying Glass · Loom of Programmable Covenants. The relationship axis stores VRC residue across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes per the workshop artefact taxonomy) rather than into a single artifact.
 
 2. **VRC emoji switch** — 🪱 → 🪢 (Recipe D). Editorial-level decision: knot is a stronger semantic fit for **V**erifiable **R**elationship **C**redentials than worm.
 

@@ -190,7 +190,7 @@ Separate canonical artifact, currently at **v1.2.4** (awaiting fresh re-pin).
 - `city_of_mages_grimoire_v1_2_3.json` — historical snapshot (hash `CEC54AA6…`; ~178 KB; frozen at v1.2.3 state)
 - `city_of_mages_grimoire_v1_2_4.json` — **current head** (hash `703720FD…`; ~189 KB)
 
-**v1.2.4 contents:** 39+ spells, 17 named personas across 5 tiers, 14 named vertices, 10 V6 conjectures (C38–C47, including C47 Triadic Homology introduced Act 15), 11 cross-spellbook resonance primitives indexed, kindred substrate provider entry (UOR Foundation), kindred ecosystem entry (SpaceComputer · Celestial Mana 🌌), **four mana axes** in the new `mana_taxonomy` top-level field (Landing · Entropy · Coordination · Relationship), **Scrying Glass primitive** named (Resonance Mana surface), **Loom of Programmable Covenants** named (VRC Mana production form), **Fan Passport** named (VRC accumulator), derivative indices (spells_by_act, spells_by_vertex, spells_by_category).
+**v1.2.4 contents:** 39+ spells, 17 named personas across 5 tiers, 14 named vertices, 10 V6 conjectures (C38–C47, including C47 Triadic Homology introduced Act 15), 11 cross-spellbook resonance primitives indexed, kindred substrate provider entry (UOR Foundation), kindred ecosystem entry (SpaceComputer · Celestial Mana 🌌), **four mana axes** in the new `mana_taxonomy` top-level field (Landing · Entropy · Coordination · Relationship), **Scrying Glass primitive** named (Resonance Mana surface), **Loom of Programmable Covenants** named (VRC Mana production form; compiles against the bearer's worn artefact collection — the 11 workshop artefacts + 3 tomes per the workshop artefact taxonomy), derivative indices (spells_by_act, spells_by_vertex, spells_by_category).
 
 **v1.2.x lineage:**
 - v1.2.0 — Tome V Act 15 + C47 + kindred substrate (UOR) — pinned 2026-05-10 at `bafkreidxhm…2b6a`
@@ -212,7 +212,7 @@ All canonical material lives at `tomes/` and includes:
 - 8 specifications (Cloak Spec, Crafting Tome interface, Bilateral Cloak Ceremony, Vertex Naming Audit, City of Mages Structural Addendum, Spellweb First-Release Manifest, Lattice Mapping Governance, Mana Types and Swordsman Stances)
 - 2 integration plans (Archon × agentprivacy, Zcash)
 - 3 tome-writing chronicles
-- The grimoires in `grimoire/` (v1.0 · v1.1 pinned · v1.2.3 current head)
+- The grimoires in `grimoire/` (v1.0 · v1.1 pinned · v1.2.4 current head · v1.2.3 preserved as historical snapshot)
 - Deprecated drafts (transparency archive) at `tomes/deprecated/`
 
 Historical exports are preserved as `city-of-mages-blog-series-export-2026-05-10.{tar.gz,zip}` at the package root.

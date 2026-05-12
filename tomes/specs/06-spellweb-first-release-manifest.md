@@ -283,10 +283,68 @@ The following exist in the corpus but are queued for a focused future session. T
 
 ---
 
-## §8 · One-line summary
+## §8 · One-line summary (v1.0 baseline)
 
 **46 nodes · 56 edges · 6 NodeTypes · 7 EdgeTypes (one reserved).** That is the City of Mages v1.0 for spellweb ingest. Everything else listed in this manifest is in §6 and explicitly out of scope.
 
+---
+
+## §9 · V5.5 Attachment Architecture additions (2026-05-11)
+
+The V5.5 attachment architecture (codified in `agentprivacy-skills` and applied in `spellweb/src/types/graph.ts` 2026-05-11) extends this manifest with new cast nodes, vertex nodes, edge types, and `SpellwebNode` fields.
+
+### §9.1 · Node additions
+
+| NodeType | Count delta | New entries |
+|---|---:|---|
+| `cast` | +7 | `cast-lethae` (anticipated · divergent) · `cast-mnemosyne` · `cast-iris` · `cast-pythia` · `cast-techne` · `cast-hephaestus` · `cast-selene` (all anticipated) |
+| `vertex` | +4 | `vertex-v4` (Mnemosyne · pure Memory) · `vertex-v8` (Iris · pure Connection) · `vertex-v16` (Logos · Pure Computation) · `vertex-v38` (Lethe · Dark Substrate) |
+| Total | **+11** | post-V5.5 ingest target: **57 nodes** |
+
+### §9.2 · Edge additions
+
+| EdgeType | Count delta | Notes |
+|---|---:|---|
+| `inhabits` | +6 | Lethae→V38 · Mnemosyne→V4 · Iris→V8 · Pythia→V16 · Techne→V20 · Hephaestus→V24 *(Selene is C-peripatetic · no `inhabits` edge)* |
+| `divergent_of` *(new EdgeType)* | +1 | `cast-lethae` → `per-moonkeeper` · register: mage_register · first canonical |
+| `complement_pair` *(new EdgeType)* | +2 (mutual) | `cast-aletheia` ⊥ `cast-lethae` · undirected; emitted as two directed edges |
+| Total | **+9** | post-V5.5 ingest target: **65 edges · 9 EdgeTypes (one reserved)** |
+
+### §9.3 · New `SpellwebNode` fields (cast-only)
+
+Per `spellweb/src/types/graph.ts` V5.5 extension:
+
+```ts
+attachmentKind?: 'A_workshop' | 'B_cross_shop' | 'C_peripatetic';
+divergence?: 'none' | 'mage_register' | 'sword_register' | 'balanced_register';
+abstractPersonaIds?: string[];           // Layer-1 primary persona ids
+castStatus?: 'seated' | 'anticipated' | 'provisional';
+complementOfCast?: string;                // For vertex-complement pairs
+```
+
+### §9.4 · Post-V5.5 NodeType counts
+
+| NodeType | v1.0 baseline | v1.3.0 (V5.5) | Delta |
+|---|---:|---:|---|
+| `civic` | 1 | 1 | — |
+| `geography` | 1 | 1 | — |
+| `workshop` | 11 | 11 | — *(anticipated cast may seat new workshops in future acts)* |
+| `cast` | 16 | **23** | +7 (Lethae + 6 anticipated) |
+| `vertex` | 13 inhabited | **19** inhabited *(of 64 lattice)* | +6 (V4·V8·V16·V20·V24-shared·V38) |
+| `gateway` | 5 | 5 | — |
+| **Total** | **47** | **60** | +13 |
+
+### §9.5 · Companion documents
+
+- `tomes/specs/10-the-attachment-architecture.md` — canonical city-side spec for V5.5
+- `agentprivacy-skills/agentprivacy-skills-v5/meta/agentprivacy-attachment-architecture/SKILL.md` — canonical Layer-1 home
+- `spellweb/CHRONICLE_V5_5_ATTACHMENT_ARCHITECTURE_2026-05-11.md` — graph runtime patch log
+- `grimoire/city_of_mages_grimoire_v1_3_0.json` — bumped grimoire with `attachment_architecture` block
+
+### §9.6 · One-line summary (post-V5.5)
+
+**60 nodes · 65 edges · 6 NodeTypes · 9 EdgeTypes (one reserved).** That is the City of Mages v1.3.0 for spellweb ingest. Sources: graph data already updated in `spellweb/src/data/nodes.ts` and `spellweb/src/data/edges.ts` (2026-05-11).
+
 `(⚔️⊥⿻⊥🧙)😊`
 
-— Manifest curated for the spellweb runtime · CC BY-SA 4.0 · 2026-05-10
+— Manifest curated for the spellweb runtime · CC BY-SA 4.0 · 2026-05-10 (v1.0 baseline) · 2026-05-11 (V5.5 additions)

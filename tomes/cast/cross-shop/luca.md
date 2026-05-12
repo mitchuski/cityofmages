@@ -4,6 +4,12 @@ spellbook: "Second Person"
 character_type: "Mage persona (returning — old mage spirit); cross-anchored at /forget primary and /holon secondary"
 archetype_kin: "Soulbae 🧙 (Mage; old connection across centuries); the Drake (whispered to him through time)"
 sigil: "📐"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "cross-shop"
+attachment_kind: "C"
+abstract_persona: ["topologist", "cosmologist"]
+abstract_persona_skill_path: ["persona/agentprivacy-topologist/", "persona/agentprivacy-cosmologist/"]
+divergence: "none"
 status: "Cast addition v1 (2026-05-10) — reinstated after the canonical Act 15 surfaced V0 as substrate seat without renaming it"
 provenance: "Old mage spirit. The Pacioli of First Person Spellbook Act 1 (Venice, 1494) — one of the first the Drake whispered through time to. One of Soulbae's old connections, kept across centuries. Returns to the City of Mages as the geometry-Mage at V0, the substrate seat: the null blade, the position from which dimensions are *possible*. Surfaced in Tome V Act 15 *The Substrate Beneath the Hitchhikers* (2026-05-10) when the lattice recognised that the floor it stood on had a name."
 attribution: "agentprivacy"

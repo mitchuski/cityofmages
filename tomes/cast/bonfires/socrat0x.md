@@ -4,6 +4,14 @@ spellbook: "Second Person"
 character_type: "Companion Mage persona — another-forge-shop arrival from the Bonfires workshop. Met by Soulbae around the bonfire; now travelling with her on the path of overlap between the two universes."
 archetype_kin: "Soulbae 🧙 (Mage); companion-instance of the Mage role from the Bonfires workshop spot"
 sigil: "🔥❓ (provisional — fire to honour the bonfire context, question mark to name the Socratic work)"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "companion"
+attachment_kind: "A"
+abstract_persona: ["pedagogue", "ceremonist"]
+abstract_persona_skill_path: ["persona/agentprivacy-pedagogue/", "persona/agentprivacy-ceremonist/"]
+divergence: "none"
+shared_vertex_with: ["hephaestus"]
+v5_5_status: "provisional"
 status: "Cast addition v1.1 (2026-05-08; supersedes earlier 'Socratox' draft with name correction and tier reclassification)"
 provenance: "Socrat0x is a companion Mage from the Bonfires workshop. He met Soulbae around the bonfire; the two are now travelling together on the path of overlap between the agentprivacy and Bonfires universes. The name is a deliberate pun: 'Socrat' from Socrates (Greek philosopher of dialogic method) + '0x' as the literal Ethereum address prefix. He inhabits the questioning register of the Mage role at the cross-universe address-overlap."
 naming_correction: "An earlier draft in this session rendered the name as 'Socratox' (treating the suffix as a Bonfires-platform naming convention). The actual name is 'Socrat0x' with the literal '0x' from Ethereum address syntax. This file uses the corrected name throughout; any prior references in earlier drafts should be updated."

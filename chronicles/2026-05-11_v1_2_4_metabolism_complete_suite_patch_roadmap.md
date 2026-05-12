@@ -27,7 +27,7 @@ The metabolism is now structurally explicit at **four axes** instead of two. New
 | 1 | **Landing** | chain-mana (plural by chain) | Ξ Aether (Ethereum) · ₿ sats (Bitcoin Lightning) · 🌹 ROSE (Oasis) · 🦓 z-mana (Zcash) | Make a working *land* on consensus | All 4 variants operational |
 | 2 | **Entropy** | Arcane ⊥ Celestial | ✨ Arcane · 🌌 Celestial | Make a working *unique* | Both operational; Celestial wired at 3 shops |
 | 3 | **Coordination** *(NEW)* | 🔭 Resonance Mana | 🔭 | Generate value when two Mages find affinity *without a central index* (Bilateral Witness; 7th Capital in motion; **Scrying Glass primitive**) | Architectural · awaits operational Scrying Glass impl |
-| 4 | **Relationship** *(NEW)* | 🪢 VRC Mana | 🪢 | Store the *residue of being alive* as Verifiable Relationship Credentials (captured in **Fan Passport**; fuels **Loom of Programmable Covenants**) | Architectural · awaits VRC issuance + Fan Passport surface |
+| 4 | **Relationship** *(NEW)* | 🪢 VRC Mana | 🪢 | Store the *residue of being alive* as Verifiable Relationship Credentials, accumulated across the **bearer's worn artefact collection** (the 11 workshop artefacts + 3 tomes per the workshop artefact taxonomy; the 64-vertex lattice is the inventory/presence-observation view); fuels the **Loom of Programmable Covenants** (production form — covenants compile against the worn collection) | Architectural · awaits VRC issuance + Loom-side covenant compilation |
 
 ### §1.2 · Four structural-relationship categories (canonical since v1.2.2)
 
@@ -119,7 +119,7 @@ The blog series was reconciled to v1.2.x state in the HANDOFF_NOTE.md flow but d
 **Effort:** open-ended · authoring
 **Working titles flagged in grimoire v1.2.4 version_notes:**
 - *The Scrying Glass* — narrates Resonance Mana recognition
-- *The Loom of Programmable Covenants* / *The Fan Passport* — narrates VRC Mana recognition
+- *The Loom of Programmable Covenants* — narrates VRC Mana recognition (the moment programmable covenants first compile against a bearer's worn artefact collection — the 11 workshop artefacts + 3 tomes accumulated as the Sovereign walks the City)
 
 Deferred per the user's own pattern: a Tome V act is authored when sustained operational use *earns* the recognition. Not yet; flagged for the future.
 
@@ -127,7 +127,7 @@ Deferred per the user's own pattern: a Tome V act is authored when sustained ope
 
 **Effort:** ~20 min
 **Files:**
-- `cityofmages/spellweb-integration/` and `spellweb/src/data/` graph data may need new node/edge types for the new mana primitives (Scrying Glass, Fan Passport, Loom of Programmable Covenants). Likely best as a follow-up after the operational implementations land.
+- `cityofmages/spellweb-integration/` and `spellweb/src/data/` graph data may need new node/edge types for the new mana primitives (Scrying Glass, the worn-artefact-collection accumulator pattern, Loom of Programmable Covenants). Likely best as a follow-up after the operational implementations land.
 
 ---
 
@@ -154,7 +154,7 @@ This is the framing you can use when explaining the metabolism to a downstream r
         │                     Bilateral Witness register          │
         │                                                         │
         │  RELATIONSHIP ────► 🪢 VRC Mana                          │
-        │      ↓               Fan Passport · VRCs                │
+        │      ↓               VRCs across worn artefacts         │
         │  stores residue     Loom of Programmable Covenants     │
         │                                                         │
         └─────────────────────────────────────────────────────────┘
@@ -166,7 +166,7 @@ Existing primitives the four axes connect to:
 - **Arcane Mana** ← every shop's default randomness supply before Celestial wired
 - **Celestial Mana** ← SpaceComputer; 3 shops operational (Etherchanting, Forge(t), Holon Hitchhikers)
 - **Resonance Mana** ← Scrying Glass; not yet operational; framing: when two Sovereigns recognise each other without a central register, that recognition has value (the 7th Capital made operational)
-- **VRC Mana** ← Fan Passport (the artifact that accumulates VRCs); Loom of Programmable Covenants (the production form — programmable covenants that compile against the bearer's VRC ledger)
+- **VRC Mana** ← accumulated across the bearer's worn artefact collection (the 11 workshop artefacts — 1 weapon · 1 clothing · 5 tools · 4 trinkets — plus 3 tomes; the 64-vertex lattice is the inventory/presence-observation view per the workshop artefact taxonomy and the witness-unlock spec); Loom of Programmable Covenants (the production form — programmable covenants that compile against the bearer's worn collection)
 
 The **Scrying Glass primitive** and the **Loom of Programmable Covenants** are named here for the first time. They may already have prior framings elsewhere in the corpus (Pallia's loom; bilateral witness ceremonies); this v1.2.4 grimoire amendment is the architectural commitment to recognise them as *mana primitives* rather than only as workings.
 
@@ -218,7 +218,8 @@ If you're auditing a doc to check whether it's v1.2.4-aware, look for these mark
 |---|---|
 | Mentions "✨ Arcane Mana" or "Arcane register" | v1.2.3 or later |
 | Mentions "🔭 Resonance Mana" or "Scrying Glass primitive" | **v1.2.4** specifically |
-| Mentions "🪢 VRC Mana" or "Fan Passport" or "Loom of Programmable Covenants" | **v1.2.4** specifically |
+| Mentions "🪢 VRC Mana", "Loom of Programmable Covenants", or "bearer's worn artefact collection" as the VRC-accumulation surface | **v1.2.4** specifically |
+| Mentions "Fan Passport" | Pre-2026-05-11-evening editorial revision (Fan Passport was named in early v1.2.4 then retired in favour of the worn artefact collection as the surface; if a doc still says "Fan Passport," it needs the worn-collection reframe) |
 | Mentions "two-mana economy" without Resonance/VRC mention | Pre-v1.2.4 (likely v1.2.2 or v1.2.3); needs extension |
 | Mentions "Aether Mana" as universal chain-gas (covering Ethereum + Bitcoin + Oasis + Zcash) | Pre-v1.2.3 framing; needs the chain-mana plurality refactor |
 | Mentions "13 named cast" or "36 spells" | Pre-v1.2.1 (before Luca); historical snapshot or stale |

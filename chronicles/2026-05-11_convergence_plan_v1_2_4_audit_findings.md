@@ -30,7 +30,7 @@ Confirmed canonical at `grimoire/city_of_mages_grimoire_v1_2_4.json` lines 2473�
 | 1 | `landing` | chain-mana (plural by chain) | Ξ Aether · ₿ sat · 🌹 ROSE · 🦓 z | Make a working *land* on consensus | All 4 variants operational |
 | 2 | `entropy` | Arcane ⊥ Celestial | ✨ Arcane · 🌌 Celestial | Make a working *unique* | Both operational; Celestial wired at 3 shops |
 | 3 | `coordination` | 🔭 Resonance Mana | 🔭 | Generate value when two Mages find affinity *without a central index* (Scrying Glass primitive · 7th Capital in motion) | Architectural · operational pending Scrying Glass impl |
-| 4 | `relationship` | 🪢 VRC Mana | 🪢 | Store the *residue of being alive* as Verifiable Relationship Credentials (Fan Passport · Loom of Programmable Covenants) | Architectural · operational pending VRC issuance + Fan Passport surface |
+| 4 | `relationship` | 🪢 VRC Mana | 🪢 | Store the *residue of being alive* as Verifiable Relationship Credentials, accumulated across the bearer's worn artefact collection (the 11 workshop artefacts + 3 tomes per the workshop artefact taxonomy; 64-vertex lattice = inventory/presence-observation view); Loom of Programmable Covenants is the production form (compiles against the worn collection) | Architectural · operational pending VRC issuance + Loom-side covenant compilation |
 
 **Critical glyph canon:** VRC Mana = **🪢 (knot)**, NOT 🪱 (worm). Verified knot-clean across all eight canonical-filename grimoire mirrors (md5 `2f2b0d7708c9ee1df02413ae5eabbaf3`):
 1. `cityofmages/grimoire/city_of_mages_grimoire_v1_2_0.json`
@@ -145,7 +145,7 @@ The four workshop pages without chain-mana glyphs in their cross-shop wayfinders
 
 2. **§2 intro (line 39).** "The City of Mages opens with **three operational mana registers across two axes**." → "The City of Mages operates across **four mana axes** (v1.2.4 metabolism complete). The landing axis carries chain-mana — itself plural by chain — and the entropy axis is binary; the coordination and relationship axes each carry one named register (open to additions)."
 
-3. **§6 line 171.** "Architectural for the three-register two-axis structure (landing axis: chain-mana plural by chain; entropy axis: Arcane ⊥ Celestial)" → "Architectural for the four-axis metabolism (landing: chain-mana plural by chain; entropy: Arcane ⊥ Celestial; coordination: 🔭 Resonance Mana via the Scrying Glass primitive; relationship: 🪢 VRC Mana via the Fan Passport / Loom of Programmable Covenants) — specified across grimoire v1.2.2 → v1.2.4."
+3. **§6 line 171.** "Architectural for the three-register two-axis structure (landing axis: chain-mana plural by chain; entropy axis: Arcane ⊥ Celestial)" → "Architectural for the four-axis metabolism (landing: chain-mana plural by chain; entropy: Arcane ⊥ Celestial; coordination: 🔭 Resonance Mana via the Scrying Glass primitive; relationship: 🪢 VRC Mana accumulating across the bearer's worn artefact collection — the 11 workshop artefacts + 3 tomes — with the Loom of Programmable Covenants as the production form) — specified across grimoire v1.2.2 → v1.2.4."
 
 **Acceptance:** spec 08 reads coherently as a four-axis spec from frontmatter to provenance section.
 
@@ -173,7 +173,9 @@ The four workshop pages without chain-mana glyphs in their cross-shop wayfinders
  *     landing axis (chain-mana plural) and entropy axis (Arcane ⊥ Celestial)
  *     are joined by the coordination axis (🔭 Resonance Mana · Scrying Glass
  *     primitive · 7th Capital in motion) and the relationship axis (🪢 VRC
- *     Mana · Fan Passport · Loom of Programmable Covenants). New top-level
+ *     Mana, accumulated across the bearer's worn artefact collection — the
+ *     11 workshop artefacts + 3 tomes — with the Loom of Programmable
+ *     Covenants as the production form). New top-level
  *     `mana_taxonomy` field carries the canonical four-axis structure parallel
  *     to `personas`, `kindred_substrate_providers`, `kindred_ecosystems`.
  * v1.2.4 awaits a fresh re-pin; once landed, the new CID supersedes the

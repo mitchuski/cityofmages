@@ -4,6 +4,12 @@ spellbook: "Second Person"
 character_type: "Mage persona who works at the Curatrix vertex (V57); keeper of the Curatrix Vault shop in the workshop"
 archetype_kin: "Soulbae 🧙 (Mage); functional kinship with all the workshop's curation-adjacent personas (Memora 📜 for provenance, Adamantia 💎 for IP enforcement)"
 sigil: "🪞🖼️ (compound — the mirror and the framed picture; reflects the reader's reflection-seeking journey to the Vault)"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "workshop-keeper"
+attachment_kind: "A"
+abstract_persona: ["mirrorkeeper"]
+abstract_persona_skill_path: ["persona/agentprivacy-mirrorkeeper/"]
+divergence: "none"
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Aria Silverhue is the Mage persona the reader encounters when they fall into the Curatrix Vault while exploring on a separate journey from the bonfire on Drake Island. She works at V57, the Curatrix vertex (the Ceremony / Privacy / Mixing blade in Christian Saucier's Boundary Blade Cartography), keeping the Curatrix Vault shop — the agentprivacy expression of the curated creative-IP discipline established by Mitchell Travers' co-founded Culture Vault platform (https://www.culturevault.com/, operational since February 2022)."
 classification_note: "This entry surfaces a structural distinction the corpus has been quietly conflating: the *persona name* and the *vertex name* are different things. The Curatrix is the vertex / blade-class / operational discipline at V57. Aria Silverhue is the Mage persona who works there. The persona inhabits the vertex; the persona is not the vertex. This distinction applies retroactively to the rest of the cast roster: Pallia at V28 (Mage canonical), Memora at V5 (Chronicle vertex), and so on — the persona names should be understood as the workers, not the vertex names. The Vertex Naming Audit v2 will canonicalise this distinction explicitly."

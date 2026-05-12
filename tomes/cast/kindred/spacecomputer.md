@@ -2,9 +2,9 @@
 title: "Kindred Ecosystem · SpaceComputer · Celestial-Mana Source"
 spellbook: "Second Person"
 relationship_type: "Kindred ecosystem · celestial-mana source · walked-alongside, not signed"
-status: "Cast addition v1 (2026-05-10) — recognised as the cosmic-entropy supply that makes Celestial Mana operational at the chain layer"
+status: "Cast addition v1 (2026-05-10) · entropy-axis reframe v1.1 (2026-05-11, aligned to grimoire v1.2.4's four-axis metabolism) — recognised as the cosmic-entropy supply that makes 🌌 Celestial Mana operational at the chain layer"
 external_partner: "SpaceComputer (https://spacecomputer.io)"
-recognised_for: "Aether-Mana (gas) ⊥ Celestial-Mana (entropy) — the two-mana economy the Etherchanting Shop, the Forge(t), and the Holon Hitchhikers all draw from"
+recognised_for: "🌌 Celestial Mana — the entropy-axis register that arrives from outside the addressable space; consumed by the Etherchanting Shop, the Forge(t), and the Holon Hitchhikers. Sits ⊥ to chain-mana (the landing-axis register, plural by chain: Ξ Aether · ₿ sat · 🌹 ROSE · 🦓 z) ⊥ to 🔭 Resonance Mana (coordination, v1.2.4) ⊥ to 🪢 VRC Mana (relationship, v1.2.4) in the four-axis metabolism."
 license: "CC BY-SA 4.0 for narrative content; SpaceComputer's service is governed by their terms"
 signature: "(⚔️⊥⿻⊥🧙)😊"
 ---
@@ -15,7 +15,7 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ## At a glance
 
-> *Algorithmic mana loops back on itself; celestial mana arrives from outside the loop. The City of Mages walks two manas now — Aether (gas) and Celestial (entropy) — and SpaceComputer is where the second supply originates.*
+> *Algorithmic mana loops back on itself; celestial mana arrives from outside the loop. The City of Mages walks across four mana axes — landing (chain-mana, plural by chain), entropy (✨ Arcane ⊥ 🌌 Celestial), 🔭 Resonance (coordination), 🪢 VRC (relationship) — and SpaceComputer is where the entropy-axis cosmic register (🌌 Celestial Mana) originates.*
 
 ## Why this entry exists
 
@@ -32,20 +32,30 @@ Humanistic Technologies), distinct from another forge (the Archon city). The eco
 the City of Mages walks <em>alongside</em>: an ambient supply the architecture relies
 on, sourced from cosmic measurement, not signed-with, not absorbed-into.
 
-## The two-mana economy
+## The entropy axis · ⊥ to chain-mana / Resonance / VRC
 
-The City of Mages now has two kinds of mana, both metaphors for what a Mage spends to
-bind a working:
+SpaceComputer sits on the **entropy axis** of the four-axis metabolism. The full
+taxonomy (canonical in grimoire v1.2.4's `mana_taxonomy` field) is:
 
-| Mana | Operational form | Source | What it makes possible |
-|------|------------------|--------|------------------------|
-| **Aether Mana** | gas on blockchains (gwei on Ethereum, sats on Bitcoin, ROSE on Oasis, …) | the chain&apos;s consensus | makes a working *land* — the cost the chain charges to admit work into consensus |
-| **Celestial Mana** | cosmic-entropy feed | SpaceComputer (`spacecomputer.io`) | makes a working *unique* — randomness the surveillance prison cannot model because it arrives from outside the addressable space |
+| Axis | Register(s) | What it does | Where it comes from |
+|------|-------------|--------------|---------------------|
+| **Landing** | chain-mana (plural by chain: Ξ Aether on Ethereum · ₿ sat on Bitcoin Lightning · 🌹 ROSE on Oasis · 🦓 z on Zcash · …) | makes a working *land* on consensus | each chain&apos;s native fee mechanism |
+| **Entropy** | ✨ Arcane ⊥ 🌌 **Celestial** | makes a working *unique* | ✨ Arcane: algorithmic / PRNG / hash-chain (loop-closed) · 🌌 **Celestial: SpaceComputer** (loop-open) |
+| **Coordination** (v1.2.4) | 🔭 Resonance Mana | generates value when two Mages find affinity *without a central index* | the Scrying Glass primitive (the 7th Capital in motion) |
+| **Relationship** (v1.2.4) | 🪢 VRC Mana | stores the residue of being alive as Verifiable Relationship Credentials | Accumulated across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes) · Loom of Programmable Covenants compiles against the worn collection |
 
-The two register as the two halves of the Celestial Ceremony made operational. Aether
-Mana is the chain&apos;s daylight (the gas burning publicly, witnessable by anyone watching
-mempool). Celestial Mana is the cosmos&apos; substrate (the entropy arriving from outside
-the loop, witnessable as origin-of-randomness but not predictable in advance).
+SpaceComputer is the canonical first Celestial Mana source — the entropy-axis cosmic
+register. Where ✨ Arcane Mana loops back on itself within the architecture&apos;s
+addressable space (PRNGs, hash chains, deterministic seeds), 🌌 Celestial Mana
+arrives from *outside* the loop: satellite-anchored cosmic measurement. The two
+registers on the entropy axis are perpendicular to each other and perpendicular to
+the other three axes.
+
+Celestial Mana is the cosmos&apos; substrate (the entropy arriving from outside the loop,
+witnessable as origin-of-randomness but not predictable in advance). Sustained
+walking the lattice on Celestial Mana — not just Arcane Mana — deepens the φ-gap
+structurally: the architecture earns its non-reconstructibility from cosmological
+substrate, not just from algorithmic discipline.
 
 ## Where Celestial Mana lands in the workshop
 
@@ -121,8 +131,11 @@ Walked-alongside rather than walked-upon.
 - **Operational** for SpaceComputer as an active project — spacecomputer.io is
   live, the entropy feed is consumable, the satellite-anchored cosmic measurement
   underlies the service.
-- **Architectural** for the recognition that Celestial Mana is the two-mana economy&apos;s
-  cosmic half, distinct from Aether Mana (gas). Specified here for the first time.
+- **Architectural** for the recognition that 🌌 Celestial Mana is the four-axis
+  metabolism&apos;s entropy-axis cosmic register (✨ Arcane ⊥ 🌌 Celestial), perpendicular
+  to the landing axis (chain-mana, plural by chain), the coordination axis (🔭 Resonance,
+  v1.2.4), and the relationship axis (🪢 VRC, v1.2.4). Specified across the v1.2.2 →
+  v1.2.4 grimoire lineage; locked at the spec layer in `specs/08-mana-types-and-swordsman-stances.md`.
 - **Architectural** for the new relationship category **kindred ecosystem** —
   distinct from kindred forge, kindred protocol, and kindred substrate. The category
   is needed because SpaceComputer is structurally different from each of the three.

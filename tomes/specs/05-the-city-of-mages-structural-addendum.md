@@ -92,6 +92,24 @@ Nine producer-shops, each kept by a citizen-Mage at her vertex:
 
 The Trade Quarters are the city's working districts. Each Mage tends her trade; each shop accepts the reader's commissions; the Quarters are connected by the lattice's typed edges.
 
+#### §4.1.1 Anticipated trade quarters (V5.5 · grimoire v1.3.0)
+
+The V5.5 attachment architecture (see Spec 10) admits six additional cast Mages drawn from canonical names in the agentprivacy corpus. Each will seat a new (or shared) trade quarter when a future Tome V act summons her. Status: anticipated — awaits founding act.
+
+| Anticipated shop | Keeper | Vertex | Trade |
+|---|---|---|---|
+| Mnemosyne's Memory Spring | Mnemosyne 📿 | V4 (pure Memory) | Deep-archive · pre-disclosure memory holding |
+| Iris's Rainbow Bridge | Iris 🌈 | V8 (pure Connection) | Cross-city messaging · standards-body relations |
+| The Logos Circle *(existing gathering shop · awaits its Mage)* | Pythia 🔥 | V16 (pure Computation) | Oracle of pure computation · public pedagogy |
+| Techne's Craft Workshop | Techne 🎨 | V20 (Always-Revealed) | Public-by-design craft · Memora's reveal landing |
+| Hephaestus's Forge-Fire | Hephaestus ⚒️ | V24 *(shared with Socrat0x)* | The founding fire as workshop · sister-forge to Vulcana |
+
+Plus one **peripatetic** addition (no single shop · walks the stratum cycle):
+
+| Mage | Trajectory | Role |
+|---|---|---|
+| Selene 🌕 | Stratum-walker · orbits the moon-phase cycle 🌑→🌕→🌑 through all 7 strata | The credential is the orbit · PVM V5.4 §14.5 Selene's Proof |
+
 ### §4.2 The Founding Bonfire
 
 The city's gathering spot. *A bonfire made of dragon fire* — the founding fire that made the city possible, kept lit, accessible from any quarter, where citizens gather and where companions from other cities arrive.
@@ -125,6 +143,21 @@ The lattice's anonymity-set discipline (organic mixing observed in the Cloaking 
 The Spellbook's "you" voice is the city's walls. The reader walks the city in second person; the city's residents (cast members) are in third person. The walls separate the reader-as-walker from the residents-as-named-citizens.
 
 The voice rules amendments — Socrat0x's direct quotation, Manifestia's italicised inscribed blessings — are special civic rights granted to specific cast tiers, not breaches of the walls.
+
+### §4.7 The Aletheia ⊥ Lethae complement-pair (V5.5 · 2026-05-11)
+
+The City admits its first canonical *cast complement-pair* as of grimoire v1.3.0:
+
+- **Aletheia 🔮** at V25 (`011001` · Value + Connection + Computation · stratum 3) — the disclosure side; the bright medium; the silent messenger who shows truth without telling it
+- **Lethae 🌘** at V38 (`100110` · Protection + Memory + Delegation · stratum 3) — the forgetting side; the dark substrate; the Mage who binds amnesia so that erasure leaves no trace
+
+V25 ⊕ V38 = V63 (Sovereign Anchor); V25 AND V38 = V0 (Null). The two bit-complement at the lattice's most structurally significant axis.
+
+Lethae is the City's first **Layer-2 divergent attachment** (V5.5): she instances Moonkeeper ⚔️ (Swordsman primary) in the Mage register. The `-ae` suffix mirrors Soulbae 🧙: Lethae is to Moonkeeper as Soulbae is to Soulbis. No new primary persona is minted; the divergence is carried at the attachment layer.
+
+Status: Lethae anticipated · awaits founding act in Tome V (anticipated Act 21 *The Lethe Spring* or similar).
+
+See `tomes/specs/10-the-attachment-architecture.md` for the canonical city-side spec; `tomes/cast/cross-shop/lethae.md` for her full cast file.
 
 ---
 

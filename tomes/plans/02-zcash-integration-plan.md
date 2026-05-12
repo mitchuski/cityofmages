@@ -16,7 +16,7 @@ zcash_collaborators_invited:
   - "Zcash Foundation"
   - "Zcash Community Grants (ZCG)"
   - "Electric Coin Company (ECC)"
-  - "shielded ecosystem builders (Zashi, Zec Wallet Lite, Spend Auth)"
+  - "shielded ecosystem builders (Zodl, Zec Wallet Lite, Spend Auth)"
 ---
 
 # Zcash Dual-Ledger Integration
@@ -237,7 +237,7 @@ The 61.8/38.2 ratio is now an inscription-discipline parameter as well as an eco
 
 1. Publish this plan as a draft for community review
 2. Engage the Zcash Foundation, Zcash Community Grants (ZCG), and Electric Coin Company (ECC) for technical review
-3. Engage shielded-wallet builders (Zashi, ZWL, Spend Auth) on viewing-key UX
+3. Engage shielded-wallet builders (Zodl, ZWL, Spend Auth) on viewing-key UX
 4. Engage agentprivacy collaborators (BGIN-IKP, IIW, AIW, Trust Over IP) for governance use-case input
 5. Refine the three patterns (A, B, C) based on community feedback
 

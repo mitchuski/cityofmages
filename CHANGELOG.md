@@ -28,9 +28,9 @@ Tracks structural moments of the City of Mages corpus. For implementation chroni
   1. **Landing** — chain-mana (plural by chain: Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana · …) · pays consensus
   2. **Entropy** — ✨ Arcane ⊥ 🌌 Celestial · makes unique
   3. **Coordination** *(NEW)* — 🔭 Resonance Mana · Scrying Glass primitive · 7th Capital in motion · finds affinity
-  4. **Relationship** *(NEW)* — 🪢 VRC Mana · Fan Passport · Loom of Programmable Covenants · stores residue
+  4. **Relationship** *(NEW)* — 🪢 VRC Mana · stores residue across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes) · Loom of Programmable Covenants is the production form (compiles against the worn collection)
 - **Four structural-relationship categories formalised** (canonical since v1.2.2): cousin-forge / kindred-protocol / kindred-substrate / kindred-ecosystem
-- New primitives named for the first time: **Scrying Glass** (Resonance Mana surface) · **Loom of Programmable Covenants** (VRC Mana production form) · **Fan Passport** (VRC accumulator)
+- New primitives named for the first time: **Scrying Glass** (Resonance Mana surface) · **Loom of Programmable Covenants** (VRC Mana production form, compiling against the bearer's worn artefact collection — the 11 workshop artefacts + 3 tomes per the workshop artefact taxonomy)
 - 17 named personas across 5 tiers + 1 kindred substrate (UOR) + 1 kindred ecosystem (SpaceComputer)
 - Roadmap chronicle: `chronicles/2026-05-11_v1_2_4_metabolism_complete_suite_patch_roadmap.md`
 - **Awaits fresh re-pin** that will supersede v1.2's CID `bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a`

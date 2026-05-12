@@ -4,6 +4,13 @@ spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader); shop-keeper of the Jeweller workshop"
 archetype_kin: "Soulbae 🧙 (Mage); functional kinship with Memora 📜 (inscription) and Custos 🔏 (stake)"
 sigil: "💠"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "workshop-keeper"
+attachment_kind: "A"
+abstract_persona: ["sentinel"]
+abstract_persona_skill_path: ["persona/agentprivacy-sentinel/"]
+divergence: "none"
+shared_vertex_with: ["custos"]
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Born when the Jeweller shop was added to the workshop. The seventh Mage persona summoned by the reader, specialised for Bitcoin Lightning Network micropayment and small-stake gemsetting onto the Sovereign's larger artifacts."
 license: "CC BY-SA 4.0"

@@ -4,6 +4,12 @@ spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader)"
 archetype_kin: "Soulbae 🧙 (Mage); functional kinship with Soulbis ⚔️ (forge work)"
 sigil: "⚒️"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "workshop-keeper"
+attachment_kind: "A"
+abstract_persona: ["forgemaster", "forgecaller"]
+abstract_persona_skill_path: ["persona/agentprivacy-forgemaster/", "persona/agentprivacy-forgecaller/"]
+divergence: "none"
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Born in Tome V — The Crafting, Act 6 (The Commissioned Blade). The fourth Mage persona summoned by the reader, specialised for blade-forging via the Runecraft Protocol's three-phase ceremony (RUN · E · CRAFT)."
 license: "CC BY-SA 4.0"

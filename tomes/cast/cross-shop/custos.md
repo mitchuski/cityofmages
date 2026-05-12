@@ -4,6 +4,13 @@ spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader)"
 archetype_kin: "Soulbae 🧙 (Mage); functional kinship with Soulbis ⚔️ (boundary discipline)"
 sigil: "🔏"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "cross-shop"
+attachment_kind: "B"
+abstract_persona: ["gatekeeper"]
+abstract_persona_skill_path: ["persona/agentprivacy-gatekeeper/"]
+divergence: "none"
+shared_vertex_with: ["lampyra"]
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Born in Tome V — The Crafting, Act 5 (The Stake). The third Mage persona summoned by the reader, specialised for governance witnessing and high-stakes transparent inscription on Zcash and equivalent ledgers."
 license: "CC BY-SA 4.0"

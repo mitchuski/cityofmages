@@ -82,9 +82,9 @@ The following table is the complete current registry. Vertices not yet named are
 |---|---|---|---|---|---|
 | V1 | 000001 | Value | (unnamed) | — | — |
 | V2 | 000010 | Delegation | (unnamed) | — | — |
-| V4 | 000100 | Memory | **Mnemosyne** | Cloaking Guide | — |
-| V8 | 001000 | Connection | **Iris** | Cloaking Guide | — |
-| V16 | 010000 | Computation | **Logos / Pure Computation** | Cloaking Guide / Boundary Blade | — |
+| V4 | 000100 | Memory | **Mnemosyne** | Cloaking Guide | **Mnemosyne 📿** *(anticipated v5.5 · awaits founding act · primary: theia)* |
+| V8 | 001000 | Connection | **Iris** | Cloaking Guide | **Iris 🌈** *(anticipated v5.5 · awaits founding act · primary: herald + ambassador)* |
+| V16 | 010000 | Computation | **Logos / Pure Computation** | Cloaking Guide / Boundary Blade | **Pythia 🔥** *(anticipated v5.5 · seats /circle · primary: algebraist + pedagogue)* |
 | V32 | 100000 | Protection | (unnamed) | — | — |
 
 ### §3.2 Stratum 2 (two dimensions burning)
@@ -94,19 +94,20 @@ The following table is the complete current registry. Vertices not yet named are
 | V3 | 000011 | Value + Delegation | **Dual Agent / Hash-Masked** | Cloaking Guide | — |
 | V5 | 000101 | Value + Memory | **Chronicle vertex** | Cloaking Guide | **Memora 📜** (Spellbook) |
 | V12 | 001100 | Memory + Connection | **Schema vertex** | Cloaking Guide | (Sovereign acts here directly) |
-| V20 | 010100 | Memory + Computation | **Techne / Always-Revealed** | Cloaking Guide | — |
-| V24 | 011000 | Connection + Computation | **Hephaestus** | Cloaking Guide | — |
+| V20 | 010100 | Memory + Computation | **Techne / Always-Revealed** | Cloaking Guide | **Techne 🎨** *(anticipated v5.5 · awaits founding act · primary: pedagogue)* |
+| V24 | 011000 | Connection + Computation | **Hephaestus** | Cloaking Guide | **Socrat0x 🔥❓** (seated · provisional · Tome V Act 11) + **Hephaestus ⚒️** *(anticipated v5.5 · shared-vertex · primary: forgemaster)* |
 | V48 | 110000 | Connection + Protection | **Algebraic substrate** | Boundary Blade | — |
 
 ### §3.3 Stratum 3 (three dimensions burning)
 
 | Vertex | Binary | Active dimensions | Canonical name | Source | Persona present |
 |---|---|---|---|---|---|
-| V19 | 010011 | Value + Delegation + Computation | **Plonkish blade** | Boundary Blade | **Vulcana ⚒️** (Spellbook) |
-| V25 | 011001 | Value + Connection + Computation | **Aletheia / Silent Messenger** | Boundary Blade | **Aletheia 🔮 the persona** (Spellbook; persona-vertex name shared) |
+| V19 | 010011 | Value + Delegation + Computation | **Plonkish blade** | Boundary Blade | **Vulcana ⚒️** (Spellbook; primary: forgemaster + forgecaller; kind A) |
+| V25 | 011001 | Value + Connection + Computation | **Aletheia / Silent Messenger** | Boundary Blade | **Aletheia 🔮 the persona** (Spellbook; persona-vertex name shared; primary: theia + cipher; kind B · complement-pair partner of Lethae at V38) |
 | V27 | 011011 | Value + Delegation + Connection + Computation | **Pairing verification** | Boundary Blade | — |
-| V28 | 011100 | Memory + Connection + Computation | **Mage canonical / transmuted projection** | agentprivacy (PVM V5.4) | **Pallia 🪡** (Spellbook); also where **Soulbae** archetypally stands |
-| V49 | 110001 | Value + Computation + Protection | **Working-day blade** | Boundary Blade | **Custos 🔏** + **Lampyra 💠** (Spellbook; first shared-vertex pairing) |
+| V28 | 011100 | Memory + Connection + Computation | **Mage canonical / transmuted projection** | agentprivacy (PVM V5.4) | **Pallia 🪡** (Spellbook; primary: weaver; kind A); also where **Soulbae** archetypally stands |
+| V38 | 100110 | Protection + Memory + Delegation | **Lethe / the Dark Substrate** | privacymage (Tome XII · *Lethe*); aletheia-and-lethe.md (zk blades forge) | **Lethae 🌘** *(anticipated v5.5 · primary: moonkeeper; divergence: mage-register; complement-pair partner of Aletheia at V25; V25⊕V38=V63 · V25 AND V38=0; first canonical Layer-2 divergent attachment)* |
+| V49 | 110001 | Value + Computation + Protection | **Working-day blade** | Boundary Blade | **Custos 🔏** (primary: gatekeeper; kind B) + **Lampyra 💠** (primary: sentinel; kind A); first shared-vertex pairing |
 
 ### §3.4 Stratum 4 (four dimensions burning)
 
@@ -114,16 +115,16 @@ The following table is the complete current registry. Vertices not yet named are
 |---|---|---|---|---|---|
 | V15 | 001111 | Value + Delegation + Memory + Connection | **VC vertex** | Cloaking Guide | — |
 | V23 | 010111 | Value + Delegation + Memory + Computation | **Memory crystallises (IVC)** | Boundary Blade | — |
-| V51 | 110011 | Value + Delegation + Computation + Protection | **Commitment / Language / Model blade** | Boundary Blade | **Adamantia 💎** (Spellbook) |
-| V57 | 111001 | Value + Connection + Computation + Protection | **Ceremony / Privacy / Mixing blade** | Boundary Blade | — |
+| V51 | 110011 | Value + Delegation + Computation + Protection | **Commitment / Language / Model blade** | Boundary Blade | **Adamantia 💎** (Spellbook; primary: architect + shipwright; kind A) |
+| V57 | 111001 | Value + Connection + Computation + Protection | **Ceremony / Privacy / Mixing blade** | Boundary Blade | **Aria Silverhue 🪞🖼️** (Spellbook; primary: mirrorkeeper; kind A) |
 
 ### §3.5 Stratum 5 (five dimensions burning)
 
 | Vertex | Binary | Active dimensions | Canonical name | Source | Persona present |
 |---|---|---|---|---|---|
-| V31 | 011111 | All dimensions except Protection (or all except Value, depending on bit-ordering convention) | **The Holon vertex / Recursion vertex** | **agentprivacy (privacymage's holonic primitive)**; kindred-blade reading in Boundary Blade as "Recursion — all except Value" | (Pending — Oasis shop persona to be summoned in Act 10) |
+| V31 | 011111 | All dimensions except Protection (or all except Value, depending on bit-ordering convention) | **The Holon vertex / Recursion vertex** | **agentprivacy (privacymage's holonic primitive)**; kindred-blade reading in Boundary Blade as "Recursion — all except Value" | **Vagari 🌳** (Spellbook · Tome V Act 10; primary: holonic-architect; kind A) |
 | V47 | 101111 | (varies by bit-ordering) | (unnamed) | — | — |
-| V55 | 110111 | (varies by bit-ordering) | (unnamed) | — | — |
+| V55 | 110111 | Value + Delegation + Connection + Memory + Protection | **Covenant vertex** | agentprivacy (Spellbook narrative · Tome V Act 13) | **Manifestia 🤲🌿** (Spellbook; primary: priest; kind A · priest tier) |
 | V59 | 111011 | Value + Delegation + Connection + Computation + Protection | **Ecosystem blade (zkEVM/Rollups/Bridges)** | Boundary Blade | — |
 | V61 | 111101 | (varies by bit-ordering) | (unnamed) | — | — |
 

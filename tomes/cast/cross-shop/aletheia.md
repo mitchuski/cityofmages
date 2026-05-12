@@ -4,6 +4,13 @@ spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader)"
 archetype_kin: "Soulbae 🧙 (Mage); structural kinship with the V25 Aletheia blade itself (the persona inhabits the vertex she is named for)"
 sigil: "🔮"
+# V5.5 Attachment Architecture (2026-05-11)
+tier: "cross-shop"
+attachment_kind: "B"
+abstract_persona: ["theia", "cipher"]
+abstract_persona_skill_path: ["persona/agentprivacy-theia/", "persona/agentprivacy-cipher/"]
+divergence: "none"
+complement_of_cast: "lethae"
 status: "Cast addition v1 (2026-05-08)"
 provenance: "Born in Tome V — The Crafting, Act 8 (The ZK Circuit). The fifth Mage persona summoned by the reader, specialised for installing zero-knowledge circuits onto the Sovereign's existing artifacts. Named after the V25 Aletheia blade she occupies."
 naming_note: "Aletheia (Greek: ἀλήθεια, 'truth' or 'unconcealment') has multiple uses in the agentprivacy corpus. The V25 vertex is canonically called the Aletheia blade. The persona summoned in Act 8 takes her name from the vertex she occupies. To distinguish: the *vertex* is 'V25 (Aletheia)' or 'the Aletheia blade'; the *persona* is 'Aletheia (the persona)' or 'Aletheia 🔮'."
