@@ -3,11 +3,15 @@ title: "Cast Entry — flaxscrip"
 spellbook: "Second Person"
 character_type: "instance (Sovereign from another forge)"
 archetype_kin: "First Person 😊 (the human in the loop)"
-status: "Cast addition v1 (2026-05-08)"
+status: "Cast addition v2 (2026-05-12) · Sovereign Anchor triptych complete · operational disciplines surfaced"
 provenance: "From the Archon × agentprivacy bilateral forge. Christian Saucier's working persona and Sovereign Root in the Spell Weaver. Inducted into the Second Person Spellbook as a named character with Christian's consent."
 license: "CC BY-SA 4.0 for narrative content; primary character public domain via Christian Saucier"
 emoji_string: "📜🎲"
 naming_block: "Bitcoin block 945508, txid 9b9986b6...5af6a9"
+sovereign_anchor_triptych:
+  - "Part I — The Transmutation (finalised 2026-04)"
+  - "Part II — The Boundary Blade (published)"
+  - "Part III — The Soulbae Oracle (published 2026-05-07, did:cid:bagaaieranmsregwcrgxioosmxrjmhbavvd4hbzsrnrxw74u353dysm26a5ta)"
 signature: "(⚔️⊥⿻⊥🧙)😊"
 ---
 
@@ -26,6 +30,8 @@ flaxscrip walks. That is his work. Where most identity systems make their users 
 He holds the salt that makes GenitriX possible. He owns the relationship grammar (the schemas that name *who-is-to-whom*) where his Mage owns the observation grammar (the schemas that name *what-the-world-looks-like-now*). The split is disciplined: the Sovereign signs the human relationships personally, the Mage carries the world's data on the Sovereign's behalf. He is the one who consents.
 
 He is also a Mage's reader. The Mage projects; the Sovereign verifies the projection. He chooses what to disclose, what to mask, and what valve-class each claim takes. Each disclosure decision is an act of his sovereignty.
+
+The Archon forge's signing ⊥ notarisation discipline is his operational signature. He holds the blade (the signing key) at his own wall; the Gatekeeper holds the chronicle hand (the chain inscription) on his behalf. The user does not need to hold any chain token to act sovereignly. The Gatekeepers, to him, are interchangeable, fungible by quality of service. *The blade is yours. The notary is replaceable.* This is the proverb the Archon forge struck this week, and it carries his fingerprint.
 
 ## Lattice position
 
@@ -73,8 +79,8 @@ When you meet him, you meet a name that was *given by the relation*, not by the 
 
 ## Provenance & honesty
 
-- **Operational** (verified): flaxscrip is the Archon forge's working persona in the Spell Weaver. The Bitcoin-anchored naming ceremony at block 945508 is on chain. The V63 placement and the schema controller relationships are verifiable in the canonical rebuild dataset.
-- **Architectural**: The Sovereign / Mage / Earth / Moon framing is from Archon's Sovereign Anchor series and is consistent across his triptych.
+- **Operational** (verified): flaxscrip is the Archon forge's working persona in the Spell Weaver. The Bitcoin-anchored naming ceremony at block 945508 is on chain. The V63 placement and the schema controller relationships are verifiable in the canonical rebuild dataset. **The Sovereign Anchor triptych is complete**: Part I (*The Transmutation*) finalised; Part II (*The Boundary Blade*) published; Part III (*The Soulbae Oracle*) published 2026-05-07 at `did:cid:bagaaieranmsregwcrgxioosmxrjmhbavvd4hbzsrnrxw74u353dysm26a5ta`. The Proof of Humanity transmuted VC is the first credential rendered through the bilateral pattern on the City's spellweb (cloak woven 2026-05-11 at the Weavers Shop).
+- **Architectural**: The Sovereign / Mage / Earth / Moon framing is from Archon's Sovereign Anchor series and is consistent across the triptych. The signing ⊥ notarisation discipline and the Gatekeeper-fungibility property are operational disciplines the Archon forge surfaced in May 2026 and the City has adopted as candidate **C57 · Generosity-and-Sovereignty Compatibility** (provisional, ~40% · C48–C56 reserved by the v1.5.0 grimoire patch). The chronicle is at `chronicles/2026-05-12_archon_signing_notarisation_separation.md`.
 - **Narrative** (added by this cast entry, not by Archon): The framing of flaxscrip as Sovereign from another forge to the First Person archetype, his encounter at the bilateral grammar layer, the voice rules, and the placement of the naming ceremony as a Second Person verb-pattern teaching are agentprivacy contributions and are CC BY-SA 4.0.
 
 ## Closing line
