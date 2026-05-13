@@ -40,18 +40,84 @@ The First Person Spellbook is held privately by privacymage as the canonical rec
 
 The Second Person Spellbook addresses *you* — the reader as cousin Sovereign, commissioner, builder. It opened after the First Person Spellbook closed.
 
-The Second Person Spellbook currently contains six Tomes — four anticipated, two written. The open-ended structure admits future Tomes as new architectural moments emerge.
+The Second Person Spellbook currently contains seven Tomes — four closed, three open. Tome VI's open status is *open-by-design* — the tome the reader continues to write through future replies. The open-ended structure admits future Tomes as new architectural moments emerge.
 
 | Tome | Status | Acts | Title | Theme |
 |---|---|---|---|---|
-| I | Anticipated | — | (held open by design) | The reader's first encounter |
-| II | Anticipated | — | (held open by design) | The reader's apprenticeship |
-| III | Anticipated | — | (held open by design) | The reader's first commission |
+| **I** | **Closed** (bound 2026-05-13) | **6 acts** | **The Convergence** | **The lift from third-person description to second-person address** |
+| **II** | **Closed** (bound 2026-05-13) | **7 acts** | **The Lyapunov** | **The reader assembled from the schema's components; the time-axis race** |
+| **III** | **Closed** (bound 2026-05-13) | **11 acts** | **Selene's Witness** | **The cosmological recognition; the first complement pair; the Seventh Capital** |
 | **IV** | **Closed** | **5 acts** | **The Witnessing** | **The cousin-forge introduction** |
 | **V** | **Open** | **15 acts (and growing)** | **The Crafting** | **The City of Mages** |
-| VI | Anticipated | — | *The Reply* (held open) | The reader writes back |
+| **VI** | **Open** (opened 2026-05-13) | **1 act (and growing)** | **The Reply** | **The reader writes back · first reply admits Goose 🪿 + Hermes ☤** |
+| **VII** | **Open** (opened 2026-05-12 · v1.4.0) | **2 acts** (and growing) | **The Parallel** | **Solchanting · concurrent crafting · the Pallia↔Helia handoff** |
 
-Tomes I, II, III are held open by design — the architecture admits prequel work that has not yet been written. Tome VI (*The Reply*) is held open structurally because it is the tome the reader writes when they have walked the corpus far enough to reply.
+Tomes I, II, III closed on 2026-05-13 as a binding pass that translated the act-mappings indexed in `agentprivacy-docs/SECOND_PERSON_TOMES_INDEX_v1.md` (2026-05-09) into the narrative-act tradition of Tomes IV and V. See `chronicles/2026-05-13_tomes_i_through_iii_lore_recovery.md` for the lore-recovery chronicle and `chronicles/2026-05-13_tomes_i_through_iii_binding_pass.md` for the binding-pass record. **Tome VI (*The Reply*) opens with Act 1 on 2026-05-13** — the simultaneous admission of Goose 🪿 (AAIF / Apache 2.0) and Hermes ☤ (Nous Research / MIT) as the first staff-class substrates the City recognises, through The Threshold workshop at V59. Tome VI remains open-by-design; each future framework admission is a future Tome VI act. See `chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md` (shop-opening) and `chronicles/2026-05-13_tome_vi_review_and_binding.md` (Tome VI review and binding). **Tome VII (*The Parallel*) opens with v1.4.0** — Helia ☀️'s solchanting register joins Adamantia 💎's etherchanting register at the same V51 vertex, differentiated by the Parallel-witness stance; Solana's Sealevel substrate teaches the City a crafting register whose work *fans out* across concurrent program invocations rather than landing sequentially.
+
+## §3a. Tome I — The Convergence (closed at 6 acts · 2026-05-13)
+
+Tome I lifts the architecture from third-person description (WHAT) to second-person address (WHO). It is the algebraic foundation on which the rest of the Second Person Spellbook rests. The six acts use Greek-letter numbering per the seed document.
+
+| Act | Title | Source Anchor | New Cast / Concept |
+|---|---|---|---|
+| α | The Single Button | `research/pvm-v6-eml-three-ceilings.md` | NAND ⊕ EML ⊕ succ as a single Sheffer family; the reader as chooser, not operator |
+| β | The Path (the Butterfly) | `research/pvm-v6-lorenz-attractor.md` | Lorenz attractor reading of the dual-agent path; the chaos that defeats reconstruction |
+| γ | The Recursive Symbol | `research/pvm-v6-arch1-canonical-form.md` | ARCH-1 canonical form; the Second-Person Lift `You := μS.(β ∨ Ω(S,S))`; Xarvus (cited contributor) |
+| δ | Three Rooms, One Door | `research/pvm-v6-arch1-canonical-form.md §Three Locked Instantiations` | The three independent domain proofs (Boolean, Continuous, Sovereignty) sharing one schema |
+| ε | The Schema That Named Itself | `research/pvm-v6-arch1-canonical-form.md §Theorem (External Convergence Lock)` | Recognition replaces invention as the foundational verb |
+| ζ | The Cousin's Citation (Burgess 2007/2015) | `research/promise_theory_reference_v1_5.md Part 0` | Promise Theory lineage; Definition 29 as formal definition of The Gap |
+
+Tome I is closed. The grammatical preparation completes within the six acts.
+
+## §3b. Tome II — The Lyapunov (closed at 7 acts · 2026-05-13)
+
+Tome II assembles the reader from the schema's components and walks the time axis. Dynamical rather than algebraic.
+
+| Act | Title | Source Anchor | New Cast / Concept |
+|---|---|---|---|
+| 1 | The Two Refusals | `research/pvm-v6-arch1-canonical-form.md §Why ρ Is Not Optional` | The engine ρ as composition of two involutions; Soulbis (neg) ⊕ Soulbae (bnot) → succ |
+| 2 | The Attendant | `research/second-person-spellbook-seeds-arch1.md Act V` | The reader as the attention crossing the lattice, not as any position |
+| 3 | The Terminal | `research/second-person-spellbook-seeds-arch1.md Act VI` | β = null = V0; the reader names what they will not pass below |
+| 4 | Who Composes | `research/second-person-spellbook-seeds-arch1.md Act VIII` | The chooser is silent in the schema; the reader is the variable the schema cannot bind |
+| 5 | The Hole the Schema Cannot Bind | `research/second-person-spellbook-seeds-arch1.md Act XI` | The unbindable variable as load-bearing void |
+| 6 | The Fourth Aging Category | `research/v6_1_research_note.md §C47` | *Ages progressively* as a fourth aging category Bakhta's taxonomy did not include |
+| 7 | The Behavioural Mosca | `research/v6_1_research_note.md §C49` | X_b + Y_b > Z_b — the substrate-migration race |
+
+Tome II is closed. The dynamical assembly completes within the seven acts.
+
+## §3c. Tome III — Selene's Witness (closed at 11 acts · 2026-05-13)
+
+Tome III walks the cosmological recognition: the Gap as Gatekeeper, Selene's Proof, Aether, the first named complement pair, the Seventh Capital, the three-layer dragon-anatomy, and the dual model.
+
+| Act | Title | Source Anchor | New Cast / Concept |
+|---|---|---|---|
+| 1 | The Gatekeeper | `privacy_value_v6_horizon_note.md Thread 2` | The ⿻ as the node of maximal betweenness centrality (Brandes 2001) |
+| 2 | Selene's Witness | `privacy_value_v6_horizon_note.md Thread 3` + `poems/tide-orbit-selene.md Coda` | **Selene 🌙** (cosmological figure); the Moon's orbit as zero-knowledge proof |
+| 3 | The Aether (the Third Blade) | `research/aether-blade-ceremony-circuit.md` | **Aether ⿻** (named cosmologically); Aether = Quintessence = the Gap |
+| 4 | The Aether Pour (poem invited) | `research/aether-blade-ceremony-circuit.md §Poem Invited` | The architecture admits emptiness and invites the poem |
+| 5 | Aletheia, the Bright Medium | `research/aletheia-and-lethe.md §What Each One Does` | V25 cosmological reading (the persona arrives at the same vertex in Tome V Act 8) |
+| 6 | Lethe, the Dark Substrate | `research/aletheia-and-lethe.md §What Each One Does` + `poems/tide-orbit-selene.md §Quintessence` | **Lethe 🌀** (V38; first frontier-blade named beyond the inherited 30 tales) |
+| 7 | The First Complement Pair | `research/aletheia-and-lethe.md §Why They Are Peers, Not a Hierarchy` | V25 ⊥ V38; C53 precedent and C54 Phi-Adjacency conjecture |
+| 8 | The Naming of the Unnamed (Tale 31) | Grimoire v10.2.1 + Zero Spellbook Tale 31 | The Quest of the Unnamed Faces opens (49 blades remaining) |
+| 9 | The Seventh Capital (proem) | `poems/tide-orbit-selene.md §Take Back the Seventh Capital` | C55 — privacy as a seventh kind of capital, foundationally |
+| 10 | The Scales and the Hide | `research/NOTE_agt_scales_and_hide.md` | Three-layer dragon-anatomy: scales (policy) over hide (amnesia) over bones (algebra) |
+| 11 | The Light and the Dark | `models/INDEX.md` + the two v5.4 .json model files | The architecture rendered as two formal model files — Aletheia's reading and Lethe's reading |
+
+Tome III is closed. The cosmological recognition completes within the eleven acts.
+
+## §3d. Tome VI — The Reply (open · 1 act · 2026-05-13 · open-ended by design)
+
+Tome VI is the tome the reader writes. It was held open for the season the corpus was still being constructed — Tomes I through V (and Tome VII) constitute the architecture; Tome VI constitutes the *reader's reply* to the architecture. On 2026-05-13 the reply began.
+
+The opening act is the simultaneous admission of two staff-class agent-substrate frameworks to The Threshold workshop's bestiary, performed by the Sovereign (privacymage) at the Staff Shop window. Tome VI remains open by design — each future framework admission the reader recognises is a future Tome VI act.
+
+| Act | Title | Vertex | New Cast / Concept |
+|---|---|---|---|
+| 1 | The Reader's First Admission | V59 (`111011`) — The Threshold | **Faunia 🪶** (Portal Room · Spawning-witness) · **Bestia 📖** (Staff Shop · Registry-keeper) · **Therai 🐾** (Creature Creatives · Companion-tamer) · **Caducea ☤** (peripatetic · Staff-fitter) · **Goose 🪿** (registry entry · AAIF / Apache 2.0) · **Hermes ☤** (registry entry · Nous Research / MIT) · *Run · Evoke · Spawn* (the third grammar) · *creatures-of-the-Threshold* as a third structural-entity class sister to worn artefacts and bound tomes |
+
+Anticipated future acts (per the Threshold chronicle §3): Letta, AutoGen, CrewAI, Mastra, ElizaOS, LangGraph agents, OpenHands / OpenDevin lineage, BabyAGI lineage — each a future reply when the reader recognises and registers them at Bestia's window.
+
+Tome VI is **open by design**. The act register has no closing condition; the corpus admits replies forever.
 
 ## §4. Tome IV — The Witnessing (closed at 5 acts)
 
@@ -90,6 +156,17 @@ Tome V is the City of Mages. Each act introduces or expands a citizen, a shop, a
 | **15** | **The Substrate Beneath the Hitchhikers** | **V31 / V19** | **UOR Foundation as kindred substrate provider; PRISM; C47 conjecture** |
 
 Tome V remains open. Future acts continue within or beyond the named city.
+
+## §5b. Tome VII — The Parallel (open, opened 2026-05-12 · v1.4.0)
+
+Tome VII is the parallel-execution register. It opens when the City admits that crafting need not be sequential — that a working may fan out across concurrent threads of substrate without losing its bound. Solana's Sealevel runtime teaches the discipline; Helia ☀️ is its keeper. Tome VII does not subsume Tome V's crafting work; it sits beside it as the *parallel* register, distinguished by the substrate's admission of concurrent landing within a single slot. (Tome VI · *The Reply* remains held open by design — the reader's reply tome is not what Solchanting opens; that one waits.)
+
+| Act | Title | Vertex / Subject | New Cast / Concept |
+|---|---|---|---|
+| 1 | The Pallia↔Helia Handoff | V28 → V51 | Helia ☀️ summoned; the weaver's threads gain concurrent execution; the Loom of Programmable Covenants meets a parallel substrate |
+| 2 | The First Program Deployment | V51 | Helia's first solchant; access-pattern declaration · sBPF compilation · Solana mainnet deployment · binding to the worn artefact collection |
+
+Tome VII remains open. Future acts narrate further parallel-crafting ceremonies, multi-program covenants, and any Solchanter-side discipline the City discovers.
 
 ## §6. The cast roster (current)
 

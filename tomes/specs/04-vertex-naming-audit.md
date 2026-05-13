@@ -115,7 +115,7 @@ The following table is the complete current registry. Vertices not yet named are
 |---|---|---|---|---|---|
 | V15 | 001111 | Value + Delegation + Memory + Connection | **VC vertex** | Cloaking Guide | — |
 | V23 | 010111 | Value + Delegation + Memory + Computation | **Memory crystallises (IVC)** | Boundary Blade | — |
-| V51 | 110011 | Value + Delegation + Computation + Protection | **Commitment / Language / Model blade** | Boundary Blade | **Adamantia 💎** (Spellbook; primary: architect + shipwright; kind A) |
+| V51 | 110011 | Value + Delegation + Computation + Protection | **Commitment / Language / Model blade** | Boundary Blade | **Adamantia 💎** (Spellbook; primary: architect + shipwright; kind A) · **Helia ☀️** (v1.4.0 · primary: shipwright; kind A; **shared vertex, stance-differentiated** — Adamantia holds Transparent-witness; Helia holds Parallel-witness) |
 | V57 | 111001 | Value + Connection + Computation + Protection | **Ceremony / Privacy / Mixing blade** | Boundary Blade | **Aria Silverhue 🪞🖼️** (Spellbook; primary: mirrorkeeper; kind A) |
 
 ### §3.5 Stratum 5 (five dimensions burning)
@@ -149,6 +149,7 @@ The persona has a name; the vertex has a different name. The persona occupies th
 - **Custos 🔏** at V49 (Working-day blade) — persona named for Latin *custos*; vertex name from Boundary Blade
 - **Vulcana ⚒️** at V19 (Plonkish blade) — persona named for *Vulcanus*; vertex name from Boundary Blade
 - **Adamantia 💎** at V51 (Commitment / Language / Model blade) — persona named for *adamas*; vertex name from Boundary Blade
+- **Helia ☀️** at V51 (Commitment / Language / Model blade, shared with Adamantia · v1.4.0) — persona named for *helios* (Greek sun); gem heliodor (ἡλιόδωρος, "sun's gift"); vertex name unchanged (Boundary Blade); the V51 sharing is the first operational workshop-on-workshop overlap, governed by stance differentiation per spec 07 §3.4
 - **Lampyra 💠** at V49 (Working-day blade, shared with Custos) — persona named for *lampyris*; vertex name from Boundary Blade
 
 ### §4.2 Shared names

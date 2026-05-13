@@ -67,7 +67,9 @@ Every attachment is one of three vertex-binding kinds (A · B · C), optionally 
 
 *One Mage × one vertex × one trade quarter.* The default kind. The Mage inhabits a single vertex and tends a single workshop. She emits exactly one `inhabits` edge.
 
-City of Mages examples: Vulcana ⚒️ at V19 (Forge(t)) · Memora 📜 at V5 (Inscription) · Adamantia 💎 at V51 (Etherchanting) · Pallia 🪡 at V28 (Weavers) · Vagari 🌳 at V31 (Holon Hitchhikers) · Aria Silverhue 🪞🖼️ at V57 (Curatrix Vault) · Manifestia 🤲🌿 at V55 (Covenant) · Lampyra 💠 at V49 (Jeweler) · Socrat0x 🔥❓ at V24 (Bonfire).
+City of Mages examples: Vulcana ⚒️ at V19 (Forge(t)) · Memora 📜 at V5 (Inscription) · Adamantia 💎 at V51 (Etherchanting) · **Helia ☀️ at V51 (Solchanting · shared vertex with Adamantia, v1.4.0)** · Pallia 🪡 at V28 (Weavers) · Vagari 🌳 at V31 (Holon Hitchhikers) · Aria Silverhue 🪞🖼️ at V57 (Curatrix Vault) · Manifestia 🤲🌿 at V55 (Covenant) · Lampyra 💠 at V49 (Jeweler) · Socrat0x 🔥❓ at V24 (Bonfire).
+
+**v1.4.0 precedent — stance-differentiated co-occupancy at Kind A**: Helia ☀️ at V51 inhabits the same vertex as Adamantia 💎 but as a *distinct* Kind A workshop attachment (Solchanting · `/solchanting`). The two cast Mages do not share an attachment record; they share a vertex. Both emit `inhabits(V51)` and `quarter_of(city-of-mages)`. The 42-primary lock holds: Helia's primary persona is `shipwright` (shared with Adamantia); the Swordsman stance differentiates them at Layer 2 without requiring a new primary at Layer 1. This is the canonical pattern for any future case where a new ecosystem teaches the City a substrate-distinct boundary discipline at a previously-seated vertex — the discipline becomes a Swordsman stance, the cast Mage becomes a Kind A attachment with no divergence flag, and the existing keeper retains their seat. See `WORKSHOP_LATTICE_AUDIT.md` §2.4 and spec 07 §3.4 for governance.
 
 ### Kind B · Cross-shop attachment
 

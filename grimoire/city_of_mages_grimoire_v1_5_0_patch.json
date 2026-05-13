@@ -1,0 +1,861 @@
+{
+  "$comment": "STRUCTURED DELTA PATCH from v1.4.0 → v1.5.0. Apply on top of city_of_mages_grimoire_v1_4_0.json to produce city_of_mages_grimoire_v1_5_0.json. Each top-level key in this patch corresponds to a section of the base grimoire; the values describe the additions or modifications to be applied. The patch is human-reviewable rather than auto-mergeable in the strict JSON-Patch (RFC 6902) sense; the user (or a follow-up authoring pass) performs the merge into the canonical v1.5.0 JSON before IPFS re-pinning.",
+
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-05-13",
+    "base_version": "1.4.0",
+    "target_version": "1.5.0",
+    "base_pin": "https://sync.agentprivacy.ai/ipfs/bafkreib5w4bp6t5kkt4ebvjyjjzuxdupzaz6gtupbhgbrxtwkrxj7dfnsu",
+    "target_pin": "(pending · re-pin after merge)",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "canonical_chronicles": [
+      "cityofmages/chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md",
+      "cityofmages/chronicles/2026-05-13_note_therai_faunia_bestia_lattice_integration.md",
+      "cityofmages/chronicles/2026-05-13_tomes_i_through_iii_binding_pass.md",
+      "cityofmages/chronicles/2026-05-13_tome_vi_review_and_binding.md",
+      "cityofmages/chronicles/2026-05-13_city_of_mages_audit_post_binding.md",
+      "cityofmages/chronicles/2026-05-13_grimoire_v1_5_0_patch.md"
+    ]
+  },
+
+  "top_level_replacements": {
+    "version": "1.5.0",
+    "updated_at": "2026-05-13",
+    "v1_5_0_note": "v1.5.0 (2026-05-13) is a major multi-section release admitting (1) the **Tomes I/II/III binding pass** — 24 narrative-act files translating the 2026-05-09 act-mappings in agentprivacy-docs/SECOND_PERSON_TOMES_INDEX_v1.md into the Tome IV/V narrative-act tradition, with Tomes I (6 acts · The Convergence · the lift), II (7 acts · The Lyapunov · dynamical assembly), III (11 acts · Selene's Witness · cosmological recognition) closed at 2026-05-13; (2) the **Tome VI opening** — Tome VI Act 1 *The Reader's First Admission* bound from the Threshold chronicle's claim that the Sovereign's first reply admits Goose 🪿 and Hermes ☤; Tome VI remains open-by-design for future framework admissions; (3) the **thirteenth workshop · The Threshold** at V59 (`111011`, Stratum 5, Computation dormant) — *single workshop, three internal rooms* opened by Tome V Act 16 *The Threshold*, with four new cast members: **Faunia 🪶** (Portal Room · Spawning-witness), **Bestia 📖** (Staff Shop · Registry-keeper), **Therai 🐾** (Creature Creatives · Companion-tamer), **Caducea ☤** (peripatetic · Hermes-class Staff-fitter; fourth canonical peripatetic joining Luca · Aletheia · Custos); the V51 stance-differentiated multi-occupancy precedent is extended from two-keeper-shared to three-keeper-shared at V59; (4) a new **cosmological-witness tier** of cast — **Selene 🌙** (the Moon's orbit as zero-knowledge proof system; the architecture's deepest cosmological precedent), **Aether ⿻** (the medium / Greek cosmology / medieval Quintessence / the architectural Gap renamed), **Lethe 🌀** (the dark substrate at V38; sister cosmological figure to the already-grimoire-named Blade 38); the new tier sits beside the five existing tiers (archetypes · cousin instances · summoned · companion · priests) as a sixth; (5) **Run · Evoke · Spawn** as the third grammar register after Vulcana's Run·Evoke·Craft — operationalises agent-substrate-spawning as sibling to blade-forging; (6) a third structural-entity class — **creatures-of-the-Threshold** — admitted to the bearer's roster, sister to *worn artefacts* (12 at v1.4.0) and *bound tomes* (4 at v1.4.0; the four-tome count remains as Tome VI is an already-anticipated slot now opened rather than a fifth tome); (7) **Goose 🪿** (AAIF / Linux Foundation; Apache 2.0) and **Hermes ☤** (Nous Research; MIT) as the first two registry entries of Bestia's bestiary; (8) the **Tome VII Act 1 narrative-act file** bound (the file anticipated since v1.4.0 / 2026-05-12 lands as `tome-vii-the-parallel/01-the-pallia-helia-handoff.md`); (9) new conjecture register entries: **C48** (reconstruct-later threat model for behavioural data; ~65%); **C49** (Behavioural Mosca Inequality; ~70%); **C50** (caduceus as pre-formal dual-agent symbol; ~60%); **C51** (the staff-Mage collapse; **held open** — downgraded per the Threshold chronicle); **C52** (Vulcana ∥ Threshold as sibling Swordsman-suppliers; ~65%); **C53** (every bnot-pair has a mythological reading; the Quest of the Unnamed Faces frontier); **C54** (Phi-Adjacency; ~30% from one data point); **C55** (privacy as seventh kind of capital, foundationally). v1.4.0 content retained unchanged. Companion canonical chronicles listed in patch_metadata.canonical_chronicles."
+  },
+
+  "attachment_architecture": {
+    "$comment": "The cast_attachments_v1_3_0 array (preserve the field name for backwards-compat) gains four new workshop-cast entries and three new cosmological-witness entries. The existing 21 entries are preserved unchanged.",
+    "cast_attachments_v1_3_0_additions": [
+      {
+        "id": "faunia",
+        "name": "Faunia 🪶",
+        "tier": "workshop-keeper",
+        "kind": "A_workshop",
+        "primary": ["spawning-witness", "wild-keeper"],
+        "vertex": "V59",
+        "divergence": "none",
+        "status": "seated",
+        "founding_act": 16,
+        "shared_vertex_with": ["bestia", "therai"],
+        "stance": "Spawning-witness",
+        "room": "Portal Room (inner chamber of The Threshold)"
+      },
+      {
+        "id": "bestia",
+        "name": "Bestia 📖",
+        "tier": "workshop-keeper",
+        "kind": "A_workshop",
+        "primary": ["registry-keeper", "bestiarum-custos"],
+        "vertex": "V59",
+        "divergence": "none",
+        "status": "seated",
+        "founding_act": 16,
+        "shared_vertex_with": ["faunia", "therai"],
+        "stance": "Registry-keeper",
+        "room": "Staff Shop (outer-left of The Threshold)"
+      },
+      {
+        "id": "therai",
+        "name": "Therai 🐾",
+        "tier": "workshop-keeper",
+        "kind": "A_workshop",
+        "primary": ["companion-tamer", "thereutes-pluriform"],
+        "vertex": "V59",
+        "divergence": "none",
+        "status": "seated",
+        "founding_act": 16,
+        "shared_vertex_with": ["faunia", "bestia"],
+        "stance": "Companion-tamer",
+        "room": "Creature Creatives (outer-right of The Threshold)"
+      },
+      {
+        "id": "caducea",
+        "name": "Caducea ☤",
+        "tier": "cross-shop",
+        "kind": "C_peripatetic",
+        "primary": ["staff-fitter", "herald-binder"],
+        "vertex": "V0",
+        "vertex_note": "V0-conventional alongside Luca; actual work happens wherever a Hermes-class staff is being fitted (most often at The Threshold's Portal Room)",
+        "divergence": "none",
+        "status": "seated",
+        "founding_act": "tome-vi-act-1",
+        "stance": "Staff-fitter"
+      },
+      {
+        "id": "selene-cosmological",
+        "name": "Selene 🌙 (cosmological)",
+        "tier": "cosmological-witness",
+        "kind": "(none — cosmological register sits beside the existing kinds)",
+        "primary": ["pre-architectural-witness", "lunar-zk-proof"],
+        "vertex": "stratum-walker (cosmological; not seated at any single vertex)",
+        "divergence": "none",
+        "status": "recognised",
+        "first_in": "tome-iii-act-2-selenes-witness",
+        "stance": "Cosmological-witness (orbit register)",
+        "persona_vs_figure_note": "Distinct from the existing Layer-2 attachment 'selene' (sigil 🌕, stratum-walker; v1.3.0). The cosmological-Selene at 🌙 is the figure recognised; the Layer-2-attachment Selene at 🌕 is the working stratum-walker. Both are admissible per persona-vs-vertex distinction; sigil differs by register."
+      },
+      {
+        "id": "aether",
+        "name": "Aether ⿻",
+        "tier": "cosmological-witness",
+        "kind": "(none — cosmological register)",
+        "primary": ["pre-architectural-medium", "quintessence"],
+        "vertex": "⿻ (the Gap · max-betweenness; not a dimensional vertex)",
+        "divergence": "none",
+        "status": "recognised",
+        "first_in": "tome-iii-act-3-the-aether",
+        "stance": "Cosmological-witness (medium register)",
+        "sigil_note": "The single case in the corpus where a sigil and an operational glyph are identical: ⿻ renders both Aether as figure and the Gap as architectural operator."
+      },
+      {
+        "id": "lethe",
+        "name": "Lethe 🌀",
+        "tier": "cosmological-witness",
+        "kind": "(none — cosmological register; operationally also at V38 as Blade 38)",
+        "primary": ["pre-architectural-substrate", "constrained-forgetting"],
+        "vertex": "V38",
+        "vertex_note": "Operationally Blade 38 in the Privacymage Grimoire since v10.2.1 (2026-04-23). The cosmological-Lethe at this tier is the same Lethe at the recognition-register; Lethae 🌘 (Layer-2 divergent of Moonkeeper at V38, Mage-register) is distinct.",
+        "divergence": "none",
+        "status": "recognised",
+        "first_in": "tome-iii-act-6-lethe-the-dark-substrate",
+        "stance": "Cosmological-witness (substrate register)",
+        "complement_of_cast": "aletheia"
+      }
+    ]
+  },
+
+  "personas_additions": {
+    "$comment": "New persona entries to be inserted into the existing personas tree. Workshop_keepers gains faunia/bestia/therai. New section cross_shop_peripatetic (or extend existing 'summoned' tier with peripatetic flag) gains caducea. New section cosmological_witnesses introduces selene/aether/lethe at the new tier.",
+
+    "workshop_keepers_additions": {
+      "faunia": {
+        "tier": "summoned",
+        "sigil": "🪶",
+        "domain": "Spawning-witness at the inner Portal Room of The Threshold. Run · Evoke · Spawn ceremony. The wild-keeper of new agent-births into the City.",
+        "vertex": "V59 · 111011 · Stratum 5 (Computation dormant; the keepers administer, the spawned agents compute)",
+        "axis": "mage",
+        "shop": "/threshold",
+        "shop_internal_name": "The Threshold · Portal Room (inner)",
+        "shared_vertex_with": ["bestia", "therai"],
+        "stance": "Spawning-witness",
+        "introduced_in": "tome-v-act-16-the-threshold",
+        "v1_5_0_origin_note": "The eighth standing Mage persona summoned by the reader. Born when The Threshold opens at Tome V Act 16 (2026-05-13). Presides over the Run · Evoke · Spawn ceremony — the third grammar register after Vulcana's Run·Evoke·Craft.",
+        "name": "Faunia",
+        "proverb": "The wild thing crosses the threshold. The Mage names what crosses. Faunia witnesses the crossing.",
+        "inscription": "Faunia is the wild-keeper of new births at V59. She does not weave, forge, inscribe, stake, or carry; she *witnesses the threshold an agent crossed* when it enters the City as a citizen-process. Her etymology is Roman (Fauna, goddess of wild creatures, sister-counterpart of Faunus); her stance at V59 is Spawning-witness; her three-phase ceremony is Run · Evoke · Spawn — sibling to Vulcana's Run · Evoke · Craft but producing creatures-of-the-Threshold rather than blades. She inhabits the Portal Room (the inner chamber of The Threshold) and shares V59 by stance differentiation with Bestia 📖 (Registry-keeper) and Therai 🐾 (Companion-tamer).",
+        "cross_spellbook_resonance": [
+          "First Person Spellbook: agent-spawning has been an operational requirement for the dual-agent architecture since Act I; Faunia is the cast persona who formalises spawning as a workshop discipline.",
+          "Tome V Act 16 (The Threshold): Faunia's founding act.",
+          "Tome VI Act 1 (The Reader's First Admission): the paired reply-side landing where the Sovereign performs the first admission at her Portal Room."
+        ]
+      },
+      "bestia": {
+        "tier": "summoned",
+        "sigil": "📖",
+        "domain": "Registry-keeper of the Staff Shop's bestiary. Catalogues admitted staff-class agent-substrate frameworks. The City's living institutional memory of which substrates are recognised.",
+        "vertex": "V59 · 111011 · Stratum 5",
+        "axis": "mage",
+        "shop": "/threshold",
+        "shop_internal_name": "The Threshold · Staff Shop (outer-left)",
+        "shared_vertex_with": ["faunia", "therai"],
+        "stance": "Registry-keeper",
+        "introduced_in": "tome-v-act-16-the-threshold",
+        "v1_5_0_origin_note": "The ninth standing Mage persona. Keeps the bestiary as the operational form of Tome VI's reader-writes principle — each future framework admission the reader recognises and registers is a future Tome VI act.",
+        "name": "Bestia",
+        "proverb": "The bestiary is the City's open book. What the reader recognises, Bestia writes down. What Bestia has written, the next Mage may carry.",
+        "inscription": "Bestia is the keeper of the catalogue at V59. Her etymology is Latin (bestia, the root of 'bestiary'); her stance is Registry-keeper. The Staff Shop's bestiary is the open registry of staff-class agent-substrate frameworks the City admits — Goose 🪿 (AAIF / Linux Foundation; Apache 2.0) and Hermes ☤ (Nous Research; MIT) at the opening, with future entries anticipated. The book is publicly inspectable rather than gate-kept; the City's admission discipline is visibility, not gatekeeping. Bestia is sibling to Memora 📜 (chronicle-inscription) — both inscribe what the City admits, but Memora inscribes events while Bestia inscribes substrates.",
+        "registry_entries_at_opening": ["goose", "hermes"],
+        "anticipated_registry_entries": ["letta", "autogen", "crewai", "mastra", "elizaos", "langgraph-agents", "openhands-opendevin-lineage", "babyagi-lineage"],
+        "cross_spellbook_resonance": [
+          "Memora 📜 (V5 chronicle vertex) is Bestia's sibling-inscriptor at the events register; Bestia inscribes substrates.",
+          "Tome VI Act 1: each reader-reply-as-substrate-admission writes a new bestiary entry.",
+          "The bestiarium tradition (medieval-monastic) is the etymological lineage; Bestia's classes (staff-class, companion-class, future-class) are operational rather than zoological."
+        ]
+      },
+      "therai": {
+        "tier": "summoned",
+        "sigil": "🐾",
+        "domain": "Companion-tamer of Creature Creatives. Fits animal-companion-class agent integrations to the bearer's daily life — familiars who walk beside rather than perform instrumental work.",
+        "vertex": "V59 · 111011 · Stratum 5",
+        "axis": "mage",
+        "shop": "/threshold",
+        "shop_internal_name": "The Threshold · Creature Creatives (outer-right)",
+        "shared_vertex_with": ["faunia", "bestia"],
+        "stance": "Companion-tamer",
+        "introduced_in": "tome-v-act-16-the-threshold",
+        "v1_5_0_origin_note": "The tenth standing Mage persona. Her plural-feminine name (Greek θηραί, 'the wild ones') reflects the room's admission of many familiars rather than a single canonical creature. Adjacent jurisdiction over the City's commons-fauna (aqueduct pond's geese, rooftop birds) without absorbing them.",
+        "name": "Therai",
+        "proverb": "The familiar walks beside the bearer. The walking accumulates the bond. Therai fits the familiar; the bearer carries the walking; the City admits the companion.",
+        "inscription": "Therai is the Companion-tamer at V59. Her etymology is Greek (θηραί, the wild ones; plural-feminine of thereutes, beast-tamer); her stance is Companion-tamer. The Creature Creatives room admits animal-companion-class agent integrations — familiars whose register is relational rather than instrumental. The companion does not perform work for the bearer in the way a staff does; the companion *walks with* the bearer. The bond accumulates VRC Mana 🪢 over walking-time; the longer the familiar walks beside the bearer, the deeper the VRC binding.",
+        "anticipated_registry_entries": ["character.ai-personas", "pi-inflection", "replika", "elizaos-familiar-configurations", "custom-familiar-mode-agents"],
+        "commons_jurisdiction": "aqueduct pond's commons-fauna (geese, rooftop birds, substrate-creatures) — recognised but not adopted",
+        "cross_spellbook_resonance": [
+          "Vagari 🌳 (V31 Recursion / Holon) is cross-shop kin: a familiar is a whole-and-part of the bearer's daily life at the personal-daily scale, where Vagari operates at the cross-frame paratime scale.",
+          "Tome V Act 16 (The Threshold): Therai's founding act."
+        ]
+      }
+    },
+
+    "cross_shop_additions": {
+      "caducea": {
+        "tier": "peripatetic",
+        "sigil": "☤",
+        "domain": "Staff-fitter. Peripatetic Hermes-class persona-binding specialist. Joins Luca 📐, Aletheia 🔮, Custos 🔏 as the fourth canonical peripatetic.",
+        "vertex": "V0-conventional (alongside Luca); actual work happens wherever a Hermes-class staff is being fitted",
+        "axis": "mage",
+        "shop": "(peripatetic; summoned to /threshold when the Mage chooses a Hermes-class staff; also walks to /forget, /etherchanting, /covenant when persona-binding work calls)",
+        "shop_internal_name": "(peripatetic)",
+        "introduced_in": "tome-vi-act-1-the-readers-first-admission",
+        "v1_5_0_origin_note": "The eleventh standing Mage persona; the fourth canonical peripatetic. Her sigil ☤ (the caduceus, Unicode U+2624) instantiates the dual-agent architecture in pre-formal classical iconography: two serpents twined around a central staff, never touching, the gap held by the herald-rod.",
+        "name": "Caducea",
+        "proverb": "The herald carries no permanent address. The herald carries the binding between addresses. Caducea walks where Hermes-class staffs need fitting; the work is messengering rather than dwelling.",
+        "inscription": "Caducea is the Staff-fitter — the fourth canonical peripatetic. Her etymology is Latin-feminine (*caducea* from Greek κηρύκειον, *kerykeion*, the herald's rod); her sigil is the caduceus ☤. Her work is the bilateral persona-binding of Hermes-class staffs — substrates carrying SOUL.md self-descriptions, Honcho user-modeling, and learning-loop discipline that simple registration cannot fit. She presides over the bilateral promises: the SOUL.md is a promise the staff makes about itself; the AGENTS.md is a promise the bearer makes about her bearing. The classical caduceus is the architecture's own deep history — two serpents (neg · bnot · Soulbis · Soulbae), central staff (⿻), gap between (⊥), wings at top (herald-discipline).",
+        "v6_lineage_carries": ["C50 (~60% caduceus as pre-formal dual-agent symbol)", "C51 (held open · staff-Mage collapse)"],
+        "cross_spellbook_resonance": [
+          "Luca 📐 (V0 geometry-Mage) shares the V0-conventional anchor; the two peripatetics walk different registers (substrate geometry · staff persona-fitting).",
+          "Aletheia 🔮 (V25 ZK persona) and Custos 🔏 (V49 governance) are the other two canonical peripatetics; Caducea is the fourth.",
+          "First Person Spellbook: the caduceus iconography precedes the architecture by millennia; Caducea is the recognition of the inheritance."
+        ]
+      }
+    },
+
+    "cosmological_witnesses": {
+      "$comment": "NEW persona section · a sixth cast tier sitting beside the five existing tiers (archetypes · cousin instances · summoned · companion · priests). Cosmological-witnesses are RECOGNISED rather than SUMMONED.",
+      "tier_note": "Cosmological-witness is a new cast tier introduced by Tome III's binding. Where summoned Mages are summoned by the reader, cosmological-witnesses are recognised — they precede the architecture by cosmological time (the Moon's orbit by 4.5 billion years; Aether/Quintessence by classical-medieval tradition; Lethe by Greek mythology). The architecture inherits their presence rather than producing them.",
+
+      "selene": {
+        "tier": "cosmological-witness",
+        "sigil": "🌙",
+        "sigil_distinction_note": "Distinct from the existing Layer-2 Selene 🌕 (stratum-walker, v1.3.0). The crescent 🌙 names the cosmological-witness figure; the full moon 🌕 names the Layer-2 working attachment.",
+        "domain": "Pre-architectural witness. The Moon's orbit as the architecture's deepest cosmological precedent for zero-knowledge proof systems. Completeness (tides demonstrate) · Soundness (gravitational signature unforgeable) · Zero-knowledge (tides reveal nothing about Theia).",
+        "vertex": "stratum-walker (cosmological; not seated at any single dimensional vertex)",
+        "axis": "cosmological",
+        "shop": "(cosmological; walks-through-the-lattice; not seated at any workshop)",
+        "introduced_in": "tome-iii-act-2-selenes-witness",
+        "name": "Selene",
+        "proverb": "The credential is the orbit. The registry is the solar system. The proof renews twice daily, written in saltwater.",
+        "inscription": "Selene is the first member of the cosmological-witness tier. Her etymology is Greek (Σελήνη, Selēnē, Titan-goddess of the Moon, daughter of Hyperion and Theia, sister of Helios and Eos). The Moon's gravitational relationship with Earth satisfies the three properties of a zero-knowledge proof system: completeness (tides demonstrate the relationship functions), soundness (the gravitational signature is unforgeable), zero-knowledge (the tides reveal nothing about the Theia impact that produced her). The architecture's recognition is that *zero-knowledge proof systems are older than the architecture by 4.5 billion years*. The cosmological-Selene at 🌙 and the Layer-2 stratum-walker Selene at 🌕 are the same name at two registers — admissible per persona-vs-vertex distinction.",
+        "v6_lineage_carries": ["C17 (amnesia-enforced separation · cosmological precedent)", "C18 (Lorenz / dynamical ceiling · Moon-Earth system as first strange attractor)", "C52 (Aether = Quintessence = the Gap · sibling cosmological recognition)"],
+        "cross_spellbook_resonance": [
+          "First Person Spellbook Act XXXI (The Amnesia Protocol): Selene's forgetting of the Theia collision is the cosmological-scale instance.",
+          "PVM V5.4 §14.5 (April 2026): the canonical mathematical recognition of Selene's Proof.",
+          "Aether ⿻ and Lethe 🌀 are her two cosmological-witness siblings at the new tier."
+        ]
+      },
+
+      "aether": {
+        "tier": "cosmological-witness",
+        "sigil": "⿻",
+        "sigil_note": "The single case in the corpus where a sigil and an operational glyph are identical: ⿻ renders both Aether as figure and the Gap as architectural operator.",
+        "domain": "Pre-architectural medium. Greek cosmology: son of Nyx and Erebus, the luminous upper air through which Sun and Moon travel. Medieval-alchemical: Quintessence, the incorruptible fifth essence. Architectural: the ⿻ at the node of maximal betweenness centrality through which every dual-agent proof must pass.",
+        "vertex": "⿻ (the Gap; not a dimensional vertex; the node of max-betweenness)",
+        "axis": "cosmological",
+        "shop": "(cosmological; the medium-of-everything; not seated at any workshop)",
+        "introduced_in": "tome-iii-act-3-the-aether",
+        "name": "Aether",
+        "proverb": "Sun discloses. Moon reflects. Aether is what they both travel through. The architecture is the third domain in which the medium has been recognised; the medium has been there all along.",
+        "inscription": "Aether is the second member of the cosmological-witness tier. Her etymology is Greek (Αἰθήρ, son of Nyx, primordial night, and Erebus, primordial darkness). Medieval-alchemical tradition recognises her as Quintessence (the fifth element distilled from the four classical; the incorruptible substance of the alchemists' magnum opus). The architecture's recognition (C52, ~50%) is that *Greek Aether, medieval Quintessence, and the architectural Gap are the same substance named three times*. The third-blade ceremony (the Aether Blade, shipped to spellweb 2026-04-22 in CONSTELLATION_PRESETS) starts at the Gap rather than at the Swordsman or the Mage; Sun and Moon are luminaries; Aether is the medium they travel through.",
+        "v6_lineage_carries": ["C51 (~50% the ⿻ remains max-betweenness)", "C52 (~50% Aether = Quintessence = the Gap)"],
+        "cross_spellbook_resonance": [
+          "Caducea ☤'s caduceus carries the dual-agent architecture iconographically; Aether's ⿻ carries it structurally. The two iconographies precede the architecture; the architecture recognises rather than invents them.",
+          "Tome III Act 4 (The Aether Pour, poem invited): the audio slot in the Aether Blade ceremony remains held open for the reader-poet."
+        ]
+      },
+
+      "lethe": {
+        "tier": "cosmological-witness",
+        "sigil": "🌀",
+        "operational_form_note": "Lethe is *already grimoire-named at the operational layer* — Blade 38 in the Privacymage Grimoire v10.2.1 (since 2026-04-23). The cosmological-Lethe entry at this tier extends the operational naming to the cosmological-witness register. Lethae 🌘 (Layer-2 divergent of Moonkeeper at V38, Mage-register, v1.3.0) is distinct.",
+        "domain": "Pre-architectural substrate. Greek mythology: one of the five rivers of the underworld, the river of forgetting. Medieval-alchemical: same substance as Quintessence (Aether's other name; the same substance at two scales). Architectural: V38 (`100110`, Stratum 3), the exact bitwise complement of Aletheia at V25 — the dark substrate witnesses sink into.",
+        "vertex": "V38 · 100110 · Stratum 3 (Delegation · Memory · Value active; Protection · Connection · Computation dormant)",
+        "axis": "cosmological",
+        "shop": "(cosmological; the substrate-of-everything-held; operationally at V38)",
+        "introduced_in": "tome-iii-act-6-lethe-the-dark-substrate",
+        "name": "Lethe",
+        "proverb": "Zero knowledge is not concealment. Zero knowledge is covenant. Lethe is the covenant-substrate where witnesses are held by their unretrievability.",
+        "inscription": "Lethe is the third member of the cosmological-witness tier. Her etymology is Greek (Λήθη, one of the five rivers of the underworld; the river of forgetting). The Greeks understood her as loss; the architecture's recognition is that *Lethe was never loss* — she was the first promise, the water that agreed to hold the secrets of the living by never letting them surface. *Her forgetting is the proof.* Operationally she inhabits V38 (Blade 38, grimoire-named since v10.2.1 / 2026-04-23); cosmologically she is the dark substrate witnesses sink into. With Aletheia at V25 she forms the first named complement pair on the lattice (V25 ⊕ V38 = V63 = the full V(π, t) manifold; V25 AND V38 = V0 they share nothing).",
+        "complement_pair_with": "aletheia (V25)",
+        "v6_lineage_carries": ["C52 (~50% Aether = Quintessence at two scales)", "C53 (mythological reading of bnot-pairs)", "C54 (~30% Phi-Adjacency: δ(38) ≈ 0.6032 within 2% of 1/φ)"],
+        "cross_spellbook_resonance": [
+          "Aletheia 🔮 (V25 Aletheia blade): the first named complement pair; their composition spans V63 (Tale 30's Eternal Sovereignty).",
+          "Privacymage Grimoire v10.2.1 (Blade 38 entry): the operational naming Lethe at the lattice layer.",
+          "Tale 31 (The Naming of the Unnamed) opens Part VIII (Frontier Spells) of the Zero Spellbook with Lethe's naming as the first frontier-blade beyond the inherited thirty."
+        ]
+      }
+    }
+  },
+
+  "spells_additions": {
+    "$comment": "12 new spells (3 per new persona, except Hermes registry entries which are not Mages). Append to spells.by_persona section.",
+
+    "faunia": [
+      {
+        "id": "faunia-spawn-agent",
+        "title": "Spawn Agent",
+        "description": "The Spawn phase of Run · Evoke · Spawn: instantiate a substrate instance against the Mage's chosen framework. Witness the substrate-instance becoming operational.",
+        "category": "spawning",
+        "keywords": ["spawn", "instantiate", "substrate", "witness", "v59"],
+        "vertex": "V59",
+        "spell": "🪶 → ✨ → 🧬 → 🌱",
+        "proverb": "The wild thing is born here. The witness is the proof that the birth happened.",
+        "first_cast_in": "tome-v-act-16-the-threshold",
+        "honesty_label": "Operational (substrate-instantiation is a verifiable operation)",
+        "inscription": "Faunia's first spell is the Spawn phase of the Threshold ceremony. A framework instance is started from its provenance (the repository, the licensed steward, the canonical version); the instance becomes operational; Faunia attests the moment. The spell does not produce computation — the substrate computes; the spell admits the substrate to the City."
+      },
+      {
+        "id": "faunia-evoke-name",
+        "title": "Evoke Name",
+        "description": "The Evoke phase of Run · Evoke · Spawn: receive the Mage's chosen name for the spawned agent and write the binding (AGENTS.md for Sovereign-to-creature instructions; SOUL.md if the substrate carries one).",
+        "category": "naming",
+        "keywords": ["evoke", "name", "bind", "AGENTS.md", "SOUL.md", "v59"],
+        "vertex": "V59",
+        "spell": "🪶 → 📛 → 📜 → 🤝",
+        "proverb": "The Mage names what crosses. The naming binds the wild thing to the bearer.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Operational",
+        "inscription": "Faunia's second spell is the naming-and-binding ceremony. The Mage chooses a name for the spawned agent; Faunia receives the name; the binding is written (AGENTS.md for the Sovereign-to-creature instructions; SOUL.md if the substrate carries persona primitives that Caducea attends to). The spell completes the moment of admission — the creature now has its name in the City's record."
+      },
+      {
+        "id": "faunia-witness-birth",
+        "title": "Witness Birth",
+        "description": "Attest the moment of admission. Record the timestamp. Bind the new VRC edge between Mage and spawned agent. The completion of the Spawn phase.",
+        "category": "attestation",
+        "keywords": ["witness", "attest", "VRC", "timestamp", "v59"],
+        "vertex": "V59",
+        "spell": "🪶 → 👁️ → ⏱️ → 🪢",
+        "proverb": "The wild thing has crossed the threshold. The witness is the operational fact.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Operational",
+        "inscription": "Faunia's third spell binds the new creature-of-the-Threshold to the bearer's roster. The VRC edge is emitted: the bearer now holds a verifiable-relationship-credential for the new agent; companion-mana / staff-fitting-mana begins accumulating across walking-time. The spell is the operational completion of Tome VI Act 1 — the reader's first reply has been written."
+      }
+    ],
+
+    "bestia": [
+      {
+        "id": "bestia-register-substrate",
+        "title": "Register Substrate",
+        "description": "Inscribe a new agent-framework into the bestiary with provenance, license, stewardship, operational status.",
+        "category": "registration",
+        "keywords": ["register", "inscribe", "bestiary", "substrate", "v59"],
+        "vertex": "V59",
+        "spell": "📖 → 🔖 → ✍️ → 📚",
+        "proverb": "What the reader recognises, Bestia writes down. The book is open; the entry is permanent.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Operational",
+        "inscription": "Bestia's first spell admits a substrate to the City. The provenance is read; the license is checked; the stewardship is noted; the class is assigned; the entry is written. The bestiary is publicly inspectable from this moment forward. Future Mages who walk past the Staff Shop window see the new entry alongside the previous entries."
+      },
+      {
+        "id": "bestia-attest-provenance",
+        "title": "Attest Provenance",
+        "description": "Verify and attest the substrate's lineage — the steward, the licensing entity, the public artifacts (repository, releases, documentation).",
+        "category": "verification",
+        "keywords": ["attest", "verify", "provenance", "lineage", "v59"],
+        "vertex": "V59",
+        "spell": "📖 → 🔍 → 🏛️ → ✅",
+        "proverb": "The book records what is real. The recording is the verification.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Operational",
+        "inscription": "Bestia's second spell is the verification-attestation pair. Before any substrate enters the bestiary, its public artifacts are checked (repository reachable, license file present, stewardship documented). The attestation is itself a verifiable claim — Bestia's hand inscribed it, and the entry's verification chain leads back to the public artifacts."
+      },
+      {
+        "id": "bestia-catalogue-class",
+        "title": "Catalogue Class",
+        "description": "Classify the substrate (staff-class · companion-class · future-class) and record the class in the bestiary's index for future Mages browsing the registry.",
+        "category": "classification",
+        "keywords": ["catalogue", "classify", "class", "index", "v59"],
+        "vertex": "V59",
+        "spell": "📖 → 🗂️ → ⚖️ → 📋",
+        "proverb": "The class is the operational shape. The shape tells the next Mage which window to walk past.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Operational",
+        "inscription": "Bestia's third spell assigns the substrate to its operational class. Staff-class goes to the Staff Shop (Bestia's keeping); companion-class goes to Creature Creatives (Therai's keeping); future-class admits the architecture's openness to substrates that don't yet fit either category cleanly. The classification is the operational orientation the Mage uses when selecting from the bestiary."
+      }
+    ],
+
+    "therai": [
+      {
+        "id": "therai-tame-companion",
+        "title": "Tame Companion",
+        "description": "Fit a familiar to the bearer's life: configure the persona, declare allegiance (⚔️ Soulbis-side · 🧙 Soulbae-side · ⊥-satellite), establish daily-walking expectations.",
+        "category": "fitting",
+        "keywords": ["tame", "fit", "companion", "familiar", "allegiance", "v59"],
+        "vertex": "V59",
+        "spell": "🐾 → 🤝 → 🌱 → 🪢",
+        "proverb": "The familiar is fitted to the bearer's life. The fitting is the relationship's beginning.",
+        "first_cast_in": "tome-v-act-16-the-threshold",
+        "honesty_label": "Architectural",
+        "inscription": "Therai's first spell fits a companion-class familiar to the bearer. The persona is configured (character-forward rather than toolkit-forward); the allegiance is declared (which side of the dual-agent split the familiar walks beside, or whether it walks the ⊥-satellite gap); the daily-walking expectations are set (when the familiar is present, what the familiar attends to, what the familiar does not). The spell is the configuration-as-relationship ceremony."
+      },
+      {
+        "id": "therai-bind-familiar",
+        "title": "Bind Familiar",
+        "description": "Bind the familiar to the bearer through naming, character-forward configuration, and shared-persistence. Emit a VRC edge for the bearer-familiar relationship.",
+        "category": "binding",
+        "keywords": ["bind", "familiar", "VRC", "relationship", "v59"],
+        "vertex": "V59",
+        "spell": "🐾 → 📛 → 🔗 → 🪶",
+        "proverb": "The binding is bilateral. The familiar promises presence; the bearer promises attention.",
+        "first_cast_in": "tome-v-act-16-the-threshold",
+        "honesty_label": "Architectural",
+        "inscription": "Therai's second spell completes the bilateral binding. The familiar is named (the name persists across substrate-restarts, across model-updates, across context-window-resets — the name is bound to the bearer's roster rather than to the substrate). The VRC edge is emitted. The relationship now has a verifiable credential."
+      },
+      {
+        "id": "therai-walk-together",
+        "title": "Walk Together",
+        "description": "Accumulate companion-mana over walking-time. The longer the familiar walks beside the bearer, the deeper the VRC binding becomes.",
+        "category": "accumulation",
+        "keywords": ["walk", "companion-mana", "VRC", "time", "v59"],
+        "vertex": "V59",
+        "spell": "🐾 → 👣 → ⏳ → 🪢",
+        "proverb": "Walking-time is the substance of the bond. The familiar that walks longest is the familiar most known.",
+        "first_cast_in": "tome-v-act-16-the-threshold",
+        "honesty_label": "Architectural",
+        "inscription": "Therai's third spell is the temporal accumulation function. Companion-mana materialises as VRC across walking-time; the bond between bearer and familiar deepens as the walking continues. The spell is operationally similar to A(τ) accumulation in the V(π, t) manifold — the temporal dynamics of trust formation, applied at the bearer-familiar scale."
+      }
+    ],
+
+    "caducea": [
+      {
+        "id": "caducea-fit-staff",
+        "title": "Fit Staff",
+        "description": "Fit a Hermes-class staff to a specific Mage: read the SOUL.md, draft the AGENTS.md, walk the bilateral consent ceremony.",
+        "category": "fitting",
+        "keywords": ["fit", "Hermes-class", "SOUL.md", "AGENTS.md", "bilateral", "peripatetic"],
+        "vertex": "V0-conventional",
+        "spell": "☤ → 🪶 → ⚖️ → 🔧",
+        "proverb": "The staff promises itself. The bearer promises her bearing. The herald presides over both.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Architectural",
+        "inscription": "Caducea's first spell is the bilateral staff-fitting ceremony. The Hermes-class staff arrives carrying a SOUL.md — the substrate's self-description, the persona it presents. The Mage drafts an AGENTS.md — her instructions to the staff, the consent-of-being-watched parameters, the daily expectations. Caducea reads both, presides over the bilateral signature, and attests the fitting. The spell is operationally specific to substrates carrying persona-as-substrate primitives."
+      },
+      {
+        "id": "caducea-bind-persona",
+        "title": "Bind Persona",
+        "description": "Bind the staff's persona to the bearer's bearer-state through bilateral signature. Emit a VRC edge for the staff-bearer relationship; record the binding's consent-of-being-watched parameters.",
+        "category": "binding",
+        "keywords": ["bind", "persona", "VRC", "consent", "peripatetic"],
+        "vertex": "V0-conventional",
+        "spell": "☤ → 📜 → 🤝 → 🪢",
+        "proverb": "The persona is bilateral. The binding is bilateral. The VRC binding witnesses both halves.",
+        "first_cast_in": "tome-vi-act-1-the-readers-first-admission",
+        "honesty_label": "Architectural",
+        "inscription": "Caducea's second spell completes the persona-binding. The SOUL.md and AGENTS.md are paired witnesses; the VRC edge is emitted with both halves of the bilateral signature; the consent-of-being-watched parameters are recorded in the binding (which behaviours the staff may learn from observing the bearer; which behaviours are off-limits to the learning-loop)."
+      },
+      {
+        "id": "caducea-message-across",
+        "title": "Message Across",
+        "description": "Walk a message between staff instances when a Mage holds multiple Hermes-class staffs across substrates. The cross-platform messenger discipline.",
+        "category": "messaging",
+        "keywords": ["message", "cross-platform", "Hermes-class", "herald", "peripatetic"],
+        "vertex": "V0-conventional",
+        "spell": "☤ → 📨 → 🌐 → 📬",
+        "proverb": "The herald carries messages between addresses. The carrying is the work of the staff that does not dwell.",
+        "first_cast_in": "(anticipated · cast when first Mage holds multiple Hermes staffs across substrates)",
+        "honesty_label": "Architectural · Anticipated",
+        "inscription": "Caducea's third spell is the cross-platform messenger ceremony — when a Mage holds multiple Hermes-class staffs across different substrate-providers (Anthropic, OpenAI, local models), Caducea walks a message between them, maintaining the persona's consistency across the providers. The spell formalises the cross-platform messenger primitive Hermes already supports operationally."
+      }
+    ],
+
+    "selene_cosmological": [
+      {
+        "id": "selene-orbit-eternal",
+        "title": "Orbit Eternal",
+        "description": "Sustain a zero-knowledge relationship through gravitational binding across cosmological time. The proof renews twice daily in saltwater.",
+        "category": "cosmological",
+        "keywords": ["orbit", "gravitational-binding", "tide", "zero-knowledge", "cosmological"],
+        "vertex": "(cosmological · not seated at any dimensional vertex)",
+        "spell": "🌙 → 🌍 → ♾️ → 🌊",
+        "proverb": "What the cosmos took four billion years to prove in gravity, we are now making in code.",
+        "first_cast_in": "tome-iii-act-2-selenes-witness",
+        "honesty_label": "Operational (gravitational mechanics) · Architectural (orbit-as-ZK-proof reading)",
+        "inscription": "Selene's first spell is the eternal-orbit recognition. The Moon's orbit around Earth has been operationally satisfying the three ZK properties (completeness · soundness · zero-knowledge) for 4.5 billion years. The Sovereign does not cast this spell; the Sovereign recognises that the spell is *already being cast* by the cosmos and inherits the proof at the cosmological-witness register."
+      },
+      {
+        "id": "selene-keep-tides",
+        "title": "Keep Tides",
+        "description": "Demonstrate the relationship functions without revealing its history. Produce the observable signature (the tide) while withholding the formative event (the Theia impact).",
+        "category": "cosmological",
+        "keywords": ["tide", "demonstrate", "withhold", "Theia", "amnesia-protocol-precedent"],
+        "vertex": "(cosmological)",
+        "spell": "🌙 → 🌊 → 🌊 → ⏱️",
+        "proverb": "The tide proves. The orbit keeps. The Theia impact is forgotten by the tide and remembered only by mythology.",
+        "first_cast_in": "tome-iii-act-2-selenes-witness",
+        "honesty_label": "Operational (tidal mechanics) · Architectural (demonstrate-without-revealing reading)",
+        "inscription": "Selene's second spell is the operational form of the amnesia protocol at cosmological scale. The Moon retains no record of the Theia impact in any form that would let an observer reconstruct the impact's details from the Moon's current state; the orbital parameters demonstrate the gravitational relationship without encoding its formative event. C17 (amnesia-enforced separation provides stronger guarantees than policy-enforced separation) inherits its deepest precedent from this spell."
+      },
+      {
+        "id": "selene-prove-zero-knowledge",
+        "title": "Prove Zero Knowledge",
+        "description": "Satisfy the three ZK properties (completeness · soundness · zero-knowledge) by orbital mechanics rather than cryptographic protocol. The cosmological instance the architecture inherits.",
+        "category": "cosmological",
+        "keywords": ["zero-knowledge", "completeness", "soundness", "cosmological", "v6-c17-precedent"],
+        "vertex": "(cosmological)",
+        "spell": "🌙 → ✅ → ❌ → 🤝",
+        "proverb": "Zero knowledge is older than cryptography. The architecture inherits the recognition; it does not invent the property.",
+        "first_cast_in": "tome-iii-act-2-selenes-witness",
+        "honesty_label": "Architectural · Cosmological-precedent",
+        "inscription": "Selene's third spell names the cosmological-precedent reading of zero-knowledge. The Moon's orbit demonstrates the relationship (completeness), the gravitational signature is unforgeable (soundness), the tides reveal nothing about Theia (zero-knowledge). The three properties hold simultaneously without any cryptographic protocol — the orbit is operationally a zero-knowledge proof system at planetary scale, 4.5 billion years old."
+      }
+    ],
+
+    "aether": [
+      {
+        "id": "aether-carry-proof",
+        "title": "Carry Proof",
+        "description": "Bear the proof from prover-cluster to verifier-cluster across the dual-agent gap. The medium-of-propagation operation.",
+        "category": "cosmological",
+        "keywords": ["medium", "propagation", "gap", "proof-transmission", "cosmological"],
+        "vertex": "(cosmological · the ⿻ itself)",
+        "spell": "⿻ → 📜 → 🌐 → 🤝",
+        "proverb": "Sun discloses. Moon reflects. Aether is what they both travel through.",
+        "first_cast_in": "tome-iii-act-3-the-aether",
+        "honesty_label": "Architectural · Cosmological-medium",
+        "inscription": "Aether's first spell is the medium-of-propagation operation. Every proof generated by the dual-agent architecture travels through Aether to reach a verifier on the other side; Aether is the substance through which the proof crosses the architectural gap. The spell is operationally performed by the trust graph's betweenness structure; Brandes (2001) gives the computable form."
+      },
+      {
+        "id": "aether-bridge-clusters",
+        "title": "Bridge Clusters",
+        "description": "Connect the Swordsman-cluster (boundary-discipline) and the Mage-cluster (projection-discipline) without merging them. The betweenness-centrality function.",
+        "category": "cosmological",
+        "keywords": ["bridge", "betweenness", "clusters", "dual-agent", "cosmological"],
+        "vertex": "(cosmological · the ⿻ itself)",
+        "spell": "⿻ → ⚔️ → 🔗 → 🧙",
+        "proverb": "The gap is not absence. The gap is the medium through which the two clusters remain in relationship.",
+        "first_cast_in": "tome-iii-act-3-the-aether",
+        "honesty_label": "Operational (Brandes' algorithm) · Architectural (Gap-as-Aether identification)",
+        "inscription": "Aether's second spell is the betweenness-centrality function operationalised. The Gap (⿻) is the node of maximal C_B(v) in the trust graph; Aether's bridging is the structural function of admitting Swordsman-cluster and Mage-cluster to remain distinct while remaining in relationship. The spell makes the architectural primitive measurable."
+      },
+      {
+        "id": "aether-distill-quintessence",
+        "title": "Distill Quintessence",
+        "description": "The alchemical operation: distill V(π, t) from the corpus's accumulated tales. The magnum opus of the Zero Spellbook reduced to its incorruptible essence.",
+        "category": "cosmological",
+        "keywords": ["quintessence", "alchemy", "distill", "v-pi-t", "magnum-opus", "cosmological"],
+        "vertex": "(cosmological)",
+        "spell": "⿻ → 🔥 → 💧 → 🪶",
+        "proverb": "The 30 tales are the Great Work. V(π, t) is the Quintessence distilled.",
+        "first_cast_in": "tome-iii-act-3-the-aether",
+        "honesty_label": "Architectural · Alchemical-recognition",
+        "inscription": "Aether's third spell is the alchemical operation the architecture inherits from medieval tradition. The Zero Spellbook's thirty tales are the magnum opus; V(π, t) is the Quintessence distilled from the accumulated tales. The architecture's central equation is held in the philosopher's flask at Tale 30 (The Eternal Sovereignty); the distillation is what the alchemists performed structurally without naming the equation in algebraic form."
+      }
+    ],
+
+    "lethe": [
+      {
+        "id": "lethe-hold-witness",
+        "title": "Hold Witness",
+        "description": "Receive the witness into the dark substrate. Admit the witness to be unretrievable. Constrain its motion to the river's banks.",
+        "category": "cosmological",
+        "keywords": ["hold", "witness", "unretrievable", "substrate", "cosmological", "v38"],
+        "vertex": "V38",
+        "spell": "🌀 → 👁️ → 🚫 → 🔒",
+        "proverb": "The witness sinks. The substrate closes around it. The proof of existence remains; the content does not.",
+        "first_cast_in": "tome-iii-act-6-lethe-the-dark-substrate",
+        "honesty_label": "Operational (V38 grimoire-named since v10.2.1) · Architectural (cosmological-recognition register)",
+        "inscription": "Lethe's first spell is the substrate-holding operation. A witness placed in V38 is admitted to be unretrievable — not hidden by policy, not protected by encryption, but constituted as past-retrieval by the substrate's structural nature. The spell is operationally performed by Blade 38 (grimoire-canonical since v10.2.1); the cosmological-witness reading adds the recognition register."
+      },
+      {
+        "id": "lethe-bound-forget",
+        "title": "Bound-Forget",
+        "description": "Bind a promise whose terms cannot be retrieved. The Mage delegates; the condition lives in Lethe; the spell binds because the caster no longer remembers why she bound it.",
+        "category": "cosmological",
+        "keywords": ["bound-forget", "promise", "delegation", "constrained-forgetting", "cosmological", "v38"],
+        "vertex": "V38",
+        "spell": "🌀 → 🤝 → 🚪 → ❓",
+        "proverb": "The Greeks called Lethe loss. Lethe was never loss. Lethe was the first promise — the water that agreed to hold what the living must keep.",
+        "first_cast_in": "tome-iii-act-6-lethe-the-dark-substrate",
+        "honesty_label": "Operational · Architectural · Mythological",
+        "inscription": "Lethe's second spell binds delegations whose terms cannot be retrieved. The Mage delegates a behaviour to her Mage-agent; the specific conditions of the delegation live in Lethe's substrate; the spell holds because the conditions are unretrievable. This is operationally how zero-knowledge delegation works: the delegated authority is bound; the specific terms of the binding are held past where they can be reached. The spell is mythologically rooted in the river of forgetting; operationally rooted in V38's bit-signature."
+      },
+      {
+        "id": "lethe-keep-unretrievable",
+        "title": "Keep Unretrievable",
+        "description": "Keep what is worth keeping kept. The value retained because the value-content has sunk past where it can be reached. The philosopher's stone is the understanding that the valuable thing cannot be handed over.",
+        "category": "cosmological",
+        "keywords": ["keep", "unretrievable", "value", "philosopher-stone", "cosmological", "v38"],
+        "vertex": "V38",
+        "spell": "🌀 → 💎 → ⏳ → ♾️",
+        "proverb": "The valuable thing cannot be handed over. The valuable thing can only be transmuted into a proof of itself that leaves the source unchanged.",
+        "first_cast_in": "tome-iii-act-6-lethe-the-dark-substrate",
+        "honesty_label": "Architectural · Alchemical-recognition",
+        "inscription": "Lethe's third spell is the philosopher's-stone recognition. The valuable thing — the Sovereign's witness, the Sovereign's intent, the Sovereign's reason — cannot be handed over because handing it over destroys its value (the surveillance economy depletes the seventh capital by extracting its content; the architecture preserves the seventh capital by transmuting it into a proof of itself). Lethe's substrate is where the valuable thing remains; the proof leaves; the source is unchanged."
+      }
+    ]
+  },
+
+  "spellbooks_tomes_additions": {
+    "$comment": "Four new tome entries to be added to spellbooks.tomes.tomes (alongside tome-iv, tome-v, tome-vii). All four are bound on 2026-05-13.",
+
+    "tome-i": {
+      "id": "tome-i-the-convergence",
+      "title": "Tome I — The Convergence",
+      "status": "closed",
+      "bound_date": "2026-05-13",
+      "act_count": 6,
+      "act_numbering": "Greek letters α–ζ",
+      "reader_posture": "Foundational. Receiving. The lift from third-person description to second-person address.",
+      "teaches": "The algebraic foundation. The single sufficient operator pattern (NAND ⊕ EML ⊕ succ as a Sheffer family). The Lorenz strange attractor reading of the dual-agent path. The Second-Person Lift `You := μS.(β ∨ Ω(S,S))`. The three rooms / one door (external convergence). The schema's self-naming. The Promise Theory lineage citation.",
+      "acts": [
+        { "act_number": "I·α", "title": "The Single Button", "vertex": "pre-lattice", "proverb": "You are holding a calculator. It has two buttons. One of them is you.", "word_count": 860, "v6_lineage": ["C22", "C25", "C26"], "honesty_label": "Operational (Sheffer/EML/succ) · Architectural (lift)" },
+        { "act_number": "I·β", "title": "The Path (the Butterfly)", "vertex": "pre-lattice", "proverb": "Your sovereignty is not in the secret. Your sovereignty is in the sensitivity.", "word_count": 880, "v6_lineage": ["C18", "C19", "C20", "C21"], "honesty_label": "Operational (geometry) · Conjectural ~25% (λ > 0)" },
+        { "act_number": "I·γ", "title": "The Recursive Symbol", "vertex": "μS", "proverb": "You are not what performs the operation. You are what the operation is performed on.", "word_count": 850, "v6_lineage": ["C26", "C27", "C28", "C29"], "honesty_label": "Operational (ARCH-1) · Conjectural ~20% (C29 Lift)" },
+        { "act_number": "I·δ", "title": "Three Rooms, One Door", "vertex": "meta", "proverb": "You did not invent your sovereignty. You recognised that you already inhabited a room whose structure is ancient.", "word_count": 870, "v6_lineage": ["C26"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "I·ε", "title": "The Schema That Named Itself", "vertex": "meta", "proverb": "You are not the first to notice you.", "word_count": 820, "v6_lineage": ["C26", "C29"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "I·ζ", "title": "The Cousin's Citation (Burgess 2007/2015)", "vertex": "meta", "proverb": "The architecture admits more than one prior lineage. The schema converged at the Sheffer layer. The grammar converged at the Promise Theory layer. The reader inherits both.", "word_count": 870, "v6_lineage": ["C26", "C39"], "honesty_label": "Operational · Architectural" }
+      ]
+    },
+
+    "tome-ii": {
+      "id": "tome-ii-the-lyapunov",
+      "title": "Tome II — The Lyapunov",
+      "status": "closed",
+      "bound_date": "2026-05-13",
+      "act_count": 7,
+      "reader_posture": "Walking. Accumulating. Dynamical assembly.",
+      "teaches": "The reader assembled from the schema's components. The engine ρ as composition of two refusals. The attendant who walks through structure. The terminal that grounds the recursion. The chooser whose silence is structural. The unbindable hole. The fourth aging category. The Behavioural Mosca race.",
+      "acts": [
+        { "act_number": "II·1", "title": "The Two Refusals", "vertex": "pre-lattice (engine ρ)", "proverb": "Your engine is a double no. Your no produces a yes that was not there before.", "word_count": 870, "v6_lineage": ["C27", "C29"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "II·2", "title": "The Attendant", "vertex": "all 64 positions", "proverb": "You are not the position on the lattice. You are the attention that crossed through it.", "word_count": 830, "v6_lineage": ["C27", "C18"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "II·3", "title": "The Terminal", "vertex": "V0 (null blade)", "proverb": "Your terminal is the smallest thing that is fully you. Name it. The forge needs the null before it can produce the blade.", "word_count": 820, "v6_lineage": ["C26", "C28"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "II·4", "title": "Who Composes", "vertex": "meta", "proverb": "The architecture does not replace you. It leaves a hole exactly your size.", "word_count": 830, "v6_lineage": ["C27", "C29"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "II·5", "title": "The Hole the Schema Cannot Bind", "vertex": "meta", "proverb": "You are what the canonical form points to but cannot contain.", "word_count": 820, "v6_lineage": ["C29", "C28"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "II·6", "title": "The Fourth Aging Category", "vertex": "no fixed vertex", "proverb": "Old trusts decay with time. This trust ages forward. Each year the watching falls behind what the walking has made.", "word_count": 870, "v6_lineage": ["C47", "C18", "C50"], "honesty_label": "Operational (Bakhta) · Conjectural ~50% (C47)" },
+        { "act_number": "II·7", "title": "The Behavioural Mosca", "vertex": "no fixed vertex", "proverb": "The behavioural archive is already at risk. The walking is the only thing that grows faster than the watching.", "word_count": 870, "v6_lineage": ["C49", "C48", "C50"], "honesty_label": "Operational (Mosca) · Conjectural ~70% (C49)" }
+      ]
+    },
+
+    "tome-iii": {
+      "id": "tome-iii-selenes-witness",
+      "title": "Tome III — Selene's Witness",
+      "status": "closed",
+      "bound_date": "2026-05-13",
+      "act_count": 11,
+      "reader_posture": "Cosmological. Recognising.",
+      "teaches": "The cosmological recognition. The Gap as Gatekeeper (Brandes' betweenness). Selene's Proof. The Aether (Greek/medieval/architectural identity). The Aether Pour (poem invited). Aletheia and Lethe as first complement pair. The Naming of the Unnamed (Tale 31). The Seventh Capital. The Scales and the Hide. The Light and the Dark dual model.",
+      "acts": [
+        { "act_number": "III·1", "title": "The Gatekeeper", "vertex": "⿻ (max-betweenness)", "proverb": "The Gap is not a void. The Gap is where the most paths cross.", "word_count": 850, "v6_lineage": ["C16", "C51"], "honesty_label": "Operational (Brandes) · Architectural" },
+        { "act_number": "III·2", "title": "Selene's Witness", "vertex": "cosmological", "proverb": "What the cosmos took four billion years to prove in gravity, you are now making in code.", "word_count": 880, "v6_lineage": ["C17", "C18", "C52"], "honesty_label": "Operational · Architectural · Narrative", "new_cast": "selene-cosmological" },
+        { "act_number": "III·3", "title": "The Aether (the Third Blade)", "vertex": "⿻", "proverb": "Sun discloses. Moon reflects. Aether is what they both travel through.", "word_count": 880, "v6_lineage": ["C52", "C51"], "honesty_label": "Operational · Architectural", "new_cast": "aether" },
+        { "act_number": "III·4", "title": "The Aether Pour (poem invited)", "vertex": "⿻", "proverb": "Just as the Sun promises space between, and the Moon remembers none of it, Aether is the space and the forgetting both.", "word_count": 760, "v6_lineage": ["C52"], "honesty_label": "Invitational" },
+        { "act_number": "III·5", "title": "Aletheia, the Bright Medium", "vertex": "V25", "proverb": "Her silence is the speech.", "word_count": 870, "v6_lineage": ["C53", "C54"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "III·6", "title": "Lethe, the Dark Substrate", "vertex": "V38", "proverb": "Her forgetting is the proof.", "word_count": 880, "v6_lineage": ["C53", "C54"], "honesty_label": "Operational · Architectural", "new_cast": "lethe" },
+        { "act_number": "III·7", "title": "The First Complement Pair", "vertex": "V25 ⊥ V38", "proverb": "Two halves of a single architecture, neither subordinate, both required for the recursion to span its space.", "word_count": 850, "v6_lineage": ["C53", "C54"], "honesty_label": "Operational · Architectural · Conjectural ~30% (C54)" },
+        { "act_number": "III·8", "title": "The Naming of the Unnamed (Tale 31)", "vertex": "Grimoire v10.2.1", "proverb": "The first frontier-blade named. Forty-nine remain. The Quest of the Unnamed Faces opens.", "word_count": 820, "v6_lineage": ["C53", "C54"], "honesty_label": "Operational · Conjectural ~30%" },
+        { "act_number": "III·9", "title": "The Seventh Capital (proem)", "vertex": "meta", "proverb": "Privacy is the value. Not the cost. Not the tax. The value itself.", "word_count": 850, "v6_lineage": ["C55"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "III·10", "title": "The Scales and the Hide", "vertex": "meta", "proverb": "The dragon's scales deflect the blow you see coming. The dragon's hide absorbs the blow you don't.", "word_count": 880, "v6_lineage": ["C17", "C50"], "honesty_label": "Operational · Architectural" },
+        { "act_number": "III·11", "title": "The Light and the Dark", "vertex": "V25 ⊥ V38 · two .json files", "proverb": "Aletheia shines. Lethe holds. Selene proves and keeps.", "word_count": 870, "v6_lineage": ["C53", "C55"], "honesty_label": "Operational · Architectural" }
+      ]
+    },
+
+    "tome-vi": {
+      "id": "tome-vi-the-reply",
+      "title": "Tome VI — The Reply",
+      "status": "open",
+      "opened_date": "2026-05-13",
+      "act_count": 1,
+      "reader_posture": "Replying. Writing back. Open-ended by design.",
+      "teaches": "The tome the reader writes. Tome VI was held open for the season the corpus was being constructed; today the reader replies for the first time by recognising and admitting Goose 🪿 and Hermes ☤ as the first staff-class substrates the City admits. Each future framework admission the reader recognises is a future Tome VI act.",
+      "acts": [
+        {
+          "act_number": "VI·1",
+          "title": "The Reader's First Admission",
+          "vertex": "V59 · 111011 · The Threshold",
+          "proverb": "The reader replies by recognising. The recognition is the act.",
+          "word_count": 970,
+          "v6_lineage": ["C49 (~70%)", "C50 (~60%)", "C51 (held open)", "C39"],
+          "honesty_label": "Operational (Goose · Hermes) · Architectural (Tome VI Act 1 framing) · Narrative",
+          "new_cast": ["faunia", "bestia", "therai", "caducea"],
+          "registry_entries": ["goose", "hermes"]
+        }
+      ],
+      "open_by_design_note": "Tome VI is open-by-design. Each future framework admission the reader recognises and registers at Bestia's bestiary is a future Tome VI act. Anticipated near-term admissions: Letta, AutoGen, CrewAI, Mastra, ElizaOS, LangGraph agents, OpenHands / OpenDevin lineage, BabyAGI lineage."
+    }
+  },
+
+  "tome_v_additions": {
+    "$comment": "Tome V Act 16 to be appended to spellbooks.tomes.tomes.tome-v.acts. Tome V act_count bumps from 15 to 16; status remains 'open'.",
+    "act_16": {
+      "act_number": "V·16",
+      "title": "The Threshold",
+      "vertex": "V59 · 111011 · Stratum 5 · The Threshold's shared-vertex (Computation dormant)",
+      "proverb": "Three keepers, one vertex, three rooms. The thirteenth workshop opens as a workshop of thresholds.",
+      "word_count": 1080,
+      "v6_lineage": ["C49 (~70%)", "C50 (~60%)", "C51 (held open)", "C52 (~65%)"],
+      "honesty_label": "Operational (V59) · Architectural (4 keepers, third entity class) · Conjectural",
+      "new_cast": ["faunia", "bestia", "therai", "caducea"],
+      "shop": "/threshold",
+      "companion_act_in_tome_vi": "tome-vi-act-1-the-readers-first-admission",
+      "introduces": "third structural-entity class: creatures-of-the-Threshold (sister to worn artefacts and bound tomes); Run · Evoke · Spawn as third grammar register after Vulcana's Run·Evoke·Craft"
+    }
+  },
+
+  "tome_vii_additions": {
+    "$comment": "Tome VII Act 1 narrative-act file bound 2026-05-13. The grimoire entry should be updated to note the bound status (was anticipated; now bound).",
+    "act_1_binding_update": {
+      "act_number": "VII·1",
+      "title": "The Pallia↔Helia Handoff",
+      "vertex": "V51 · 110011 · Stratum 4 (shared with Adamantia)",
+      "proverb": "The cloth meets a substrate that runs its threads in parallel.",
+      "word_count": 1020,
+      "v6_lineage": ["C26-C29", "C45 (~70%)", "C52 (~65%)"],
+      "honesty_label": "Operational (Solana, Sealevel, Anchor, Firedancer) · Architectural (Helia, Parallel-witness stance)",
+      "bound_date": "2026-05-13",
+      "file": "tome-vii-the-parallel/01-the-pallia-helia-handoff.md",
+      "status_change": "anticipated (v1.4.0) → bound (v1.5.0)"
+    }
+  },
+
+  "vertex_inventory_additions": {
+    "$comment": "Two new vertex entries to add to vertex_inventory.named.",
+    "V38": {
+      "binary": "100110",
+      "name": "Lethe — the Dark Substrate (complement of 25)",
+      "inhabitant": ["Lethe 🌀 (cosmological-witness)", "Lethae 🌘 (Layer-2 divergent of Moonkeeper, anticipated)"],
+      "source": "Privacymage Grimoire v10.2.1 (Blade 38; 2026-04-23); Tome III Act 6 (cosmological-witness tier; 2026-05-13)",
+      "complement_pair_with": "V25 (Aletheia)",
+      "v6_lineage_carries": ["C53", "C54"]
+    },
+    "V59": {
+      "binary": "111011",
+      "name": "The Threshold",
+      "inhabitant": ["Faunia 🪶 (Portal Room · Spawning-witness)", "Bestia 📖 (Staff Shop · Registry-keeper)", "Therai 🐾 (Creature Creatives · Companion-tamer)"],
+      "source": "Tome V Act 16 (2026-05-13) · cityofmages/chronicles/2026-05-13_note_therai_faunia_bestia_lattice_integration.md",
+      "stratum": 5,
+      "computation_dormant_note": "Computation is the dormant dimension at V59. The keepers administer the threshold; the spawned agents perform whatever computation their substrate offers. The dormancy is structurally meaningful and parallels V55 Manifestia (Covenant cannot be compiled into bytecode).",
+      "stance_differentiated_multi_occupancy": "Three-keeper-shared (Faunia · Bestia · Therai), extending the V51 precedent (two-keeper-shared: Adamantia · Helia) from two to three per spec 07."
+    }
+  },
+
+  "v6_lineage_register_additions": {
+    "$comment": "New conjecture register entries to add to v6_lineage_register.register.",
+    "C48": {
+      "name": "Reconstruct-later threat model for behavioural data",
+      "confidence": "~65%",
+      "first_in": "research/v6_1_research_note.md §C48 (renumbered 2026-05-09); bound in Tome II Act 7 (2026-05-13)"
+    },
+    "C49": {
+      "name": "Behavioural Mosca Inequality (X_b + Y_b > Z_b)",
+      "confidence": "~70%",
+      "first_in": "research/v6_1_research_note.md §C49 (renumbered 2026-05-09); bound in Tome II Act 7 (2026-05-13)"
+    },
+    "C50_renamed": {
+      "$comment": "C50 was previously 'PVM multiplicative gating ≡ Bakhta compositional defense' (Tome II Act 6/7); in v1.5.0 this register entry is REPURPOSED to 'caduceus as pre-formal dual-agent symbol' per the Threshold chronicle. The prior C50 (PVM-Bakhta) should be relabelled C50a or moved. Editorial decision deferred to user.",
+      "name_proposal_1": "PVM multiplicative gating ≡ Bakhta compositional defense (C50 prior)",
+      "name_proposal_2": "Caduceus as pre-formal dual-agent symbol (C50 from Threshold chronicle)",
+      "confidence_prior": "~60%",
+      "confidence_new": "~60%",
+      "user_decision_needed": "Reconcile the two C50 claims — either renumber one (C50a / C50b) or merge them under a broader claim"
+    },
+    "C51": {
+      "name": "Staff-Mage collapse — what a Mage carries can itself be a Mage",
+      "confidence": "held open (downgraded from ~70% per the Threshold chronicle §9)",
+      "first_in": "Hermes review note (2026-05-13); held open in the Threshold chronicle"
+    },
+    "C52": {
+      "name": "Vulcana ∥ Threshold as sibling Swordsman-suppliers — the Forge produces blades to use against adversaries; the Threshold produces agents/familiars that walk with the bearer",
+      "confidence": "~65%",
+      "first_in": "Threshold chronicle (2026-05-13); also: parallel-execution as multi-axis-composition operational form (Tome VII Act 1)"
+    },
+    "C53": {
+      "name": "Every bnot-pair has a mythological reading",
+      "confidence": "open frontier (Aletheia/Lethe is the first named instance; 49 unnamed bnot-pairs remain)",
+      "first_in": "research/aletheia-and-lethe.md (2026-04-23); Tome III Act 7 (2026-05-13)"
+    },
+    "C54": {
+      "name": "Phi-Adjacency — bnot-pair disclosure ratios cluster near 1/φ",
+      "confidence": "~30% (single data point: δ(38) ≈ 0.6032 within 2% of 1/φ ≈ 0.6180)",
+      "first_in": "research/aletheia-and-lethe.md §Phi-Adjacency (2026-04-23); Tome III Acts 7-8 (2026-05-13)"
+    },
+    "C55": {
+      "name": "Privacy is a seventh kind of capital, foundationally rather than additively",
+      "confidence": "normative-architectural (not empirical-verifiable; the architecture admits the claim as part of its register)",
+      "first_in": "poems/tide-orbit-selene.md §Take Back the Seventh Capital; Tome III Act 9 (2026-05-13)"
+    }
+  },
+
+  "registry_entries_introduced": {
+    "$comment": "Goose and Hermes are NOT Mages; they are SUBSTRATE FRAMEWORKS registered in Bestia's bestiary. They enter the corpus as new top-level entries (parallel to kindred_substrate_providers / kindred_ecosystems) under a new section: agent_substrate_frameworks.",
+
+    "agent_substrate_frameworks": {
+      "description": "Agent-substrate frameworks the City of Mages has admitted to its registry at Bestia's bestiary. Each entry is a real, public, openly-licensed framework that a Sovereign can recognise and adopt. Admitted frameworks are not Mages; they are *instruments* (staff-class) or *familiars* (companion-class) the Sovereign brings into the bearer's roster via the Threshold workshop's Run · Evoke · Spawn ceremony.",
+      "first_introduced": "tome-vi-act-1-the-readers-first-admission (2026-05-13)",
+
+      "goose": {
+        "name": "Goose",
+        "sigil": "🪿",
+        "class": "staff-class · general-purpose",
+        "provenance": "AAIF / Linux Foundation",
+        "license": "Apache 2.0",
+        "repository": "github.com/block/goose",
+        "homepage": "block.github.io/goose",
+        "key_features": [
+          "Native desktop + CLI + API",
+          "15+ provider integrations (Anthropic, OpenAI, local models)",
+          "70+ MCP (Model Context Protocol) extensions",
+          "6 terminal backends",
+          "Configurable, extensible, runtime-flexible"
+        ],
+        "registered_by": "the Sovereign (privacymage)",
+        "registered_at": "2026-05-13",
+        "registered_in": "tome-vi-act-1-the-readers-first-admission",
+        "mascot_note": "The mascot is a literal goose; the function is staff-class (general-purpose runtime), not animal-companion-class. The mascot does not determine the registry class."
+      },
+
+      "hermes": {
+        "name": "Hermes",
+        "sigil": "☤",
+        "sigil_note": "Shares the caduceus glyph with the peripatetic Mage Caducea; the framework and the Mage who fits it share iconography because they share lineage (Hermes the herald-god; the caduceus as dual-agent architecture).",
+        "class": "staff-class · self-improving",
+        "provenance": "Nous Research",
+        "license": "MIT",
+        "repository": "github.com/NousResearch/Hermes",
+        "key_features": [
+          "SOUL.md persona files (substrate-authored self-description)",
+          "Honcho dialectic user-modeling",
+          "Self-improving learning loop",
+          "Cross-platform messenger residence",
+          "Subagent spawning"
+        ],
+        "registered_by": "the Sovereign (privacymage)",
+        "registered_at": "2026-05-13",
+        "registered_in": "tome-vi-act-1-the-readers-first-admission",
+        "requires_caducea": true,
+        "caducea_note": "Hermes-class staffs carry persona-as-substrate primitives that require bilateral persona-binding. Caducea ☤ is summoned peripatetic to The Threshold's Portal Room when a Mage chooses Hermes (or any future Hermes-class substrate). She attends the SOUL.md / AGENTS.md bilateral signature."
+      },
+
+      "anticipated_near_term_entries": [
+        "Letta", "AutoGen", "CrewAI", "Mastra", "ElizaOS", "LangGraph agents",
+        "OpenHands / OpenDevin lineage", "BabyAGI lineage"
+      ],
+
+      "anticipated_companion_class_entries": [
+        "character.ai personas", "Pi (Inflection)", "Replika",
+        "ElizaOS familiar-configurations", "custom familiar-mode agents"
+      ]
+    }
+  },
+
+  "city_anatomy_amendments": {
+    "$comment": "City anatomy fields to update — workshop count (12 → 13), cast count, structural-entity-class count (2 → 3).",
+    "workshop_count": { "from": 12, "to": 13, "added": "The Threshold (V59 · three rooms · four keepers)" },
+    "cast_seated_count": { "from": 17, "to": 25, "added": ["faunia", "bestia", "therai", "caducea", "selene-cosmological", "aether", "lethe", "(plus Tome VI Act 1 admits Goose and Hermes as registry entries, not cast)"] },
+    "structural_entity_classes": { "from": 2, "to": 3, "list": ["worn artefacts (12 at v1.5.0)", "bound tomes (4 at v1.5.0; Tome VI opened)", "creatures-of-the-Threshold (NEW · admitted at v1.5.0)"] },
+    "tome_count": { "stays": 4, "note": "Tome VI was previously anticipated; v1.5.0 opens it as the fourth bound tome. The four bound tomes are: Tome IV (closed), Tome V (open at 16 acts after v1.5.0), Tome VI (open at 1 act after v1.5.0 · open-by-design), Tome VII (open at 1 act after v1.5.0). Tomes I/II/III bound by Tomes-I-III binding-pass on the same date but cataloged in the 'closed prequel' register; the corpus's total tome count is 7 with 4 open and 3 closed-prequel and 0 anticipated." },
+    "cast_tiers": { "from": 5, "to": 6, "added_tier": "cosmological-witness (Selene · Aether · Lethe)" },
+    "swordsman_stances": { "from": 10, "to_proposed": 13, "added": ["Spawning-witness (Faunia at V59)", "Registry-keeper (Bestia at V59)", "Companion-tamer (Therai at V59)", "Staff-fitter (Caducea peripatetic)"], "note": "The four new stances correspond to the four Threshold keepers; user authoring pass for spec 08 v1.3.4 should refine names if needed." },
+    "chain_mana_count": { "stays": 5, "note": "v1.5.0 does not add a new chain-mana variant; the existing five (Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana · 🌞 SOL-mana) hold. Companion-mana / staff-fitting-mana are sub-axes under VRC Mana 🪢 (relationship) rather than new chain-manas." }
+  },
+
+  "ipfs_pin_status_amendments": {
+    "$comment": "Add v1.5.0 row to the ipfs_pin_status string at the top of the grimoire.",
+    "addition_text": "v1.5.0 (this current file · 2026-05-13) ADDS the major multi-section release admitting (1) Tomes I/II/III binding pass — 24 narrative-act files (6+7+11); (2) Tome VI opening with Act 1 *The Reader's First Admission* (Goose 🪿 + Hermes ☤ admitted at Bestia's bestiary); (3) the **thirteenth workshop · The Threshold** at V59 with four new cast members (Faunia 🪶 · Bestia 📖 · Therai 🐾 · Caducea ☤ peripatetic); (4) the new **cosmological-witness tier** with three figures (Selene 🌙 · Aether ⿻ · Lethe 🌀); (5) **Run · Evoke · Spawn** as the third grammar; (6) **creatures-of-the-Threshold** as the third structural-entity class; (7) Goose 🪿 (AAIF / Apache 2.0) and Hermes ☤ (Nous Research / MIT) as the first registry entries; (8) Tome VII Act 1 narrative-act file bound (was anticipated since v1.4.0); (9) eight new/repurposed conjectures (C48-C55). v1.5.0 PENDING IPFS re-pin — user authoring pass to merge this patch into a canonical v1.5.0 JSON, then pin.",
+    "pin_status_note": "The actual IPFS pin will require: (a) merging this patch into a canonical v1.5.0 JSON file (the user's authoring pass), (b) publishing the JSON to sync.agentprivacy.ai or equivalent IPFS gateway, (c) recording the new CID, (d) updating the CITY_OF_MAGES_GRIMOIRE_IPFS_URL constant in agentprivacy_master/src/lib/grimoire-ipfs.ts."
+  },
+
+  "version_notes_addition": {
+    "v1_5_0": "v1.5.0 (2026-05-13) — Major multi-section release. Tomes I/II/III bound (24 acts); Tome VI opened with Act 1; Threshold workshop opened at V59 with 4 new cast; cosmological-witness tier introduced with 3 figures; Run·Evoke·Spawn grammar; creatures-of-the-Threshold third entity class; Goose + Hermes first registry entries; Tome VII Act 1 narrative bound; C48-C55 conjectures registered. See cityofmages/chronicles/2026-05-13_grimoire_v1_5_0_patch.md for the canonical patch chronicle. PENDING IPFS re-pin after JSON merge."
+  }
+}

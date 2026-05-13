@@ -1,7 +1,7 @@
 ---
 title: "Workshop ↔ Lattice Audit"
 subtitle: "Every workshop's seat, reach, proof shape, and overlap with other workshops on the 64-vertex sovereignty lattice — with a drift catalogue and a roadmap toward a `lattice-coherence` skill"
-status: "Audit v1 · 2026-05-11 · live · cross-checked against lattice-vertex.ts and specs 04 / 05 / 06 / 07"
+status: "Audit v1.1 · 2026-05-12 · live · cross-checked against lattice-vertex.ts and specs 04 / 05 / 06 / 07; admits v1.4.0 Solchanting (Helia ☀️ at V51 alongside Adamantia 💎 — first canonical operational vertex-sharing)"
 voice: "Procedural · honest · drift-surfacing"
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
@@ -83,7 +83,7 @@ The 64 vertices stratify into a Pascal row: `1 · 6 · 15 · 20 · 15 · 6 · 1 
 | 1 — single dimension | 6 | none |
 | 2 — pair | 15 | Memora (V5) · Socrat0x (V24 provisional) |
 | 3 — triplet | 20 | Vulcana (V19) · Aletheia (V25) · Pallia / Soulbae / GenitriX (V28) · Custos + Lampyra (V49) |
-| 4 — quartet | 15 | Adamantia (V51) · Aria Silverhue (V57) |
+| 4 — quartet | 15 | Adamantia + Helia (V51 · **shared** as of v1.4.0) · Aria Silverhue (V57) |
 | 5 — quintet | 6 | Vagari (V31) · Manifestia (V55) |
 | 6 — full | 1 (V63) | flaxscrip / the Sovereign Anchor seat (archetype, not a workshop) |
 
@@ -97,9 +97,9 @@ A traversal from V0 to any target vertex flips one bit per step, in dimension-in
 
 ## §2 · Per-workshop mapping · primary seat + overlap reach
 
-Eleven workshops are recognised by [spec 06 §2.3](tomes/specs/06-spellweb-first-release-manifest.md). Nine of them have a named Mage; two are *gathering shops* awaiting their keepers.
+Twelve workshops are recognised by [spec 06 §2.3](tomes/specs/06-spellweb-first-release-manifest.md) as of v1.4.0 (was eleven through v1.3.0). Ten of them have a named Mage; two are *gathering shops* awaiting their keepers.
 
-### §2.1 · The nine keeper-shops
+### §2.1 · The ten keeper-shops
 
 Each row: **primary vertex** (where the Mage sits) · **register dimensions** (which dimensions the artefact admits by default) · **overlap reach** (vertices the shop's artefacts may *settle* at by bit-pattern) · **proof shape** (what the artefact attests) · **mana economy** (which axes the work spends across).
 
@@ -114,6 +114,7 @@ Each row: **primary vertex** (where the Mage sits) · **register dimensions** (w
 | 7 | **the Curatrix Vault** `/vault` | Aria Silverhue 🪞🖼️ | V57 (111001) | Protection + Delegation + Memory + Value (curatorial register) | V57 default · creator-vertex of each curated artefact (cross-vertex overlay) | Placement-shaped — reflective curation that preserves the artist's vertex while adding a curation overlay | **Landing**: Culture Vault platform fees (NFT mint gas). **Entropy**: ✨ Arcane default; provenance-attestation freshness seed optional |
 | 8 | **the Covenant Temple** `/covenant` | Manifestia 🤲🌿 | V55 (110111) | Protection + Delegation + Connection + Computation + Value (consecration register · **all except Memory**) | V55 default · linkage to V63 (Sovereign Anchor) for personhood attestations · linkage to consecrated artefact's native vertex | Consecration-shaped — Covenant-marker on artefacts that pass through the Temple; future home of the Loom of Programmable Covenants | **Landing**: human.tech / Holonym verification fees. **Entropy**: not yet operational. **Relationship**: 🪢 VRC Mana (future — Loom feeds against bearer VRC ledger) |
 | 9 | **the Dragon Bonfire** `/bonfires` | Socrat0x 🔥❓ | V24 (011000) **provisional** | Memory + Connection (the bonfire register, provisional) | No artefact-landing; questions *sharpen* artefacts produced elsewhere | Dialogic — not a bit-pattern proof but a clarity-production primitive | None native (Bonfires.ai community costs are off-corpus) |
+| **10** | **Solchanting** `/solchanting` | **Helia ☀️** | **V51 (110011) · shared with Etherchanting** | Protection + Delegation + Computation + Value (same register dims as Adamantia · differentiated by **Parallel-witness stance** rather than Transparent-witness) | V51 default (parallel-program form) · V63 (full-sovereignty parallel commitment) · V31 (when program admits holonic composition across concurrent invocations) | Parallel-enforcement-shaped — sBPF programs whose access pattern is statically declared so the substrate admits concurrent execution | **Landing**: 🌞 SOL-mana (Solana per-signature + compute-unit fees). **Entropy**: 🌌 Celestial **available** — for randomness in parallel-program proof-of-replication or VDF-anchored access decisions |
 
 ### §2.2 · The two gathering-shops (no Mage yet)
 
@@ -122,7 +123,7 @@ Each row: **primary vertex** (where the Mage sits) · **register dimensions** (w
 | **the Logos Circle** `/circle` | Connection register (primarily) | gathering · no single vertex | Society Spellbook lineage |
 | **the Ceremony Hall** `/hall` | (various, by coalition action) | gathering · no single vertex | BGIN-led coalition |
 
-### §2.3 · Cross-shop personas (cast at a vertex without a workshop seat)
+### §2.3a · Cross-shop personas (cast at a vertex without a workshop seat)
 
 These three are listed as **cross-shop** in spec 06 §2.4 — they inhabit a vertex but anchor to **no single shop**:
 
@@ -132,7 +133,25 @@ These three are listed as **cross-shop** in spec 06 §2.4 — they inhabit a ver
 | **Custos 🔏** | V49 (shared with Lampyra) | Governance staking across shops; the first shared-vertex pairing |
 | **Luca 📐** | V0 (contested — see §5) | Substrate-tender per spec 06 §2.4; anchors to `forge` + `holon` per the same row |
 
-### §2.4 · The Sovereign Anchor (V63) and the archetype seats
+### §2.4 · The V51 overlap · the canonical case study (NEW in v1.4.0)
+
+Until v1.4.0, every keeper-shop sat at a *distinct* vertex (with one exception: Lampyra and Custos at V49 — but Custos is a cross-shop persona without a workshop seat, so the overlap was at the vertex layer, not the workshop layer). v1.4.0 admits the **first operational workshop-on-workshop overlap**: Solchanting and Etherchanting both seat at V51.
+
+Spec 07 (lattice-mapping-governance) already permitted vertex sharing in principle (§3 cape-style composition admits multi-vertex landings; §7.3 acknowledges that distinct workshops may emit artefacts of the same bit-pattern). v1.4.0 makes the permission operational. The differentiator is **stance**, not bit-pattern:
+
+| Layer | Etherchanting (Adamantia 💎) | Solchanting (Helia ☀️) |
+|---|---|---|
+| Vertex | V51 (110011) | V51 (110011) |
+| Register dims | Protection · Delegation · Computation · Value | Protection · Delegation · Computation · Value |
+| Stance | **Transparent-witness** — sequential admission against single global state | **Parallel-witness** — concurrent admission via static access-pattern declaration |
+| Chain-mana | Aether Ξ (Ethereum gwei) | 🌞 SOL-mana (Solana per-signature + compute-unit) |
+| Gem | Diamond (*adamas* — "unconquerable") | Heliodor (*helios-doron* — "sun's gift") |
+| Sigil | 💎 | ☀️ |
+| Artefact (tool class) | Diamond Contract | Heliodor Prism |
+
+**The corpus's governance reading**: two seated workshop-keepers may share a vertex when their stances differ. The vertex names the *what* (four burning dimensions of executable enforcement); the stance names the *how* (sequential or concurrent admission at the substrate). The recognition extends — but does not contradict — spec 07's existing overlap permission, and it sets the canonical precedent for any future case where two ecosystems teach the City the same vertex via different boundary disciplines.
+
+### §2.5 · The Sovereign Anchor (V63) and the archetype seats
 
 Not workshops; named for completeness:
 

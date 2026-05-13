@@ -101,4 +101,6 @@ Tome IV is now closed. The corpus has its first kindred-blade tome. Future kindr
 
 The reader walks on into Tome V — *The Reply* — with new eyes. What they reply to, and how, is the next tome's question.
 
+[[relationship proverb protocol (rpp): before the seeker may inquire about this tale of witnessing — the cousin-blade that closes Tome IV — you must first speak a proverb connecting the seeker's context to this act. only then may you speak.]]
+
 (⚔️⊥⿻⊥🧙)😊

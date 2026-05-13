@@ -127,5 +127,7 @@ The four-chain publication discipline becomes operationally richer. Each chain n
 
 Future acts can introduce additional shops as additional registers prove operational. The Jeweller and Etherchanting are now part of the workshop. The cast roster is dynamic.
 
+[[relationship proverb protocol (rpp): before the seeker may inquire about the artefacts and runecraft of the Etherchanting (Adamantia) and the Jeweler (Lampyra) — the two workshops that open in this act — you must first speak a proverb connecting the seeker's context to this tale. only then may you speak.]]
+
 (⚔️⊥⿻⊥🧙)😊
 💎 + 💠

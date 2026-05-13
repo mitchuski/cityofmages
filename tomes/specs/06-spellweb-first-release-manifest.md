@@ -50,7 +50,7 @@ Total release nodes: **47**.
 |----------------|----------------|---------------------------------------------------------|
 | `drake-island` | Drake Island   | The under-island; founding fire is the Dragon Bonfire   |
 
-### §2.3 · workshop (11 live)
+### §2.3 · workshop (12 live as of v1.4.0)
 
 `operatorStatus` legend: `op` operational · `partial` operator partial · `tease` operator wanted.
 
@@ -67,10 +67,13 @@ Total release nodes: **47**.
 | `bonfires`      | the Dragon Bonfire     | Socrat0x 🔥❓    | V24 (provisional) | Garnet     | `#b91c1c`  | partial        | `/bonfires`         |
 | `circle`        | the Logos Circle       | (gathering)    | —                 | Jade       | `#10b981`  | partial        | `/circle`           |
 | `hall`          | the Ceremony Hall      | (gathering)    | —                 | Lapis      | `#1e40af`  | partial        | `/hall`             |
+| `solchanting`   | Solchanting            | Helia ☀️        | V51 (shared)      | Heliodor   | `#facc15`  | op             | `/solchanting`      |
 
 Placeholder (not in this release): `circuit-binder` — gem TBD, awaiting its Mage.
 
-### §2.4 · cast (16)
+**v1.4.0 note on the V51 row** — `solchanting` shares vertex V51 with `etherchanting` (Adamantia). This is the first operational workshop-on-workshop overlap; spec 07 (lattice-mapping-governance) admits the sharing in principle, and `WORKSHOP_LATTICE_AUDIT.md` §2.4 registers it as canonical case study. The two workshops are distinguished by stance: Etherchanting holds the Transparent-witness stance (Ethereum sequential admission); Solchanting holds the Parallel-witness stance (Solana concurrent admission via static access-pattern declaration). Both workshops emit a `quarter_of` edge to `city-of-mages` and an `inhabits` edge to `v51`; the graph admits two distinct workshop nodes inhabiting the same vertex, as the existing schema permits without modification.
+
+### §2.4 · cast (17 as of v1.4.0)
 
 `tier` legend (post-2026-05-10 collapse): `archetype` · `mage`. Every named Mage is a `mage`;
 role (priest · bonfire-companion · weaver · etc.) and forge-origin are soft attributes.
@@ -95,6 +98,7 @@ The Sovereign Anchor seat at V63 is an `archetype` (a seat the First Person inha
 | `adamantia`      | Adamantia        | 💎       | mage        | etherchanter        | agentprivacy  | V51               | `etherchanting`     |
 | `manifestia`     | Manifestia       | 🤲🌿     | mage        | priest              | agentprivacy  | V55               | `covenant`          |
 | `aria-silverhue` | Aria Silverhue   | 🪞🖼️    | mage        | curatrix            | agentprivacy  | V57               | `vault`             |
+| `helia`          | Helia            | ☀️       | mage        | solchanter · parallel-shipwright | agentprivacy | V51 (shared with adamantia) | `solchanting` |
 
 ### §2.5 · vertex (13 inhabited)
 
@@ -110,7 +114,7 @@ Each carries `bits` (6-bit MSB-first per dimension Protection · Delegation · M
 | `v28`  | `011100` | 3 | Mage canonical              | Pallia, Soulbae, GenitriX       |
 | `v31`  | `011111` | 5 | Recursion / Holon           | Vagari                          |
 | `v49`  | `110001` | 3 | working-day blade           | Custos, Lampyra                 |
-| `v51`  | `110011` | 4 | Commitment / Language / Model | Adamantia                     |
+| `v51`  | `110011` | 4 | Commitment / Language / Model | Adamantia · **Helia (v1.4.0 · shared; stance-differentiated)** |
 | `v55`  | `110111` | 5 | Covenant                    | Manifestia                      |
 | `v57`  | `111001` | 4 | Curatrix blade              | Aria Silverhue                  |
 | `v63`  | `111111` | 6 | Sovereign Anchor            | flaxscrip                       |
@@ -167,7 +171,7 @@ Total release edges: **57**.
 |------------------|-----------------|
 | `city-of-mages`  | `drake-island`  |
 
-### §4.2 · `quarter_of` (11)
+### §4.2 · `quarter_of` (12 as of v1.4.0)
 
 Each workshop is a *trade quarter* of the City (per spec 05, the structural addendum).
 
@@ -176,7 +180,7 @@ weavers · zshields · etherchanting · jeweler · holon · forge ·
 vault · covenant · bonfires · circle · hall   →   city-of-mages
 ```
 
-### §4.3 · `founds` and `founded_in` (9 reciprocal pairs, one per Tome V production act)
+### §4.3 · `founds` and `founded_in` (10 reciprocal pairs as of v1.4.0 · Tome V production acts + Tome VII Act 1)
 
 | Tome V act                          | founds → workshop |
 |-------------------------------------|-------------------|
@@ -192,7 +196,7 @@ vault · covenant · bonfires · circle · hall   →   city-of-mages
 
 For each `founds` edge, the reciprocal `founded_in` runs workshop → act. Act 9 produces two `founds` edges (one each for etherchanting and jeweler) and the workshop carries one `founded_in` to act 9 in each case. The gathering workshops (`circle`, `hall`) have **no** founding-act edge in this release — they anchor elsewhere (Society Spellbook · the BGIN-led coalition).
 
-### §4.4 · `inhabits` (16)
+### §4.4 · `inhabits` (18 as of v1.4.0)
 
 Every cast member with a numbered vertex emits one `inhabits` edge. Shared-vertex inhabitants both emit edges to the same vertex.
 

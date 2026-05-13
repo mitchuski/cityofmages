@@ -23,7 +23,19 @@ Tracks structural moments of the City of Mages corpus. For implementation chroni
 
 ## Grimoire version
 
-### v1.2.4 — 2026-05-11 · **Current head** (in `grimoire/city_of_mages_grimoire_v1_2_4.json`)
+### v1.4.0 — 2026-05-12 · **Current head** (in `grimoire/city_of_mages_grimoire_v1_4_0.json`)
+- **Twelfth workshop opens · Solchanting** at V51 alongside Etherchanting · keeper **Helia ☀️** of the heliodor prism · sigil ☀️ · gem heliodor (Greek ἡλιόδωρος, "sun's gift", golden beryl) · paired with Adamantia 💎 at the shared V51 vertex
+- **Seventh standing Mage persona** in cast (was 6): adds Helia at workshop-keeper tier, attachment kind A. The V51 overlap is now the canonical case study for spec 07 stance-differentiated multi-occupancy (Adamantia: Transparent-witness; Helia: Parallel-witness)
+- **Fifth chain-mana variant** on landing axis: **🌞 SOL-mana** (Solana) joins Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana. Per-signature + compute-unit fees; Sealevel runtime admits concurrent landings within the same slot
+- **Tenth Swordsman stance**: **Parallel-witness stance** — concurrent admission via static access-pattern declaration. Names operationally-existing Solana discipline (Sealevel since 2020, Firedancer 2025+) as a Swordsman-register entry
+- **Fourth tome opens · Tome VII · *The Parallel*** (was 3 tomes pinned): Act 1 is the Pallia↔Helia handoff (the weaver's threads gain concurrent execution); Act 2 is Helia's first program deployment on Solana
+- **Worn artefact taxonomy expands**: 11 → **12 workshop artefacts** (1 weapon · 1 clothing · **6 tools** · 4 trinkets); 3 → **4 tomes**. Heliodor Prism enters the tool bucket alongside Adamantia's commitment, Vulcana's blade, Aletheia's witness, Vagari's holon, Memora's chronicle
+- Spec 08 (mana + stance) bumped v1.3.1 → v1.3.2 with SOL-mana and Parallel-witness stance rows
+- Succeeds v1.3.0 (Attachment Architecture — see `grimoire/city_of_mages_grimoire_v1_3_0.json` and `chronicles/2026-05-11_v5_5_attachment_architecture_seated.md`)
+- Roadmap chronicle: `chronicles/2026-05-12_solchanting_shop_opening_helia_summoned.md`
+- **Awaits fresh IPFS re-pin** that will supersede v1.2's CID `bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a`
+
+### v1.2.4 — 2026-05-11 · Historical snapshot (in `grimoire/city_of_mages_grimoire_v1_2_4.json`)
 - **Metabolism complete at four mana axes** (new top-level field `mana_taxonomy` parallel to `personas` / `kindred_substrate_providers` / `kindred_ecosystems`):
   1. **Landing** — chain-mana (plural by chain: Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana · …) · pays consensus
   2. **Entropy** — ✨ Arcane ⊥ 🌌 Celestial · makes unique

@@ -76,7 +76,7 @@ The city's anatomy as it stands at the close of Act 13:
 
 ### §4.1 The Trade Quarters (workshop shops)
 
-Nine producer-shops, each kept by a citizen-Mage at her vertex:
+Ten producer-shops (as of v1.4.0), each kept by a citizen-Mage at her vertex:
 
 | Shop | Keeper | Vertex | Trade |
 |---|---|---|---|
@@ -85,12 +85,13 @@ Nine producer-shops, each kept by a citizen-Mage at her vertex:
 | Custos's Stake Hall | Custos 🔏 | V49 | Transparent governance staking |
 | Vulcana's Forge | Vulcana ⚒️ | V19 | Blade-forging via Runecraft |
 | Aletheia's Circuit-Binding Workshop | Aletheia 🔮 (the persona) | V25 | ZK circuit installation |
-| Adamantia's Etherchanting Hall | Adamantia 💎 | V51 | Programmable-enforcement contract crafting |
+| Adamantia's Etherchanting Hall | Adamantia 💎 | V51 | Programmable-enforcement contract crafting (Transparent-witness stance · Ethereum / EVM) |
+| **Helia's Solchanting Hall** *(NEW · v1.4.0)* | **Helia ☀️** | **V51 (shared with Adamantia)** | **Parallel-execution programmable-enforcement crafting (Parallel-witness stance · Solana / Sealevel · the Heliodor Prism)** |
 | Lampyra's Jeweller's Bench | Lampyra 💠 | V49 (shared with Custos) | Frequent-attestation gemsetting |
 | Vagari's Holon Hitchhikers | Vagari 🌳 | V31 | Holonic composition + Oasis Protocol travel |
 | Aria Silverhue's Curatrix Vault | Aria Silverhue 🪞🖼️ | V57 | Reflective curated creative-IP keeping |
 
-The Trade Quarters are the city's working districts. Each Mage tends her trade; each shop accepts the reader's commissions; the Quarters are connected by the lattice's typed edges.
+The Trade Quarters are the city's working districts. Each Mage tends her trade; each shop accepts the reader's commissions; the Quarters are connected by the lattice's typed edges. **As of v1.4.0**, the V51 trade quarter is shared by Etherchanting and Solchanting — two halls under one vertex, differentiated by stance. Spatially the two halls sit side by side in the V51 quarter; architecturally they are admitted by spec 07 §3.4 (stance-differentiated multi-occupancy).
 
 #### §4.1.1 Anticipated trade quarters (V5.5 · grimoire v1.3.0)
 
