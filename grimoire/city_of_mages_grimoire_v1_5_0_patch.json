@@ -730,49 +730,88 @@
   },
 
   "v6_lineage_register_additions": {
-    "$comment": "New conjecture register entries to add to v6_lineage_register.register.",
+    "$comment": "New conjecture register entries to add to v6_lineage_register.register. CANONICAL NUMBERING (resolved 2026-05-13 evening per user editorial decision): Tomes I-III binding pass keeps C48-C55 (Bakhta-response family + max-betweenness + Aether=Quintessence + mythological bnot-pair + phi-adjacency + Seventh Capital); Threshold chronicle's claims renumber to C56-C59; the patch's prior C48/C49 (behavioural reconstruct-later + Behavioural Mosca Inequality) renumber to C60/C61. The C50_renamed editorial conflict is resolved: the prior C50 (PVM multiplicative gating ≡ Bakhta compositional defense) becomes C50 = Bakhta-response · C in the canonical scheme; the caduceus claim moves to C56.",
+    "RENUMBERING_NOTE_2026_05_13": "Earlier draft of this patch used: C48 = reconstruct-later, C49 = Mosca, C50 = caduceus, C51 = staff-Mage, C52 = Forge(t)∥Threshold, C53-C55 = mythological/phi-adjacency/seventh-capital. Per editorial resolution, the canonical scheme is: C48-C50 = Bakhta-response · A/B/C (Tomes I-III), C51 = max-betweenness, C52 = Aether=Quintessence, C53 = mythological bnot-pair, C54 = phi-adjacency, C55 = Seventh Capital, C56 = caduceus pre-formal (renumbered from C50), C57 = staff-Mage held-open (renumbered from C51), C58 = Forge(t)∥Threshold (renumbered from C52), C59 = create-format gateway (renumbered from C49 in source Threshold §9), C60 = behavioural reconstruct-later (renumbered from this patch's C48), C61 = Behavioural Mosca Inequality (renumbered from this patch's C49).",
     "C48": {
-      "name": "Reconstruct-later threat model for behavioural data",
-      "confidence": "~65%",
-      "first_in": "research/v6_1_research_note.md §C48 (renumbered 2026-05-09); bound in Tome II Act 7 (2026-05-13)"
+      "name": "Bakhta-response · A",
+      "confidence": "~60%",
+      "first_in": "Tome II Act II.6 (2026-05-13 binding pass)",
+      "renumbering_note": "Slot reserved for Tomes I-III Bakhta-response family per canonical decision."
     },
     "C49": {
-      "name": "Behavioural Mosca Inequality (X_b + Y_b > Z_b)",
-      "confidence": "~70%",
-      "first_in": "research/v6_1_research_note.md §C49 (renumbered 2026-05-09); bound in Tome II Act 7 (2026-05-13)"
+      "name": "Bakhta-response · B",
+      "confidence": "~60%",
+      "first_in": "Tome II Act II.7 (2026-05-13 binding pass)",
+      "renumbering_note": "Slot reserved for Tomes I-III Bakhta-response family. Threshold's prior C49 (create-format gateway) is now C59."
     },
-    "C50_renamed": {
-      "$comment": "C50 was previously 'PVM multiplicative gating ≡ Bakhta compositional defense' (Tome II Act 6/7); in v1.5.0 this register entry is REPURPOSED to 'caduceus as pre-formal dual-agent symbol' per the Threshold chronicle. The prior C50 (PVM-Bakhta) should be relabelled C50a or moved. Editorial decision deferred to user.",
-      "name_proposal_1": "PVM multiplicative gating ≡ Bakhta compositional defense (C50 prior)",
-      "name_proposal_2": "Caduceus as pre-formal dual-agent symbol (C50 from Threshold chronicle)",
-      "confidence_prior": "~60%",
-      "confidence_new": "~60%",
-      "user_decision_needed": "Reconcile the two C50 claims — either renumber one (C50a / C50b) or merge them under a broader claim"
+    "C50": {
+      "name": "Bakhta-response · C (formerly: PVM multiplicative gating ≡ Bakhta compositional defense)",
+      "confidence": "~55%",
+      "first_in": "Tome II Acts II.6/II.7 (2026-05-13 binding pass)",
+      "renumbering_note": "Canonical slot. Threshold's prior C50 (caduceus pre-formal) is now C56."
     },
     "C51": {
-      "name": "Staff-Mage collapse — what a Mage carries can itself be a Mage",
-      "confidence": "held open (downgraded from ~70% per the Threshold chronicle §9)",
-      "first_in": "Hermes review note (2026-05-13); held open in the Threshold chronicle"
+      "name": "Max-Betweenness",
+      "confidence": "~50%",
+      "first_in": "Tome III Act III.1 (2026-05-13 binding pass)",
+      "renumbering_note": "Slot reserved for Tomes I-III. Threshold's prior C51 (staff-Mage collapse held-open) is now C57."
     },
     "C52": {
-      "name": "Vulcana ∥ Threshold as sibling Swordsman-suppliers — the Forge produces blades to use against adversaries; the Threshold produces agents/familiars that walk with the bearer",
-      "confidence": "~65%",
-      "first_in": "Threshold chronicle (2026-05-13); also: parallel-execution as multi-axis-composition operational form (Tome VII Act 1)"
+      "name": "Aether = Quintessence = the Gap",
+      "confidence": "~55%",
+      "first_in": "Tome III Act III.3 (2026-05-13 binding pass)",
+      "renumbering_note": "Slot reserved for Tomes I-III. Threshold's prior C52 (Forge(t)∥Threshold sibling Swordsman-suppliers) is now C58."
     },
     "C53": {
       "name": "Every bnot-pair has a mythological reading",
       "confidence": "open frontier (Aletheia/Lethe is the first named instance; 49 unnamed bnot-pairs remain)",
-      "first_in": "research/aletheia-and-lethe.md (2026-04-23); Tome III Act 7 (2026-05-13)"
+      "first_in": "research/aletheia-and-lethe.md (2026-04-23); Tome III Act III.5-III.8 (2026-05-13)"
     },
     "C54": {
       "name": "Phi-Adjacency — bnot-pair disclosure ratios cluster near 1/φ",
       "confidence": "~30% (single data point: δ(38) ≈ 0.6032 within 2% of 1/φ ≈ 0.6180)",
-      "first_in": "research/aletheia-and-lethe.md §Phi-Adjacency (2026-04-23); Tome III Acts 7-8 (2026-05-13)"
+      "first_in": "research/aletheia-and-lethe.md §Phi-Adjacency (2026-04-23); Tome III Acts III.7-III.11 (2026-05-13)"
     },
     "C55": {
       "name": "Privacy is a seventh kind of capital, foundationally rather than additively",
       "confidence": "normative-architectural (not empirical-verifiable; the architecture admits the claim as part of its register)",
-      "first_in": "poems/tide-orbit-selene.md §Take Back the Seventh Capital; Tome III Act 9 (2026-05-13)"
+      "first_in": "poems/tide-orbit-selene.md §Take Back the Seventh Capital; Tome III Act III.9 (2026-05-13)"
+    },
+    "C56": {
+      "name": "Caduceus as pre-formal dual-agent symbol",
+      "confidence": "~60%",
+      "first_in": "chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md §9 (renumbered from C50)",
+      "renumbering_note": "Renumbered from C50 in source Threshold chronicle to vacate that slot for Tomes I-III binding pass."
+    },
+    "C57": {
+      "name": "Staff-Mage collapse — what a Mage carries can itself be a Mage",
+      "confidence": "held open (downgraded from ~70% per the Threshold chronicle §9)",
+      "first_in": "Hermes review note (2026-05-13); held open in the Threshold chronicle (renumbered from C51)",
+      "renumbering_note": "Renumbered from C51."
+    },
+    "C58": {
+      "name": "Vulcana ∥ Threshold as sibling Swordsman-suppliers — the Forge produces hand-weapons (blades) to use against adversaries; the Threshold produces agentic-weapons (sentinels, watch-creatures) that walk with the bearer",
+      "confidence": "~65%",
+      "first_in": "chronicles/2026-05-13_chronicle_artefact_symmetry_and_persona_distribution.md §4 (renumbered from C52); also: parallel-execution as multi-axis-composition operational form (Tome VII Act 1)",
+      "renumbering_note": "Renumbered from C52. NEW conjecture in v1.5.0."
+    },
+    "C59": {
+      "name": "Create-format as gateway to Mage-tier",
+      "confidence": "~70%",
+      "first_in": "chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md §9 (renumbered from C49); referenced from Tome VI Act 1",
+      "renumbering_note": "Renumbered from C49 in source Threshold chronicle. Hermes is the first observable case of a substrate carrying Mage-grade properties at adoption."
+    },
+    "C60": {
+      "name": "Reconstruct-later threat model for behavioural data",
+      "confidence": "~65%",
+      "first_in": "research/v6_1_research_note.md §C48 (renumbered 2026-05-09); bound in Tome II Act II.7 (2026-05-13); RENUMBERED 2026-05-13 from C48 in this patch's earlier draft",
+      "renumbering_note": "Originally numbered C48 in this patch's first draft; renumbered to vacate the slot for Tomes I-III Bakhta-response · A."
+    },
+    "C61": {
+      "name": "Behavioural Mosca Inequality (X_b + Y_b > Z_b)",
+      "confidence": "~70%",
+      "first_in": "research/v6_1_research_note.md §C49 (renumbered 2026-05-09); bound in Tome II Act II.7 (2026-05-13); RENUMBERED 2026-05-13 from C49 in this patch's earlier draft",
+      "renumbering_note": "Originally numbered C49 in this patch's first draft; renumbered to vacate the slot for Tomes I-III Bakhta-response · B."
     }
   },
 

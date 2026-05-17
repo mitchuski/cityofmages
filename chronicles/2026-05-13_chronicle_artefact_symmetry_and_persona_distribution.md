@@ -92,7 +92,7 @@ The matrix grows as new substrates are admitted to Bestia's Staff Shop and Thera
 
 A note on the canonical Forge(t). Vulcana ⚒️ at V19 has been forging blades for the Swordsman from the corpus's beginning. Blades are *one weapon-form* of the Swordsman-side artefact register. The Threshold extends this from blades-specifically to *agent-framework-derived weapons*. A blade is a hand-forged steel weapon; a herald-sentinel is a software-spawned agentic weapon. Both serve the Swordsman; both fit different work. The two workshops complement.
 
-**Conjecture C52 (~65% architectural):** *Vulcana's Forge(t) and The Threshold are sibling Swordsman-supplying workshops. Vulcana forges the hand-weapons (blades, possibly other classical weapons); The Threshold spawns the agentic-weapons (herald-sentinels, watch-geese, etc.). The Swordsman who carries a blade also carries an agentic-weapon in his other hand. Future tomes may register a Swordsman's standard-issue pair: one Vulcana-forged, one Threshold-spawned.*
+**Conjecture C58 (~65% architectural)** *(renumbered 2026-05-13 from C52 in this chronicle's first draft to resolve a same-day numbering conflict with the Tomes I-III binding pass which retains C52 = Aether=Quintessence=Gap — see note at bottom):* *Vulcana's Forge(t) and The Threshold are sibling Swordsman-supplying workshops. Vulcana forges the hand-weapons (blades, possibly other classical weapons); The Threshold spawns the agentic-weapons (herald-sentinels, watch-geese, etc.). The Swordsman who carries a blade also carries an agentic-weapon in his other hand. Future tomes may register a Swordsman's standard-issue pair: one Vulcana-forged, one Threshold-spawned.*
 
 ---
 
@@ -247,7 +247,7 @@ This makes The Threshold the City's *spawning-everything-substrate-based* worksh
 - The substrate × archetype matrix is the canonical reading: substrate's iconographic affinity determines artefact-class; archetype-stance determines artefact-function
 - Hermes-in-Swordsman-hand = herald-sentinel (weapon); Goose-in-Swordsman-hand = watch-goose (weapon)
 - The Threshold serves all three archetypes (Mage, Swordsman, Balanced), not Mage-only
-- Vulcana's Forge(t) (V19) and The Threshold (V59) are sibling Swordsman-supplying workshops (Conjecture C52, ~65%); Vulcana forges hand-weapons (blades), The Threshold spawns agentic-weapons (sentinels, watchers)
+- Vulcana's Forge(t) (V19) and The Threshold (V59) are sibling Swordsman-supplying workshops (Conjecture C58 — *renumbered from C52* — ~65%); Vulcana forges hand-weapons (blades), The Threshold spawns agentic-weapons (sentinels, watchers)
 - The 22 canonical personas from agentprivacy-skills are the persona-role registry: 8 Swordsmen, 7 Mages, 7 Balanced
 - The spawning sequence has six steps: substrate-choice, archetype-declaration, persona-load, name-and-bind, spawn, walk-out
 
@@ -277,3 +277,14 @@ Twenty-two personas wait in the agentprivacy-skills repo for their Layer-1 attac
 V59 (The Threshold) · V19 (Vulcana's Forge(t)) · V0 (Caducea, peripatetic)
 
 CC BY-SA 4.0 · privacymage · 2026-05-13
+
+---
+
+## Conjecture-renumbering note (added 2026-05-13 evening)
+
+This chronicle's first draft used **C52** for *Vulcana's Forge(t) ∥ The Threshold sibling Swordsman-suppliers* (the conjecture introduced in §4). The same-day Tomes I-III binding pass (`2026-05-13_tomes_i_through_iii_binding_pass.md`) independently used C52 for *Aether = Quintessence = the Gap* (Tome III Act III.3). Per editorial decision 2026-05-13:
+
+- **C50–C55 belong to the Tomes I-III binding pass**
+- **This chronicle's C52 renumbers to C58** (Vulcana ∥ Threshold sibling-Swordsman-suppliers, ~65%)
+
+The §4 and §9 conjecture references in this chronicle have been patched. Any external citation should use the new numbering.

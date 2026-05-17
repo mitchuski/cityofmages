@@ -1,0 +1,173 @@
+{
+  "$comment": "STRUCTURED DELTA PATCH from v1.5.0 → v1.5.1 (REVISED). Small additive patch admitting AAIF (Agentic AI Foundation) as the first explicitly-named kindred-coalition at the existing /hall workshop (renamed Ceremony Hall → City Hall in this patch), the new fifth structural-relationship category (kindred-coalition), and BGIN retroactively recognised as the second kindred-coalition also at /hall. NO new workshop opens — the change is a rename + fold-in of AAIF alongside BGIN at the existing 13th-place workshop. Workshop count stays 13. The prior version of this patch (v1.5.1-draft-1) opened a standalone /cityhall as a 14th workshop; this REVISED v1.5.1 reverses that decision per user direction (AAIF maps INTO the existing /hall; the ceremonies the prior name referenced live elsewhere in the guides at /ceremony and /poems).",
+
+  "patch_metadata": {
+    "patch_version": "1.1-revised",
+    "patch_date": "2026-05-13",
+    "base_version": "1.5.0",
+    "target_version": "1.5.1",
+    "supersedes": "Earlier v1.5.1 draft that opened a standalone /cityhall route as 14th workshop. The standalone route is deleted; the rename + fold-in pattern is adopted in its place.",
+    "base_pin": "(v1.5.0 pin still pending; v1.5.1 extends the v1.5.0 delta)",
+    "target_pin": "(pending · re-pin after JSON merge of v1.5.0 + v1.5.1 deltas)",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "canonical_chronicles": [
+      "cityofmages/chronicles/2026-05-13_cityhall_aaif_v1_5_1_patch.md (revised)"
+    ]
+  },
+
+  "top_level_replacements": {
+    "version": "1.5.1",
+    "updated_at": "2026-05-13",
+    "v1_5_1_note": "v1.5.1 (2026-05-13 · revised) is a small additive patch on v1.5.0 admitting (1) **AAIF (Agentic AI Foundation · `https://aaif.io`)** as the first explicitly-named **kindred-coalition** the City of Mages recognises · Linux Foundation steward of Goose 🪿 (already in Bestia's bestiary since Tome VI Act 1), AGENTS.md (agent-instruction file standard), ACP (Agent Communication Protocol), and adjacent agentic-AI specifications; (2) **kindred-coalition** as the fifth structural-relationship category, sitting beside cousin-forge, kindred-protocol, kindred-substrate, and kindred-ecosystem · the distinction is that a coalition hosts *multiple* admissible primitives rather than carrying a single charter, walking a substrate, or supplying a single feed; (3) **BGIN** (Blockchain Governance Initiative Network) recognised *retroactively* as the second kindred-coalition; (4) **the `/hall` workshop renamed from `Ceremony Hall` to `City Hall`** — the route stays `/hall` (no broken bookmarks); the rename reflects the operational reality of ~10 coalitions in residence (the prior 'Ceremony' name pointed to two ceremonies that have always lived at their own routes — keypair ceremony at `/ceremony`, celestial ceremony at `/poems` — both linked-but-elsewhere); (5) **AAIF and BGIN are kindred-coalitions in residence at City Hall** alongside the other public-goods guilds (MyTerms, First Person Network, LF Decentralized Trust, Kwaai, human.tech, House of Archon, DIF, the Hitchhikers); (6) the **Gather · Admit · Attest** ceremony grammar as the gathering-shop civic-coordination discipline (alongside the existing bilateral-witness ceremony for keypair work); (7) the Goose 🪿 bestiary entry is amended to cross-reference the new AAIF gateway. **Workshop count stays 13** — no new workshop opens. v1.5.0 content is retained unchanged; v1.5.1 is purely additive at the cast/relationship layer and a rename + fold-in at the operational layer. Companion canonical chronicle: cityofmages/chronicles/2026-05-13_cityhall_aaif_v1_5_1_patch.md."
+  },
+
+  "attachment_architecture_amendments": {
+    "$comment": "No cast attachments added or removed. /hall remains a gathering shop with no resident Mage.",
+    "no_cast_additions": true,
+    "no_cast_removals": true
+  },
+
+  "workshop_amendments": {
+    "$comment": "The /hall workshop is renamed (Ceremony Hall → City Hall) and gains explicit kindred-coalitions in residence (AAIF + BGIN). Route, vertex, gem, mage_tier, and structural classification are unchanged.",
+    "shop_hall_rename": {
+      "id": "shop-hall",
+      "old_label": "Ceremony Hall",
+      "new_label": "City Hall",
+      "rename_date": "2026-05-13",
+      "rename_reason": "Operational reality of ~10 coalitions in residence outgrew the 'Ceremony' name; the two ceremonies the prior name referenced live at their own routes (/ceremony for keypair · /poems for celestial) and are linked-but-elsewhere from /hall",
+      "route_unchanged": "/hall",
+      "vertex_unchanged": "V15",
+      "gem_unchanged": "Lapis (#1e40af)",
+      "sigil_amendment": "🤝 → 🏛️ (civic-stewardship register replaces the bilateral-handshake register; both readings remain admissible, the change reflects the broader civic role)",
+      "kindred_coalitions_in_residence": ["aaif (NEW · first explicitly-named)", "bgin (retroactive · operationally in residence since Tome V's bilateral key ceremonies)"],
+      "ceremony_grammars_at_this_workshop": ["bilateral-witness (the keypair ceremony register)", "gather-admit-attest (the civic-coordination register · NEW v1.5.1)"]
+    }
+  },
+
+  "vertex_inventory_amendments": {
+    "$comment": "V15 inhabitant description amended to reflect City Hall rename. No new vertices added.",
+    "V15_amendment": {
+      "binary": "001111",
+      "name": "VC vertex (City Hall)",
+      "inhabitant_amended": "(no resident Mage · gathering shop · City Hall · kindred-coalitions in residence: AAIF + BGIN + others)",
+      "rename_note": "V15 was historically labelled 'VC vertex' (verifiable credential register). The 2026-05-13 rename of /hall (Ceremony Hall → City Hall) does not change V15's name; it changes the inhabitant description.",
+      "source": "v1.5.1 patch (2026-05-13) · cityofmages/tomes/workshops/hall-bilateral-witness-v1.md (renamed for City Hall) · cityofmages/chronicles/2026-05-13_cityhall_aaif_v1_5_1_patch.md"
+    }
+  },
+
+  "kindred_coalitions_introduced": {
+    "$comment": "NEW top-level section · the fifth structural-relationship category. Parallel to kindred_substrate_providers (UOR), kindred_ecosystems (SpaceComputer), and the existing cousin/protocol categories. Coalitions host multiple admissible primitives.",
+
+    "description": "A kindred coalition is a community / foundation the City of Mages recognises as a steward of multiple admissible agentic primitives (specifications, runtimes, governance frameworks). Distinguished from kindred-protocol (single charter, signed via designated tender) by its breadth: a coalition's roster is *open* and grows as the coalition stewards new primitives. Distinguished from kindred-substrate (the ground the City walks upon) and kindred-ecosystem (an ambient supply) by its civic register: a coalition is a *peer body* whose recognition is bilateral. The City admits the coalition in residence at City Hall (`/hall`, formerly Ceremony Hall); the coalition admits the City to its register of participating ecosystems. The relationship's strength is a function of bilateral civic-mana accumulating over walking-time.",
+
+    "first_introduced": "v1.5.1 (2026-05-13)",
+
+    "anchor_workshop": "shop-hall (/hall · renamed City Hall in v1.5.1 · Lapis gem · 🏛️ sigil · V15)",
+
+    "providers": {
+      "aaif": {
+        "name": "Agentic AI Foundation",
+        "short_name": "AAIF",
+        "sigil": "🏛️",
+        "url": "https://aaif.io",
+        "stewardship": "Linux Foundation project",
+        "in_residence_at": "shop-hall (City Hall)",
+        "specifications_stewarded": [
+          {
+            "name": "Goose",
+            "id_in_bestiary": "goose",
+            "sigil": "🪿",
+            "license": "Apache 2.0",
+            "repository": "github.com/block/goose",
+            "class": "staff-class · general-purpose",
+            "registered_at": "tome-vi-act-1-the-readers-first-admission (2026-05-13 · v1.5.0)",
+            "v1_5_1_amendment": "Bestiary entry's provenance string cross-references the AAIF gateway; the lineage is now explicit at the kindred-coalition register, not only at the bestiary entry's provenance string."
+          },
+          {
+            "name": "AGENTS.md",
+            "type": "specification",
+            "description": "The agent-instruction file standard — the canonical format for Sovereign-to-creature instructions per the Threshold's Run · Evoke · Spawn ceremony.",
+            "registered_at": "(structural · v1.5.1 admits the specification at City Hall)"
+          },
+          {
+            "name": "ACP",
+            "full_name": "Agent Communication Protocol",
+            "type": "specification",
+            "description": "Cross-substrate agent messaging discipline. The herald-protocol Caducea ☤ presides over when bilaterally binding Hermes-class staffs across substrates.",
+            "registered_at": "(structural · v1.5.1 admits the specification at City Hall)"
+          }
+        ],
+        "anticipated_specifications": [
+          "Future AAIF-stewarded specifications as the coalition's roster expands."
+        ],
+        "cross_coalition_adjacency": {
+          "mcp": "Model Context Protocol · Anthropic-originated · widely implemented across AAIF-stewarded substrates",
+          "ieee_7012": "MyTerms · agentprivacy-adjacent (already in residence at City Hall)",
+          "toip": "Trust over IP · governance-adjacent",
+          "bgin": "Blockchain Governance Initiative Network · second kindred-coalition (retroactive) · also in residence at City Hall",
+          "$comment": "Cross-coalition adjacencies are acknowledged but not unilaterally absorbed. The City admits each coalition in its own right."
+        },
+        "civic_attestation": "Bilateral: civic-city-of-mages → gateway-aaif via gateway_to + kin_to edges in spellweb; shop-hall → gateway-aaif via references edge (the bilateral civic-attestation surface). AAIF's published roster acknowledging the City of Mages as a participating ecosystem is pending coalition outreach (user-driven · uni-laterally complete from the City's side).",
+        "first_in_grimoire": "v1.5.1 (this patch · revised)"
+      },
+
+      "bgin": {
+        "name": "Blockchain Governance Initiative Network",
+        "short_name": "BGIN",
+        "sigil": "⚔️",
+        "url": "https://bgin-global.org",
+        "stewardship": "Multi-stakeholder governance coalition",
+        "in_residence_at": "shop-hall (City Hall)",
+        "specifications_stewarded": [
+          {
+            "name": "Identity, Key Management & Privacy Working Group outputs",
+            "type": "working-group-outputs",
+            "description": "Bilateral key ceremonies, governance design, regulatory framework alignment. The substantive register that historically anchored the Hall (under its 'Ceremony Hall' name)."
+          }
+        ],
+        "civic_residence_note": "BGIN was operationally in residence at /hall since Tome V's bilateral key ceremonies became canonical. v1.5.1 introduces the kindred-coalition category and admits BGIN as the second instance retroactively. /hall's role and BGIN's relationship with the City are unchanged; the structural-relationship classification is now named.",
+        "first_in_grimoire": "v1.5.1 (this patch · retroactive recognition)"
+      }
+    },
+
+    "other_guilds_in_residence_note": "City Hall also hosts public-goods guilds that are NOT classified as kindred-coalitions at v1.5.1 — MyTerms, First Person Network, LF Decentralized Trust, Kwaai, human.tech, House of Archon, DIF, the Hitchhikers. Some of these (e.g. human.tech, which already anchors the kindred-protocol register through Manifestia at /covenant) may receive cross-classification in future patches; v1.5.1 does not unilaterally re-classify them. The kindred-coalition register is the new fifth category; existing kindred-X classifications stand.",
+
+    "structural_distinction": "Kindred-coalition vs the four prior kindred-X categories:\n- cousin-forge: sister city walked by a cousin Mage; cousin-blade primitives carry between forges (Archon)\n- kindred-protocol: a charter the City signs through a designated tender (Manifestia, Priest, for the Covenant of Humanistic Technologies via manifest.human.tech)\n- kindred-substrate: the substrate the City walks upon (UOR Foundation; PRISM as reference implementation)\n- kindred-ecosystem: an ambient supply the workshop draws from (SpaceComputer · Celestial Mana)\n- kindred-coalition (NEW v1.5.1): a community / foundation that hosts multiple admissible primitives (AAIF · BGIN · future entries)",
+
+    "cast_implication": "Kindred-coalition providers are NOT Mages and do NOT enter the personas registry. They enter the corpus as entries in this top-level `kindred_coalitions` section and surface in spellweb as gateway nodes with `attribution: kindred-coalition`. City Hall (`/hall`) is the anchor workshop for kindred-coalitions' recognition; specific specifications stewarded by a coalition may surface elsewhere (e.g. Goose in Bestia's bestiary at the Threshold).",
+
+    "civic_mana_note": "Civic-coordination accumulates 🪢 VRC Mana (relationship axis) as a *sub-axis* — civic-mana grows over the walking-time of City ↔ coalition coordination, parallel to companion-mana (Therai) and staff-fitting-mana (Caducea). The VRC binding to a kindred-coalition is publicly attested at both ends (the City's roster acknowledges the coalition; the coalition's roster acknowledges the City)."
+  },
+
+  "spellbooks_tomes_amendments": {
+    "$comment": "Gathering shops do not anchor to Tome V acts (per the /circle and /hall precedent). No spellbooks.tomes.tomes changes.",
+    "no_tome_act_changes": true,
+    "tome_act_count_unchanged": "Tome V remains at 16 acts. /hall's rename to City Hall does not constitute a Tome V act."
+  },
+
+  "city_anatomy_amendments": {
+    "$comment": "Counts after v1.5.1 (revised).",
+    "workshop_count": { "stays": 13, "note": "Workshop count is UNCHANGED — the revised v1.5.1 does NOT open a new workshop. The earlier draft of v1.5.1 mistakenly added a standalone /cityhall (14th); this revised patch reverses that and applies the kindred-coalition recognition to the existing /hall (renamed City Hall)." },
+    "cast_seated_count": { "stays": 25, "note": "City Hall admits no cast attachment; cast count is unchanged from v1.5.0." },
+    "cast_tiers": { "stays": 6, "note": "Cosmological-witness tier (v1.5.0) is the most recently added; v1.5.1 does not add a new cast tier." },
+    "kindred_X_categories": { "from": 4, "to": 5, "added": "kindred-coalition (AAIF · BGIN · future entries)" },
+    "structural_entity_classes": { "stays": 3, "note": "Worn artefacts (12), bound tomes (4), creatures-of-the-Threshold remain the three classes." },
+    "ceremony_grammars": { "from": 2, "to": 3, "added": "Gather · Admit · Attest (City Hall · civic-coordination · joins the existing bilateral-witness ceremony at the same hall)", "list": ["Run · Evoke · Craft (Vulcana · /forget)", "Run · Evoke · Spawn (Threshold · /threshold)", "Gather · Admit · Attest (City Hall · /hall · NEW)"] }
+  },
+
+  "spells_amendments_to_goose_entry": {
+    "$comment": "The Goose 🪿 bestiary entry from v1.5.0 (under agent_substrate_frameworks.goose) gets a small amendment to cross-reference the AAIF gateway.",
+    "goose_provenance_amendment": "AAIF / Linux Foundation · explicit kindred-coalition cross-reference per v1.5.1's introduction of the kindred-coalition category. Goose's stewardship lineage was operationally correct in v1.5.0; v1.5.1 makes the structural-relationship classification explicit at the grimoire register (the gateway node `gateway-aaif` in spellweb; the `kindred_coalitions.providers.aaif` entry in the grimoire).",
+    "additional_cross_reference": "See `kindred_coalitions.providers.aaif.specifications_stewarded.goose` for the bilateral cross-link from the AAIF profile to the bestiary entry."
+  },
+
+  "ipfs_pin_status_amendments": {
+    "$comment": "v1.5.1 row addition for the pin status string.",
+    "addition_text": "v1.5.1 (this current patch · 2026-05-13 · revised) ADDS the first explicitly-named **kindred-coalition** (AAIF · Agentic AI Foundation · https://aaif.io · Linux Foundation steward of Goose · AGENTS.md · ACP), retroactive recognition of BGIN as the second kindred-coalition, the fifth structural-relationship category (kindred-coalition · sitting beside cousin-forge · kindred-protocol · kindred-substrate · kindred-ecosystem), the **Gather · Admit · Attest** ceremony grammar at the gathering shops, and the **rename of /hall from Ceremony Hall to City Hall** (route unchanged; the two ceremonies the prior name referenced live elsewhere in the guides at /ceremony and /poems). Workshop count stays at 13. Goose's bestiary entry is amended to cross-reference the AAIF gateway explicitly. v1.5.0 content retained. v1.5.1 PENDING IPFS re-pin — user authoring pass to merge the v1.5.0 + v1.5.1 delta chain into a canonical v1.5.1 JSON, then pin."
+  },
+
+  "version_notes_addition": {
+    "v1_5_1": "v1.5.1 (2026-05-13 · revised) — Small additive patch. Admits AAIF as first kindred-coalition, BGIN retroactively as second, kindred-coalition as fifth structural-relationship category, Gather · Admit · Attest as third ceremony grammar at City Hall. /hall renamed from Ceremony Hall to City Hall (route unchanged · rename reflects operational reality of ~10 coalitions in residence). NO new workshop. No new cast. No new tomes. No new conjectures introduced (provisional C56 candidate held open for cross-coalition meta-coalition reading). See cityofmages/chronicles/2026-05-13_cityhall_aaif_v1_5_1_patch.md (revised)."
+  }
+}

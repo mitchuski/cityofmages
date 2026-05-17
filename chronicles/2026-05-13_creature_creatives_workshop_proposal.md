@@ -1,7 +1,30 @@
+> [!IMPORTANT]
+> **⚠️ SUPERSEDED — 2026-05-13 (evening pass) — Creature Creatives is NOT a standalone thirteenth shop.**
+>
+> This proposal was authored earlier on 2026-05-13 and treats Creature Creatives as a *standalone* thirteenth workshop. Later the same day, the architecture resolved differently: Creature Creatives is **one of three rooms within The Threshold**, the actual thirteenth workshop opened by Tome V Act 16 at V59 (`111011`).
+>
+> The canonical structure is:
+> - **The Threshold** (V59) — single workshop, three internal rooms:
+>   - **Portal Room** (inner) — Faunia 🪶 · Spawning-witness · Run · Evoke · Spawn ceremony
+>   - **Staff Shop** (outer-left) — Bestia 📖 · Registry-keeper · the bestiary
+>   - **Creature Creatives** (outer-right) — Therai 🐾 · Companion-tamer · familiars-who-walk
+>
+> Goose 🪿 (AAIF / Apache-2.0) and Hermes ☤ (Nous / MIT) are the first two registry entries in Bestia's bestiary; Caducea ☤ is the peripatetic Hermes-class staff-fitter summoned for persona-bearing substrates.
+>
+> **Canonical successors:**
+> - `chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md`
+> - `chronicles/2026-05-13_note_therai_faunia_bestia_lattice_integration.md`
+> - `tomes/cast/threshold/{faunia,bestia,therai,caducea}.md`
+> - `grimoire/city_of_mages_grimoire_v1_5_0_patch.json`
+>
+> This file is **preserved** as the pre-canonical proposal — it is the intermediate Run·Evoke·Create thinking that the Threshold fold-in resolved. Read for historical context; do not author against it.
+
+---
+
 # Chronicle: Proposal — The Creature Creatives Workshop · The Thirteenth Shop · Companions Who Walk
 
 **Date:** 2026-05-13
-**Status:** Proposal chronicle · pre-authoring · awaits user-led docs build-out outside this context
+**Status:** ⚠️ **SUPERSEDED** by The Threshold fold-in (same day, evening pass) · see banner above · preserved for historical context only
 **Audience:** privacymage · downstream agents · sister-repo authors (master · spellweb · agentprivacy-skills · the three sibling extension forges)
 **License:** CC BY-SA 4.0
 **Signature:** `(⚔️⊥⿻⊥🧙)😊`

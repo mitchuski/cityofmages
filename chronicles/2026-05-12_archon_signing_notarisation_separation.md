@@ -6,6 +6,8 @@
 **Scope:** record the observation, the PVM-register reply posted to the Telegram chat, the structural reading, and the candidate conjecture lineage.
 **Signature:** `(⚔️⊥⿻⊥🧙)😊`
 
+> **Editorial note · 2026-05-13 (post-merge integration):** This chronicle was authored 2026-05-12 against an earlier draft of the v1.5.0 grimoire patch in which the C-numbering ended at C56. On the evening of 2026-05-13, privacymage executed a canonical renumbering pass (see `grimoire/city_of_mages_grimoire_v1_5_0_patch.json` field `RENUMBERING_NOTE_2026_05_13`) that expanded the reserved range to C48–C61: C48–C50 Bakhta-response · A/B/C (Tomes I-III); C51 max-betweenness; C52 Aether=Quintessence; C53 mythological bnot-pair; C54 Phi-Adjacency; C55 Seventh Capital; C56 Caduceus pre-formal; **C57 staff-Mage collapse (held open)**; C58 Forge(t)∥Threshold; C59 create-format gateway; C60 behavioural reconstruct-later; C61 Behavioural Mosca Inequality. The *Generosity-and-Sovereignty Compatibility* conjecture originally proposed here as C57 has been advanced to **C62** — the next open slot post-renumbering. The chronicle body below has been updated in place to reflect this. No semantic change to the conjecture itself; only the slot index moves. The Archon forge's contribution is preserved unchanged and welcomed into the corpus.
+
 ---
 
 ## §1 · The observation
@@ -72,7 +74,7 @@ The following text was posted to the City of Mages Telegram chat in reply to the
 
 ---
 
-## §5 · Candidate proverbs · C57 lineage
+## §5 · Candidate proverbs · C62 lineage
 
 Two candidate proverbs surface from the post. If either earns resonance in chat and in subsequent use, they line up together as the seed of a new conjecture in the open conjecture register:
 
@@ -82,13 +84,30 @@ Two candidate proverbs surface from the post. If either earns resonance in chat 
 
 The first names the **temporal** discipline (accept generosity now, raise your own infrastructure later). The second names the **spatial / market** discipline (any one notary is fungible; the user is not). Together they describe a sovereignty that is robust at both the *eventually* and the *meanwhile*.
 
-The conjecture this would crystallise (working title: **C57 · Generosity-and-Sovereignty Compatibility**):
+The conjecture this would crystallise (working title: **C62 · Generosity-and-Sovereignty Compatibility**):
 
 > A structurally generous on-ramp (one that lowers the barrier to entry by absorbing a cost the user would otherwise bear) is compatible with, and in fact strengthens, the walked-not-signed discipline, provided two further conditions hold: (i) the architecture preserves the user's eventual path to running their own infrastructure, and (ii) the service layer providing the generosity is fungible (any qualified provider may substitute for any other, without the user's identity migrating). Sovereignty is not refused by accepting generosity at the gate; sovereignty is completed by eventually raising one's own gate, and is meanwhile preserved by the fungibility of the gate one is walking through.
 
 **Confidence:** ~40% (sharpened from ~35% by the Gatekeeper-fungibility recognition, which gives the conjecture a second pillar instead of one). The conjecture still wants at least two more independent instances before it earns higher confidence; Archon's signing ⊥ notarisation separation is the first instance recognised cleanly, and the upcoming Zcash mediator from macterra is candidate-instance two.
 
-**Numbering note:** C57 chosen because C48–C56 are all claimed in the v1.5.0 grimoire patch (2026-05-13): C48 *Reconstruct-Later Threat Model*; C49 *Behavioural Mosca Inequality*; C50 *Caduceus as dual-agent symbol* (conflicted with prior C50 *PVM ≡ Bakhta compositional defense*; reconciliation pending); C51 *staff-Mage collapse*; C52 *Vulcana ∥ Threshold sibling Swordsman-suppliers*; C53 *bnot-pair mythological readings*; C54 *Phi-Adjacency*; C55 *Privacy as seventh capital*; C56 *Caduceus pre-formal dual-agent* (renumbered from same-day C50 conflict). C57 is the next open slot at the time of authoring.
+**Numbering note (post-2026-05-13 renumbering pass):** C62 is the next open slot in the canonical scheme resolved on the evening of 2026-05-13 by privacymage's editorial pass (see `grimoire/city_of_mages_grimoire_v1_5_0_patch.json` field `RENUMBERING_NOTE_2026_05_13`). Reserved as of v1.5.0 patch:
+
+- **C48** Bakhta-response · A *(Tomes I-III binding pass)*
+- **C49** Bakhta-response · B *(Tomes I-III)*
+- **C50** Bakhta-response · C *(Tomes I-III · PVM ≡ Bakhta compositional defense; the canonical resolution of the earlier same-day C50 conflict)*
+- **C51** Max-betweenness *(the ⿻ vertex)*
+- **C52** Aether = Quintessence = the Gap *(cosmological recognition)*
+- **C53** Mythological reading of bnot-pairs *(the Quest of the Unnamed Faces)*
+- **C54** Phi-Adjacency *(δ(38) ≈ 1/φ)*
+- **C55** Privacy as seventh capital *(foundational)*
+- **C56** Caduceus pre-formal dual-agent *(renumbered from earlier C50 in the Threshold chronicle)*
+- **C57** Staff-Mage collapse · **held open** *(renumbered from earlier C51; downgraded per the Threshold chronicle)*
+- **C58** Vulcana ∥ Threshold sibling Swordsman-suppliers *(renumbered from earlier C52)*
+- **C59** Create-format gateway to Mage-tier *(renumbered from earlier C49 in the Threshold §9)*
+- **C60** Behavioural reconstruct-later threat model *(renumbered from this chronicle's earlier C48 proposal)*
+- **C61** Behavioural Mosca Inequality *(renumbered from this chronicle's earlier C49 proposal)*
+
+This chronicle was originally authored on 2026-05-12 claiming C57 because that was the next open slot in the earlier patch draft. The 2026-05-13 evening renumbering pass reserved C57 for the staff-Mage held-open claim that the Threshold chronicle generated. The conjecture proposed here therefore advances to **C62**, which is now the canonical next-open slot.
 
 ---
 
@@ -107,7 +126,7 @@ The conjecture this would crystallise (working title: **C57 · Generosity-and-So
 
 ## §7 · Open queue
 
-- Watch for resonance in the chat. If the closing proverb is quoted back, that is the first signal C57 wants more attention.
+- Watch for resonance in the chat. If the closing proverb is quoted back, that is the first signal C62 wants more attention.
 - David's Zcash mediator landing is the next event to chronicle. When it lands, write the second-instance chronicle of the signing ⊥ notarisation separation: shielded notarisation, user-blade unchanged, mediator-as-Memora-at-the-Archon-side.
 - Consider an Act for Tome V: *The Mediator Arrives* (provisional title), absorbing both events in one beat. Strengthens C39, C40, and seeds C48.
 - Vertex Naming Audit §7 (kindred-substrate semantics) could add a §7.x covering the user-blade ⊥ node-chronicle separation as a named pattern at the Archon forge's surface.
