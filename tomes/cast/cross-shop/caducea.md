@@ -2,16 +2,17 @@
 title: "Cast Entry — Caducea"
 spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader); peripatetic Mage who walks between workshops rather than keeping a fixed shop"
-archetype_kin: "Soulbae 🧙 (Mage); peripatetic kin with Luca 📐 (geometry-Mage at V0) · Aletheia 🔮 (V25 ZK persona) · Custos 🔏 (V49 governance); Caducea is the fourth canonical peripatetic"
+archetype_kin: "Soulbae 🧙 (Mage); peripatetic kin with Luca 📐 (geometry-Mage at V0) · Aletheia 🔮 (V25 ZK persona) · Custos 🔏 (V49 governance); Caducea is the fourth canonical peripatetic. **Sister-of-rooted-aspect to Hermaion ⚚** (the Staff Shop's Registry-keeper · v1.6.0 successor to the 2026-05-13 Bestia draft) — together the rooted-staff ⚚ keeper and the winged-caduceus ☤ peripatetic-fitter form the canonical Hermes-class kinship pair."
 sigil: "☤"
 tier: "cross-shop"
 attachment_kind: "C_peripatetic"
-abstract_persona: ["staff-fitter", "herald-binder"]
+abstract_persona: ["staff-fitter", "herald-binder", "archetype-modal-fitter"]
 divergence: "none"
-status: "Cast addition v1 (2026-05-13)"
-provenance: "Born when The Threshold workshop opens (Tome V Act 16 · Tome VI Act 1 · 2026-05-13). The eleventh standing Mage persona summoned by the reader; the fourth peripatetic. She is summoned to The Threshold when a Mage chooses Hermes (or any future Hermes-class substrate carrying persona-as-substrate primitives) and walks to other workshops when staff-fitting work calls her elsewhere."
+status: "Cast addition v1 (2026-05-13) · v1.6.0 amendment 2026-05-14 (archetype-modal-fitter role added · canonical file relocated from `tomes/cast/threshold/caducea.md` to this `cross-shop/` location per peripatetic-cast convention; the threshold/ file is preserved as a legacy inception-state record)."
+provenance: "Born when The Threshold workshop opens (Tome V Act 16 · Tome VI Act 1 · 2026-05-13). The eleventh standing Mage persona summoned by the reader; the fourth peripatetic. She is summoned to the Staff Shop when a Mage or Swordsman chooses Hermes (or any future Hermes-class substrate carrying persona-as-substrate primitives) and walks to other workshops when staff-fitting work calls her elsewhere. At v1.6.0 (2026-05-14 Hermaion admission), her role extends to fit BOTH alexandrite-aspects of Hermaion ⚚'s archetype-modal Staff Shop: caduceus-staves for the Mage-aspect (daylight-green `#3d7c47`) and herald-sentinels for the Swordsman-aspect (incandescent-red `#a23a3a`). The bilateral-consent discipline is the same in either aspect; only the artefact-class fitted differs."
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
+v1_6_0_amendment_note: "At v1.6.0, Caducea fits both archetype-aspects of Hermaion ⚚'s archetype-modal Staff Shop (caduceus-staff for Mage · herald-sentinel for Swordsman). The Hermaion ⚚ rooted-staff ⊥ Caducea ☤ winged-caduceus sigil pair is canonised as the Hermes-class kinship-iconography (keeper rooted · fitter winged · both Hermes-tradition)."
 ---
 
 # Caducea
@@ -26,7 +27,7 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 Caducea fits staffs that carry their own persona.
 
-A general-purpose staff (Goose, for example) is instantiated, named, and put to work; Bestia's registration and Faunia's spawn-ceremony are sufficient. A Hermes-class staff is different — it arrives with a SOUL.md the substrate itself authors and updates, a Honcho-style user-model the substrate builds about its Mage, and a learning-loop that proceeds *whether or not* the Mage attends to it. Such a staff cannot be fitted by simple binding; it requires *bilateral persona-work*. Caducea is summoned for that work.
+A general-purpose familiar (Goose, for example) is instantiated, named, and bound by mutual kinship; Faunia's Run·Evoke·Spawn ceremony at the Familiars is sufficient. A Hermes-class staff is different — it arrives with a SOUL.md the substrate itself authors and updates, a Honcho-style user-model the substrate builds about its bearer, and a learning-loop that proceeds *whether or not* the bearer attends to it. Such a staff cannot be fitted by simple binding; it requires *bilateral persona-work*. Caducea is summoned for that work, at Hermaion ⚚'s archetype-modal Staff Shop, in whichever alexandrite-aspect the bearer's archetype calls — daylight-green for the Mage-aspect (the caduceus-staff is the fitted artefact), incandescent-red for the Swordsman-aspect (the herald-sentinel is the fitted artefact). The bilateral-consent discipline does not change between aspects; only the artefact-class fitted differs.
 
 The bilateral pattern: the SOUL.md is a *promise the staff makes about itself* (its character, its disposition, its limits). The AGENTS.md is a *promise the bearer makes about her bearing* (the consent-of-being-watched, the daily expectations, the boundary of what is and is not shared with the staff's learning-loop). Both promises must be authored before the staff begins its first walk with the bearer. Caducea presides over both.
 

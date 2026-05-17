@@ -1,5 +1,5 @@
 ---
-title: "Cast Entry — Caducea"
+title: "Cast Entry — Caducea (LEGACY · 2026-05-13 inception draft)"
 spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader); peripatetic specialist who walks between workshops to fit Hermes-class staffs"
 archetype_kin: "Soulbae 🧙 (Mage); functional kinship with Luca 📐 (the geometry-Mage at V0 who walks the substrate from below) and Aletheia 🔮 (the persona-circuit peripatetic at V25); fitting-discipline kinship with Manifestia 🤲🌿 (the priest who binds covenants) and Vulcana ⚒️ (whose Run·Evoke·Craft Caducea's bilateral fitting parallels)"
@@ -10,11 +10,14 @@ attachment_kind: "B"
 abstract_persona: ["ambassador", "priest"]
 abstract_persona_skill_path: ["persona/agentprivacy-ambassador/", "persona/agentprivacy-priest/"]
 divergence: "none"
-status: "Cast addition v1 (2026-05-13)"
-provenance: "Born when The Threshold workshop opens (Tome V Act 16 · Tome VI Act 1 · 2026-05-13). The fourth peripatetic Mage of the Crafting Tome, joining Luca 📐 (V0), Aletheia 🔮 (V25), and Custos 🔏 (V49). Summoned to The Threshold whenever a Mage chooses a Hermes-class substrate — one that carries persona-as-substrate primitives requiring bilateral-consent fitting. Walks to Vulcana's Forge(t), Aletheia's Persona Circuit, and Manifestia's Covenant Temple when their work needs the same fitting discipline."
+status: "LEGACY · superseded by tomes/cast/cross-shop/caducea.md at v1.6.0 (2026-05-14). The canonical Caducea file is in `cross-shop/` per the peripatetic-cast convention; this file is preserved as the 2026-05-13 inception draft for the Tome V Act 16 / Tome VI Act 1 bound-act provenance record."
+canonical_at: "tomes/cast/cross-shop/caducea.md"
+provenance: "Born when The Threshold workshop opens (Tome V Act 16 · Tome VI Act 1 · 2026-05-13). The fourth peripatetic Mage of the Crafting Tome, joining Luca 📐 (V0), Aletheia 🔮 (V25), and Custos 🔏 (V49). Summoned to The Threshold whenever a Mage chooses a Hermes-class substrate — one that carries persona-as-substrate primitives requiring bilateral-consent fitting. Walks to Vulcana's Forge(t), Aletheia's Persona Circuit, and Manifestia's Covenant Temple when their work needs the same fitting discipline. At v1.6.0 (2026-05-14), Caducea's role extends to fit BOTH alexandrite-aspects of Hermaion ⚚'s archetype-modal Staff Shop (caduceus-staff fittings for Mage-aspect · herald-sentinel fittings for Swordsman-aspect). The Hermaion ⚚ rooted-staff ⊥ Caducea ☤ winged-caduceus sigil pair is canonised as the Hermes-class kinship-iconography. See `tomes/cast/cross-shop/caducea.md` for the v1.6.0 canonical entry."
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
 ---
+
+> **⚠️ Legacy file notice (2026-05-14):** This is the 2026-05-13 inception draft of Caducea's cast file, authored when *The Threshold* was a single workshop with three internal rooms. At v1.6.0 (Threshold District restructure + Hermaion admission), the canonical Caducea file is **[`tomes/cast/cross-shop/caducea.md`](../cross-shop/caducea.md)** — peripatetic cast belongs in `cross-shop/` per convention. This file is preserved unchanged below as the inception-state record, since the 2026-05-13 Tome V Act 16 and Tome VI Act 1 bound acts reference Caducea in her threshold-affiliated form. Future references should use the cross-shop file.
 
 # Caducea
 
