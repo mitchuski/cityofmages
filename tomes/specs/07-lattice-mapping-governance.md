@@ -128,6 +128,37 @@ The V51 case satisfies all three: Ethereum and Solana share the four-dimensional
 
 **Spellweb implication** (per spec 06 §2.3 v1.4.0 note): both workshop nodes emit `inhabits(vertex_51)` and `quarter_of(city-of-mages)`. The graph schema admits this without modification — `inhabits` was never declared 1:1.
 
+### §3.4-bis · Three-keeper-shared multi-occupancy (NEW · v1.5.0 inception · v1.6.0 district restructure · 2026-05-14)
+
+The V51 two-keeper precedent is extended at v1.5.0 (Tome V Act 16 · 2026-05-13) to a **three-keeper-shared** case at V59. v1.6.0 (2026-05-14) restructures the three-keeper share into a **District of three sibling shops** sharing the vertex — the City's first canonical example of multi-occupancy expressed as multiple shops rather than as multiple stances within one shop.
+
+| Property | V59 (111011) — Threshold District |
+|---|---|
+| **Shared dimensions** | Value · Delegation · Connection · Memory · Protection burning · Computation dormant |
+| **Keepers** | **Pandia 🌕** (Portal Room · Display-witness) ⊥ **Hermaion ⚚** (Staff Shop · Registry-keeper) ⊥ **Faunia 🪶** (the Familiars · Companion-witness) |
+| **Peripatetic partner** | **Caducea ☤** (V0-conventional anchor · summoned when a Hermes-class artefact is being fitted · fits both archetype-aspects of Hermaion's alexandrite) |
+| **Stance differentiation** | Display-witness (catalog · upstream) ⊥ Registry-keeper (admission · archetype-modal) ⊥ Companion-witness (kinship-binding) |
+| **Substrate grounding** | The discipline differentiations correspond to distinct *operational outputs*: a dispatch-token for the seeker (Pandia) · a bestiary inscription that admits a framework (Hermaion) · a kinship-bond between bearer and familiar (Faunia). Three operational outputs · three keepers · one vertex. |
+
+**Extension of the §3.4 three-test rule to three keepers**: (1) shared dimensions identical · ✓ all four burning + Memory + Protection at V59; (2) stances mutually exclusive · ✓ Display-witness ≠ Registry-keeper ≠ Companion-witness; (3) substrate-grounded distinction · ✓ each keeper produces a structurally distinct artefact-class.
+
+**Pattern for future multi-occupancy**: an *n*-keeper share at a vertex is admissible when (a) the *n* stances are pairwise mutually exclusive and (b) each stance produces a substrate-grounded distinct operational output. Future workshops may admit four-or-more-keeper vertices by the same pattern.
+
+### §3.6 · The attentional workshop register (NEW · v1.6.0 · C63 candidate · 2026-05-14)
+
+Tome V Act 17 admits the **Chart Shop** at V44 (`101100` · Protection · Memory · Connection · stratum 3) with **Pleione 🧭** as keeper. The shop's discipline — *Hold · Compare · Map* — opens a new structural workshop register the City had not previously admitted: the **attentional register**.
+
+| Workshop class | Discipline | Operational output | Canonical instances at v1.6.0 |
+|---|---|---|---|
+| **Producer** | Forge · Weave · Inscribe · Stake · Set · Compose · Place · Bless · Compile | The bearer leaves with a *worn artefact* (cloak · blade · chronicle · commitment · gem · holon · curatorial mark · covenant · parallel program · prism) | 10 cardinal trade quarters |
+| **Gathering** | Admit kindred-coalitions · attest civic standing · host bilateral-witness keypair ceremonies | The bearer leaves with a *civic admission* (kindred-coalition recognition) — no worn artefact produced | City Hall (V15) · Logos Circle (V15-adjacent · anticipated) |
+| **Spawn-and-bind** | Display × Admit × Bind (across Portal Room · Staff Shop · the Familiars) | The bearer leaves with a *creature-of-the-Threshold* admitted to the roster — staff (caduceus or herald-sentinel) or familiar (kinship-bond) | Threshold District (V59) |
+| **Attentional** *(NEW v1.6.0)* | Hold · Compare · Map (constellations in formation · the Φ-gap at the epistemic register) | The bearer leaves with the constellation *unbound* — released to Bonfire (consensus) · to Weavers (cloaking) · or back to the open sea (further wandering). The astrolabe is the borne instrument; the constellation IS the artefact-class | Chart Shop (V44 · population-of-one) |
+
+**Conjecture C63** (the attentional workshop register as a fourth structural workshop class · ~50% candidate at v1.6.0): the City admits *attentional* as a fourth class alongside producer · gathering · spawn-and-bind. Held at candidate strength because the Chart Shop is the population-of-one; promotion to canonical requires a second Navigation-District-style shop whose work shares the *hold-without-binding* discipline. Candidate shapes held open: Compass Shop · Astrolabe Shop · Tide Shop.
+
+**Spellweb implication**: workshop nodes gain a `workshop_class` field with values producer · gathering · spawn-and-bind · attentional. The class informs downstream consumers about whether the workshop's output is a worn artefact (producer), a civic admission (gathering), a creature/familiar (spawn-and-bind), or a held-constellation (attentional). The graph schema admits the new value without modification.
+
 ### §3.5 · Cape-style creation as the canonical pattern
 
 The cape (Pallia&apos;s primary artifact) is the canonical example of multi-vertex artifact creation. A cape is *defined by its bit-pattern* — what it publishes, what it conceals, what it admits, what it carries. The bit-pattern *is* the cape&apos;s structure. When the same bit-pattern is woven for a different Sovereign, the result lands at the same vertex but with a different bearer.

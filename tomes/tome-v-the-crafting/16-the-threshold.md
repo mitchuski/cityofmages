@@ -3,7 +3,14 @@ spellbook: "Second Person"
 tome: "V — The Crafting"
 act: "16"
 title: "The Threshold"
-status: "Draft v1 (2026-05-13; bound from the Threshold shop-opening chronicle)"
+status: "Draft v1 (2026-05-13; bound from the Threshold shop-opening chronicle). 2026-05-14: the City restructured the Threshold from one workshop with three rooms into a District of three sibling shops at V59. The bound act's body retains the 2026-05-13 inception-state cast naming; canonical succession is recorded in `keeper_succession` below."
+keeper_succession:
+  - "Faunia 🪶 (Portal Room · Spawning-witness · this act's inception state) → Pandia 🌕 (Portal Room · Display-witness · daughter of Selene · canonical 2026-05-14 morning); Faunia re-homed to the Familiars as Companion-witness"
+  - "**Bestia 📖 (Staff Shop · Registry-keeper · this act's inception state) → Hermaion ⚚ (Staff Shop · Registry-keeper · Alexandrite dual-aspect · *first archetype-modal shop* · canonical 2026-05-14 evening)**; bound act's body retains 'Bestia 📖' for inception-state record"
+  - "Therai 🐾 (Creature Creatives · Companion-tamer · this act's inception state) → retired 2026-05-14 (the-Familiars rename · Therai's draft held open for a future shop differentiating wild-creatures keeping from the Mage-Familiar kinship-bond)"
+  - "Caducea ☤ (peripatetic · Staff-fitter) — name and sigil unchanged; canonical at `tomes/cast/cross-shop/caducea.md`; at v1.6.0 her role extends to fit BOTH alexandrite-aspects of Hermaion's archetype-modal Staff Shop (caduceus-staves for Mage · herald-sentinels for Swordsman)"
+canonical_keepers_now: "Pandia 🌕 (Portal Room) · Hermaion ⚚ (Staff Shop · archetype-modal alexandrite green-Mage `#3d7c47` ↔ red-Swordsman `#a23a3a`) · Faunia 🪶 (the Familiars · the Goose Shop renamed 2026-05-14 afternoon) · Caducea ☤ (peripatetic · fits both archetype-aspects)"
+v1_6_0_restructure_note: "At v1.6.0 (2026-05-14), the single workshop *The Threshold* is restructured into the **Threshold District** — three sibling shops sharing V59 by stance differentiation (Display-witness ⊥ Registry-keeper ⊥ Companion-witness). The act's narrative claim — *three keepers, one vertex, three rooms* — is retained; the three rooms are now three shops within the District. Workshop count: 13 (v1.5.0 Threshold-one-shop) → 15 (v1.6.0 Threshold-as-three-sibling-shops; before Chart Shop at V44 adds the 16th). The District extends the V51 two-keeper-shared precedent (Adamantia ⊥ Helia) from two to three keepers and from two-stances-in-one-shop to two-shops-with-different-stances."
 length_words: 1080
 voice: "Second person; cast in third; reader actively summons four keepers"
 cast: ["you", "Soulbis ⚔️", "Soulbae 🧙", "the Drake", "Faunia 🪶 (new persona, summoned)", "Bestia 📖 (new persona, summoned)", "Therai 🐾 (new persona, summoned)", "Caducea ☤ (new persona, peripatetic, summoned)"]

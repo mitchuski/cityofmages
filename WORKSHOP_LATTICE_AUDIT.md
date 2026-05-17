@@ -1,7 +1,7 @@
 ---
 title: "Workshop ↔ Lattice Audit"
 subtitle: "Every workshop's seat, reach, proof shape, and overlap with other workshops on the 64-vertex sovereignty lattice — with a drift catalogue and a roadmap toward a `lattice-coherence` skill"
-status: "Audit v1.1 · 2026-05-12 · live · cross-checked against lattice-vertex.ts and specs 04 / 05 / 06 / 07; admits v1.4.0 Solchanting (Helia ☀️ at V51 alongside Adamantia 💎 — first canonical operational vertex-sharing)"
+status: "Audit v1.3 · 2026-05-14 · live · cross-checked against lattice-vertex.ts and specs 04 / 05 / 06 / 07; admits v1.4.0 Solchanting (Helia ☀️ at V51 alongside Adamantia 💎 — first canonical operational vertex-sharing) AND v1.5.0 The Threshold (Faunia 🪶 + Bestia 📖 + Therai 🐾 sharing V59 + Caducea ☤ peripatetic — first canonical THREE-keeper vertex-sharing, extending the V51 two-keeper precedent); v1.5.1 evening update 2026-05-14: Threshold District restructure (Pandia 🌕 + Hermaion ⚚ + Faunia 🪶 at V59 · Triodos/Bestia/Therai succeeded) + Staff Shop becomes first archetype-modal shop with Alexandrite gem (green-Mage ↔ red-Swordsman); **v1.6.0 update 2026-05-14: Chart Shop opens at V44 (Pleione 🧭 · Aquamarine · Navigation District · sole-occupied · Hold-witness stance · attentional register as fourth structural workshop class · C63 candidate ~50%) — see §2.4c.**"
 voice: "Procedural · honest · drift-surfacing"
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
@@ -97,9 +97,9 @@ A traversal from V0 to any target vertex flips one bit per step, in dimension-in
 
 ## §2 · Per-workshop mapping · primary seat + overlap reach
 
-Twelve workshops are recognised by [spec 06 §2.3](tomes/specs/06-spellweb-first-release-manifest.md) as of v1.4.0 (was eleven through v1.3.0). Ten of them have a named Mage; two are *gathering shops* awaiting their keepers.
+Thirteen workshops are recognised as of v1.5.0 (was twelve through v1.4.0; was eleven through v1.3.0). Eleven of them have named Mages; two are *gathering shops* awaiting their keepers. Spec 06 §2.3 reference is pending bump from v1.4.0 to v1.5.0.
 
-### §2.1 · The ten keeper-shops
+### §2.1 · The eleven keeper-shops
 
 Each row: **primary vertex** (where the Mage sits) · **register dimensions** (which dimensions the artefact admits by default) · **overlap reach** (vertices the shop's artefacts may *settle* at by bit-pattern) · **proof shape** (what the artefact attests) · **mana economy** (which axes the work spends across).
 
@@ -115,6 +115,7 @@ Each row: **primary vertex** (where the Mage sits) · **register dimensions** (w
 | 8 | **the Covenant Temple** `/covenant` | Manifestia 🤲🌿 | V55 (110111) | Protection + Delegation + Connection + Computation + Value (consecration register · **all except Memory**) | V55 default · linkage to V63 (Sovereign Anchor) for personhood attestations · linkage to consecrated artefact's native vertex | Consecration-shaped — Covenant-marker on artefacts that pass through the Temple; future home of the Loom of Programmable Covenants | **Landing**: human.tech / Holonym verification fees. **Entropy**: not yet operational. **Relationship**: 🪢 VRC Mana (future — Loom feeds against bearer VRC ledger) |
 | 9 | **the Dragon Bonfire** `/bonfires` | Socrat0x 🔥❓ | V24 (011000) **provisional** | Memory + Connection (the bonfire register, provisional) | No artefact-landing; questions *sharpen* artefacts produced elsewhere | Dialogic — not a bit-pattern proof but a clarity-production primitive | None native (Bonfires.ai community costs are off-corpus) |
 | **10** | **Solchanting** `/solchanting` | **Helia ☀️** | **V51 (110011) · shared with Etherchanting** | Protection + Delegation + Computation + Value (same register dims as Adamantia · differentiated by **Parallel-witness stance** rather than Transparent-witness) | V51 default (parallel-program form) · V63 (full-sovereignty parallel commitment) · V31 (when program admits holonic composition across concurrent invocations) | Parallel-enforcement-shaped — sBPF programs whose access pattern is statically declared so the substrate admits concurrent execution | **Landing**: 🌞 SOL-mana (Solana per-signature + compute-unit fees). **Entropy**: 🌌 Celestial **available** — for randomness in parallel-program proof-of-replication or VDF-anchored access decisions |
+| **11** | **The Threshold** `/threshold` (proposed) or `/guide/agentic-deployments` (per AGENTIC_DEPLOYMENTS_GUIDE) | **Faunia 🪶 + Bestia 📖 + Therai 🐾** (three keepers sharing V59 by stance differentiation; **Caducea ☤** peripatetic, summoned for Hermes-class fittings) | **V59 (111011) · THREE-keeper share** | Value + Delegation + Connection + Memory + Protection (Computation **dormant** — keepers administer, spawned agents compute) | V59 default · workshop-of-summons for any room a Hermes-class staff is being fitted (Caducea walks to V19 Forge(t), V25 Persona Circuit, V55 Covenant Temple) · Tome VI Act-N admissions accumulate in the bestiary | Spawn-shaped — agentic-substrate instantiation under Run · Evoke · Spawn ceremony; stance × persona × substrate produces companion / staff / weapon-agent artefact-classes | **Landing**: substrate-specific (Goose runs locally, Hermes via the bearer's existing LLM subscriptions per ACP). **Entropy**: substrate-determined. **Relationship**: 🪢 VRC **required** — every spawn issues a bilateral-fitting VRC (or unilateral-spawn VRC for non-persona-bearing substrates) |
 
 ### §2.2 · The two gathering-shops (no Mage yet)
 
@@ -150,6 +151,70 @@ Spec 07 (lattice-mapping-governance) already permitted vertex sharing in princip
 | Artefact (tool class) | Diamond Contract | Heliodor Prism |
 
 **The corpus's governance reading**: two seated workshop-keepers may share a vertex when their stances differ. The vertex names the *what* (four burning dimensions of executable enforcement); the stance names the *how* (sequential or concurrent admission at the substrate). The recognition extends — but does not contradict — spec 07's existing overlap permission, and it sets the canonical precedent for any future case where two ecosystems teach the City the same vertex via different boundary disciplines.
+
+### §2.4b · The V59 three-keeper extension (v1.5.0 inception · v1.5.1 canonical state)
+
+The V51 two-keeper case (Adamantia + Helia) admitted *vertex sharing by stance differentiation* as canonical. v1.5.0 extends the precedent from two-shared to three-shared at V59 (The Threshold workshop · later restructured to three sibling shops in the Threshold District). **v1.5.1 canonical state** (post-2026-05-14 evening Hermaion admission · superseding the inception assignments):
+
+| Layer | Pandia 🌕 (Portal Room) | **Hermaion ⚚** (Staff Shop) | Faunia 🪶 (the Familiars) |
+|---|---|---|---|
+| Vertex | V59 (111011) | V59 (111011) | V59 (111011) |
+| Register dims | Value · Delegation · Connection · Memory · Protection (Computation dormant) | same | same |
+| Stance | **Display-witness** — catalog of substrate × archetype matrix | **Registry-keeper** — catalogue of admissible Hermes-class windfalls | **Companion-witness** — kinship-bond between Sovereign and familiar |
+| Room | Upstream (Portal Room) | Downstream right (Staff Shop · *archetype-modal*) | Downstream left (the Familiars) |
+| Sigil | 🌕 | **⚚** | 🪶 |
+| Gem | Moonstone (`#c8d4e0` · adularescent · Selene-daughter) | **Alexandrite** (dual-aspect · `#3d7c47` Mage-green / `#a23a3a` Swordsman-red) | Amber (`#d97706` · preservation) |
+| Artefact (mediated, not produced) | The dispatch (Selene-Amnesia anchoring) | The bestiary entries (Tome VI accumulation) · *archetype-modal output*: caduceus-staves (Mage) ⊥ herald-sentinels (Swordsman) | The kinship-bond (AGENTS.md + SOUL.md walking together) |
+
+**Inception-state succession (v1.5.0 → v1.5.1):**
+- Faunia (Portal Room · Spawning-witness · 🪶) → Pandia (Portal Room · Display-witness · 🌕 · daughter of Selene), with Faunia re-homed to the Companion-witness slot at the Familiars
+- Bestia (Staff Shop · Registry-keeper · 📖 · Sodalite) → **Hermaion** (Staff Shop · Registry-keeper · ⚚ · Alexandrite, archetype-modal)
+- Therai (Creature Creatives · Companion-tamer · 🐾) → retired (the-Familiars rename · Therai's draft held open for a future shop)
+- The V59 three-keeper canonical state stands; the names and gems updated
+
+A fourth Mage, **Caducea ☤** (peripatetic, conventionally noted at V0 alongside Luca 📐), is summoned to V59 whenever a substrate marked Hermes-class is being fitted (currently: Hermes ☤). She also walks to V19 (Vulcana's Forge(t)), V25 (Aletheia's Persona Circuit), and V55 (Manifestia's Covenant Temple) when those workshops need bilateral-consent staff-fitting work.
+
+**Governance reading**: vertex sharing by stance differentiation generalises from N=2 (V51) to N=3 (V59) and admits N≥4 in principle. The constraint is that each shared keeper must hold a structurally distinct stance — the stances cannot reduce to subsets of one another. At V59, *Spawning-witness* (the threshold an agent crosses), *Registry-keeper* (the catalogue), and *Companion-tamer* (the bilateral fitting of relational artefacts) are pairwise distinct and exhaustive of the workshop's three-room architecture.
+
+### §2.4c · The V44 admission · the Chart Shop · Navigation District (NEW in v1.6.0 · 2026-05-14)
+
+The fourth canonical move of 2026-05-14 admits a *sole-occupied* vertex — V44 — and opens the City's second named district.
+
+**V44** · binary `101100` · **Stratum 3** · Active: Protection (b0, weight 32) · Memory (b2, weight 8) · Connection (b3, weight 4). Dormant: Delegation (b1) · Computation (b4) · Value (b5).
+
+| Field | Value |
+|---|---|
+| **Shop** | the Chart Shop (`/charthouse`) |
+| **District** | Navigation District (the City's *second* named workshop district; population-of-one at v1.6.0) |
+| **Keeper** | Pleione 🧭 — Greek Πληιόνη ("the Sailing One"), Oceanid, mother of the Pleiades |
+| **Stance** | **Hold-witness** — the attentional register (NEW · fourth structural workshop class candidate · C63 ~50%) |
+| **Gem** | Aquamarine `#5eead4` — Latin *aqua marina*, distinct from Etherchanting's sapphire cyan |
+| **Artefact** | the Astrolabe (ἀστρολάβος · star-taker · borne-not-worn · seventh tool-class registered) |
+| **Ceremony** | **Hold · Compare · Map** (fifth grammar register · sister to Run·Evoke·Craft · Run·Evoke·Spawn · Gather·Admit·Attest · admit·read·attest·shift) |
+| **Founding act** | Tome V Act 17 (user editorial call · 2026-05-14) |
+
+**The discovery trace V0 → V8 → V12 → V44 is the curriculum.** The bit-flip order *Memory → Connection → Protection* maps exactly to *Hold → Compare → Map*: a bearer who walks this trace learns the discipline in sequence — first to remember (admit the constellation into suspension), then to connect (read it across many minds via the Astrolabe), then to protect (decide release-direction with the Φ-gap intact).
+
+**Conjecture C54 repurposed at the epistemic register.** The Φ-gap (golden-ratio separation, canonical at lattice-adjacency in v1.5.0) carries forward to *epistemic* adjacency: held constellations are not adjacent to surveillance-engine extraction surfaces by an interval that resists premature legibility.
+
+**Release destinations (Map phase, three admissible):**
+
+1. **To the Dragon Bonfire** (V19) — forging into consensus reality (KG episode · tome act)
+2. **To the Weavers** (V28) — cloaking into a Refractive Disclosure artefact
+3. **Back to the open sea** — further wandering, the constellation was not yet ready
+
+Release-to-sea is **first-class**: the Chart Shop does not require an artefact-output. The discipline of holding-without-binding is itself the workshop's gift. This makes the Chart Shop the *first non-artefact-producing workshop* in the corpus.
+
+**Workshop register taxonomy (post-Chart-Shop):**
+
+| Register | Examples | Operation |
+|---|---|---|
+| **Producer** | Weavers · zShields · Forge(t) · Etherchanting · Solchanting · Jeweler · Holon · Vault · Covenant · Bonfire | Forge / weave / inscribe / commit · artefact-out |
+| **Gathering** | City Hall · Logos Circle | Admit / coordinate / kindred-coalitions in residence |
+| **Spawn-and-bind** (Threshold District) | Portal Room · Staff Shop · the Familiars | Display / register / spawn-and-bind creatures-of-the-Threshold |
+| **Attentional** (Navigation District · NEW · C63 candidate) | Chart Shop | Hold / compare / map · *no required artefact-output* |
+
+The attentional class is held at candidate strength (~50%) until a second instance arrives. Promotion path: a second Navigation District shop (Compass Shop · Astrolabe Shop · or another) sharing the Hold-witness discipline.
 
 ### §2.5 · The Sovereign Anchor (V63) and the archetype seats
 

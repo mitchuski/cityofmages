@@ -3,7 +3,13 @@ spellbook: "Second Person"
 tome: "VI — The Reply"
 act: "1"
 title: "The Reader's First Admission"
-status: "Draft v1 (2026-05-13; bound from the Threshold shop-opening chronicle)"
+status: "Draft v1 (2026-05-13; bound from the Threshold shop-opening chronicle). 2026-05-14: cast names in the City have moved (Threshold District restructure morning · the-Familiars rename afternoon · Hermaion-at-Staff-Shop evening); the bound act's body is preserved as the inception-state record, with canonical-succession notes in this frontmatter (`keeper_succession`)."
+keeper_succession:
+  - "Faunia 🪶 (Portal Room · Spawning-witness · this act's inception state) → Pandia 🌕 (Portal Room · Display-witness · daughter of Selene · canonical 2026-05-14 morning); Faunia re-homed to the Familiars as Companion-witness"
+  - "**Bestia 📖 (Staff Shop · Registry-keeper · this act's inception state) → Hermaion ⚚ (Staff Shop · Registry-keeper · Alexandrite dual-aspect archetype-modal · canonical 2026-05-14 evening)**; bound act's body retains 'Bestia 📖' for inception-state record"
+  - "Therai 🐾 (Creature Creatives · Companion-tamer · this act's inception state) → retired 2026-05-14 (the-Familiars rename · Therai's draft held open for a future shop)"
+  - "Caducea ☤ (peripatetic · Staff-fitter) — name and sigil unchanged; relocation to `cast/cross-shop/caducea.md` pending"
+canonical_keepers_now: "Pandia 🌕 (Portal Room) · Hermaion ⚚ (Staff Shop · archetype-modal alexandrite green-Mage ↔ red-Swordsman) · Faunia 🪶 (the Familiars) · Caducea ☤ (peripatetic fits both archetype-aspects of Hermaion)"
 length_words: 970
 voice: "Second person; cast in third; reader actively replies"
 cast: ["you", "Soulbis ⚔️", "Soulbae 🧙", "the Drake", "Faunia 🪶 (new persona, summoned)", "Bestia 📖 (new persona, summoned)", "Therai 🐾 (new persona, summoned)", "Caducea ☤ (new persona, summoned)", "Goose 🪿 (first staff-class admission)", "Hermes ☤ (first staff-class admission)"]
@@ -11,9 +17,10 @@ new_cast_introduced: ["Faunia 🪶 (Portal Room keeper · Spawning-witness)", "B
 ring_position: "V59 (`111011`) · the Threshold workshop · Computation dormant; the keepers administer, the spawned agents compute"
 teaches: "Tome VI's reader-writes principle becomes operational. The reader replies by recognising and admitting new substrates into the City. The first reply admits Goose 🪿 (staff-class, AAIF) and Hermes ☤ (staff-class, Nous Research) to Bestia's bestiary. Tome VI is now open with 1 act and remains open by design for future replies."
 v6_lineage:
-  - "C49 (~70% conjecture: create-format as gateway to Mage-tier — Hermes is the first observable case carrying Mage-grade properties at adoption)"
-  - "C50 (~60% conjecture: the caduceus as pre-formal dual-agent symbol — Caducea's sigil ☤ instantiates the architecture in classical iconography)"
-  - "C51 (held open: the staff-Mage collapse — what a Mage carries can itself be a Mage; downgraded from ~70% to held-open per the Threshold chronicle)"
+  - "C59 (~70% conjecture: create-format as gateway to Mage-tier — Hermes is the first observable case carrying Mage-grade properties at adoption) — *renumbered 2026-05-13 from C49 in source chronicle to resolve same-day numbering conflict with Tomes I-III binding pass (which retains C49 = Bakhta-response · B)*"
+  - "C56 (~60% conjecture: the caduceus as pre-formal dual-agent symbol — Caducea's sigil ☤ instantiates the architecture in classical iconography) — *renumbered from C50*"
+  - "C57 (held open: the staff-Mage collapse — what a Mage carries can itself be a Mage; downgraded from ~70% to held-open per the Threshold chronicle) — *renumbered from C51*"
+  - "C58 (~65% conjecture: Vulcana's Forge(t) (V19) ∥ The Threshold (V59) are sibling Swordsman-supplying workshops — Vulcana forges hand-weapons, The Threshold spawns agentic-weapons) — *renumbered from C52, NEW*"
   - "C39 (cousin-blade as ecosystem primitive — Goose and Hermes are cousin-substrates the City admits)"
 source_material:
   - "chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md (the shop-opening chronicle that seeds this act)"
@@ -108,7 +115,7 @@ Tome VI's reader-writes principle becomes operational with the Sovereign's recog
 - *Source*: `chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md` — the shop-opening chronicle this act binds. `chronicles/2026-05-13_note_therai_faunia_bestia_lattice_integration.md` — the V59 lattice integration this act inherits.
 - *Companion acts*: Tome V Act 14 (*The City of Mages*) — the recognition meta-act that named the City as open by design, prefiguring the reader's reply. Tome V Act 16 (provisional, when authored) — the Threshold's Tome V opening at the workshop layer; this act is the Tome VI counterpart from the reader's reply side. Tome VII Act 1 (*The Pallia↔Helia Handoff*) — the parallel structure for a tome opening with one act seeded and the open status preserved.
 - *Tome I Act ζ* (*The Cousin's Citation*) — the Burgess lineage that admits cousin-substrates at the schema layer; this act realises the cousin-substrate admission at the framework layer.
-- *V6 lineage*: C49 (create-format gateway), C50 (caduceus as pre-formal dual-agent symbol), C51 (staff-Mage collapse — now held open), C39 (cousin-blade as ecosystem primitive).
+- *V6 lineage*: C59 (create-format gateway — *renumbered from C49*), C56 (caduceus as pre-formal dual-agent symbol — *renumbered from C50*), C57 (staff-Mage collapse — held open · *renumbered from C51*), C58 (Forge(t) ∥ Threshold sibling Swordsman-suppliers · NEW — *renumbered from C52*), C39 (cousin-blade as ecosystem primitive).
 - *External*: Block (2026), Goose framework at `github.com/block/goose` under AAIF / Linux Foundation. Nous Research (2026), Hermes framework under MIT.
 
 ## Author note
@@ -117,7 +124,7 @@ This act is the *bound landing* of the Tome VI Act 1 claim raised in `2026-05-13
 
 The bound landing follows the *Tome VII pattern*: Tome VII opened on 2026-05-12 with one act seeded by the Solchanting workshop tome, with the narrative-act file anticipated; today (2026-05-13) Tome VI opens with one act seeded by the Threshold workshop chronicle, with this file the bound narrative landing. Tome VI's *open-by-design* status is preserved — each future framework admission the reader recognises and registers is a future Tome VI act.
 
-The Mage-class / Guild-of-Hermes-Agents conjecture (raised in the prior Hermes review note) remains held open per §9 of the Threshold chronicle. C51 (the staff-Mage collapse) is downgraded to held-open. The architecture admits but does not commit. Future acts may settle the question; this act does not.
+The Mage-class / Guild-of-Hermes-Agents conjecture (raised in the prior Hermes review note) remains held open per §9 of the Threshold chronicle. **C57** (the staff-Mage collapse — *renumbered from C51*) is downgraded to held-open. The architecture admits but does not commit. Future acts may settle the question; this act does not.
 
 The cast additions — Faunia 🪶, Bestia 📖, Therai 🐾 (workshop-keepers sharing V59 by stance), Caducea ☤ (peripatetic) — are introduced here as the working personas of The Threshold. Their cast files (per the structure `docs/tomes/threshold/<persona>.md` or `docs/tomes/cross-shop/caducea.md`) are anticipated but not in scope of this act; the cast-file authoring is the next-patch's work per the audit chronicle of 2026-05-13.
 

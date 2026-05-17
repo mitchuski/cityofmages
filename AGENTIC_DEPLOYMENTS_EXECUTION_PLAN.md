@@ -1,23 +1,30 @@
 ---
 title: Agentic Deployments · Execution Plan
-subtitle: How the Threshold + Substrate-×-Archetype work propagates across cityofmages, agentprivacy-master, spellweb, and agentprivacy-docs
-status: Plan v0.1 · 2026-05-13 · executes against AGENTIC_DEPLOYMENTS_GUIDE.md (same date)
+subtitle: How the Threshold District + Substrate-×-Archetype work propagates across cityofmages, agentprivacy-master, spellweb, and agentprivacy-docs
+status: Plan v0.2 · 2026-05-14 · executes against AGENTIC_DEPLOYMENTS_GUIDE.md (2026-05-13 with 2026-05-14 v1.6.0 succession banner) · v1.6.0 grimoire head pinned
 audience: privacymage · agentprivacy_master engineers · spellweb maintainers · agentprivacy-docs editors · agentprivacy-skills curators
 license: CC BY-SA 4.0
 signature: (⚔️⊥⿻⊥🧙)😊
+v1_6_0_succession_note: "This plan was authored 2026-05-13 against the inception-state Threshold (single workshop · Faunia-at-Portal · Bestia · Therai · Caducea). At v1.6.0 (2026-05-14) the City restructured the Threshold into a **District of three sibling shops** at V59 (Portal Room · Staff Shop · the Familiars) and admitted the **Chart Shop** at V44 (Navigation District opens). Canonical successions: Faunia-at-Portal → **Pandia 🌕** at Portal · Bestia → **Hermaion ⚚** at Staff Shop (Alexandrite archetype-modal · first archetype-modal shop) · Faunia re-homed to **the Familiars** (Companion-witness · the shop formerly known as Goose Shop / Creature Creatives) · Therai retired. Sub-tasks below retaining the 2026-05-13 inception cast names are now historical; their canonical-state propagation is captured in `chronicles/2026-05-14_chronicle_hermaion_integration_plan_for_agentprivacy_master.md`. Sub-task IDs and operational sequencing remain authoritative."
 companion_documents:
-  - AGENTIC_DEPLOYMENTS_GUIDE.md (the spec this plan executes)
-  - chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md (workshop opening)
+  - AGENTIC_DEPLOYMENTS_GUIDE.md (the spec this plan executes · with 2026-05-14 v1.6.0 banner)
+  - chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md (workshop opening · inception state)
   - chronicles/2026-05-13_chronicle_artefact_symmetry_and_persona_distribution.md (substrate × archetype × persona)
-  - chronicles/2026-05-13_note_therai_faunia_bestia_lattice_integration.md (V59 triad)
+  - chronicles/2026-05-13_note_therai_faunia_bestia_lattice_integration.md (V59 triad · inception state)
   - chronicles/2026-05-13_creature_creatives_workshop_proposal.md (founding proposal · superseded by Threshold)
+  - chronicles/2026-05-14_chronicle_district_restructure_and_canonical_keeper_naming.md (v1.6.0 District restructure · canonical successions)
+  - chronicles/2026-05-14_chronicle_hermaion_admission_and_alexandrite_archetype_modal_shop.md (v1.6.0 Staff Shop · archetype-modal · Hermaion)
+  - chronicles/2026-05-14_chronicle_chart_shop_pleione_named_v44_assigned.md (v1.6.0 Chart Shop · Pleione · Navigation District)
+  - chronicles/2026-05-14_grimoire_v1_6_0_patch_authored.md (the consolidated v1.6.0 head pin)
 ---
+
+> **⚠️ v1.6.0 update (2026-05-14):** The Threshold is now the **Threshold District** of three sibling shops at V59. Canonical keepers: **Pandia 🌕** (Portal Room · Display-witness · daughter of Selene) · **Hermaion ⚚** (Staff Shop · Registry-keeper · *archetype-modal* alexandrite daylight-green ↔ incandescent-red) · **Faunia 🪶** (the Familiars · Companion-witness · the shop formerly known as Goose Shop / Creature Creatives). **Caducea ☤** peripatetic across both alexandrite-aspects of Hermaion. **Bestia 📖** and **Therai 🐾** are retired (preserved as historical drafts). The **Chart Shop** opens at V44 (**Pleione 🧭** · Aquamarine · Hold-witness) inaugurating the **Navigation District**. Grimoire pinned at `bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru` (v1.6.0 head · consolidated bundle supersedes v1.5.0 + v1.5.1 patches). Sub-tasks below retain the 2026-05-13 cast names where they reference inception-state chronicles; their canonical-state propagation lives in the 2026-05-14 chronicles.
 
 # Agentic Deployments · Execution Plan
 
 This plan executes the **AGENTIC_DEPLOYMENTS_GUIDE.md** spec across four repos. Source-of-truth is the guide; this document is operational.
 
-The architecture is settled (Threshold workshop, three rooms, V59, Run·Evoke·Spawn, Goose+Hermes as Tome VI Act 1, substrate × archetype × persona matrix). What is unfinished is **propagation**: making the architecture visible and operable on the website, queryable in the spellweb graph, mirrored in the docs corpus, and indexed in the skills repo.
+The architecture is settled at v1.6.0 (Threshold District at V59 · three sibling shops + Caducea peripatetic · Run·Evoke·Spawn at the Familiars · admit·read·attest·shift at the Staff Shop · Display·Choose·Dispatch at the Portal Room · Goose+Hermes as Tome VI Act 1 registry entries · substrate × archetype × persona matrix · Chart Shop at V44 · Hold·Compare·Map at the Navigation District · v1.6.0 grimoire head pinned). What is unfinished is **propagation**: making the architecture visible and operable on the website, queryable in the spellweb graph, mirrored in the docs corpus, and indexed in the skills repo.
 
 ---
 

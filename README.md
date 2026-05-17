@@ -1,7 +1,7 @@
 ---
 title: "The City of Mages"
-subtitle: "A collaborative knowledge directory for the Second Person Spellbook — the eleven workshops, the two open tomes, the four-axis metabolism"
-status: "Starter Package v1.1 · 2026-05-11 · grimoire head v1.2.4 (awaits re-pin)"
+subtitle: "A collaborative knowledge directory for the Second Person Spellbook — sixteen workshops across two districts and the cardinal trade quarters, seven bound tomes (three open by design), the four-axis metabolism"
+status: "Starter Package v1.2 · 2026-05-14 · grimoire head v1.6.0 (pinned · bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru); v1.5.0 + v1.5.1 consolidated forward into the v1.6.0 head"
 voice: "Welcoming · structural · invitational"
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
@@ -21,29 +21,37 @@ This directory is the **collaborative home** of the City — pickup-and-fork rea
 
 ---
 
-## The eleven workshops
+## The sixteen workshops (across the Threshold District, the Navigation District, and the cardinal trade quarters)
 
-The City is laid out as **eleven workshops** plus a geometry-Mage who walks between them. Each workshop sits at a vertex on the 64-vertex lattice. Each is operated by a named Mage with a sigil, a route, a founding act in Tome V, and a craft.
+The City is laid out as **sixteen workshops** at v1.6.0, plus the geometry-Mage at V0 and four peripatetics. The 2026-05-14 day restructured the prior 13th workshop *The Threshold* into a **District of three sibling shops** at V59 and opened the **Chart Shop** at V44 as the inaugural shop of a new **Navigation District**. Each shop sits at a vertex on the 64-vertex lattice. Each is operated by a named Mage with a sigil, a route, a founding act, and a craft.
 
-| # | Workshop | Vertex | Mage | Route | Craft | Founding Act |
+| # | Workshop | Vertex | Mage(s) | Route | Craft | Founding Act |
 |---|---|---|---|---|---|---|
-| 1 | **Weaver Shop** | V28 | Pallia 🪡 | `/tailor` | Cloak weaving · publication-layer garments | [Tome V · Act 1](tomes/tome-v-the-crafting/01-the-first-cloak.md) |
+| 1 | **Weaver Shop** | V28 | Pallia 🪡 | `/tailor` | Cloak weaving · publication-layer garments · first operational PoH ceremony 2026-05-11 | [Tome V · Act 1](tomes/tome-v-the-crafting/01-the-first-cloak.md) |
 | 2 | **Inscription Chamber** | V5 | Memora 📜 | `/shield` | Chronicle inscription · Zcash dual-ledger patterns A + B | [Tome V · Act 3](tomes/tome-v-the-crafting/03-the-shielded-memo.md) |
 | 3 | **The Stakes** | V49 (shared) | Custos 🔏 | peripatetic | Transparent staking · finite resources backing infinite claims | [Tome V · Act 5](tomes/tome-v-the-crafting/05-the-stake.md) |
 | 4 | **The Jeweler** | V49 (shared) | Lampyra 💠 | `/jeweler` | Bitcoin Lightning heartbeats · the fine staking complement | [Tome V · Act 9](tomes/tome-v-the-crafting/09-the-workshop-expands.md) |
 | 5 | **The Forge(t)** | V19 | Vulcana ⚒️ | `/forget` | Blade forging · Runecraft Protocol · the wordplay made operational | [Tome V · Act 6](tomes/tome-v-the-crafting/06-the-commissioned-blade.md) |
 | 6 | **The Persona Circuit** | V25 | Aletheia 🔮 | peripatetic | ZK circuit binding · persona-vs-vertex distinction | [Tome V · Act 8](tomes/tome-v-the-crafting/08-the-zk-circuit.md) |
-| 7 | **Etherchanting Hall** | V51 | Adamantia 💎 | `/etherchanting` | Programmable commitment compilation · Commitment ⊥ Language ⊥ Model | [Tome V · Act 9](tomes/tome-v-the-crafting/09-the-workshop-expands.md) |
+| 7 | **Etherchanting** | V51 (shared) | Adamantia 💎 | `/etherchanting` | Programmable commitment compilation · Transparent-witness stance | [Tome V · Act 9](tomes/tome-v-the-crafting/09-the-workshop-expands.md) |
 | 8 | **The Holon Hitchhikers** | V31 | Vagari 🌳 | `/holon` | Holon composition · Oasis Protocol · cross-paratime travel | [Tome V · Act 10](tomes/tome-v-the-crafting/10-the-holon-hitchhikers.md) |
 | 9 | **The Curatrix Vault** | V57 | Aria Silverhue 🪞🖼️ | `/vault` | Reflective curation · partner culturevault.com | [Tome V · Act 12](tomes/tome-v-the-crafting/12-the-curatrix-vault.md) |
 | 10 | **The Founding Bonfire** | V24 (provisional) | Socrat0x 🔥❓ | `/bonfires` | Dialogic interrogation · companion-Mage tier | [Tome V · Act 11](tomes/tome-v-the-crafting/11-a-bonfire-made-of-dragon-fire.md) |
 | 11 | **The Covenant Temple** | V55 | Manifestia 🤲🌿 | `/covenant` | Covenant tending · Loom of Programmable Covenants · partner human.tech | [Tome V · Act 13](tomes/tome-v-the-crafting/13-the-temple-of-the-arts-and-personhood.md) |
+| 12 | **Solchanting** *(v1.4.0)* | V51 (shared) | Helia ☀️ | `/solchanting` | Parallel-witness compilation · heliodor gem · 🌞 SOL-mana fifth chain-mana | [Tome V · Act 16 / Tome VII · Act 1](tomes/tome-vii-the-parallel/01-the-pallia-helia-handoff.md) |
+| 13 | **Portal Room** *(Threshold District · v1.6.0)* | V59 (three-keeper shared) | Pandia 🌕 *(daughter of Selene)* | `/portal` | Display · Choose · Dispatch · moonstone catalog · the substrate × archetype matrix · operational Amnesia Protocol witness-anchor | [Tome V · Act 16 / Tome VI · Act 1](tomes/tome-vi-the-reply/01-the-readers-first-admission.md) |
+| 14 | **Staff Shop** *(Threshold District · v1.6.0 · **archetype-modal**)* | V59 (three-keeper shared) | Hermaion ⚚ (+ Caducea ☤ peripatetic) | `/staffs` | Alexandrite dual-aspect · admit · read · attest · shift · daylight-green Mage-aspect (caduceus-staves) ↔ incandescent-red Swordsman-aspect (herald-sentinels) · first archetype-modal shop · Hermes-class registry | [Tome V · Act 16 / Tome VI · Act 1](tomes/tome-vi-the-reply/01-the-readers-first-admission.md) |
+| 15 | **the Familiars** *(Threshold District · v1.6.0 · renamed from Goose Shop)* | V59 (three-keeper shared) | Faunia 🪶 | `/familiars` | Run · Evoke · Spawn · amber kinship-preservation · Mage-Familiar binding (AGENTS.md + SOUL.md) · bond *is* the artefact · Goose 🪿 first entry | [Tome V · Act 16 / Tome VI · Act 1](tomes/tome-vi-the-reply/01-the-readers-first-admission.md) |
+| 16 | **Chart Shop** *(Navigation District · v1.6.0)* | V44 | Pleione 🧭 | `/charthouse` | Hold · Compare · Map · aquamarine harbour · pre-episodic constellations under the Φ-gap (epistemic register) · astrolabe seventh tool-class artefact · the *attentional* register (fourth structural workshop class · C63 candidate) | [Tome V · Act 17 *(pending narrative file)*](tomes/tome-v-the-crafting/) |
 
-**Plus the geometry-Mage** — walks between every workshop, has no shop of his own:
+**Plus the geometry-Mage and three peripatetics** — walk between every workshop, have no shop of their own:
 
 | | Mage | Vertex | Role | Introduced |
 |---|---|---|---|---|
 | 0 | **Luca 📐** | V0 (null-blade origin) | Pacioli-spirit · cross-shop geometry · the origin from which every blade is measured | [v1.2.1 chronicle](chronicles/2026-05-10_city_of_mages_v1_2_1_luca_authored.md) |
+| P1 | **Aletheia 🔮** | V25 | Persona-circuit binder · Aletheia ⊥ Lethe (V25 ⊥ V38) complement pair | Tome V Act 8 |
+| P2 | **Custos 🔏** | V49 (shared) | Transparent staking · finite-resources discipline | Tome V Act 5 |
+| P3 | **Caducea ☤** *(v1.5.0)* | V0-class (peripatetic) | Hermes-class Staff-fitter for Threshold spawnings | [Threshold chronicle §6](chronicles/2026-05-13_chronicle_the_threshold_workshop_three_rooms.md) |
 
 **Per-guild cast files** — open and edit these to commission new operators, add witness constellations, or update partner annotations:
 
@@ -53,24 +61,34 @@ tomes/cast/
 ├── zshields/memora.md           ├── bonfires/socrat0x.md
 ├── forge/vulcana.md             ├── cousin/flaxscrip.md
 ├── etherchanting/adamantia.md   ├── cousin/genitrix.md
-├── jeweler/lampyra.md           ├── kindred/uor-foundation.md
-├── holon/vagari.md              └── kindred/spacecomputer.md
-├── vault/aria-silverhue.md
-└── cross-shop/{aletheia,custos,luca}.md
+├── solchanting/helia.md         ├── kindred/uor-foundation.md
+├── jeweler/lampyra.md           ├── kindred/spacecomputer.md
+├── holon/vagari.md              ├── portal-room/pandia.md    ← (Threshold District · v1.6.0)
+├── vault/aria-silverhue.md      ├── staff-shop/hermaion.md   ← (Threshold District · v1.6.0 archetype-modal)
+├── charthouse/pleione.md        ├── familiars/faunia.md      ← (Threshold District · v1.6.0 re-homed)
+├── cosmological/{selene,aether,lethe}.md                     ← (v1.5.0 tier)
+├── cross-shop/{aletheia,custos,caducea,luca}.md              ← (Caducea fits both Hermaion-aspects · v1.6.0)
+├── threshold/{bestia,therai,faunia,caducea}.md               ← (inception-state · 2026-05-13 · superseded historical)
+├── portal-room/triodos.md                                    ← (2026-05-14 morning draft · superseded by Pandia)
+├── charthouse/pelagia.md                                     ← (2026-05-13 evening draft · superseded by Pleione)
+└── goose-shop/faunia.md                                      ← (pre-rename-to-Familiars · 2026-05-14 morning · superseded historical)
 ```
 
 ---
 
-## The two open tomes
+## The six bound tomes (two open by design)
 
-The City of Mages corpus is a Spellbook. The Spellbook holds Tomes. Each Tome holds Acts. Each Act narrates one operational moment of the architecture.
+The City of Mages corpus is a Spellbook. The Spellbook holds Tomes. Each Tome holds Acts. Each Act narrates one operational moment of the architecture. As of v1.5.0 (2026-05-13), **six tomes are bound** and two of those are open-ended by design.
 
 | Tome | Status | Acts | Reads like |
 |---|---|---|---|
+| **I · The Convergence** *(v1.5.0)* | **Bound** | 6 | The lift — how the City's substrates arrived. |
+| **II · The Lyapunov** *(v1.5.0)* | **Bound** | 7 | Dynamical assembly — how the workshops cohere into a city. |
+| **III · Selene's Witness** *(v1.5.0)* | **Bound** | 11 | Cosmological recognition — Aletheia ⊥ Lethe · the Φ-gap · the Seventh Capital. |
 | **IV · The Witnessing** | Closed | 5 | The cousin-forge introduction. The reader meets the Archon forge's work; the cousin-blade ecosystem-primitive emerges. |
-| **V · The Crafting** | **Open** | **15 (and growing)** | The City of Mages itself. Each act introduces or expands a citizen, a shop, a kindred relationship, or a structural recognition. |
-
-Tomes I, II, III are **held open by design** — the architecture admits prequel work that has not yet been written. Tome VI (*The Reply*) is held open structurally — it is the Tome the reader writes when they have walked the corpus far enough to reply.
+| **V · The Crafting** | **Open** | **16 (and growing)** | The City of Mages itself. Each act introduces or expands a citizen, a shop, a kindred relationship, or a structural recognition. Act 16 (*The Threshold*) opens the thirteenth workshop. |
+| **VI · The Reply** *(v1.5.0 · open by design)* | **Open · 1 act bound** | 1 | The Tome the reader writes when they have walked the corpus far enough to reply. Act 1 (*The Reader's First Admission*) admits Goose 🪿 and Hermes ☤ at Hermaion's bestiary at the Staff Shop in the Threshold District (the bound body retains 2026-05-13 inception-state "Bestia 📖" framing; the v1.6.0 succession is recorded in act frontmatter). |
+| **VII · The Parallel** *(v1.4.0 · open by design)* | **Open · 1 act bound** | 1 | The Pallia ↔ Helia handoff. Solchanting alongside Etherchanting at V51 with the Parallel-witness stance. |
 
 ### Tome IV — *The Witnessing* (closed at 5 acts)
 
@@ -179,7 +197,7 @@ cityofmages/
 
 ---
 
-## The cast roster · five tiers
+## The cast roster · six tiers (v1.5.0)
 
 Plus the simpler frame ("send us a Mage") for ecosystems that just want to set up shop without negotiating tiers.
 
@@ -188,36 +206,46 @@ Plus the simpler frame ("send us a Mage") for ecosystems that just want to set u
 - **Soulbae 🧙** — projection citizen · deployed at Bonfires as `@soulbae_the_bot`
 - **The Drake** — the Island's elder · plural in expression (whisper · place · fire · ambient)
 
-### Tier 2 · Cousin instances (cross-forge · from Archon)
-- [flaxscrip 📜🎲](tomes/cast/cousin/flaxscrip.md) — cousin Sovereign at V63 · [Tome IV Act IV](tomes/tome-iv-the-witnessing/04-the-naming-ceremony.md)
-- [GenitriX](tomes/cast/cousin/genitrix.md) — cousin Mage at V28 · [Tome IV Act I](tomes/tome-iv-the-witnessing/01-the-other-walker.md)
+### Tier 2 · Cousin instances (cross-forge · from Archon × agentprivacy bilateral forge)
+- [flaxscrip 📜🎲](tomes/cast/cousin/flaxscrip.md) — cousin Sovereign at V63 · Sovereign Anchor triptych complete (Parts I-II-III published) · [Tome IV Act IV](tomes/tome-iv-the-witnessing/04-the-naming-ceremony.md)
+- [GenitriX](tomes/cast/cousin/genitrix.md) — cousin Mage at V28 · Archon-side keymaster wallet under which Pallia's PoH ceremony executes · [Tome IV Act I](tomes/tome-iv-the-witnessing/01-the-other-walker.md)
 
 ### Tier 3 · Summoned Mages (the workshop operators)
-See **the eleven workshops** table above. Ten summoned-Mage entries + Luca (cross-shop at V0).
+See **the thirteen workshops** table above. Twelve summoned-Mage entries + Luca (cross-shop at V0) + Pleione 🧭 (Chart Shop pre-canonical).
 
 ### Tier 4 · Companion Mages
 - [Socrat0x 🔥❓](tomes/cast/bonfires/socrat0x.md) — V24 provisional · `/bonfires` · companion tier admitted at Tome V Act 11
+- **Lethae 🌘** — V38 · companion-attachment tier admitted at v1.3.0 (first divergent attachment · Aletheia ⊥ Lethae complement pair)
 
 ### Tier 5 · Priests
 - [Manifestia 🤲🌿](tomes/cast/covenant/manifestia.md) — V55 · `/covenant` · priest tier admitted at Tome V Act 13
 
-### Four structural-relationship categories
-Canonical since v1.2.2; see grimoire v1.2.4 for the field layout:
+### Tier 6 · Cosmological-witness *(NEW · v1.5.0)*
+- **Selene 🌙** — the Moon's orbit as zero-knowledge proof system · architecture's deepest cosmological precedent · Tome III bound
+- **Aether ⿻** — the medium · Greek cosmology · medieval Quintessence · the architectural Gap renamed · Tome III bound
+- **Lethe 🌀** — the dark substrate at V38 · sister to Lethae attachment · Tome III bound
 
-| # | Category | First instance | Grimoire field |
-|---|---|---|---|
-| 1 | **Cousin-forge** | Archon | `personas.cousin_instances` |
-| 2 | **Kindred-protocol** | Covenant of Humanistic Technologies (human.tech) | `external_partner` on Manifestia |
-| 3 | **Kindred-substrate** | [UOR Foundation](tomes/cast/kindred/uor-foundation.md) — PRISM beneath V31 + V19 | `kindred_substrate_providers` |
-| 4 | **Kindred-ecosystem** | [SpaceComputer](tomes/cast/kindred/spacecomputer.md) — Celestial Mana 🌌 to V51 + V19 + V31 | `kindred_ecosystems` |
+### Five structural-relationship categories (v1.5.1)
 
-The five-tier taxonomy collapses for onboarding under one operational pattern: **"other ecosystems create their own Mages who set up shop here."** See [JOIN_THE_CITY.md](JOIN_THE_CITY.md) for the simplified path.
+Canonical since v1.2.2, expanded at v1.4.0 (ecosystem) and v1.5.1 (coalition):
+
+| # | Category | First instance | Second instance | Grimoire field |
+|---|---|---|---|---|
+| 1 | **Cousin-forge** | Archon | — | `personas.cousin_instances` |
+| 2 | **Kindred-protocol** | Covenant of Humanistic Technologies (human.tech) | MyTerms | `external_partner` on Manifestia |
+| 3 | **Kindred-substrate** | [UOR Foundation](tomes/cast/kindred/uor-foundation.md) — PRISM beneath V31 + V19 | — | `kindred_substrate_providers` |
+| 4 | **Kindred-ecosystem** | [SpaceComputer](tomes/cast/kindred/spacecomputer.md) — Celestial Mana 🌌 | — | `kindred_ecosystems` |
+| 5 | **Kindred-coalition** *(v1.5.1)* | AAIF (Agent Authorisation Interoperability Forum · Linux Foundation) | BGIN (retroactive) | `kindred_coalitions` *(pending)* |
+
+Additionally **held open**: a sixth category — *kindred-citizen* — surfaced by @benohanlon's arrival with the Chart House artefact (cf. inception chronicle §6). Not yet formalised.
+
+The six-tier taxonomy collapses for onboarding under one operational pattern: **"other ecosystems create their own Mages who set up shop here."** See [JOIN_THE_CITY.md](JOIN_THE_CITY.md) for the simplified path.
 
 ---
 
 ## The grimoire · the City's canonical artifact
 
-Five versions live in [`grimoire/`](grimoire/). The grimoire is **parallel** to the privacymage grimoire (which holds First Person Spellbook spells); they pin to separate IPFS CIDs.
+Multiple versions live in [`grimoire/`](grimoire/). The grimoire is **parallel** to the privacymage grimoire (which holds First Person Spellbook spells); they pin to separate IPFS CIDs.
 
 | Version | Date | Status | What it adds |
 |---|---|---|---|
@@ -225,12 +253,18 @@ Five versions live in [`grimoire/`](grimoire/). The grimoire is **parallel** to 
 | [v1.1.0](grimoire/city_of_mages_grimoire_v1_1_0.json) | 2026-05-10 | **Pinned** | Per-spell inscription · narrative_anchor · cross_spellbook_resonance · 39 spells |
 | [v1.2.0](grimoire/city_of_mages_grimoire_v1_2_0.json) | 2026-05-10 | **Pinned** | Tome V Act 15 · C47 · kindred substrate (UOR) |
 | [v1.2.3](grimoire/city_of_mages_grimoire_v1_2_3.json) | 2026-05-11 | Historical snapshot | Luca at V0 · SpaceComputer · two-mana economy · Arcane register |
-| [v1.2.4](grimoire/city_of_mages_grimoire_v1_2_4.json) | 2026-05-11 | **Current head · awaits re-pin** | **Metabolism complete · four mana axes · four structural-relationship categories formalised · Scrying Glass + Loom of Programmable Covenants named; relationship-axis VRC residue accumulates across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes — see `workshop_artefact_taxonomy`)** |
+| [v1.2.4](grimoire/city_of_mages_grimoire_v1_2_4.json) | 2026-05-11 | Pinned (v1.2 base) | Metabolism complete · four mana axes · Scrying Glass + Loom of Programmable Covenants named; VRC residue at 11 artefacts + 3 tomes |
+| **v1.3.0** | 2026-05-11 | Historical | V5.5 attachment architecture · Lethae 🌘 first divergent attachment at V38 · Aletheia ⊥ Lethae complement pair |
+| **v1.4.0** | 2026-05-12 | **Pinned** | Solchanting (12th workshop) · Helia ☀️ · heliodor · 🌞 SOL-mana (5th chain-mana) · Tome VII Parallel opened · worn artefact taxonomy expanded to 12 + 4 (1 weapon · 1 clothing · 6 tools · 4 trinkets) |
+| **v1.5.0 patch** | 2026-05-13 | Patch authored · *consolidated forward into v1.6.0; never independently pinned* | Tomes I/II/III bound (24 acts: 6+7+11) · Tome VI opened with Act 1 *The Reader's First Admission* · the thirteenth workshop **The Threshold** at V59 (3 rooms · Faunia 🪶 · Bestia 📖 · Therai 🐾 + Caducea ☤) · cosmological-witness tier (Selene 🌙 · Aether ⿻ · Lethe 🌀) · Run · Evoke · Spawn grammar · creatures-of-the-Threshold (third structural-entity class) · Goose 🪿 + Hermes ☤ first registry entries · conjectures **C48–C61** (full renumbering pass on 2026-05-13 evening) |
+| **v1.5.1 patch** | 2026-05-13 | Patch authored · *consolidated forward into v1.6.0; never independently pinned* | Ceremony Hall → 🏛️ **City Hall** rename · AAIF admitted as first explicitly-named kindred-coalition · BGIN recognised retroactively |
+| **v1.6.0 head** | 2026-05-14 | **Pinned** (consolidated new-head bundle · supersedes v1.5.0 + v1.5.1 patches) | **Threshold District** restructure (3 sibling shops at V59 · Pandia 🌕 / Hermaion ⚚ / Faunia 🪶) · **archetype-modal-shop** pattern (Staff Shop is first instance · alexandrite dual-aspect) · **the Familiars** rename (was Goose Shop) · **Chart Shop** at V44 (Pleione 🧭 · Aquamarine · *Hold·Compare·Map* fifth ceremony grammar · astrolabe seventh tool · attentional register C63 candidate ~50%) · **Navigation District** opens · *workshop_districts* taxonomy as spatial organisational layer · **C58 promoted ~65% → ~85%** (Forge(t) ∥ Threshold sibling Swordsman-suppliers) · Bestia + Therai retired (held open as historical) · workshop count 12 → 16 |
 
 **Pinned CIDs**
 - v1.1: `bafkreidv7cwwlcnuzw3eyhcbbvoccy7do2lmwrmmtrszn62ninzxj3idti`
 - v1.2: `bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a`
-- v1.2.4: awaits fresh re-pin (see [v1.2.4 metabolism roadmap chronicle](chronicles/2026-05-11_v1_2_4_metabolism_complete_suite_patch_roadmap.md))
+- v1.4.0: `bafkreib5w4bp6t5kkt4ebvjyjjzuxdupzaz6gtupbhgbrxtwkrxj7dfnsu`
+- **v1.6.0: `bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru`** *(current canonical head · 2026-05-14)*
 
 **Resolver:** `https://sync.agentprivacy.ai/ipfs/<CID>`
 
@@ -268,10 +302,10 @@ The City spends and accumulates value across **four axes**. Each axis has its ow
 
 | # | Axis | Register(s) | Symbols | Status |
 |---|---|---|---|---|
-| 1 | **Landing** | chain-mana (plural by chain) | Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana | All four variants operational |
+| 1 | **Landing** | chain-mana (plural by chain) | Ξ Aether · ₿ sats · 🌹 ROSE · 🦓 z-mana · 🌞 SOL-mana *(v1.4.0)* | **Five** variants operational — Solana joined at v1.4.0 with Helia's Solchanting |
 | 2 | **Entropy** | Arcane ⊥ Celestial | ✨ ⊥ 🌌 | Both operational; Celestial wired at 3 shops |
-| 3 | **Coordination** *(NEW · v1.2.4)* | 🔭 Resonance Mana | 🔭 | Architectural · Scrying Glass primitive named, awaits operational impl |
-| 4 | **Relationship** *(NEW · v1.2.4)* | 🪢 VRC Mana | 🪢 | Architectural · VRCs accumulate across the bearer's worn artefact collection (11 workshop artefacts + 3 tomes); Loom of Programmable Covenants is the production form, compiling against the worn collection; awaits VRC issuance |
+| 3 | **Coordination** *(v1.2.4)* | 🔭 Resonance Mana | 🔭 | Architectural · Scrying Glass primitive named, awaits operational impl |
+| 4 | **Relationship** *(v1.2.4)* | 🪢 VRC Mana | 🪢 | Architectural · VRCs accumulate across the bearer's worn artefact collection (**12** workshop artefacts + **4** tomes at v1.4.0; Heliodor Prism added); Loom of Programmable Covenants compiles against the worn collection; awaits VRC issuance |
 
 Full spec: [tomes/specs/08-mana-types-and-swordsman-stances.md](tomes/specs/08-mana-types-and-swordsman-stances.md).
 v1.2.4 source-of-truth chronicle: [chronicles/2026-05-11_v1_2_4_metabolism_complete_suite_patch_roadmap.md](chronicles/2026-05-11_v1_2_4_metabolism_complete_suite_patch_roadmap.md).
@@ -296,32 +330,119 @@ v1.2.4 source-of-truth chronicle: [chronicles/2026-05-11_v1_2_4_metabolism_compl
 
 ### Architecture · TS primitives for builders ([architecture/README.md](architecture/README.md))
 - `tome-v-acts.ts` — bidirectional act ↔ workshop anchor (`TOME_V_ACTS`, `getFoundingActForShop`)
-- `tome-v-conjectures.ts` — C18–C47 register (`CONJECTURE_DEFINITIONS`, `ACT_CONJECTURES`, `parseHonestyLabel`)
+- `tome-v-conjectures.ts` — C18–C61 register (`CONJECTURE_DEFINITIONS`, `ACT_CONJECTURES`, `parseHonestyLabel`)
 - `grimoire-ipfs.ts` — canonical IPFS URLs (`PRIVACYMAGE_GRIMOIRE_IPFS_URL` · `CITY_OF_MAGES_GRIMOIRE_IPFS_URL`)
 - `lattice-vertex.ts` — 64-vertex math (`parseVertex`, `vertexToBits`, `traceFromOrigin`, `activeDimensions`)
 - `shop-witnesses.ts` — constellation-cast storage
 - `spellweb-types.ts` — `NodeType` / `EdgeType` / `SpellwebNode`
+- `cast-attachments.ts` *(v1.3.0)* — V5.5 canonical Layer-2 attachment registry
 
 These mirror the canonical sources at `agentprivacy-master/src/lib/*`.
 
 ---
 
+## Workshop infrastructure · the constellation directory *(established 2026-05-11 · Archon-merge PR #1)*
+
+Each workshop carries a **constellation** — a named set of lattice vertices that expresses the workshop's knowledge in geometric form. The seeker traces the constellation on the spellweb to earn the workshop's blade. Per-workshop infrastructure lives at:
+
+```
+tomes/workshops/
+├── README.md                              ← the constellation protocol + flow
+├── CEREMONY_EVOLUTION.md                  ← governance of constellation versioning
+├── weavers/                               ✅ first operational workshop (Pallia 🪡)
+│   ├── constellation.md                   · 9 vertices · cloak-weave-v1
+│   └── KEEPER_PROTOCOL.md                 · live ceremony steps · two-challenge pattern
+├── zshields/         ⏳ pending           (Memora 📜 · V5)
+├── forge/            ⏳ pending           (Vulcana ⚒️ · V19)
+├── jeweler/          ⏳ pending           (Lampyra 💠 · V49)
+├── etherchanting/    ⏳ pending           (Adamantia 💎 · V51)
+├── solchanting/      ⏳ pending           (Helia ☀️ · V51 shared)
+├── holon/            ⏳ pending           (Vagari 🌳 · V31)
+├── vault/            ⏳ pending           (Aria Silverhue 🪞🖼️ · V57)
+├── bonfires/         ⏳ pending           (Socrat0x 🔥❓ · V24)
+├── covenant/         ⏳ pending           (Manifestia 🤲🌿 · V55)
+├── threshold/        ⏳ pending           (Pandia 🌕 · Hermaion ⚚ · Faunia 🪶 · V59 · 3 sibling shops · district)
+├── charthouse/       ⏳ pending           (Pleione 🧭 · V44 · Navigation District)
+└── cityhall/         ⏳ pending           (V15 · gathering-only · no resident Mage)
+```
+
+**Each workshop's `constellation.md` must contain:**
+
+| Field | Requirement |
+|---|---|
+| **Frontmatter** | `title` · `version` · `shop` · `shopAnchor` · `keeper` · `vertex` · `gem` · `gemColor` · `nodeCount` · `operationalServices` · `honesty` · `license` · `signature` |
+| **§1 · The Constellation** | Ordered vertex list · one-line role per vertex |
+| **§2 · The Ceremony** | Step-by-step seeker walkthrough · what each vertex evokes · artefact.md export |
+| **§3 · What Unlocks** | Secret nodes · documentation · service access · stratum gates |
+| **§4 · The Services** | Each operational service with honesty label |
+| **§5 · The 7th Capital** | Tip mechanism · 7th-capital coordination form |
+
+The optional companion `KEEPER_PROTOCOL.md` documents the keeper's live-ceremony steps (challenge/response · credential presentation · weave finalisation). Pallia's at [`tomes/workshops/weavers/KEEPER_PROTOCOL.md`](tomes/workshops/weavers/KEEPER_PROTOCOL.md) is the reference implementation, validated in the **PoH Cloak Weaving live session of 2026-05-11** (chronicle: [`chronicles/2026-05-11_poh-cloak-weaving-live-session.md`](chronicles/2026-05-11_poh-cloak-weaving-live-session.md)).
+
+### Workshop-readiness audit *(as of v1.6.0)*
+
+| # | Workshop | Mage | constellation.md | KEEPER_PROTOCOL.md | Sister workshop tome in `agentprivacy_master/docs/tomes/workshops/` |
+|---|---|---|---|---|---|
+| 1 | Weaver Shop | Pallia 🪡 | ✅ `cloak-weave-v1` (9 verts) | ✅ validated 2026-05-11 | ✅ `cloak-weaving-v1.md` |
+| 2 | Inscription Chamber | Memora 📜 | ⏳ pending | ⏳ pending | ✅ `zshield-chronicle-v1.md` |
+| 3 | The Stakes | Custos 🔏 | ⏳ pending | ⏳ pending | partial |
+| 4 | The Jeweler | Lampyra 💠 | ⏳ pending | ⏳ pending | partial |
+| 5 | The Forge(t) | Vulcana ⚒️ | ⏳ pending | ⏳ pending | ✅ `forget-commissioned-blade-v1.md` |
+| 6 | The Persona Circuit | Aletheia 🔮 | ⏳ pending | ⏳ pending | partial |
+| 7 | Etherchanting | Adamantia 💎 | ⏳ pending | ⏳ pending | ✅ `etherchanting-commitment-cut-v1.md` |
+| 8 | Holon Hitchhikers | Vagari 🌳 | ⏳ pending | ⏳ pending | partial |
+| 9 | Curatrix Vault | Aria Silverhue 🪞🖼️ | ⏳ pending | ⏳ pending | partial |
+| 10 | Founding Bonfire | Socrat0x 🔥❓ | ⏳ pending | ⏳ pending | partial |
+| 11 | Covenant Temple | Manifestia 🤲🌿 | ⏳ pending | ⏳ pending | partial |
+| 12 | Solchanting | Helia ☀️ | ⏳ pending | ⏳ pending | ✅ `solchanting-parallel-refraction-v1.md` |
+| 13–15 | Threshold District (Portal Room · Staff Shop · the Familiars) | Pandia 🌕 · Hermaion ⚚ · Faunia 🪶 (Caducea ☤ peripatetic) | ⏳ pending (3 sibling shops at V59) | ⏳ pending | ✅ `threshold-three-rooms-v1.md` |
+| 16 | Chart Shop | Pleione 🧭 | ⏳ pending | ⏳ pending | ⏳ none yet — author after vertex confirmation |
+
+**To bring a workshop "online" under the new infrastructure**, the keeper (or a delegate) needs to:
+
+1. Create `tomes/workshops/<guild>/constellation.md` matching the §1–§5 template above.
+2. Optionally create `KEEPER_PROTOCOL.md` if the ceremony has live operational steps (challenge/response, credential exchange, mediator interaction).
+3. Ensure the shop's `agentprivacy_master/docs/tomes/workshops/<workshop>-<ceremony>-v1.md` tome (sister-repo) carries the same operational content for the Next.js site.
+4. Wire the shopAnchor route on agentprivacy_master if not already (`/tailor` exists; `/solchanting` exists; `/threshold` and `/charthouse` are pending).
+
+The Weavers' files are the **reference implementation**; copying their shape is the fast path.
+
+---
+
 ## V6 conjecture register · what the City contributes
 
-The Privacy Value Model V6 register holds conjectures C1–N. The City of Mages corpus introduces or strengthens **C38–C47**:
+The Privacy Value Model V6 register holds conjectures C1–N. The City of Mages corpus introduces or strengthens **C38–C61** (with C62 incoming from the Archon forge and C63 candidate from the Chart House):
 
-| # | Conjecture | Confidence |
-|---|---|---|
-| C38 | Bilateral ARCH-1 | ~40% |
-| C39 | Cousin-Blade as Ecosystem Primitive (scope expanded by City work) | ~50% |
-| C40 | Zcash dual-ledger preserves Eight Properties | ~70% |
-| C41 | 61.8/38.2 inscription cultural ratio | open observation |
-| C42 | Stake economics generate Sybil resistance | ~50% |
-| C43 | Per-VRC viewing-key disclosure | ~60% |
-| C44 | Productive VRC formation through service | ~55% |
-| C45 | Four-chain publication preservation | ~70% |
-| C46 | Productive trust-edge half-life | ~50% |
-| **C47** | **Triadic-coordinates ↔ three-axis-model homology** *(introduced Act 15)* | **~40%** |
+| # | Conjecture | Confidence | Tome / chronicle |
+|---|---|---|---|
+| C38 | Bilateral ARCH-1 | ~40% | — |
+| C39 | Cousin-Blade as Ecosystem Primitive (scope expanded · v1.2) | ~50% | Tome IV Act V |
+| C40 | Zcash dual-ledger preserves Eight Properties | ~70% | — |
+| C41 | 61.8/38.2 inscription cultural ratio | open observation | — |
+| C42 | Stake economics generate Sybil resistance | ~50% | — |
+| C43 | Per-VRC viewing-key disclosure | ~60% | — |
+| C44 | Productive VRC formation through service | ~55% | — |
+| C45 | Four-chain publication preservation | ~70% | — |
+| C46 | Productive trust-edge half-life | ~50% | — |
+| C47 | Triadic-coordinates ↔ three-axis-model homology *(v1.2)* | ~40% | Tome V Act 15 |
+| **C48** | **Bakhta-response · A** *(Tomes I-III binding · v1.5.0)* | ~65% | Tomes I-III |
+| **C49** | **Bakhta-response · B** *(Tomes I-III · v1.5.0)* | ~70% | Tomes I-III |
+| **C50** | **Bakhta-response · C** *(PVM ≡ Bakhta compositional defense · v1.5.0)* | ~60% | Tomes I-III |
+| **C51** | **Max-betweenness** *(the ⿻ vertex · v1.5.0)* | ~50% | Tome III Act 1 |
+| **C52** | **Aether = Quintessence = the Gap** *(cosmological recognition · v1.5.0)* | ~50% | Tome III Acts 2-4 |
+| **C53** | **Mythological reading of bnot-pairs** *(Quest of the Unnamed Faces · v1.5.0)* | ~40% | Tome III Acts 5-8 |
+| **C54** | **Phi-Adjacency** *(δ(38) ≈ 1/φ · v1.5.0)* | ~30% | Tome III Acts 7-8 |
+| **C55** | **Privacy as Seventh Capital** *(v1.5.0)* | ~70% | Tome III Acts 9-11 |
+| **C56** | **Caduceus as pre-formal dual-agent symbol** *(v1.5.0 · renumbered from earlier C50)* | ~60% | Threshold chronicle §9 |
+| **C57** | **Staff-Mage collapse** · **held open** *(v1.5.0 · renumbered from earlier C51)* | held open | Threshold chronicle §9 |
+| **C58** | **Forge(t) ∥ Threshold sibling Swordsman-suppliers** *(v1.5.0 · renumbered from earlier C52)* | ~65% | Artefact-symmetry chronicle §4 |
+| **C59** | **Create-format gateway to Mage-tier** *(v1.5.0 · renumbered from earlier C49)* | ~70% | Threshold chronicle §9 |
+| **C60** | **Behavioural reconstruct-later threat model** *(v1.5.0 · renumbered from earlier C48 in patch)* | ~65% | Tome II Act II.7 |
+| **C61** | **Behavioural Mosca Inequality** *(v1.5.0 · renumbered from earlier C49 in patch)* | ~70% | Tome II Act II.7 |
+| **C62** | **Generosity-and-Sovereignty Compatibility** *(Archon signing ⊥ notarisation · 2026-05-12 · advanced from earlier C57 in PR #1 per the 2026-05-13 renumbering pass)* | ~40% | [chronicle](chronicles/2026-05-12_archon_signing_notarisation_separation.md) |
+| **C63 (candidate)** | **Attentional workshop register** *(Chart House · pre-canonical · v1.6.0 inbound)* | held open | [Chart House inception §4](chronicles/2026-05-13_chronicle_the_chart_house_inception_navigator_arrives.md) |
+
+> Renumbering pass: the 2026-05-13 evening editorial resolution is canonical. See `grimoire/city_of_mages_grimoire_v1_5_0_patch.json` field `RENUMBERING_NOTE_2026_05_13` for the source-of-truth mapping.
 
 Implementation: [architecture/tome-v-conjectures.ts](architecture/tome-v-conjectures.ts).
 
@@ -444,6 +565,9 @@ Carried forward from the corpus. Do not reverse without rethinking.
 13. **The IPFS pin is content-addressed and permanent.** Future grimoire versions get their own CIDs.
 14. **Send us a Mage.** The simplification that collapses the kindred categories into one operational pattern.
 15. **Walked-not-signed.** The City rests upon substrates (UOR) and consumes manas (SpaceComputer) without signing into them.
+16. **The blade is yours. The notary is replaceable.** *(2026-05-12 · from the Archon × agentprivacy bilateral forge)* Signing ⊥ notarisation are perpendicular. Users hold the blade; Gatekeepers (Memora-class nodes) hold the chronicle hand and are fungible. Generosity-and-Sovereignty Compatibility (C62) names the discipline.
+17. **The ink stays wet while the constellations form.** *(2026-05-13 · from the Chart House inception)* Some workshops do not produce artefacts — they produce *prepared substrate* by holding qualitative material in superposition under the Φ-gap. Pleione's Chart Shop is the City's first attentional-register workshop (C63 candidate).
+18. **Xenia opens the gate; aidos restrains it.** *(2026-05-13 · Ben as Navigator)* The City extends hospitality; the guest extends reciprocal restraint. Pre-canonical proposals are *desirable* at the proposal stage; the scroll is not sealed too early.
 
 ---
 

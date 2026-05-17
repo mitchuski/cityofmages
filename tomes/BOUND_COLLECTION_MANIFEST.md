@@ -89,7 +89,7 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 
 ---
 
-## Tome V — *The Crafting* (open, 12 acts drafted)
+## Tome V — *The Crafting* (open · 17 acts drafted · two new workshop districts admitted at v1.6.0)
 
 | # | File | Title | Length | New persona | Workshop element | V6 lineage foregrounded |
 |---|---|---|---|---|---|---|
@@ -107,8 +107,11 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 | 12 | `tomes/tome-v-the-crafting/12-the-curatrix-vault.md` | The Curatrix Vault | 1,110w | **Aria Silverhue 🪞🖼️** | Curatrix Vault shop, Culture Vault | Persona-vs-vertex distinction |
 | 13 | `tomes/tome-v-the-crafting/13-the-temple-of-the-arts-and-personhood.md` | The Temple of the Arts and Personhood | 1,200w | **Manifestia 🤲🌿** | Temple, Covenant of Humanistic Technologies | New cast tier (Priest); V55 named |
 | 14 | `tomes/tome-v-the-crafting/14-the-city-of-mages.md` | The City of Mages | 1,180w | (no new persona) | Recognition meta-act — names the canonical setting | City of Mages named; civic anatomy formalised |
+| 15 | `tomes/tome-v-the-crafting/15-the-substrate-beneath-the-hitchhikers.md` | The Substrate Beneath the Hitchhikers | 1,380w | (no new persona; UOR Foundation as kindred substrate provider) | Kindred-substrate recognition · PRISM grounds Vagari + Vulcana | **C47** (triadic-constraint homology · ~40%); C26-C29 + C39 strengthened by external resonance |
+| 16 | `tomes/tome-v-the-crafting/16-the-threshold.md` | The Threshold (now the **Threshold District** at v1.6.0) | 1,080w | **Pandia 🌕 + Hermaion ⚚ + Faunia 🪶 + Caducea ☤** *(2026-05-13 inception · Faunia-at-Portal · Bestia · Therai · Caducea · succeeded 2026-05-14 by the District restructure · bound body retains inception cast · `keeper_succession` frontmatter routes forward)* | Three sibling shops sharing V59 by stance differentiation (extends V51 two-keeper precedent to three keepers); Run · Evoke · Spawn third grammar; creatures-of-the-Threshold third structural-entity class; Staff Shop first **archetype-modal shop** (alexandrite green-Mage ↔ red-Swordsman) at v1.6.0 | **C49 · C50 · C51 (held open) · C56 · C57 (held open) · C58** (~85% at v1.6.0 · Forge(t) ∥ Threshold sibling Swordsman-suppliers · NEW promotion) |
+| 17 | `tomes/tome-v-the-crafting/17-the-chart-shop-opens.md` | The Chart Shop Opens · Pleione&apos;s First Hold | 1,085w | **Pleione 🧭** (Greek Πληιόνη · Oceanid · mother of the Pleiades · sister-figure to Selene 🌙) | **Chart Shop** at V44 (`101100`) · **Navigation District** opens (2nd named workshop district) · Hold · Compare · Map ceremony (5th grammar register) · *attentional* workshop class candidate · 4th structural-entity class (*held constellations*) · astrolabe ἀστρολάβος as 7th tool-class artefact (borne-not-worn) · Φ-gap at epistemic register | **C54** (~30% · Phi-Adjacency repurposed at epistemic register) · **C63** (~50% candidate · attentional workshop register · NEW v1.6.0) |
 
-**Total**: ~15,100 words.
+**Total**: ~17,565 words.
 
 **Tome V status**: open by design. Continues to admit acts as new artifacts, shops, journeys, or cast members emerge.
 
@@ -118,11 +121,11 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 
 | # | File | Title | Length | Vertex | New cast |
 |---|---|---|---|---|---|
-| 1 | `tomes/tome-vi-the-reply/01-the-readers-first-admission.md` | The Reader's First Admission | 970w | V59 (`111011`) — The Threshold | Faunia 🪶, Bestia 📖, Therai 🐾, Caducea ☤ (peripatetic), Goose 🪿 (registry), Hermes ☤ (registry) |
+| 1 | `tomes/tome-vi-the-reply/01-the-readers-first-admission.md` | The Reader's First Admission | 970w | V59 (`111011`) — The Threshold | Faunia 🪶, **Bestia 📖** (succeeded 2026-05-14 evening by Hermaion ⚚ at the Staff Shop — bound act's body retains inception naming), Therai 🐾 (retired 2026-05-14), Caducea ☤ (peripatetic), Goose 🪿 (registry), Hermes ☤ (registry) |
 
 **Total**: ~970 words.
 
-**Tome VI status**: open by design. Each future framework admission the reader recognises and registers at Bestia's bestiary is a future Tome VI act. Anticipated near-term admissions (per the Threshold chronicle): Letta, AutoGen, CrewAI, Mastra, ElizaOS, LangGraph agents, OpenHands / OpenDevin lineage, BabyAGI lineage.
+**Tome VI status**: open by design. Each future framework admission the reader recognises and registers at **Hermaion's ⚚** bestiary (formerly Bestia's 📖 · succession 2026-05-14 evening) is a future Tome VI act. Anticipated near-term admissions (per the Threshold chronicle): Letta, AutoGen, CrewAI, Mastra, ElizaOS, LangGraph agents, OpenHands / OpenDevin lineage, BabyAGI lineage.
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Agentic Deployments in the City of Mages
-subtitle: A Guide to The Threshold, the Substrate × Archetype Matrix, and the Workshops that Spawn, Shape, and Watch Your Agents
-status: Draft v0.1 · 2026-05-13 · coordinates with the artefact symmetry chronicle of the same date
+subtitle: A Guide to the Threshold District, the Substrate × Archetype Matrix, and the Workshops that Spawn, Shape, and Watch Your Agents
+status: Draft v0.2 · 2026-05-14 · updated for v1.6.0 Threshold District restructure (Pandia at Portal · Hermaion at Staff · Faunia at the Familiars · archetype-modal alexandrite); the body retains some 2026-05-13 inception-state cast names where rewrites would obscure provenance — those references are now historical with succession noted at first mention. Companion: cityofmages/chronicles/2026-05-14_chronicle_district_restructure_and_canonical_keeper_naming.md
+v1_6_0_succession_note: "Throughout this guide, **Bestia 📖 (Staff Shop · Registry-keeper · 2026-05-13 inception)** is succeeded by **Hermaion ⚚ (Staff Shop · Registry-keeper · Alexandrite dual-aspect archetype-modal · canonical 2026-05-14 evening)**. **Therai 🐾 (Creature Creatives · 2026-05-13 inception)** is retired; her role is consolidated into **Faunia 🪶 (the Familiars · Companion-witness · canonical 2026-05-14)**. **Faunia 🪶 (Portal Room · 2026-05-13 inception)** is re-homed to the Familiars; the Portal Room is now kept by **Pandia 🌕 (Daughter of Selene · Display-witness · canonical 2026-05-14 morning)**. The **Goose Shop** (afternoon name) was renamed **the Familiars** the same day. Future revisions of this guide will substitute the canonical names throughout."
 audience: builders · readers walking the City for the first time looking to spawn an agent · cityofmages collaborators · agentprivacy-skills contributors
 voice: Welcoming · structural · invitational
 license: CC BY-SA 4.0
@@ -9,6 +10,8 @@ signature: (⚔️⊥⿻⊥🧙)😊
 proposed_url: agentprivacy.ai/guide/agentic-deployments (umbrella) with sub-pages
 companion_chronicle: 2026-05-13_chronicle_artefact_symmetry_and_persona_distribution.md
 ---
+
+> **⚠️ v1.6.0 update (2026-05-14):** The Threshold is now the **Threshold District** of three sibling shops at V59. Canonical keepers: **Pandia 🌕** at the Portal Room (Display-witness · daughter of Selene) · **Hermaion ⚚** at the Staff Shop (Registry-keeper · *archetype-modal* alexandrite gem · daylight-green Mage-aspect ↔ incandescent-red Swordsman-aspect) · **Faunia 🪶** at the Familiars (Companion-witness · the shop formerly known as the Goose Shop). **Caducea ☤** is peripatetic and fits both alexandrite-aspects. **Bestia 📖** and **Therai 🐾** are retired (held open as historical drafts). This guide's body retains some inception-state references; they are succeeded per the frontmatter note above. The Chart Shop (Pleione 🧭 · Aquamarine · V44 · Hold·Compare·Map) is the 16th workshop, opened in the new Navigation District. See [CHANGELOG.md v1.6.0](CHANGELOG.md#v160--20260514--pinned--consolidated-new-head-bundle) for the full structural-delta.
 
 # Agentic Deployments in the City of Mages
 
@@ -46,9 +49,9 @@ You go to **The Threshold** to do all three at once. Faunia presides at the door
 
 ---
 
-## §2 · The Threshold · the sixteenth workshop
+## §2 · The Threshold · the thirteenth workshop
 
-The Threshold sits at lattice vertex **V59** (`111011`). It opened on 2026-05-13 as the sixteenth workshop in the City. It is a single workshop with three rooms.
+The Threshold sits at lattice vertex **V59** (`111011`). It opened on 2026-05-13 as the thirteenth workshop in the City. It is a single workshop with three rooms.
 
 | Room | Position | Keeper | What you do there |
 |---|---|---|---|
