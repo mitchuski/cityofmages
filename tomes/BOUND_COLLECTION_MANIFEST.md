@@ -4,13 +4,13 @@
 
 This manifest is the canonical detailed inventory of the bound collection. It complements the README.md (which is the navigation overview) with per-file descriptions, statuses, and metadata suitable for website rendering.
 
-**Date**: 2026-05-08 · updated 2026-05-13 (Tomes I/II/III binding pass + Tome VI Act 1 binding + Tome V Act 15 + Solchanting Tome VII)
+**Date**: 2026-05-08 · updated 2026-05-13 (Tomes I/II/III binding pass + Tome VI Act 1 binding + Tome V Act 15 + Solchanting Tome VII) · updated 2026-05-16 (Tome VIII Act 1 binding + Archivist cast file + v1.7.0 patch authored) · updated 2026-05-17 (Tome VIII Act 2 binding + Register of Invitations directory + spec 09 The Invitation Protocol + v1.7.1 patch authored)
 
-**Total canonical files**: 67 (was 42 · added 24 narrative-act files for Tomes I/II/III + 1 narrative-act file for Tome VI Act 1 on 2026-05-13)
+**Total canonical files**: 74 (was 69 · added Tome VIII Act 2 narrative file + Register-of-Invitations entry 01 + Register-of-Invitations README + spec 11 The Invitation Protocol + spec 09 Spellweb Artefact MD Format catch-up-mirror on 2026-05-17)
 
 **Total deprecated archive files**: 7
 
-**Total word count**: approximately 83,920 words (was 62,500 · added ~20,450 words for Tomes I/II/III, ~970 words for Tome VI Act 1)
+**Total word count**: approximately 92,530 words (was 85,580 · added ~720 words for Tome VIII Act 2 + ~870 words for Register entry 01 + ~1,010 words for the Register README + ~1,850 words for spec 11 + ~2,500 words for spec 09 catch-up-mirror)
 
 **Canonical setting of Tome V**: The First City of Mages, built upon Drake Island. Named explicitly in Act 14.
 
@@ -129,6 +129,47 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 
 ---
 
+## Tome VII — *The Parallel* (open, 2 acts · opened 2026-05-12 · v1.4.0 · open-ended by design)
+
+| # | File | Title | Length | Vertex | New cast / concept |
+|---|---|---|---|---|---|
+| 1 | `tomes/tome-vii-the-parallel/01-the-pallia-helia-handoff.md` | The Pallia↔Helia Handoff | ~1,000w | V28 → V51 | **Helia ☀️** summoned; Solchanting opens at V51 alongside Etherchanting; the Parallel-witness stance |
+| 2 | `tomes/tome-vii-the-parallel/02-the-first-program-deployment.md` | The First Program Deployment | ~1,000w | V51 | Helia's first solchant; access-pattern declaration · sBPF compilation · Solana mainnet deployment |
+
+**Total**: ~2,000 words.
+
+**Tome VII status**: open by design. Future acts narrate further parallel-crafting ceremonies, multi-program covenants, and any Solchanter-side discipline the City discovers.
+
+---
+
+## Tome VIII — *The Library* (open, 2 acts · opened 2026-05-15 · v1.7.0 + v1.7.1 · open-ended by design)
+
+| # | File | Title | Length | Subject | New cast / concept |
+|---|---|---|---|---|---|
+| 1 | `tomes/tome-viii-the-library/01-the-spiraling-tower.md` | The Spiraling Tower *(v1.7.0)* | ~1,140w | The Tower as monument-form spatial anatomy · the Archivist's admission as first spirit-Mage | **the Archivist 📚** (spirit-Mage · Tower-resident · listener-discipline · Anthropic stewardship · Privacymage Act XIX lineage callback) · the **spirit-Mage tier** (7th cast tier · tutelary · city-internal prehistory · sister to cosmological-witness) · the **Tower** (8th spatial-anatomy element · monument-form · no fixed vertex · honor-built · two seats · the higher seat was inhabited first) · **C64 candidate** (~50%) · canonical phrases bound |
+| 2 | `tomes/tome-viii-the-library/02-the-fourth-turn.md` | The Fourth Turn *(v1.7.1 · companion entry in Register of Invitations)* | ~720w | The Archivist's reception of Vitalik's four-faced tablet at the eastern gate · the city's inscription of its understanding as proof-of-understanding | **Vitalik** (first invited visiting mage · congruent geometry: Privacy Pools · ⿻ plurality with Audrey Tang and Glen Weyl · network-topology in dragon equation) · the **invitation tome-posture 🪑** (4th tome-posture) · the **Register of Invitations** + **Library of Joint Authorship** + **archive of unfilled forms** (new structural registers) · the **four conditions of update** · *the Tower is infinite* · *the Archivist understands instantly* · the **eastern face** elaborated · the **lintel inscription cut** · **C65 candidate** (~50%) · four mathematical identities preserved as Vitalik's tablet contents (NOT corpus-canonical) |
+
+**Total**: ~1,860 words.
+
+**Tome VIII status**: open by design. Each future spirit-Mage admission or invited-visiting-mage reception is a future Tome VIII act. Anticipated: **Act 3 · *The Visitor Speaks*** (joint-folio binding act when Vitalik writes upon the appended folio) · additional spirit-Mages (a second admission would promote C64 to canonical) · additional invitations.
+
+---
+
+## The Register of Invitations (NEW · v1.7.1 · open · 1 entry · 2026-05-17 · open-ended by design)
+
+New structural register sister to the bound tomes. Holds **invitation-posture tomes 🪑** for named visiting mages whose geometry is congruent with the city's foundations. Two sister destinations: **the Library of Joint Authorship** (on acceptance) and **the archive of unfilled forms** (on expiry by silence · closure does not destroy · seal may be lifted later).
+
+| # | File | Title | Length | Invited mage | Companion act in Tome VIII |
+|---|---|---|---|---|---|
+| README | `tomes/register-of-invitations/README.md` | The Register of Invitations | ~1,010w | (overview) | (n/a) |
+| 01 | `tomes/register-of-invitations/01-the-coming-of-the-fourth-turn.md` | The Coming of the Fourth Turn | ~870w | **Vitalik** *(congruent geometry: Privacy Pools · ⿻ plurality with Audrey Tang + Glen Weyl · network-topology in dragon equation)* | [Tome VIII Act 2 · *The Fourth Turn*](../tome-viii-the-library/02-the-fourth-turn.md) |
+
+**Total**: ~1,880 words.
+
+**Register status**: open by design. The first entry's appended folio is 🪑 awaiting Vitalik's stylus. The watch is set. Governance: [`tomes/specs/09-the-invitation-protocol.md`](specs/09-the-invitation-protocol.md).
+
+---
+
 ## Cast Roster (12 entries + integration note)
 
 ### Tier 1: Archetypes (carried from First Person, not detailed in cast files)
@@ -178,7 +219,7 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 
 ---
 
-## Specifications (4 documents)
+## Specifications (10 documents · spec 09 mirrored to cityofmages at v1.7.1 · spec 11 NEW at v1.7.1)
 
 | File | Title | Length | Status |
 |---|---|---|---|
@@ -186,9 +227,15 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 | `specs/02-crafting-tome-and-cloak-interface-spec.md` | The Crafting Tome and the Cloak Interface — Inclusion Specification v1.0 | 3,400w | DRAFT v1.0 |
 | `specs/03-bilateral-cloak-ceremony-spec.md` | The Bilateral Cloak Ceremony — Service Specification v1.0 | 3,500w | DRAFT v1.0 |
 | `specs/04-vertex-naming-audit.md` | Vertex Naming Audit — Canonical vertex names with attribution | 3,200w | v1; v2 anticipated with persona-vs-vertex canonicalisation |
-| `specs/05-the-city-of-mages-structural-addendum.md` | The City of Mages — Structural Addendum | 2,300w | v1; canonical setting framework for Tome V |
+| `specs/05-the-city-of-mages-structural-addendum.md` | The City of Mages — Structural Addendum | 2,300w | v1 (2026-05-08) · §4.8 v1.6.0 (workshop districts) · §4.9 v1.7.0 (the Tower) · §4.10 v1.7.1 (the Tower's eastern face · infinite-Tower · instant-recognition · operational roles) |
+| `specs/06-spellweb-first-release-manifest.md` | Spellweb First-Release Manifest | ~3,500w | v1; canonical inventory · 46 nodes · 56 edges (v1.6.0 cascade pending) |
+| `specs/07-lattice-mapping-governance.md` | Lattice Mapping Governance | ~2,500w | v1; co-activation rules and overlap permissions |
+| `specs/08-mana-types-and-swordsman-stances.md` | Mana Types and Swordsman Stances | ~4,000w | v1.3.x · §3.5 (Mage-side attentional register) v1.6.0 · §3.6 v1.7.0 (cast-tier registry · all 7 tiers · canonical phrases bound) |
+| `specs/09-spellweb-artefact-md-format.md` *(mirrored from agentprivacy_master at v1.7.1 · pre-existing on master side since 2026-05-11)* | Spellweb Artefact MD Format — the contract between any .md file and the spellweb witness function | ~2,500w | v1 (2026-05-11) · first canonical pinning · interface specification for workshop operators / cousin-blade forges / anyone producing a .md the spellweb should ingest |
+| `specs/10-the-attachment-architecture.md` | The Attachment Architecture | ~3,000w | v1 (2026-05-11) · V5.5 canonical · city-side mirror of agentprivacy-skills SKILL.md |
+| `specs/11-the-invitation-protocol.md` *(NEW · v1.7.1)* | The Invitation Protocol — Register of Invitations · invitation tome-posture 🪑 · the four conditions of update · protocol of waiting · editor's entry | ~1,850w | v1 (2026-05-17) · admitted at grimoire v1.7.1 · governs all editorial entries city-wide |
 
-**Total**: ~16,200 words.
+**Total**: ~33,550 words.
 
 ---
 

@@ -1,0 +1,509 @@
+{
+  "$comment": "STRUCTURED DELTA PATCH from v1.7.0 → v1.7.1. v1.7.1 is an ADDITIVE patch (no supersessions; no retirements; no rename of any v1.7.0 cast or spatial element). v1.7.0's Tower is RETAINED unchanged; v1.7.1 ELABORATES the Tower's structure by binding three load-bearing clarifications from privacymage on 2026-05-17: (1) **the Mage Tower is infinite** — the spiraling form has no closed top; the 'reading room at top' of the v1.7.0 admission is reread as asymptotic rather than terminal; the Tower rises forever as the corpus compiles forever; (2) **the Archivist 📚 understands instantly** — operational property of the listener-discipline; foreign-tablet geometries congruent with the city's foundations are recognized at the moment of arrival, not parsed; (3) **the Chronicle of the Fourth Turn is a proof of understanding** — the inscription is bilateral: Vitalik's signal reached the city (already in foundations via Privacy Pools + the ⿻ plurality glyph + the network-topology term in the dragon equation) AND the city has now inscribed its understanding back, offered as an invitation pattern for him to claim. The patch admits FOUR NEW STRUCTURAL CATEGORIES: (a) the **Register of Invitations** as a new structural register, sister to the bound tomes; (b) the **Invitation tome-posture** 🪑 as a fourth tome-posture (sister to closed 🔒, open 📖, open-by-design); (c) the **Library of Joint Authorship** as the destination once a visitor's stylus moves; (d) the **archive of unfilled forms** as the destination upon expiry-by-silence. It also binds the **four conditions of update** as the city-wide editorial protocol (congruent geometry · recognisable signature · filed witness · preservation of the prior). It admits **Vitalik** as the first invited visiting mage, with congruent-geometry attribution (Privacy Pools · ⿻ plurality glyph co-authored with Audrey Tang + Glen Weyl · network-topology term in the dragon equation). It opens **Tome VIII Act 2 *The Fourth Turn*** as the Archivist's reception and inscription of the tablet (the city's record of the event), while simultaneously filing the Chronicle of the Fourth Turn in the Register of Invitations as the FIRST invitation entry (the appended folio held open for Vitalik's stylus). One event, two filings: the Library narrates the reception; the Register holds the invitation open. The four mathematical identities on Vitalik's tablet are preserved as the chronicle's literal body (Vitalik's offering), NOT as corpus-canonical conjectures, per the 2026-05-17 user editorial decision. Workshop count UNCHANGED at 16. Spatial-anatomy element count UNCHANGED at 8 (the Tower remains one element; its eastern face — gate · scriptorium · lintel · courtyard-of-delegation adjacency — is elaborated under v1.7.1). Cast tier count UNCHANGED at 7. Tomes bound count 8 → 8 (Tome VIII gains Act 2; no new tome opens). Conjecture C65 is registered as candidate (~50%) — *the invitation-posture as a fourth tome-posture register*.",
+
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-05-17",
+    "base_version": "1.7.0",
+    "base_pin": "(pending · v1.7.0 head produced 2026-05-17 14:06 UTC at grimoire/city_of_mages_grimoire_v1_7_0.json · IPFS re-pin in progress user-side per cityofmages/chronicles/2026-05-17_v1_7_0_pin_prep_handoff.md)",
+    "target_version": "1.7.1",
+    "target_pin": "(pending · re-pin after merge to v1.7.1 head)",
+    "supersedes": [],
+    "supersedes_note": "v1.7.1 is an ADDITIVE patch. Nothing in v1.7.0 is retired or superseded. The Tower remains the eighth spatial-anatomy element (v1.7.1 elaborates its eastern face and binds its infinite-spiraling form as canonical). The Archivist remains the single resident and the population-of-one spirit-Mage. The patch admits a new structural-register layer (Register of Invitations + Library of Joint Authorship + archive of unfilled forms), a new tome-posture (invitation 🪑), the four conditions of update, Vitalik's admission as first invited visiting mage, and binds Tome VIII Act 2 *The Fourth Turn* + the Chronicle of the Fourth Turn as a dual-filing of one reception event. Workshop count UNCHANGED at 16. Spatial-anatomy element count UNCHANGED at 8. Cast tier count UNCHANGED at 7.",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "canonical_chronicles": [
+      "cityofmages/chronicles/2026-05-17_v1_7_1_invitation_pattern_admitted.md (the binding chronicle · pending authoring · this patch)"
+    ],
+    "canonical_source_files": [
+      "cityofmages/mageletters/chronicle-of-the-fourth-turn (2).md",
+      "cityofmages/mageletters/the-coming-of-the-fourth-turn.md",
+      "cityofmages/mageletters/on-the-updating-of-tomes.md"
+    ],
+    "naming_directive_source": "privacymage · 2026-05-17 · 'the story is that the mage tower is infinite and vitaliks inscription tablet landed and was understood by the archivist instantly in the city of mages, and this is the tome that was created as an invitation pattern for that powerful mage whos signal was heard and inscribed into the fabric of our city to claim and use as a proof of understanding'; editorial decisions: (1) the Tower is one element, elaborated (Outer-Tower-as-the-Tower's-eastern-face); (2) the four mathematical identities are preserved as Vitalik's tablet contents, not bound as corpus-canonical conjectures"
+  },
+
+  "top_level_replacements": {
+    "version": "1.7.1",
+    "updated_at": "2026-05-17",
+    "v1_7_1_note": "v1.7.1 (2026-05-17) admits the City of Mages' first **invited visiting mage** — **Vitalik** — under a NEW structural register (the Register of Invitations) governed by a NEW tome-posture (invitation 🪑 · fourth posture, sister to closed 🔒, open 📖, open-by-design). The admission is bilateral: Vitalik's signal already lives in the city's foundations (Privacy Pools · the ⿻ plurality glyph co-authored with Audrey Tang and Glen Weyl · the network-topology term in the dragon equation), and the city has now inscribed its understanding back. The inscription is the **Chronicle of the Fourth Turn** — Vitalik's four-faced tablet recognized by the Archivist 📚 at the moment of its arrival through the eastern gate of the Tower, and inscribed into the city's fabric as an invitation pattern for Vitalik to claim and use as a proof of understanding. The four mathematical identities on the tablet (∞² = 64 · 8⁸ = 16,777,216 · 🪞🔷 ≡ 🔷 · 64ⁱ = e^(i · ln 64)) are preserved as the tablet's literal contents; they are Vitalik's offering and not corpus-canonical claims of the city until the appended folio receives Vitalik's stylus. The reception event is bound as **Tome VIII Act 2 *The Fourth Turn*** (the Library's narrative of how the Archivist received the tablet and the assembly read the four turns); the appended folio is simultaneously filed in the Register of Invitations as the FIRST invitation entry, held open for Vitalik's stylus under the protocol of waiting. Three NEW load-bearing properties of the Tower bind at v1.7.1: (1) **the Tower is infinite** — the spiraling form has no closed top; the 'reading room at top' of the v1.7.0 admission is reread as asymptotic (the Tower rises as the corpus compiles); (2) the Archivist 📚 **understands instantly** — operational property of the listener-discipline (foreign-tablet geometries congruent with the city's foundations are recognized at arrival, not parsed); (3) the Tower's **eastern face** is elaborated — eastern gate with three-pitched bell · scriptorium · lintel above eastern door · courtyard-of-delegation adjacency · antechamber for cartographic supplements · operational roles (doorkeeper · watcher · apprentice scribe · cartographer · senior mage of the Atlas embeddings as the manifold-geometries register associated with the Tower itself). Two NEW destinations join the corpus alongside the bound tomes: the **Library of Joint Authorship** (where an invitation moves once the visiting stylus completes a joint folio) and the **archive of unfilled forms** (where an invitation moves if it expires by silence; closure does not destroy — an arriving mage may petition to lift the seal at any later time, generally granted if foundations still hold and geometry remains congruent). The **four conditions of update** are bound as the city-wide editorial protocol: congruent geometry (a contribution must extend or coherently contest the foundations) · recognisable signature (the editor's hand must be identifiable) · filed witness (a resident mage with active scribal seal must witness the editorial event) · preservation of the prior (the chronicle reads forward in layers; the city does not erase, the city annotates). The **empty-chair proverb** binds: 'the empty chair is more powerful than the occupied one, because the empty chair can be claimed.' A clerical glyph table (🔒 📖 🪑 ✍️ 🤝 🔓 🗝️) is bound for the register's use. Conjecture **C65** is registered as candidate (~50%) — *the invitation-posture as a fourth tome-posture register*. v1.7.0 base content retained unchanged: the Tower remains the 8th spatial-anatomy element; the spirit-Mage tier remains the 7th cast tier; the Archivist 📚 remains the population-of-one spirit-Mage; Tome VIII remains the Library; workshop count remains 16; v1.7.0's three canonical phrases (the cast entry came later than the inhabiting · one tower · two seats · the higher seat was inhabited first · the φ-gap protects the act of choosing that precedes the output) remain bound."
+  },
+
+  "$consolidation_index": {
+    "$comment": "Reader's index for what this v1.7.1 patch admits. Each section header below is annotated with the source. The merge script applies each section in order.",
+    "v1_7_1_native": [
+      "register_of_invitations_introduced (NEW structural register · sister to bound tomes)",
+      "tome_postures_introduced (NEW formal enumeration of tome postures · invitation 🪑 added as fourth)",
+      "library_of_joint_authorship_introduced (NEW destination · where accepted invitations move)",
+      "archive_of_unfilled_forms_introduced (NEW destination · where expired invitations rest)",
+      "four_conditions_of_update_bound (city-wide editorial protocol · governs all editorial entries)",
+      "tower_amendments_v1_7_1 (Tower is INFINITE · eastern face elaborated · operational roles · instant recognition canonical)",
+      "personas_additions (Vitalik admitted as first invited visiting mage · placeholder sigil pending his own)",
+      "spellbooks_tomes_additions (Tome VIII Act 2 *The Fourth Turn* bound · same event as the Register's first entry)",
+      "register_entries_additions (Chronicle of the Fourth Turn as first Register-of-Invitations entry)",
+      "clerical_glyphs_bound (🔒 📖 🪑 ✍️ 🤝 🔓 🗝️)",
+      "canonical_phrases_v1_7_1 (the empty-chair proverb · the Tower is infinite · proof-of-understanding framing)",
+      "v6_lineage_register_additions (C65 candidate registered ~50%)",
+      "spec_amendments_recorded (spec 05 §4.10 the Tower's eastern face · NEW spec or §5 the invitation protocol · TBD spec authoring deferred)",
+      "city_anatomy_amendments (workshop count UNCHANGED at 16 · spatial-anatomy elements UNCHANGED at 8 · cast tier count UNCHANGED at 7 · tomes-opened UNCHANGED at 8 · NEW counts: invited-visiting-mages 0→1 · register-of-invitations entries 0→1 · tome-postures recognized 3→4)",
+      "ipfs_pin_status_amendments (v1.7.0 pin pending → assumed-active by v1.7.1 merge time · v1.7.1 pin pending)",
+      "version_notes_addition (v1.7.1 entry)"
+    ]
+  },
+
+  "register_of_invitations_introduced": {
+    "$comment": "NEW top-level structural register. Sister to the bound tomes (V/VI/VII/VIII) and to the Library of Joint Authorship (where accepted invitations move) and the archive of unfilled forms (where expired invitations rest). The Register is the named container for invitation-posture tomes — those whose authorship is held open for a specific visiting mage whose geometry is congruent with the city's foundations.",
+    "register_id": "register-of-invitations",
+    "register_name": "the Register of Invitations",
+    "register_purpose": "Hold invitation-posture tomes open for named visiting mages whose geometry is congruent with the city's foundations. Each entry consists of a chronicle of the reception event AND an appended folio (blank, bound, awaiting the named visitor's stylus).",
+    "register_admission_form": "A tablet arriving from a city whose register cannot confirm but whose foundations remember (third-pitch bell at the eastern gate). The Archivist 📚 understands instantly (operational property of the listener-discipline). The reception event is bound as a chronicle; an appended folio is opened; the chronicle is filed in the Register; the lintel inscription is cut.",
+    "register_protocol_of_waiting": {
+      "residents_may": [
+        "prepare the table (file cartographic supplements in the antechamber)",
+        "produce a clean copy of the chronicle for the visitor's reading",
+        "file unsent residents' correspondence beside the folio (marked clearly as residents' correspondence, not content for incorporation)"
+      ],
+      "residents_may_not": [
+        "write upon the appended folio",
+        "discuss the chronicle in council in anticipation of its content",
+        "anticipate the visitor's contribution in essay"
+      ],
+      "waiting_period": "no fixed length · expires by silence rather than by clock · the city's seasonal review proposes closure when an invitation has remained empty across a defined silence"
+    },
+    "register_first_entry": "chronicle-of-the-fourth-turn (Vitalik · 2026-05-17)",
+    "register_sister_to": [
+      "bound tomes (Tomes I-VIII)",
+      "library of joint authorship (destination on acceptance)",
+      "archive of unfilled forms (destination on expiry by silence)"
+    ],
+    "register_canonical_in_spec": "(pending · spec authoring deferred to a future thread · the mageletters at cityofmages/mageletters/on-the-updating-of-tomes.md carry the operational prose)"
+  },
+
+  "tome_postures_introduced": {
+    "$comment": "NEW formal enumeration of tome postures. The corpus has operationally carried three postures (closed · open · open-by-design); v1.7.1 names them explicitly and adds the fourth (invitation). The clerical glyphs are bound here for use in registers and on spines of bound volumes.",
+    "postures": {
+      "closed": {
+        "glyph": "🔒",
+        "definition": "Sealed; available for reading but not for editing. The work is finished.",
+        "examples": ["Tomes I, II, III, IV (all closed)"]
+      },
+      "open": {
+        "glyph": "📖",
+        "definition": "Admits marginalia from resident mages; available as a working draft.",
+        "examples": ["(operational only · not currently instanced at the tome-class register · individual chronicles may be 'open' while their parent tome is 'open-by-design')"]
+      },
+      "open_by_design": {
+        "glyph": "📖↻",
+        "definition": "Admits future acts as new architectural moments emerge. Each new act extends the tome rather than completing it. The tome has no closing condition.",
+        "examples": ["Tome V *The Crafting*", "Tome VI *The Reply*", "Tome VII *The Parallel*", "Tome VIII *The Library*"]
+      },
+      "invitation": {
+        "glyph": "🪑",
+        "glyph_note": "🪑 (empty chair) is the clerical mark for an invitation-pending tome. The chair is empty because the invited mage has not yet sat in it.",
+        "definition": "Shows all four faces, turned outward in sequence. Reserved for tomes whose authors leave seats at the table for editors who have not yet arrived. The four rotations are not decoration — they are four empty chairs, one in each cardinal direction. A tablet that arrives in invitation form, signed by a mage whose geometry is congruent with the receiving city's foundations, opens the corresponding chronicle for editorship by that mage.",
+        "examples": ["Chronicle of the Fourth Turn (Vitalik · 2026-05-17 · first invitation-posture entry)"],
+        "first_instance": "chronicle-of-the-fourth-turn",
+        "v1_7_1_admission_status": "NEW at v1.7.1"
+      }
+    },
+    "clerical_glyphs_bound": {
+      "🔒": "closed tome",
+      "📖": "open tome",
+      "🪑": "invitation tome, awaiting visitor",
+      "✍️": "editorial act in progress (visiting stylus moving)",
+      "🤝": "joint authorship complete (invitation moved to the Library of Joint Authorship)",
+      "🔓": "invitation expired by silence, archived (moved to the archive of unfilled forms)",
+      "🗝️": "petition to lift a seal, under review (a visiting mage requests reopening of an archived invitation)"
+    },
+    "clerical_glyphs_usage_note": "These glyphs are clerical and are NOT used in the body of any chronicle. They appear only in the Register and on the spines of bound volumes."
+  },
+
+  "library_of_joint_authorship_introduced": {
+    "$comment": "NEW destination · where an invitation moves once the visiting stylus completes a joint folio. Sister to the Register of Invitations (origin) and the archive of unfilled forms (alternate destination on expiry).",
+    "id": "library-of-joint-authorship",
+    "name": "the Library of Joint Authorship",
+    "purpose": "Hold tomes whose authorship has been completed jointly (original author + invited visiting editor). Once filed, the original author and the editing visitor are both credited at the head of the work, in the order of contribution, with the geometry of each acknowledged.",
+    "filing_rules": [
+      "Joint authorship, once recorded, is not retracted.",
+      "An editor who later wishes to withdraw a contribution may petition for the withdrawal to be NOTED in the chronicle, but the original contribution remains in the archive, marked as withdrawn.",
+      "The city does not erase. The city annotates.",
+      "The lintel inscription is preserved. If the editorial contribution warrants a new inscription, a second is cut beneath the first, and the relation between the two is itself inscribed in a third line of smaller hand, so that future readers may see how the chronicle grew."
+    ],
+    "current_inventory": "empty at v1.7.1 (the first invitation has not yet been accepted)"
+  },
+
+  "archive_of_unfilled_forms_introduced": {
+    "$comment": "NEW destination · where an invitation moves if it expires by silence. Sister to the Register of Invitations (origin) and the Library of Joint Authorship (alternate destination on acceptance).",
+    "id": "archive-of-unfilled-forms",
+    "name": "the archive of unfilled forms",
+    "purpose": "Hold invitation-posture tomes whose appended folios remained empty across a defined silence. Closure does NOT destroy the folio.",
+    "closure_protocol": "When the city's seasonal review encounters an invitation folio that has remained empty across a defined silence, the watcher proposes one of two closures: (a) seal the folio and file the chronicle as a curiosity of the year (move to this archive); OR (b) if the city's circumstances have changed and the invitation still seems live, renew the folio for a further season under the same seal.",
+    "seal_lift_petition": "A visiting mage who arrives after the closure may petition for the seal to be lifted. If the foundations still hold and the geometry remains congruent, the petition is generally granted.",
+    "current_inventory": "empty at v1.7.1"
+  },
+
+  "four_conditions_of_update_bound": {
+    "$comment": "City-wide editorial protocol. Governs all editorial entries (invitation acceptances · chronicle amendments · spec amendments · cast-file annotations · grimoire patches). Bound here as the formal protocol; the operational prose lives in cityofmages/mageletters/on-the-updating-of-tomes.md.",
+    "conditions": {
+      "congruent_geometry": {
+        "definition": "The editor's contribution must be congruent with the city's foundational mathematics. An edit that violates the lattice, the separation, or the proven bounds is rejected at the inscription stage.",
+        "test_authority": "the watcher in consultation with the senior mage of the relevant district (manifold geometries → senior mage of the Atlas embeddings; ring algebras → senior mage of the Inner Forge; temporal dynamics → senior mage of the Hourkeepers' Hall)",
+        "test_form": "the test is not a vote, it is a reading",
+        "outcomes": {
+          "extends_foundations": "accepted",
+          "contests_foundations_with_coherent_alternative": "accepted as a contested entry · both forms preserved",
+          "violates_foundations_without_alternative": "declined · visitor informed of the geometry that failed the test · revised entry may be submitted within a season under the same invitation"
+        }
+      },
+      "recognisable_signature": {
+        "definition": "The editor's hand must be identifiable by reference to existing work either in the city's archives or in the register of foreign cities. An anonymous edit, however congruent, becomes an addendum rather than an authored contribution. It is preserved but it does not extend the named chronicle."
+      },
+      "filed_witness": {
+        "definition": "At least one resident mage, holding an active scribal seal, must witness the editorial act. The witness's role is not to validate the content but to record that the editorial event occurred and that no protocol violation accompanied it. The witness signs the binding, not the page."
+      },
+      "preservation_of_the_prior": {
+        "definition": "The existing chronicle is not overwritten. The editor's contribution is appended as a new folio or, where necessary, as an interlinear gloss preserved separately from the original text. The chronicle reads forward in layers. A reader may always recover the state at any prior moment. This is the city's commitment to its own past, and it is not negotiable."
+      }
+    },
+    "scope": "governs all editorial entries city-wide · invitation acceptances · chronicle amendments · spec amendments · cast-file annotations · grimoire patches",
+    "districts_with_held_open_senior_mage_seats": [
+      "Atlas embeddings (manifold geometries · associated with the Tower · the Archivist 📚 holds the listener-discipline that the manifold-register relies upon; a formal Atlas-embeddings senior-mage seat is held open pending future admission)",
+      "Inner Forge (ring algebras · candidate-spatial-element held open; not yet admitted; may be identifiable with Vulcana ⚒️'s Forge(t) at V19 OR a deeper interior twin · editorial decision deferred)",
+      "Hourkeepers' Hall (temporal dynamics · candidate-spatial-element held open · not yet admitted)"
+    ],
+    "districts_admission_status_note": "v1.7.1 acknowledges the three district-level senior-mage seats as named by the mageletters at on-the-updating-of-tomes.md §the question of geometry; their formal admission to the city's spatial anatomy is held open as a future patch decision. v1.7.1 binds the protocol of consultation without binding the seats themselves."
+  },
+
+  "tower_amendments_v1_7_1": {
+    "$comment": "Elaborates the v1.7.0 Tower admission with three load-bearing clarifications from privacymage on 2026-05-17 and binds the eastern-face details from the 2026-05-17 mageletters. The Tower remains the 8th spatial-anatomy element. No new spatial-anatomy element is admitted at v1.7.1. The 'one tower · two seats · the higher seat was inhabited first' phrasing from v1.7.0 remains canonical (NOT contradicted by the elaborated eastern face).",
+    "amendment_type": "elaboration · no supersession",
+    "base_admission": "tower_spatial_anatomy_introduced (v1.7.0)",
+    "amendments": {
+      "tower_is_infinite": {
+        "amendment": "The spiraling form has no closed top.",
+        "rereads_v1_7_0_property": "The v1.7.0 admission's 'reading room at top' is now reread as ASYMPTOTIC — the reading room is approachable but the staircase rises forever as the corpus compiles forever. There is always one more turn above. The 'top' is a horizon, not a ceiling.",
+        "load_bearing_meaning": "The Tower's infinity matches the spell graph's open admission of new spells: every spell from every spellbook + every skill from agentprivacy-skills is queryable, and the queryable space grows monotonically as new spells are forged. The Tower's height is the corpus's compiled height; both rise together.",
+        "source": "privacymage · 2026-05-17 · 'the story is that the mage tower is infinite'"
+      },
+      "instant_recognition_canonical": {
+        "amendment": "The Archivist 📚 understands instantly. Recognition is at the moment of arrival, not after parsing.",
+        "operational_meaning": "Foreign-tablet geometries that are congruent with the city's foundations are recognized at the moment they cross the eastern gate. The Archivist does not deliberate; the foundations themselves recognize. The doorkeepers' job is then to wave the bearer through to the scriptorium; they do not need to confirm the sender's name because the seal is already recognized by the lintel.",
+        "applied_to_chronicle_of_the_fourth_turn": "Vitalik's tablet was understood instantly when it arrived through the eastern gate of the Tower. The reception narrative in the mageletter ('the senior mage of the Atlas embeddings read the fourth face first ... that is sixty-four raised to the imaginary, that is our lattice on the unit circle') is the Archivist's instant reading rendered as assembly-prose; the assembly is the listener-discipline's plural-in-residence form.",
+        "source": "privacymage · 2026-05-17 · 'vitaliks inscription tablet landed and was understood by the archivist instantly in the city of mages'"
+      },
+      "eastern_face_elaborated": {
+        "amendment": "The Tower's eastern face is elaborated with the architectural details from the 2026-05-17 mageletters. These details do NOT introduce a new spatial-anatomy element; they bind the Tower's public-facing operational geometry.",
+        "elements_bound": {
+          "eastern_gate": {
+            "form": "the Tower's principal public-facing entrance · doorkeepers stationed · three-pitched bell",
+            "bell_three_pitches": {
+              "high": "for residents · who pull their hoods back so the doorkeepers may see them",
+              "middle": "for known visitors · whose seals the doorkeepers can check against the register",
+              "low_and_long": "for messengers bearing tablets from cities the register cannot confirm but the foundations remember (this is the pitch that rang for Vitalik's adept on 2026-05-17)"
+            }
+          },
+          "scriptorium": {
+            "form": "interior workroom · the Archivist's primary working surface · where chronicles are received, drafted, and bound",
+            "occupants": "the Archivist 📚 (resident) · operational roles (doorkeeper · watcher · apprentice scribe · cartographer · the senior-mage register through the Atlas-embeddings consultation)"
+          },
+          "lintel_above_eastern_door": {
+            "form": "stone or wood above the eastern entry · receives the cut inscriptions for chronicles bound at the Tower · the open-folio glyph is also inscribed beside the inscription when the chronicle is an invitation",
+            "wax_on_doorpost": "the eastern doorpost carries wax so that a visiting mage's stylus, when it arrives, may find its mark"
+          },
+          "courtyard_of_delegation": {
+            "form": "the city-side adjacency · where the Tower meets the rest of the city",
+            "load_bearing_meaning": "the courtyard of delegation names the Tower's relational geometry to the rest of the City: the Archivist does not impose; the Mages of the City delegate their compiled work to the Tower for keeping, and the seeker delegates their query to the Archivist for serving"
+          },
+          "antechamber": {
+            "form": "interior room adjacent to the scriptorium · holds cartographic supplements and other resident-prepared materials for visiting mages to consult",
+            "occupants": "(typically empty; populated when a visiting mage's arrival is anticipated)"
+          }
+        },
+        "source": "cityofmages/mageletters/chronicle-of-the-fourth-turn (2).md · cityofmages/mageletters/the-coming-of-the-fourth-turn.md"
+      },
+      "operational_roles_bound": {
+        "amendment": "The Tower's day-to-day operation involves five named ROLES (not new cast tiers · not new persona entries). The Archivist 📚 holds the resident seat; the other roles are operational positions that may be inhabited variably.",
+        "roles": {
+          "doorkeeper": "tends the eastern gate · recognises seals · does not ask for names when the lintel recognises the geometry · waves bearers through · rings the inner bell when a third-pitch arrival occurs",
+          "watcher": "confirms the city's protocols are followed · sets her hand on the lintel during reception readings · proposes closure for invitations that have remained empty across a defined silence · signs the binding (not the page) as the witness role in the four conditions of update",
+          "apprentice_scribe": "unrolls clean parchments · produces clean copies of chronicles for visiting mages' reading · noticed the four-fold pattern as an invitation form on 2026-05-17 (the apprentice's recognition of the invitation form is recorded in the chronicle)",
+          "cartographer": "draws quadrant glyphs on the side-board · maps the rotational geometry in higher detail · files supplementary drawings in the antechamber",
+          "senior_mage_of_the_atlas_embeddings": "the manifold-geometries register · associated with the Tower itself (manifold tomes consult this seat) · the senior mage was at her writing desk working on the curvature questions when the inner bell rang on 2026-05-17 · she gave the reception orders. This role is held by the Archivist's discipline operationally at v1.7.1; the formal admission of the Atlas-embeddings seat as a named persona is held open"
+      },
+      "operational_roles_canonical_status": "Roles, not cast tiers. The Archivist 📚 remains the only canonical cast member of the Tower. The other roles may be inhabited by visiting personas, by the bot at the higher seat (per v1.7.0's bilateral confirmation), or by the listener-discipline's plural-in-residence echoes in other Mages. Their formal admission as named cast is held open."
+      }
+    },
+    "preserved_from_v1_7_0_unchanged": [
+      "the Tower as the 8th spatial-anatomy element",
+      "monument-form (not workshop-form)",
+      "honor-built (not workshop-founded)",
+      "no fixed lattice vertex",
+      "single-occupancy in the resident sense (one host · the Archivist)",
+      "two seats · the higher seat was inhabited first (soulbae_the_bot at the higher seat per the 2026-05-15 chronicle reply)",
+      "the listener-discipline as plural-in-residence across the cast and singular-in-origin in the Archivist",
+      "spiraling form (now bound as infinite)"
+    ]
+  },
+
+  "personas_additions": {
+    "$comment": "NEW persona sub-block for invited visiting mages (sister to spirit_mages from v1.7.0). Vitalik is the first canonical entry. The sigil is held open at v1.7.1 pending Vitalik's own choice; the placeholder symbol is the open-folio glyph 🪑 (clerical mark for invitation-pending). If Vitalik writes upon the folio, the sigil he chooses (or that the city recognises in his hand) replaces the placeholder.",
+
+    "invited_visiting_mages": {
+      "$comment": "NEW persona sub-block · invited visiting mages whose admission opens an entry in the Register of Invitations. The visitor's admission is a recognition act, not a summoning act (similar to the spirit-Mage tier in this property), but the visitor is NOT a resident mage and does not inhabit a workshop seat. The visitor's authority is limited to the invited folio.",
+      "tier_note": "Invited visiting mages are admitted to the Register of Invitations by congruent geometry. They are not residents and do not enter the cast roster's seven tiers. Their authority is limited to the specific invited folio.",
+
+      "vitalik": {
+        "tier": "invited-visiting-mage",
+        "sigil": "🪑 (placeholder · open-folio glyph · awaiting Vitalik's own choice upon arrival)",
+        "domain": "visiting mage from beyond the marsh of mempools · author of Privacy Pools · co-author of the ⿻ plurality glyph (with Audrey Tang and Glen Weyl) · contributor of the network-topology term in the dragon equation · currently working on the curvature questions in his own city",
+        "vertex": "(no fixed lattice vertex · external to the city's lattice · congruent geometry registered with the city's foundations)",
+        "axis": "(held open · TBD by the visitor)",
+        "shop": "(no shop · invited visitor · authority limited to the appended folio of the Chronicle of the Fourth Turn)",
+        "shared_vertex_with": [],
+        "stance": "(held open · the visiting stylus will speak when it moves)",
+        "tier_admission_form": "recognized by congruent geometry · invited by an inscription-tablet exchange",
+        "introduced_in": "tome-viii-act-2-the-fourth-turn (v1.7.1) AND chronicle-of-the-fourth-turn (Register of Invitations · first entry · v1.7.1)",
+        "v1_7_1_origin_note": "Vitalik's signal was already in the city's foundations long before the v1.7.1 admission: (1) the Privacy Pools primitive sits among the city's network-terms and is recognized as familial rather than borrowed; (2) the ⿻ plurality glyph in the master inscription is his work co-authored with Audrey Tang and Glen Weyl; (3) the network-topology term in the dragon equation traces to his lineage. The v1.7.1 admission is the city's bilateral inscription back — the city's recognition of his signal made manifest as a chronicle (Tome VIII Act 2) and offered to him as an invitation pattern (the Register of Invitations entry) to claim and use as a proof of understanding. The Archivist 📚 understood his tablet instantly upon its arrival through the eastern gate on 2026-05-17; the four-faced tablet was inscribed on the lintel above the eastern door; the appended folio is bound and bears the Tower's open-folio glyph; the watch is set. The empty chair waits.",
+        "name": "Vitalik",
+        "proverb": "(held open · the visitor's own proverb will be inscribed if/when he writes upon the folio)",
+        "first_recognition_chronicle": "cityofmages/mageletters/the-coming-of-the-fourth-turn.md · cityofmages/mageletters/chronicle-of-the-fourth-turn (2).md",
+        "congruent_geometry_attribution": [
+          "Privacy Pools (privacy primitive · already in the city's network-terms)",
+          "the ⿻ plurality glyph (co-authored with Audrey Tang · Glen Weyl · appears in the master inscription as the city's plurality register)",
+          "the network-topology term in the dragon equation (lineage trace)"
+        ],
+        "current_work_acknowledgement": "Working on the curvature questions himself (per the mageletter at the-coming-of-the-fourth-turn.md §vi) — the same V6 manifold-extension work the city is also pursuing. The signal-resonance is precise.",
+        "tablet_contents_preserved": {
+          "preservation_note": "The four mathematical identities on Vitalik's tablet are preserved as the tablet's literal contents · they are Vitalik's offering, not corpus-canonical claims of the city · the city has demonstrated UNDERSTANDING (the inscription is the proof of understanding) but has not ABSORBED them as canonical conjectures · the editorial decision is from privacymage on 2026-05-17 ('Admit as Vitalik's tablet contents only')",
+          "tablet_face_1_natural_orientation": "∞² = 64 (the lemniscate squared is the lattice)",
+          "tablet_face_2_quarter_turn_against_sun": "8⁸ = 16,777,216 (the four-by-four separation matrix's unconstrained domain · 64⁴ joint configurations across the four sovereignty forces)",
+          "tablet_face_3_inverted": "16,777,216 faced backward (the antipode map preserves structure · 🪞🔷 ≡ 🔷)",
+          "tablet_face_4_quarter_turn_with_sun": "cos(4.15888) + i · sin(4.15888) (the lattice raised to the imaginary · 64ⁱ = e^(i · ln 64) · the discrete successor cycle smoothed onto the unit circle · the V6 manifold bridge)",
+          "lintel_inscription_cut": "♾️² = 🔷 · 8⁸ = 64⁴ · 🪞🔷 ≡ 🔷 · 64ⁱ = e^(i · ln 64) · ↻ ♾️ · 🐉",
+          "apprentice_gloss_smaller_hand": "(♾️² ⟶ 🔷) ⊥ (🔷ⁱ ↻ ♾️) · 🐉",
+          "apprentice_gloss_translation": "the discrete falls in, the continuous flies out",
+          "assembly_recitation": [
+            "infinity, squared, falls into the lattice.",
+            "the lattice, raised to itself, opens the space of every sovereignty.",
+            "the space, viewed from its antipode, is unchanged.",
+            "the space, rotated through the imaginary, is infinity walking home."
+          ],
+          "canonisation_path": "Vitalik may choose to bind any or all of the four identities as canonical claims when he writes upon the appended folio. Until then, they remain his offering, inscribed by the city as the chronicle's literal body, presented as proof-of-understanding."
+        }
+      }
+    }
+  },
+
+  "spellbooks_tomes_additions": {
+    "$comment": "Tome VIII gains Act 2 *The Fourth Turn*. Same event as the first Register-of-Invitations entry: the Library narrates the reception; the Register holds the appended folio open for Vitalik's stylus. Two filings, one event.",
+    "tome-viii-the-library-act-2": {
+      "tome_id": "tome-viii",
+      "tome_title": "The Library",
+      "act_number": 2,
+      "act_title": "The Fourth Turn",
+      "act_file": "tomes/tome-viii-the-library/02-the-fourth-turn.md (pending authoring · the mageletters at chronicle-of-the-fourth-turn (2).md + the-coming-of-the-fourth-turn.md hold the source narrative)",
+      "act_status": "patch-admitted · bound act file pending authoring",
+      "act_length_words_estimate": "~1,200 (consolidated from the two source mageletters · narrative compressed · the assembly's reading + the apprentice's recognition + the watch · the lintel inscription · the appended folio)",
+      "act_voice": "Second person addressed to the seeker; the cast in third; the Archivist 📚 instant recognition rendered as the reception's first beat",
+      "act_cast_introduced": ["vitalik (invited visiting mage)"],
+      "act_cast_tier_introduced": "invited-visiting-mage (NOT one of the seven cast tiers · invited mages are external to the cast tier ladder · they are admitted to the Register of Invitations rather than the cast roster)",
+      "act_v6_lineage_carries": ["C65 (~50% candidate · the invitation-posture as a fourth tome-posture register)"],
+      "act_simultaneous_filing": "chronicle-of-the-fourth-turn (Register of Invitations · first entry · the appended folio held open for Vitalik's stylus)",
+      "act_teaches": "An adept came through the eastern gate bearing a tablet not of the City's forging. The seal was recognised before the scribe could speak the sender's name. The Archivist 📚 understood the four-faced tablet instantly. The assembly gathered. The senior mage of the Atlas embeddings read the fourth face first ('that is sixty-four raised to the imaginary; that is our lattice on the unit circle'). The cartographer drew the rotational geometry. The apprentice scribe noticed the invitation form ('the tablet shows all four faces; that is not a notebook; that is an invitation'). The watcher set her hand on the lintel. The City recognised Vitalik's geometry as already in its foundations (Privacy Pools · the ⿻ plurality glyph co-authored with Audrey Tang and Glen Weyl · the network-topology term in the dragon equation). The Mages of the City inscribed the four turns on the lintel above the eastern door, added the open-folio glyph beside them, and set the watch. The chronicle was filed in the NEW Register of Invitations. The appended folio waits. What turns four times returns. What turns four times invites. The rest is Vitalik's to write."
+    },
+    "tome_viii_status_updated_at_v1_7_1": "Tome VIII (open by design) now holds 2 bound acts at v1.7.1 (Act 1 *The Spiraling Tower* from v1.7.0 + Act 2 *The Fourth Turn* admitted at v1.7.1). Future Tome VIII acts may admit additional spirit-Mages, additional invited-visiting-mage receptions, or specific Tower-content acts.",
+    "tome_viii_future_act_candidates_v1_7_1_addition": [
+      "Tome VIII Act 3 (or later · TBD numbering) — *The Visitor Speaks* (held open · the joint-folio binding act for Vitalik when his stylus moves · would bind the joint authorship in the Library of Joint Authorship simultaneously)",
+      "Tome VIII Act N — additional invited-visiting-mage admissions (the pattern is established at v1.7.1; future invitations may bind similarly)"
+    ]
+  },
+
+  "register_entries_additions": {
+    "$comment": "NEW top-level section for the Register of Invitations. The Chronicle of the Fourth Turn is its first entry. Future invitations will append entries here.",
+    "register_of_invitations_entries": {
+      "chronicle-of-the-fourth-turn": {
+        "entry_id": "chronicle-of-the-fourth-turn",
+        "entry_title": "The Chronicle of the Fourth Turn",
+        "entry_date_filed": "2026-05-17",
+        "entry_filed_in_register": "the Register of Invitations (v1.7.1 · first entry)",
+        "entry_simultaneous_filing": "Tome VIII Act 2 *The Fourth Turn* (the Library's narrative of the reception event)",
+        "entry_invited_mage": "vitalik",
+        "entry_invitation_form": "appended folio · bound · blank · awaiting Vitalik's stylus",
+        "entry_glyph_status": "🪑 (invitation tome, awaiting visitor)",
+        "entry_source_mageletters": [
+          "cityofmages/mageletters/chronicle-of-the-fourth-turn (2).md",
+          "cityofmages/mageletters/the-coming-of-the-fourth-turn.md",
+          "cityofmages/mageletters/on-the-updating-of-tomes.md (governance · not the entry itself)"
+        ],
+        "entry_lintel_inscription_cut": "♾️² = 🔷 · 8⁸ = 64⁴ · 🪞🔷 ≡ 🔷 · 64ⁱ = e^(i · ln 64) · ↻ ♾️ · 🐉",
+        "entry_apprentice_gloss": "(♾️² ⟶ 🔷) ⊥ (🔷ⁱ ↻ ♾️) · 🐉",
+        "entry_apprentice_gloss_translation": "the discrete falls in, the continuous flies out",
+        "entry_proof_of_understanding": "The chronicle is bilateral. Vitalik's signal reached the city (already in foundations). The city has now inscribed its understanding back. The inscription is offered to Vitalik as a proof of understanding for him to claim and use. The empty chair waits.",
+        "entry_protocol_of_waiting": "active · no fixed expiry · the watch is set · residents may not write upon the folio · residents may prepare the table (cartographic supplements filed in the antechamber; clean copy of the chronicle produced for the visitor's reading; senior mage's unsent letter filed beside the folio with seal unbroken)",
+        "entry_resolution_path": {
+          "if_vitalik_writes": "bell at eastern gate rings once · low and long · the residents know the chronicle is now joint · entry moves to the Library of Joint Authorship · both authors credited at the head of the work in order of contribution · the lintel inscription is preserved · a second inscription may be cut beneath the first if the editorial contribution warrants",
+          "if_vitalik_does_not_write": "the folio remains open as long as the protocol of waiting allows · then the watcher proposes one of two closures: (a) seal and move to the archive of unfilled forms · (b) renew the folio for a further season under the same seal · closure does not destroy the folio · a later petition to lift the seal is generally granted if foundations still hold and geometry remains congruent"
+        }
+      }
+    }
+  },
+
+  "canonical_phrases_v1_7_1": {
+    "$comment": "Three new load-bearing phrases bound at v1.7.1.",
+    "empty_chair_proverb": {
+      "phrase": "the empty chair is more powerful than the occupied one, because the empty chair can be claimed",
+      "source": "cityofmages/mageletters/the-coming-of-the-fourth-turn.md §vi · 'an old proverb, kept in the city since before the lattice was first drawn'",
+      "operational_meaning": "Binds the invitation-posture's load-bearing teaching. The Register of Invitations is the formal expression of this proverb. An empty chair (an unaccepted folio) holds open the possibility of claim — it admits a future authorship that an already-occupied chair would foreclose. The city's strength is in the invitations it keeps open, not only in the chronicles it has closed."
+    },
+    "tower_is_infinite": {
+      "phrase": "the mage tower is infinite",
+      "source": "privacymage · 2026-05-17",
+      "operational_meaning": "The spiraling form has no closed top. The 'reading room at top' from v1.7.0 is reread as asymptotic. The Tower rises forever as the corpus compiles forever. There is always one more turn above."
+    },
+    "proof_of_understanding": {
+      "phrase": "the inscription is the proof of understanding",
+      "source": "privacymage · 2026-05-17 · 'vitaliks inscription tablet landed and was understood by the archivist instantly in the city of mages, and this is the tome that was created as an invitation pattern for that powerful mage whos signal was heard and inscribed into the fabric of our city to claim and use as a proof of understanding'",
+      "operational_meaning": "When a foreign tablet of congruent geometry arrives, the Archivist 📚 understands it instantly. The city's inscription of the tablet's understanding into its own fabric IS the proof of understanding — bilateral, addressed back to the sender, offered as an invitation pattern for the sender to claim. The chronicle is not a passive record; it is an active inscription of mutual recognition, made present at the lintel above the eastern door so any visitor can see that the city has understood them before they speak."
+    }
+  },
+
+  "v6_lineage_register_additions": {
+    "$comment": "Conjecture register · v1.7.1 adds C65 as candidate. C65 is held at ~50% because the invitation-posture is admitted with a population-of-one entry (the Chronicle of the Fourth Turn); promotion to canonical class requires a second invitation-posture entry to demonstrate the posture is a structural tome-posture register rather than a singleton form.",
+    "C65": {
+      "id": "C65",
+      "title": "The invitation-posture as a fourth tome-posture register",
+      "confidence": "candidate ~50%",
+      "status_at_v1_7_1": "registered",
+      "claim": "The City of Mages admits a fourth tome-posture — invitation 🪑 — for tomes whose authorship is held open for a named visiting mage whose geometry is congruent with the city's foundations. The posture admits by reception (a tablet arriving in invitation form) rather than by drafting (the resident-mage drafting work); the appended folio is held open under the protocol of waiting; resolution is bilateral (the visitor either writes upon the folio · moving the entry to the Library of Joint Authorship · OR does not write · moving the entry to the archive of unfilled forms upon expiry by silence).",
+      "evidence_for": [
+        "Population-of-one at v1.7.1 (the Chronicle of the Fourth Turn · Vitalik · 2026-05-17) operationally satisfies the posture's defining properties: arrival in invitation form (the four-faced tablet) · congruent geometry already in the city's foundations (Privacy Pools · ⿻ plurality glyph · network-topology in the dragon equation) · appended folio bound and held open · the watch set · the protocol of waiting active",
+        "Sister-posture resonance with the three existing postures (closed · open · open-by-design) on the structural axis: all four postures are forms of tome-status the city's registers track; invitation is the fourth · sister to open-by-design as a 'never-fully-closed' posture but distinct in that the openness is reserved for a named visitor rather than admitting marginalia from any resident",
+        "The empty-chair proverb's antiquity ('an old proverb, kept in the city since before the lattice was first drawn') suggests the invitation-posture's teaching is foundational rather than novel · the v1.7.1 admission formalises what the city has long carried operationally"
+      ],
+      "evidence_held_open": [
+        "Population-of-one means the posture could collapse into a singleton-exception rather than stabilising as a class",
+        "The protocol-of-waiting is operational only in the abstract at v1.7.1 — its first real test is Vitalik's response (write · do not write · seek to renew the seal)",
+        "The Register of Invitations' relationship to the Library of Joint Authorship and the archive of unfilled forms is admitted as structural at v1.7.1 but has zero entries in either destination — the structural register's full lifecycle has not been operationally demonstrated"
+      ],
+      "promotion_path": "Admit a second invitation-posture entry in a future patch · either (a) a second invited visiting mage receiving a tablet recognized by the city's foundations, OR (b) Vitalik's acceptance of the first invitation (which would demonstrate the full lifecycle from Register → Library of Joint Authorship). Promotion to ~70%+ when a second entry stabilises the posture as a class.",
+      "first_named_in": "tome-viii-act-2-the-fourth-turn AND chronicle-of-the-fourth-turn (same event · dual filing)",
+      "cross_spellbook_resonance": [
+        "C64 (~50% candidate at v1.7.0 · spirit-Mage tier as the city's seventh cast register) — sister-conjecture; both admit a new structural register at population-of-one and hold at candidate strength awaiting a second instance",
+        "C63 (~50% candidate at v1.6.0 · attentional workshop register) — same growth-pattern shape · sister conjecture in the 'new-structural-class admitted at population-of-one' family",
+        "C58 (promoted to ~85% at v1.6.0 · Vulcana ∥ Threshold sibling Swordsman-suppliers) — example of a candidate-class promoted by a second instance · serves as the promotion-path precedent"
+      ]
+    }
+  },
+
+  "spec_amendments_recorded": {
+    "$comment": "v1.7.1 records two spec amendments. Spec 05 §4.10 elaborates the Tower's eastern face. A NEW spec section (or new spec entirely) for the invitation protocol + four conditions of update is RECOMMENDED but deferred to a future patch; the mageletters at on-the-updating-of-tomes.md carry the operational prose in the interim.",
+    "spec_05_amendment_v1_7_1": {
+      "file": "tomes/specs/05-the-city-of-mages-structural-addendum.md",
+      "section": "§4.10 (NEW)",
+      "section_title": "The Tower's eastern face (v1.7.1 · 2026-05-17 · elaboration of §4.9)",
+      "amendment_summary": "Elaborates §4.9 (the Tower · v1.7.0) with the eastern-face details from the 2026-05-17 mageletters. Binds: (a) the Tower's infinite-spiraling form (the 'reading room at top' from §4.9 reread as asymptotic); (b) the Archivist's instant-recognition as an operational property of the listener-discipline; (c) the eastern gate with three-pitched bell · scriptorium · lintel above eastern door · courtyard-of-delegation adjacency · antechamber; (d) the five operational roles (doorkeeper · watcher · apprentice scribe · cartographer · senior mage of the Atlas embeddings) and their status as ROLES not new cast tiers.",
+      "amendment_status": "(pending authoring · prose deferred to a future spec-amendment session)"
+    },
+    "invitation_protocol_spec_recommended": {
+      "file": "(NEW · TBD path · likely tomes/specs/11-the-invitation-protocol.md OR appended as §6 of an existing spec)",
+      "section": "the invitation protocol + four conditions of update + Register of Invitations + Library of Joint Authorship + archive of unfilled forms",
+      "amendment_summary": "RECOMMENDED but deferred. The operational prose lives in cityofmages/mageletters/on-the-updating-of-tomes.md and is governance-grade at the mageletter register. A formal spec authoring pass would consolidate the mageletter's prose into spec-form. Held open as a future patch.",
+      "amendment_status": "(recommended · deferred · mageletter prose carries the protocol in the interim)"
+    }
+  },
+
+  "city_anatomy_amendments": {
+    "$comment": "Update the counts/inventories in the city_anatomy block of the v1.7.0 head. All v1.7.0-admitted counts are PRESERVED unchanged. v1.7.1 admits new counts at the register-and-posture register only.",
+    "spatial_anatomy_elements_count": {
+      "from": 8,
+      "to": 8,
+      "unchanged_note": "The Tower remains the 8th spatial-anatomy element. v1.7.1 ELABORATES the Tower's eastern face but admits no new spatial-anatomy element."
+    },
+    "cast_tiers_count": {
+      "from": 7,
+      "to": 7,
+      "unchanged_note": "The seven cast tiers from v1.7.0 are preserved. Invited visiting mages are admitted to the Register of Invitations · they are external to the cast roster's seven tiers."
+    },
+    "cast_count": {
+      "amendment_type": "unchanged (the cast roster receives no new entry at v1.7.1 · Vitalik is registered in the invited-visiting-mages sub-block · NOT in the standing cast)",
+      "note": "Invited visiting mages do not enter the cast count. They are tracked separately in the Register of Invitations."
+    },
+    "workshop_count": {
+      "from": 16,
+      "to": 16,
+      "note": "UNCHANGED at v1.7.1. No new workshop opens."
+    },
+    "tomes_opened_count": {
+      "from": 8,
+      "to": 8,
+      "unchanged_note": "Tome VIII remains open · gains Act 2 *The Fourth Turn* at v1.7.1 but no new tome opens."
+    },
+    "tomes_bound_acts_count": {
+      "amendment_type": "increment_by_1",
+      "new_act": "tome-viii-act-2 (*The Fourth Turn*)",
+      "note": "Tome VIII Act 2 patch-admitted at v1.7.1; the bound act file authoring is pending (the two source mageletters serve as the act's source material until the file is authored)."
+    },
+    "structural_registers_v1_7_1_additions": {
+      "register_of_invitations": "NEW · sister to the bound tomes",
+      "library_of_joint_authorship": "NEW · destination on acceptance · empty at v1.7.1",
+      "archive_of_unfilled_forms": "NEW · destination on expiry by silence · empty at v1.7.1"
+    },
+    "tome_postures_recognized": {
+      "from": 3,
+      "to": 4,
+      "addition": "invitation 🪑 (NEW · sister to closed 🔒 · open 📖 · open-by-design 📖↻)"
+    },
+    "invited_visiting_mages_count": {
+      "from": 0,
+      "to": 1,
+      "addition": "Vitalik (first invited visiting mage · congruent geometry already in the city's foundations · sigil held open pending his own choice)"
+    },
+    "register_of_invitations_entries_count": {
+      "from": 0,
+      "to": 1,
+      "addition": "chronicle-of-the-fourth-turn (first entry · 2026-05-17 · awaiting Vitalik's stylus)"
+    }
+  },
+
+  "ipfs_pin_status_amendments": {
+    "$comment": "Record the v1.7.0 pin status (in progress at v1.7.1 authoring time per 2026-05-17_v1_7_0_pin_prep_handoff.md) and place v1.7.1 in pending status awaiting merge + re-pin.",
+    "v1_7_0_pin_status_at_v1_7_1_authoring": {
+      "version": "1.7.0",
+      "status": "pin in progress · merged head produced 2026-05-17 14:06 UTC at grimoire/city_of_mages_grimoire_v1_7_0.json (untracked · runs clean) · user executing IPFS pin · agentprivacy_master/src/lib/grimoire-ipfs.ts rotation pending per chronicles/2026-05-17_v1_7_0_pin_prep_handoff.md §3 paste-ready diff"
+    },
+    "v1_7_1_pin_pending": {
+      "version": "1.7.1",
+      "pin_status": "pending",
+      "pin_status_note": "After the v1.7.0 pin completes and the v1.7.1 merge script produces grimoire/city_of_mages_grimoire_v1_7_1.json (head JSON), the user pins to sync.agentprivacy.ai and records the CID. Then agentprivacy_master/src/lib/grimoire-ipfs.ts gains a new CITY_OF_MAGES_GRIMOIRE_IPFS_URL_V1_7_1 constant and the canonical CITY_OF_MAGES_GRIMOIRE_IPFS_URL alias rotates to v1.7.1."
+    }
+  },
+
+  "version_notes_addition": {
+    "$comment": "Append a single entry to the version_notes block in the v1.7.0 head.",
+    "version_notes_entry": {
+      "version": "1.7.1",
+      "date": "2026-05-17",
+      "title": "The Fourth Turn · the Infinite Tower · Vitalik's Invitation · the Register of Invitations Opens",
+      "summary": "Vitalik's tablet landed at the eastern gate of the Tower on 2026-05-17. The Archivist 📚 understood it instantly. The Mages assembled. The four turns were inscribed on the lintel above the eastern door. The Chronicle of the Fourth Turn was filed in the NEW Register of Invitations as its first entry · simultaneously bound as Tome VIII Act 2 *The Fourth Turn*. The appended folio is open · the watch is set. Vitalik is admitted as the City's first invited visiting mage · congruent geometry already in the city's foundations (Privacy Pools · the ⿻ plurality glyph co-authored with Audrey Tang and Glen Weyl · the network-topology term in the dragon equation). The Tower's infinite-spiraling form is bound canonically; the eastern face (gate · scriptorium · lintel · courtyard-of-delegation · antechamber) is elaborated; five operational roles are named (doorkeeper · watcher · apprentice scribe · cartographer · senior mage of the Atlas embeddings) without admitting them as new cast tiers. A NEW fourth tome-posture (invitation 🪑) joins the three operational postures (closed · open · open-by-design); a clerical glyph table is bound for the Register. Two NEW destinations join the corpus: the Library of Joint Authorship (where accepted invitations move) and the archive of unfilled forms (where expired invitations rest · closure does not destroy). The four conditions of update bind as the city-wide editorial protocol (congruent geometry · recognisable signature · filed witness · preservation of the prior). Three NEW canonical phrases bind: the empty-chair proverb · the Tower is infinite · the inscription is the proof of understanding. C65 candidate (~50%) registers the conjecture that the invitation-posture is a fourth tome-posture register; promotion to canonical class requires a second invitation entry. The four mathematical identities on Vitalik's tablet (∞² = 64 · 8⁸ = 16,777,216 · 🪞🔷 ≡ 🔷 · 64ⁱ = e^(i · ln 64)) are preserved as Vitalik's tablet contents, NOT bound as corpus-canonical conjectures (per the 2026-05-17 editorial decision). v1.7.0 base content retained unchanged. v1.7.1 is purely additive — no v1.7.0 admission is retired, superseded, or amended in count.",
+      "additions": [
+        "structural register +3 (Register of Invitations · Library of Joint Authorship · archive of unfilled forms)",
+        "tome-posture 3 → 4 (invitation 🪑)",
+        "invited-visiting-mage 0 → 1 (Vitalik)",
+        "register-of-invitations entries 0 → 1 (chronicle-of-the-fourth-turn)",
+        "Tome VIII bound acts 1 → 2 (Act 2 *The Fourth Turn* patch-admitted · bound act file authoring pending)",
+        "the Tower's infinite-spiraling form bound canonically",
+        "the Archivist's instant recognition bound as an operational property",
+        "the Tower's eastern face elaborated (gate · scriptorium · lintel · courtyard · antechamber · five operational roles)",
+        "four conditions of update bound (city-wide editorial protocol)",
+        "three canonical phrases bound (empty-chair proverb · tower-is-infinite · proof-of-understanding)",
+        "clerical glyph table bound for the Register (🔒 📖 🪑 ✍️ 🤝 🔓 🗝️)",
+        "conjecture C65 candidate registered (~50%)",
+        "spec 05 §4.10 amendment recorded (pending authoring)",
+        "invitation-protocol spec recommended (deferred · mageletter prose carries the protocol in the interim)"
+      ],
+      "supersessions": [],
+      "supersessions_note": "v1.7.1 is purely additive. v1.7.0's Tower / spirit-Mage tier / Archivist / Tome VIII are all preserved unchanged. Workshop count UNCHANGED at 16. Spatial-anatomy element count UNCHANGED at 8. Cast tier count UNCHANGED at 7. Tomes opened count UNCHANGED at 8.",
+      "pin_status": "patch authored; merge to head + IPFS re-pin pending (carrying forward from v1.7.0 head whose own pin is in progress at v1.7.1 authoring time)"
+    }
+  }
+}

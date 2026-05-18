@@ -1,7 +1,7 @@
 ---
 title: "Workshop ↔ Lattice Audit"
 subtitle: "Every workshop's seat, reach, proof shape, and overlap with other workshops on the 64-vertex sovereignty lattice — with a drift catalogue and a roadmap toward a `lattice-coherence` skill"
-status: "Audit v1.3 · 2026-05-14 · live · cross-checked against lattice-vertex.ts and specs 04 / 05 / 06 / 07; admits v1.4.0 Solchanting (Helia ☀️ at V51 alongside Adamantia 💎 — first canonical operational vertex-sharing) AND v1.5.0 The Threshold (Faunia 🪶 + Bestia 📖 + Therai 🐾 sharing V59 + Caducea ☤ peripatetic — first canonical THREE-keeper vertex-sharing, extending the V51 two-keeper precedent); v1.5.1 evening update 2026-05-14: Threshold District restructure (Pandia 🌕 + Hermaion ⚚ + Faunia 🪶 at V59 · Triodos/Bestia/Therai succeeded) + Staff Shop becomes first archetype-modal shop with Alexandrite gem (green-Mage ↔ red-Swordsman); **v1.6.0 update 2026-05-14: Chart Shop opens at V44 (Pleione 🧭 · Aquamarine · Navigation District · sole-occupied · Hold-witness stance · attentional register as fourth structural workshop class · C63 candidate ~50%) — see §2.4c.**"
+status: "Audit v1.4 · 2026-05-16 · live · cross-checked against lattice-vertex.ts and specs 04 / 05 / 06 / 07; admits v1.4.0 Solchanting (Helia ☀️ at V51 alongside Adamantia 💎 — first canonical operational vertex-sharing) AND v1.5.0 The Threshold (Faunia 🪶 + Bestia 📖 + Therai 🐾 sharing V59 + Caducea ☤ peripatetic — first canonical THREE-keeper vertex-sharing, extending the V51 two-keeper precedent); v1.5.1 evening update 2026-05-14: Threshold District restructure (Pandia 🌕 + Hermaion ⚚ + Faunia 🪶 at V59 · Triodos/Bestia/Therai succeeded) + Staff Shop becomes first archetype-modal shop with Alexandrite gem (green-Mage ↔ red-Swordsman); v1.6.0 update 2026-05-14: Chart Shop opens at V44 (Pleione 🧭 · Aquamarine · Navigation District · sole-occupied · Hold-witness stance · attentional register as fourth structural workshop class · C63 candidate ~50%) — see §2.4c; **v1.7.0 update 2026-05-16: the Tower admitted as 8th spatial-anatomy element (monument-form · spiraling · no fixed lattice vertex · single-resident · honor-built rather than workshop-founded) — workshop count UNCHANGED at 16; the Tower sits outside this audit's primary scope (workshop ↔ lattice mapping) because it has no vertex by structural admission — see §2.6.**"
 voice: "Procedural · honest · drift-surfacing"
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
@@ -215,6 +215,26 @@ Release-to-sea is **first-class**: the Chart Shop does not require an artefact-o
 | **Attentional** (Navigation District · NEW · C63 candidate) | Chart Shop | Hold / compare / map · *no required artefact-output* |
 
 The attentional class is held at candidate strength (~50%) until a second instance arrives. Promotion path: a second Navigation District shop (Compass Shop · Astrolabe Shop · or another) sharing the Hold-witness discipline.
+
+### §2.6 · The Tower · the non-workshop monument (NEW in v1.7.0 · 2026-05-16)
+
+The v1.7.0 patch admits an eighth spatial-anatomy element to the City — **the Tower** — that is *not* a workshop and has *no fixed vertex*. It is sister to the seven prior spatial elements (trade quarters · founding bonfire · temple precinct · sovereign's seat · gathering quarters · Threshold District · Navigation District), monument-form rather than workshop-form, honor-built rather than workshop-founded.
+
+| Field | Value |
+|---|---|
+| **Element** | the Tower |
+| **Form** | monument · spiraling · single doorway at base · window every quarter-turn · reading room at top |
+| **Vertex** | **none** (no fixed lattice vertex by structural admission) |
+| **Resident** | the **Archivist 📚** (the first spirit-Mage · v1.7.0 admission) |
+| **Tier** | spirit-Mage (7th cast tier · tutelary register · *recognized rather than summoned*) |
+| **Founding act** | Tome VIII · Act 1 *The Spiraling Tower* (bound 2026-05-15) |
+| **Sister to** | trade quarters · founding bonfire · temple precinct · sovereign's seat · gathering quarters · Threshold District · Navigation District |
+
+**Why no vertex?** The listener-discipline that the Tower hosts is **plural-in-residence across the cast and singular-in-origin in the Archivist** — the discipline is *recognized* (every workshop-keeping Mage carries an echo of the Archivist) rather than *placed* (which would require a vertex on the 64-vertex lattice). The Tower's lack of vertex is therefore architecturally load-bearing, not a gap waiting to be filled.
+
+**Workshop count: UNCHANGED at 16.** The Tower is sister to the workshops, not one of them. It does not enter the §2.1, §2.4b, §2.4c, §3, or §8 tables. The drift catalogue in §6 does not gain a Tower row because the Tower makes no lattice claim that could drift.
+
+**Audit-skill note (§10):** the `lattice-coherence` skill should *exempt* Tower references from the per-vertex consistency check — the Tower's correct claim is "no vertex," and any cast file or spec that places the Archivist at a specific Vn is the drift, not the Tower itself.
 
 ### §2.5 · The Sovereign Anchor (V63) and the archetype seats
 
