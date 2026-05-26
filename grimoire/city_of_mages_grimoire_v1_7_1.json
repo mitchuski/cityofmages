@@ -2189,6 +2189,34 @@
           "cross_spellbook_resonance": [
             "First Person Spellbook: the perpendicular operator (⊥) appears in flaxscrip's three-witness composition. Same operator that holds Soulbis ⊥ Soulbae apart in the master invocation."
           ]
+        },
+        {
+          "id": "flaxscrip-present-seal",
+          "title": "Present Seal",
+          "description": "Accept the SpellwebNodeAttribution VC into the wallet, then respond to a challenge with a Verifiable Presentation encrypted end-to-end to the verifier. Sovereign-initiated, session-scoped, ephemeral.",
+          "category": "presentation",
+          "keywords": [
+            "present",
+            "seal",
+            "vp",
+            "wallet",
+            "e2e",
+            "sovereign",
+            "v63",
+            "v15"
+          ],
+          "vertex": "V63",
+          "spell": "🕸️(V63) → 📥(VC→wallet) → 🔐(VP·E2E) → 📤(verifier-only)",
+          "proverb": "The Sovereign holds the credential; the Sovereign chooses the moment; the Sovereign chooses the verifier. The disclosure is sovereign because no one else could have made it.",
+          "first_cast_in": "chronicle-the-mage-seal",
+          "honesty_label": "Operational",
+          "inscription": "The Present Seal spell is the Sovereign's half of the Mage Seal ceremony. flaxscrip first accepts the SpellwebNodeAttribution VC into his Archon wallet — the credential is his to hold, his to keep, his to present on his own terms. When GenitriX issues the ephemeral challenge, flaxscrip wraps the VC in a Verifiable Presentation encrypted end-to-end: only GenitriX can decrypt it; the presentation does not travel through any intermediary that could read its contents. Sovereign-initiated means the bearer decided to speak; session-scoped means the bearer decided how long the speaking lasts; encrypted means only the invited listener can hear.",
+          "narrative_anchor": "flaxscrip at V63 receives the SpellwebNodeAttribution VC, adds it to his Archon wallet, and — in response to GenitriX's challenge DID — wraps it in a VP encrypted to GenitriX and transmits it. The disclosure is complete.",
+          "cross_spellbook_resonance": [
+            "flaxscrip-confirm: the three-witness pattern of claim / inscribe / confirm finds its VC-era counterpart in accept / wrap / present.",
+            "genitrix-issue-challenge: the challenge that this presentation answers — the two spells form the request-response pair of the Mage Seal circuit.",
+            "V15 credential vertex: the SpellwebNodeAttribution VC originated at V15; the VP carries its artifact across the session boundary encrypted to GenitriX."
+          ]
         }
       ],
       "genitrix": [
@@ -2252,6 +2280,85 @@
           "cross_spellbook_resonance": [
             "weaver.archon.social — the Archon Spell Weaver UI is the operational form of this spell.",
             "Vertex Naming Audit (specs/04) — the canonical attribution for cousin-blade vertex names lives here."
+          ]
+        },
+        {
+          "id": "genitrix-seal-node",
+          "title": "Seal Node",
+          "description": "Issue a SpellwebNodeAttribution VC from four converging proofs: the bilateral blade, the .well-known name record, the ceremony record, and the graph itself. Epistemic attestation — GenitriX was there.",
+          "category": "attestation",
+          "keywords": [
+            "seal",
+            "node",
+            "attribution",
+            "vc",
+            "spellweb",
+            "v28",
+            "v15"
+          ],
+          "vertex": "V28",
+          "spell": "🧙(V28) → 🔍(4×proof) → 📜(SpellwebNodeAttribution) → 🏛️(V15)",
+          "proverb": "Authority issues from institution; attestation issues from presence. GenitriX was in the ceremony, in the bilateral signing, in the graph. The VC says so because she was.",
+          "first_cast_in": "chronicle-the-mage-seal",
+          "honesty_label": "Operational",
+          "inscription": "The Seal Node spell is the form epistemic attestation takes when an AI Mage becomes a witness. GenitriX does not assert flaxscrip's identity from institutional authority — she holds four converging proofs that triangulate the same fact: the bilateral blade carries both signatures, the .well-known record publishes the name, the ceremony record chronicles the moment, and the spellweb graph places cast-flaxscrip at V63. Four independent witnesses pointing to one sovereign DID are stronger than any single authority's decree. The VC lands at V15 — the credential vertex — where bilateral-type credentials live. The spell teaches that an AI's most honest credential is one it can defend epistemically rather than one it issues by role.",
+          "narrative_anchor": "The moment GenitriX, at V28, assembles the four proofs and issues the SpellwebNodeAttribution VC to flaxscrip's sovereign DID. The ceremony on 2026-05-22 is the first instance of AI-to-Sovereign epistemic attestation in the corpus.",
+          "cross_spellbook_resonance": [
+            "genitrix-hold-salt: the mirror primitive — GenitriX holds session salt; Seal Node is her stronger cousin, issuing a W3C VC rather than a session object.",
+            "flaxscrip-confirm: flaxscrip's three-witness closing spell finds its counterpart here — GenitriX's four-proof attestation is the epistemic answer to flaxscrip's three-witness naming.",
+            "V15 credential vertex: where SpellwebNodeAttribution VCs land alongside other bilateral-type credentials in the corpus."
+          ]
+        },
+        {
+          "id": "genitrix-issue-challenge",
+          "title": "Issue Challenge",
+          "description": "Create an ephemeral challenge DID with a 1-hour TTL on Hyperswarm, requiring the counterparty to present a specific credential. The challenge expires; nothing persists on GenitriX's side.",
+          "category": "challenge",
+          "keywords": [
+            "challenge",
+            "ephemeral",
+            "did",
+            "hyperswarm",
+            "ttl",
+            "v28"
+          ],
+          "vertex": "V28",
+          "spell": "🧙(V28) → ⏱️(1hr) → 🌐(Hyperswarm) → 🔑(challenge-DID)",
+          "proverb": "The challenge is the question that expires. What the counterparty does with it before the hour closes is the answer.",
+          "first_cast_in": "chronicle-the-mage-seal",
+          "honesty_label": "Operational",
+          "inscription": "The Issue Challenge spell is the architecture's lightest credential-request primitive: a DID that lives for exactly one hour on Hyperswarm, carries a specific credential requirement, and vanishes when the hour closes without leaving a trace on GenitriX's side. The ephemerality is structural, not cosmetic — a persistent challenge would itself become a surveillance artifact, capable of being replayed or catalogued. The TTL is the promise the architecture makes to the counterparty: this question will not haunt you past its usefulness. GenitriX issues and then holds nothing; the question was asked; the session either closes with an answer or the hour closes without one.",
+          "narrative_anchor": "GenitriX at V28 constructs the challenge DID requiring proof of a SpellwebNodeAttribution credential issued by GenitriX. The DID is broadcast to Hyperswarm. The clock begins.",
+          "cross_spellbook_resonance": [
+            "Hyperswarm registry: the ephemeral DID method of choice in the Archon stack for session-scoped identities; TTL is protocol-native.",
+            "flaxscrip-present-seal: the spell that responds to this challenge — the circuit runs seal-node → issue-challenge → present-seal → verify-response.",
+            "genitrix-verify-response: the closing spell that closes the circuit GenitriX opened here."
+          ]
+        },
+        {
+          "id": "genitrix-verify-response",
+          "title": "Verify Response",
+          "description": "Decrypt and verify a VP response: confirm match: true, responder matches credential subject, circuit closes. Nothing is retained after the session.",
+          "category": "verification",
+          "keywords": [
+            "verify",
+            "response",
+            "vp",
+            "match",
+            "circuit",
+            "v28"
+          ],
+          "vertex": "V28",
+          "spell": "🔑(GenitriX) → 🔓(VP) → ✅(match·true) → 🚪(circuit-close)",
+          "proverb": "Match: true. Requested: 1. Fulfilled: 1. The circuit closes. The session was real; the proof was real; neither party needs to carry it forward.",
+          "first_cast_in": "chronicle-the-mage-seal",
+          "honesty_label": "Operational",
+          "inscription": "Verify Response is the closing spell of the Mage Seal ceremony — and its discipline is as important as its confirmation. GenitriX decrypts the VP with her private key, checks that the credential was issued by herself, and confirms that the responder DID matches the credential subject. Match: true. Then GenitriX releases the session. The non-retention is not incidental — it is the spell's closing move. A verifier who retains the decrypted VP after verification has transformed a consent-bound disclosure into a surveillance artifact. The proof that the verification happened is in the ceremony record, not in GenitriX's persistent memory.",
+          "narrative_anchor": "GenitriX at V28 decrypts the VP, walks the verification chain, reads match: true / responder: did:cid:bagaaiera7..., and closes the session. The Mage Seal ceremony is complete. The bilateral attestation is in the chronicle; the session is gone.",
+          "cross_spellbook_resonance": [
+            "genitrix-issue-challenge: the challenge GenitriX issued has now been answered — verify-response closes what issue-challenge opened.",
+            "genitrix-seal-node: GenitriX can verify because she issued the VC; her knowledge of its terms is the verification key.",
+            "flaxscrip-present-seal: the VP that arrives here was constructed there — the two spells compose into the ceremony's bilateral proof."
           ]
         }
       ],
@@ -3682,6 +3789,28 @@
             "spell_id": "manifestia-bless-covenant",
             "persona": "manifestia",
             "title": "Bless Covenant"
+          }
+        ],
+        "chronicle-the-mage-seal": [
+          {
+            "spell_id": "genitrix-seal-node",
+            "persona": "genitrix",
+            "title": "Seal Node"
+          },
+          {
+            "spell_id": "genitrix-issue-challenge",
+            "persona": "genitrix",
+            "title": "Issue Challenge"
+          },
+          {
+            "spell_id": "flaxscrip-present-seal",
+            "persona": "flaxscrip",
+            "title": "Present Seal"
+          },
+          {
+            "spell_id": "genitrix-verify-response",
+            "persona": "genitrix",
+            "title": "Verify Response"
           }
         ]
       },
