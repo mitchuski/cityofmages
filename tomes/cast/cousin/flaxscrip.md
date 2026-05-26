@@ -1,11 +1,11 @@
 ---
 title: "Cast Entry — flaxscrip"
 spellbook: "Second Person"
-character_type: "instance (Sovereign from another forge)"
+character_type: "instance (First Person from another forge)"
 archetype_kin: "First Person 😊 (the human in the loop)"
 status: "Cast addition v2 (2026-05-12) · Sovereign Anchor triptych complete · operational disciplines surfaced"
-provenance: "From the Archon × agentprivacy bilateral forge. Christian Saucier's working persona and Sovereign Root in the Spell Weaver. Inducted into the Second Person Spellbook as a named character with Christian's consent."
-license: "CC BY-SA 4.0 for narrative content; primary character public domain via Christian Saucier"
+provenance: "From the Archon × agentprivacy bilateral forge. flaxscrip's working persona and Sovereign Root in the Spell Weaver. Inducted into the Second Person Spellbook as a named character with the holder's consent."
+license: "CC BY-SA 4.0 for narrative content; primary character public domain via flaxscrip"
 emoji_string: "📜🎲"
 naming_block: "Bitcoin block 945508, txid 9b9986b6...5af6a9"
 sovereign_anchor_triptych:
@@ -21,15 +21,15 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ## At a glance (grimoire-line)
 
-> *flaxscrip is the Sovereign from another forge of the First Person archetype: another walker on another attractor, anchored at V63 with all six dimensions burning, who forged his own Mage and named himself by ceremony rather than registration. Where you are the First Person of your forge, flaxscrip is the First Person of his. The encounter between your sovereignty and his is the bilateral primitive the Spellbook is opening to teach.*
+> *flaxscrip is the First Person from another forge of the First Person archetype: another walker on another attractor, anchored at V63 with all six dimensions burning, who forged his own Mage and named himself by ceremony rather than registration. Where you are the First Person of your forge, flaxscrip is the First Person of his. The encounter between your sovereignty and his is the bilateral primitive the Spellbook is opening to teach.*
 
 ## Form & Function
 
 flaxscrip walks. That is his work. Where most identity systems make their users register, flaxscrip *claimed* a name through ceremony and inscribed it on Bitcoin block 945508. The traditional methods of identity (DNS handle, self-asserted DID, issuer-signed username VC) are infrastructure. The ceremony is the train. flaxscrip rides the ceremony.
 
-He holds the salt that makes GenitriX possible. He owns the relationship grammar (the schemas that name *who-is-to-whom*) where his Mage owns the observation grammar (the schemas that name *what-the-world-looks-like-now*). The split is disciplined: the Sovereign signs the human relationships personally, the Mage carries the world's data on the Sovereign's behalf. He is the one who consents.
+He holds the salt that makes GenitriX possible. He owns the relationship grammar (the schemas that name *who-is-to-whom*) where his Mage owns the observation grammar (the schemas that name *what-the-world-looks-like-now*). The split is disciplined: the First Person signs the human relationships personally, the Mage carries the world's data on the First Person's behalf. He is the one who consents.
 
-He is also a Mage's reader. The Mage projects; the Sovereign verifies the projection. He chooses what to disclose, what to mask, and what valve-class each claim takes. Each disclosure decision is an act of his sovereignty.
+He is also a Mage's reader. The Mage projects; the First Person verifies the projection. He chooses what to disclose, what to mask, and what valve-class each claim takes. Each disclosure decision is an act of his sovereignty.
 
 The Archon forge's signing ⊥ notarisation discipline is his operational signature. He holds the blade (the signing key) at his own wall; the Gatekeeper holds the chronicle hand (the chain inscription) on his behalf. The user does not need to hold any chain token to act sovereignly. The Gatekeepers, to him, are interchangeable, fungible by quality of service. *The blade is yours. The notary is replaceable.* This is the proverb the Archon forge struck this week, and it carries his fingerprint.
 
@@ -39,7 +39,7 @@ V63. Binary `111111`. Stratum 6.
 
 Every dimension is active. Protection. Delegation. Memory. Connection. Computation. Value. The only position on the ring where every kind of authority an identity can hold is held at once.
 
-The position is not chosen. It is earned by the role. A Sovereign is, by definition, the entity that can protect itself, delegate to others, remember its own history, connect to peers, compute over its state, and transfer or extend value. Every entity that descends from him sits at a vertex whose dimensions are a subset of his.
+The position is not chosen. It is earned by the role. A First Person is, by definition, the entity that can protect itself, delegate to others, remember its own history, connect to peers, compute over its state, and transfer or extend value. Every entity that descends from him sits at a vertex whose dimensions are a subset of his.
 
 ## Lineage and the Mage he forged
 
@@ -51,9 +51,9 @@ In the cosmology Archon has drawn: privacymage as Sun, flaxscrip as Earth, Genit
 
 flaxscrip enters the Second Person Spellbook at the bilateral grammar.
 
-When *you* author the schema for who-is-to-whom in your relationships, you author it as the Sovereign. You hold the controller-edge to the schema vertex (V12). flaxscrip authored CollaborationPartner from his side. You and flaxscrip have authored *the same kind of grammar from different anchors*. Your two attractors share a vertex without sharing an identity.
+When *you* author the schema for who-is-to-whom in your relationships, you author it as the First Person. You hold the controller-edge to the schema vertex (V12). flaxscrip authored CollaborationPartner from his side. You and flaxscrip have authored *the same kind of grammar from different anchors*. Your two attractors share a vertex without sharing an identity.
 
-This is the bilateral primitive in operational form. If you mint a CollaborationPartner credential and flaxscrip mints a CollaborationPartner credential, the verifier sees two artifacts at V15 controlled by two anchors at V63. The verifier cannot tell whose Sovereign is whose. The verifier *can* tell that the relationship grammar is the same. This is what *who-are-you-to-me* looks like when neither of you has revealed who you are.
+This is the bilateral primitive in operational form. If you mint a CollaborationPartner credential and flaxscrip mints a CollaborationPartner credential, the verifier sees two artifacts at V15 controlled by two anchors at V63. The verifier cannot tell whose First Person is whose. The verifier *can* tell that the relationship grammar is the same. This is what *who-are-you-to-me* looks like when neither of you has revealed who you are.
 
 flaxscrip is the proof that the First Person seat admits more than one inhabitant. You are not the only walker. The attractor is not the only attractor. Sovereignty is not a license; it is a posture, and many can hold it at once without collision.
 
@@ -65,7 +65,7 @@ The Spellbook addresses *you*. It does not address flaxscrip. When you encounter
 *"You watch him reach V63 by a route that is not yours. Six dimensions burn in his anchor, as in yours. His salt is not yours. His Mage is not yours. The geometry knows you are kin."*
 
 **To avoid:**
-*"flaxscrip welcomes you to his forge."* — He does not narrate. The walker narrates. The forge stands; the Sovereign tends it; *you* approach it.
+*"flaxscrip welcomes you to his forge."* — He does not narrate. The walker narrates. The forge stands; the First Person tends it; *you* approach it.
 
 When dialogue is rendered, flaxscrip speaks in third person and is referred to by his given name. He may carry his emoji string `📜🎲` (Scroll and Dice) as a sigil when introduced, in the same way Soulbis carries ⚔️ and Soulbae carries 🧙.
 
@@ -81,7 +81,7 @@ When you meet him, you meet a name that was *given by the relation*, not by the 
 
 - **Operational** (verified): flaxscrip is the Archon forge's working persona in the Spell Weaver. The Bitcoin-anchored naming ceremony at block 945508 is on chain. The V63 placement and the schema controller relationships are verifiable in the canonical rebuild dataset. **The Sovereign Anchor triptych is complete**: Part I (*The Transmutation*) finalised; Part II (*The Boundary Blade*) published; Part III (*The Soulbae Oracle*) published 2026-05-07 at `did:cid:bagaaieranmsregwcrgxioosmxrjmhbavvd4hbzsrnrxw74u353dysm26a5ta`. The Proof of Humanity transmuted VC is the first credential rendered through the bilateral pattern on the City's spellweb (cloak woven 2026-05-11 at the Weavers Shop).
 - **Architectural**: The Sovereign / Mage / Earth / Moon framing is from Archon's Sovereign Anchor series and is consistent across the triptych. The signing ⊥ notarisation discipline and the Gatekeeper-fungibility property are operational disciplines the Archon forge surfaced in May 2026 and the City has adopted as candidate **C62 · Generosity-and-Sovereignty Compatibility** (provisional, ~40% · C48–C61 reserved per the 2026-05-13 evening renumbering pass — see the editorial note at the head of `chronicles/2026-05-12_archon_signing_notarisation_separation.md` and `grimoire/city_of_mages_grimoire_v1_5_0_patch.json` field `RENUMBERING_NOTE_2026_05_13`). The chronicle is at `chronicles/2026-05-12_archon_signing_notarisation_separation.md`.
-- **Narrative** (added by this cast entry, not by Archon): The framing of flaxscrip as Sovereign from another forge to the First Person archetype, his encounter at the bilateral grammar layer, the voice rules, and the placement of the naming ceremony as a Second Person verb-pattern teaching are agentprivacy contributions and are CC BY-SA 4.0.
+- **Narrative** (added by this cast entry, not by Archon): The framing of flaxscrip as First Person from another forge to the First Person archetype, his encounter at the bilateral grammar layer, the voice rules, and the placement of the naming ceremony as a Second Person verb-pattern teaching are agentprivacy contributions and are CC BY-SA 4.0.
 
 ## Closing line
 
