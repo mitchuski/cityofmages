@@ -1,7 +1,7 @@
 ---
 title: "The Register of Invitations"
 subtitle: "Tomes whose authorship is held open for named visiting mages of congruent geometry"
-status: "Open at v1.7.1 · 1 entry · awaiting Vitalik's stylus"
+status: "Open at v1.7.1 · a permanent register · 1 entry filed (the Fourth Turn)"
 admitted_in_grimoire: "v1.7.1 (2026-05-17 · additive patch over v1.7.0)"
 governance: "tomes/specs/11-the-invitation-protocol.md"
 sister_destinations:
@@ -18,6 +18,8 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 The Register is admitted at **grimoire v1.7.1** (2026-05-17). It is sister to the bound tomes (Tomes I–VIII), to the Library of Joint Authorship (destination when an invitation is accepted), and to the archive of unfilled forms (destination when an invitation expires by silence). Closure does not destroy a folio; an arriving mage may petition to lift the seal at any later time.
 
 > *"the empty chair is more powerful than the occupied one, because the empty chair can be claimed."*
+
+**The Register is the institution; its entries are instances.** The seat — the open-folio glyph 🪑 — is the durable thing: it outlasts and precedes any occupant. Any visiting mage of congruent geometry may be offered one. The first entry (the Fourth Turn, filed for Vitalik) *illustrates* the posture; it does not *define* it. Read what follows as the standing protocol of an empty chair, with the current occupant a single worked example.
 
 ---
 
