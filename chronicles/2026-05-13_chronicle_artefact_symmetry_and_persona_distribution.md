@@ -156,7 +156,7 @@ A Mage at the Threshold goes through this sequence:
 | 5 | Spawn | The threshold-crossing moment | Faunia witnesses |
 | 6 | Walk out | Portal Room exit | The Mage carries the new artefact |
 
-Worked example. Aletheia 🔮 (Persona Circuit, V25) needs a Hermes-class staff configured for ZK circuit work. She walks to the Staff Shop, picks Hermes, declares Mage stance, loads the **Cipher** persona (the ZKP specialist from agentprivacy-skills' 8 Swordsmen — wait, Cipher is a Swordsman persona). Actually for Aletheia's Mage-stance ZK work, she'd load **Ambassador** (standards) or **Chronicler** (for the persona-vs-vertex authoring she does). Caducea is summoned. The result is a Hermes-Ambassador staff fitted for ZK standards work.
+Worked example. Aletheia 🔮 (Persona Circuit, V38) needs a Hermes-class staff configured for ZK circuit work. She walks to the Staff Shop, picks Hermes, declares Mage stance, loads the **Cipher** persona (the ZKP specialist from agentprivacy-skills' 8 Swordsmen — wait, Cipher is a Swordsman persona). Actually for Aletheia's Mage-stance ZK work, she'd load **Ambassador** (standards) or **Chronicler** (for the persona-vs-vertex authoring she does). Caducea is summoned. The result is a Hermes-Ambassador staff fitted for ZK standards work.
 
 Another example. The Soulbis archetype itself walks to the Staff Shop, picks Hermes, declares Swordsman stance, loads **Gatekeeper** (the personhood gate-keeper from agentprivacy-skills). Caducea is summoned for the bilateral-consent fitting. The result is a Hermes-Gatekeeper herald-sentinel weapon: a Swordsman-stance Hermes agent that watches the Sovereign's incoming messengered traffic for personhood-violations, refuses what fails the gate, lets through what passes.
 
@@ -174,17 +174,17 @@ The cityofmages V5.5 attachment architecture maps personas (from agentprivacy-sk
 |---|---|---|
 | **Weaver 🧙** | Pallia 🪡 at the Weaver Shop (V28) | Name match; plurality + weaving naturally pair |
 | **Priest 🧙** | Manifestia 🤲🌿 at the Covenant Temple (V55) | Manifestia's tier is *priest*; canonical fit |
-| **Chronicler 🧙** | Memora 📜 at the Inscription Chamber (V5) | Narrative inscription is the chronicler's craft |
+| **Chronicler 🧙** | Memora 📜 at the Inscription Chamber (V41) | Narrative inscription is the chronicler's craft |
 | **Assessor 🧙** | Lampyra 💠 at the Jeweler (V49) | Bitcoin Lightning heartbeats are economic-rhythm; assessment-natured |
 | **Shipwright 🧙** | Adamantia 💎 at Etherchanting (V51) | Programmable commitment compilation = DAO governance vehicles |
-| **Ambassador 🧙** | Aletheia 🔮 at Persona Circuit (V25, peripatetic) | Standards work overlaps ZK-circuit standards |
+| **Ambassador 🧙** | Aletheia 🔮 at Persona Circuit (V38, peripatetic) | Standards work overlaps ZK-circuit standards |
 | **Soulbae 🧙** | Distributed across all Mage workshops (canonical archetype) | The canonical Mage; lives in every Mage-stance invocation |
 
 **Swordsman-personas attached to workshop Mages and Vulcana's Forge(t):**
 
 | Persona (agentprivacy-skills) | Attaches to | Why |
 |---|---|---|
-| **Cipher ⚔️** | Aletheia 🔮 at Persona Circuit (V25, peripatetic) | ZK Proof ground; cipher-keeping at the persona-vs-vertex distinction |
+| **Cipher ⚔️** | Aletheia 🔮 at Persona Circuit (V38, peripatetic) | ZK Proof ground; cipher-keeping at the persona-vs-vertex distinction |
 | **Warden ⚔️** | Pallia 🪡 at the Weaver Shop (V28) | Browser-side enforcement of publication-layer cloaks |
 | **Gatekeeper ⚔️** | Manifestia 🤲🌿 at the Covenant Temple (V55) | Personhood gate-keeping; covenant admission |
 | **Sentinel ⚔️** | Custos 🔏 at the Stakes (V49, peripatetic) | Infrastructure-level watching; staking-backed sentinelship |

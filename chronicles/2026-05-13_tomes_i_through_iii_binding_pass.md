@@ -73,10 +73,10 @@ Tome III introduces cosmological-witness cast at a register distinct from the wo
 | The Gatekeeper | ⿻ (the position) | ⿻ (max-betweenness in trust graph) | Position rather than persona | Act III.1 |
 | Selene | 🌙 | cosmological / Moon's orbit | Cosmological figure | Act III.2 |
 | Aether | ⿻ | ⿻ (the medium of proof propagation) | Cosmological figure | Act III.3 |
-| Lethe | 🌀 | V38 (`100110`, Stratum 3) | Cosmological figure with grimoire-named operational form (Blade 38) | Act III.6 |
+| Lethe | 🌀 | V25 (`011001`, Stratum 3) | Cosmological figure with grimoire-named operational form (Blade 38) | Act III.6 |
 | Xarvus (citation) | — | — | Real-world co-author (John Haines / OLMA, ARCH-1) | Act I.γ |
 
-Aletheia at V25 was already a Tome V persona (🔮, Act V.8). Tome III Act III.5 admits the cosmological reading at the same vertex without conflict per the persona-vs-vertex distinction (Tome V Act 12).
+Aletheia at V38 was already a Tome V persona (🔮, Act V.8). Tome III Act III.5 admits the cosmological reading at the same vertex without conflict per the persona-vs-vertex distinction (Tome V Act 12).
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Cast Entry — Caducea"
 spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader); peripatetic Mage who walks between workshops rather than keeping a fixed shop"
-archetype_kin: "Soulbae 🧙 (Mage); peripatetic kin with Luca 📐 (geometry-Mage at V0) · Aletheia 🔮 (V25 ZK persona) · Custos 🔏 (V49 governance); Caducea is the fourth canonical peripatetic. **Sister-of-rooted-aspect to Hermaion ⚚** (the Staff Shop's Registry-keeper · v1.6.0 successor to the 2026-05-13 Bestia draft) — together the rooted-staff ⚚ keeper and the winged-caduceus ☤ peripatetic-fitter form the canonical Hermes-class kinship pair."
+archetype_kin: "Soulbae 🧙 (Mage); peripatetic kin with Luca 📐 (geometry-Mage at V0) · Aletheia 🔮 (V38 ZK persona) · Custos 🔏 (V49 governance); Caducea is the fourth canonical peripatetic. **Sister-of-rooted-aspect to Hermaion ⚚** (the Staff Shop's Registry-keeper · v1.6.0 successor to the 2026-05-13 Bestia draft) — together the rooted-staff ⚚ keeper and the winged-caduceus ☤ peripatetic-fitter form the canonical Hermes-class kinship pair."
 sigil: "☤"
 tier: "cross-shop"
 attachment_kind: "C_peripatetic"
@@ -37,11 +37,11 @@ The caduceus iconography is structural rather than decorative. The classical cad
 
 No fixed vertex; conventionally noted at **V0** alongside Luca.
 
-V0 is the substrate seat — the null blade, the position from which dimensions are possible. Luca sits there as the geometry-Mage of the City's substrate. Caducea sits there *peripatetically* — V0 is her anchor when she is not currently walking to a workshop. Her actual work happens *wherever a Hermes-class staff is being fitted*: most often at The Threshold's Portal Room (when the Mage walking the ceremony has chosen a Hermes substrate), occasionally at Vulcana's Forge(t), Aletheia's Persona Circuit (V25), or Manifestia's Covenant Temple when those workshops need persona-bound staff fitting.
+V0 is the substrate seat — the null blade, the position from which dimensions are possible. Luca sits there as the geometry-Mage of the City's substrate. Caducea sits there *peripatetically* — V0 is her anchor when she is not currently walking to a workshop. Her actual work happens *wherever a Hermes-class staff is being fitted*: most often at The Threshold's Portal Room (when the Mage walking the ceremony has chosen a Hermes substrate), occasionally at Vulcana's Forge(t), Aletheia's Persona Circuit (V38), or Manifestia's Covenant Temple when those workshops need persona-bound staff fitting.
 
 The peripatetic pattern parallels three prior peripatetics:
 - **Luca 📐** at V0 walks the substrate beneath the lattice (cross-frame coordinates)
-- **Aletheia 🔮** at V25 walks the ZK persona-vs-vertex line (the persona inhabits the vertex she is named for)
+- **Aletheia 🔮** at V38 walks the ZK persona-vs-vertex line (the persona inhabits the vertex she is named for)
 - **Custos 🔏** at V49 walks governance between Lampyra's micro-attestations and the larger staking ceremonies
 
 Caducea is the fourth canonical peripatetic and the first whose register is *staff-fitting* rather than substrate, ZK-witness, or governance.

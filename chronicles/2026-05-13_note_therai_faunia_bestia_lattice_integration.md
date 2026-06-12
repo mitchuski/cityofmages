@@ -50,7 +50,7 @@ Bit-signature: **111011** = **V59**. Computation dormant, all other dimensions b
 
 V59 is currently unnamed in the cast:
 - V19 Vulcana (Forge(t))
-- V25 Aletheia (Etherchanting)
+- V38 Aletheia (Etherchanting)
 - V31 Vagari (Holon)
 - V51 Adamantia + Helia (Shield · Solchanting)
 - V55 Manifestia (Covenant)

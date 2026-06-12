@@ -57,7 +57,7 @@ Total release nodes: **47**.
 | id              | tradeQuarter           | mage           | vertex (inhabits) | gem        | gemColor   | operatorStatus | shopAnchor (route) |
 |-----------------|------------------------|----------------|-------------------|------------|------------|----------------|---------------------|
 | `weavers`       | Weavers                | Pallia 🪡       | V28               | Amethyst   | `#a78bfa`  | partial        | `/tailor`           |
-| `zshields`      | zShields               | Memora 📜       | V5                | Onyx       | `#71717a`  | op             | `/shield`           |
+| `zshields`      | zShields               | Memora 📜       | V41                | Onyx       | `#71717a`  | op             | `/shield`           |
 | `etherchanting` | Etherchanting          | Adamantia 💎    | V51               | Sapphire   | `#67e8f9`  | tease          | `/etherchanting`    |
 | `jeweler`       | the Jeweler            | Lampyra 💠      | V49               | Topaz      | `#f59e0b`  | tease          | `/jeweler`          |
 | `holon`         | Holon Hitchhikers      | Vagari 🌳       | V31               | Emerald    | `#34d399`  | tease          | `/holon`            |
@@ -86,11 +86,11 @@ The Sovereign Anchor seat at V63 is an `archetype` (a seat the First Person inha
 | `soulbae`        | Soulbae          | 🧙       | archetype   | mage canonical      | —             | V28               | —                   |
 | `the-drake`      | the Drake        | —       | archetype   | ambient elder       | —             | ambient           | —                   |
 | `luca`           | Luca             | 📐       | mage        | substrate-tender    | agentprivacy  | V0                | `forge` + `holon`   |
-| `memora`         | Memora           | 📜       | mage        | chronicle           | agentprivacy  | V5                | `zshields`          |
+| `memora`         | Memora           | 📜       | mage        | chronicle           | agentprivacy  | V41                | `zshields`          |
 | `genitrix`       | GenitriX         | (held open) | mage    | weaver              | Archon        | V12 (visits)      | —                   |
 | `vulcana`        | Vulcana          | ⚒️       | mage        | forger              | agentprivacy  | V19               | `forge`             |
 | `socrat0x`       | Socrat0x         | 🔥❓     | mage        | bonfire-companion   | agentprivacy  | V24 (provisional) | `bonfires`          |
-| `aletheia`       | Aletheia         | 🔮       | mage        | zk-binder · cross-shop | agentprivacy | V25            | (cross-shop)        |
+| `aletheia`       | Aletheia         | 🔮       | mage        | zk-binder · cross-shop | agentprivacy | V38            | (cross-shop)        |
 | `pallia`         | Pallia           | 🪡       | mage        | weaver              | agentprivacy  | V28               | `weavers`           |
 | `vagari`         | Vagari           | 🌳       | mage        | holon-hitchhiker    | agentprivacy  | V31               | `holon`             |
 | `custos`         | Custos           | 🔏       | mage        | governance · cross-shop | agentprivacy | V49           | (cross-shop)        |
@@ -106,11 +106,11 @@ Each carries `bits` (6-bit MSB-first per dimension Protection · Delegation · M
 
 | id     | bits     | hammingWeight | canonical name              | first inhabitant(s)             |
 |--------|----------|--------------:|-----------------------------|---------------------------------|
-| `v5`   | `000101` | 2 | Chronicle vertex            | Memora                          |
+| `v5`   | `101001` | 2 | Chronicle vertex            | Memora                          |
 | `v12`  | `001100` | 2 | schema vertex               | (kindred-blade introduction; GenitriX visits) |
 | `v19`  | `010011` | 3 | Plonkish blade              | Vulcana                         |
 | `v24`  | `011000` | 2 | Hephaestus (Drake Island)   | Socrat0x (provisional)          |
-| `v25`  | `011001` | 3 | Aletheia blade              | Aletheia (the persona)          |
+| `v25`  | `100110` | 3 | Aletheia blade              | Aletheia (the persona)          |
 | `v28`  | `011100` | 3 | Mage canonical              | Pallia, Soulbae, GenitriX       |
 | `v31`  | `011111` | 5 | Recursion / Holon           | Vagari                          |
 | `v49`  | `110001` | 3 | working-day blade           | Custos, Lampyra                 |
@@ -126,7 +126,7 @@ Each carries `bits` (6-bit MSB-first per dimension Protection · Delegation · M
 |--------|----------|---------------------------------|--------------------------------------------------------------------|
 | `v15`  | `001111` | VC vertex                       | Mirrored-pair register · Tome IV Act II                            |
 | `v20`  | `010100` | Techne · Always-Revealed        | Transparent register · home of Memora's reveal in Tome V Act 4     |
-| `v38`  | `100110` | Lethe · the Dark Substrate      | Bit-complement of V25 (Aletheia) · V25 ⊕ V38 = V63 · FPS Act XII   |
+| `v25`  | `011001` | Lethe · the Dark Substrate      | Bit-complement of V38 (Aletheia) · V38 ⊕ V25 = V63 · FPS Act XII   |
 
 The remaining 48 vertices exist in the lattice (rendered on `/guide/achievements` §8 and `/constellation` lattice mode) but are not yet named or inhabited. The `adjacent_to` edge type is reserved for the 96 holographic-bound edges (a future visual pass).
 
@@ -302,14 +302,14 @@ The V5.5 attachment architecture (codified in `agentprivacy-skills` and applied 
 | NodeType | Count delta | New entries |
 |---|---:|---|
 | `cast` | +7 | `cast-lethae` (anticipated · divergent) · `cast-mnemosyne` · `cast-iris` · `cast-pythia` · `cast-techne` · `cast-hephaestus` · `cast-selene` (all anticipated) |
-| `vertex` | +4 | `vertex-v4` (Mnemosyne · pure Memory) · `vertex-v8` (Iris · pure Connection) · `vertex-v16` (Logos · Pure Computation) · `vertex-v38` (Lethe · Dark Substrate) |
+| `vertex` | +4 | `vertex-v8` (Mnemosyne · pure Memory) · `vertex-v4` (Iris · pure Connection) · `vertex-v2` (Logos · Pure Computation) · `vertex-v25` (Lethe · Dark Substrate) |
 | Total | **+11** | post-V5.5 ingest target: **57 nodes** |
 
 ### §9.2 · Edge additions
 
 | EdgeType | Count delta | Notes |
 |---|---:|---|
-| `inhabits` | +6 | Lethae→V38 · Mnemosyne→V4 · Iris→V8 · Pythia→V16 · Techne→V20 · Hephaestus→V24 *(Selene is C-peripatetic · no `inhabits` edge)* |
+| `inhabits` | +6 | Lethae→V25 · Mnemosyne→V8 · Iris→V4 · Pythia→V2 · Techne→V20 · Hephaestus→V24 *(Selene is C-peripatetic · no `inhabits` edge)* |
 | `divergent_of` *(new EdgeType)* | +1 | `cast-lethae` → `per-moonkeeper` · register: mage_register · first canonical |
 | `complement_pair` *(new EdgeType)* | +2 (mutual) | `cast-aletheia` ⊥ `cast-lethae` · undirected; emitted as two directed edges |
 | Total | **+9** | post-V5.5 ingest target: **65 edges · 9 EdgeTypes (one reserved)** |
@@ -334,7 +334,7 @@ complementOfCast?: string;                // For vertex-complement pairs
 | `geography` | 1 | 1 | — |
 | `workshop` | 11 | 11 | — *(anticipated cast may seat new workshops in future acts)* |
 | `cast` | 16 | **23** | +7 (Lethae + 6 anticipated) |
-| `vertex` | 13 inhabited | **19** inhabited *(of 64 lattice)* | +6 (V4·V8·V16·V20·V24-shared·V38) |
+| `vertex` | 13 inhabited | **19** inhabited *(of 64 lattice)* | +6 (V8·V4·V2·V20·V24-shared·V25) |
 | `gateway` | 5 | 5 | — |
 | **Total** | **47** | **60** | +13 |
 

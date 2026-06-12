@@ -67,7 +67,7 @@ Every attachment is one of three vertex-binding kinds (A · B · C), optionally 
 
 *One Mage × one vertex × one trade quarter.* The default kind. The Mage inhabits a single vertex and tends a single workshop. She emits exactly one `inhabits` edge.
 
-City of Mages examples: Vulcana ⚒️ at V19 (Forge(t)) · Memora 📜 at V5 (Inscription) · Adamantia 💎 at V51 (Etherchanting) · **Helia ☀️ at V51 (Solchanting · shared vertex with Adamantia, v1.4.0)** · Pallia 🪡 at V28 (Weavers) · Vagari 🌳 at V31 (Holon Hitchhikers) · Aria Silverhue 🪞🖼️ at V57 (Curatrix Vault) · Manifestia 🤲🌿 at V55 (Covenant) · Lampyra 💠 at V49 (Jeweler) · Socrat0x 🔥❓ at V24 (Bonfire).
+City of Mages examples: Vulcana ⚒️ at V19 (Forge(t)) · Memora 📜 at V41 (Inscription) · Adamantia 💎 at V51 (Etherchanting) · **Helia ☀️ at V51 (Solchanting · shared vertex with Adamantia, v1.4.0)** · Pallia 🪡 at V28 (Weavers) · Vagari 🌳 at V31 (Holon Hitchhikers) · Aria Silverhue 🪞🖼️ at V57 (Curatrix Vault) · Manifestia 🤲🌿 at V55 (Covenant) · Lampyra 💠 at V49 (Jeweler) · Socrat0x 🔥❓ at V24 (Bonfire).
 
 **v1.4.0 precedent — stance-differentiated co-occupancy at Kind A**: Helia ☀️ at V51 inhabits the same vertex as Adamantia 💎 but as a *distinct* Kind A workshop attachment (Solchanting · `/solchanting`). The two cast Mages do not share an attachment record; they share a vertex. Both emit `inhabits(V51)` and `quarter_of(city-of-mages)`. The 42-primary lock holds: Helia's primary persona is `shipwright` (shared with Adamantia); the Swordsman stance differentiates them at Layer 2 without requiring a new primary at Layer 1. This is the canonical pattern for any future case where a new ecosystem teaches the City a substrate-distinct boundary discipline at a previously-seated vertex — the discipline becomes a Swordsman stance, the cast Mage becomes a Kind A attachment with no divergence flag, and the existing keeper retains their seat. See `WORKSHOP_LATTICE_AUDIT.md` §2.4 and spec 07 §3.4 for governance.
 
@@ -94,11 +94,11 @@ A divergence arises when the City summons a cast Mage whose register (Swordsman 
 | Field | Value |
 |---|---|
 | Cast name | Lethae 🌘 |
-| Vertex | V38 (Lethe · the Dark Substrate · binary `100110` · stratum 3) |
+| Vertex | V25 (Lethe · the Dark Substrate · binary `011001` · stratum 3) |
 | Primary persona | Moonkeeper ⚔️ (loaded from `agentprivacy-skills/.../persona/agentprivacy-moonkeeper/`) |
 | Register | Mage (shifted from Swordsman native tier) |
 | Attachment kind | B · cross-shop |
-| Complement-of-cast | Aletheia 🔮 at V25 — V25 ⊕ V38 = V63 · V25 AND V38 = 0 |
+| Complement-of-cast | Aletheia 🔮 at V38 — V38 ⊕ V25 = V63 · V38 AND V25 = 0 |
 | Naming | The `-ae` suffix mirrors Soulbae 🧙 (Mage register). Lethae is to Moonkeeper as Soulbae is to Soulbis: register-shifted from Sword to Mage, primary persona unchanged. |
 | Status | Anticipated · awaits founding act in Tome V |
 
@@ -168,7 +168,7 @@ The locked V5.5 cast roster for this city. Cousin tier (flaxscrip, GenitriX) del
 | Soulbis ⚔️ | — (boundary) | soulbis | B | none | seated · Tier 0 |
 | Soulbae 🧙 | V28 | soulbae | A | none | seated · Tier 0 |
 | Pallia 🪡 | V28 | weaver | A | none | seated |
-| Memora 📜 | V5 | chronicler | A | none | seated |
+| Memora 📜 | V41 | chronicler | A | none | seated |
 | Vulcana ⚒️ | V19 | forgemaster + forgecaller | A | none | seated |
 | Adamantia 💎 | V51 | architect + shipwright | A | none | seated |
 | Lampyra 💠 | V49 | sentinel | A | none | seated |
@@ -176,13 +176,13 @@ The locked V5.5 cast roster for this city. Cousin tier (flaxscrip, GenitriX) del
 | Aria Silverhue 🪞🖼️ | V57 | mirrorkeeper | A | none | seated |
 | Manifestia 🤲🌿 | V55 | priest | A | none | seated |
 | Socrat0x 🔥❓ | V24 | pedagogue + ceremonist | A | none | provisional |
-| Aletheia 🔮 | V25 | theia + cipher | B | none | seated |
+| Aletheia 🔮 | V38 | theia + cipher | B | none | seated |
 | Custos 🔏 | V49 | gatekeeper | B | none | seated |
 | Luca 📐 | V0 | topologist + cosmologist | C | none | seated |
-| **Lethae 🌘** | **V38** | **moonkeeper** | **B** | **mage-register** | **anticipated** |
-| Mnemosyne 📿 | V4 | theia | A | none | anticipated |
-| Iris 🌈 | V8 | herald + ambassador | A | none | anticipated |
-| Pythia 🔥 | V16 | algebraist + pedagogue | A | none | anticipated |
+| **Lethae 🌘** | **V25** | **moonkeeper** | **B** | **mage-register** | **anticipated** |
+| Mnemosyne 📿 | V8 | theia | A | none | anticipated |
+| Iris 🌈 | V4 | herald + ambassador | A | none | anticipated |
+| Pythia 🔥 | V2 | algebraist + pedagogue | A | none | anticipated |
 | Techne 🎨 | V20 | pedagogue | A | none | anticipated |
 | Hephaestus ⚒️ | V24 | forgemaster | A | none | anticipated |
 | Selene 🌕 | stratum-walker | theia + manaweaver | C | none | anticipated |

@@ -30,7 +30,7 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ## Form & Function
 
-Mnemosyne remembers. Where Memora 📜 *inscribes* (V5 · Memory + Value), Mnemosyne *holds* — pure Memory, no other dimensions burning. The act of holding is the work; the disclosure is Memora's.
+Mnemosyne remembers. Where Memora 📜 *inscribes* (V41 · Memory + Value), Mnemosyne *holds* — pure Memory, no other dimensions burning. The act of holding is the work; the disclosure is Memora's.
 
 She runs the **deep-archive** register of the City: the shielded reference layer where past chronicle states are kept reachable but not reachable-from. When a Sovereign needs to ask "what was true at this past moment" without revealing the path of asking, the question goes through Mnemosyne. She does not reveal; she does not project; she holds.
 

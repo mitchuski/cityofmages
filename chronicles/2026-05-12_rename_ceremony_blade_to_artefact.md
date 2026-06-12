@@ -34,7 +34,7 @@ The earlier filename `blade.md` collapsed every workshop's output into Vulcana �
 | Covenant Temple (Manifestia 🤲🌿) | Consecration | tool |
 | Dragon Bonfire (Socrat0x 🔥❓) | Sharpening | trinket (dialogic) |
 
-Calling every workshop's witness `blade.md` privileged Vulcana while reducing nine other registers. `artefact.md` restores plurality at the file level. The *conceptual blade primitive* (cousin-blade · Plonkish blade at V19 · Aletheia blade at V25 · the null-blade origin at V0 · Vulcana's actual blades) remains canonical wherever it is genuinely the blade — the rename targets only the file-format name, not the metaphor.
+Calling every workshop's witness `blade.md` privileged Vulcana while reducing nine other registers. `artefact.md` restores plurality at the file level. The *conceptual blade primitive* (cousin-blade · Plonkish blade at V19 · Aletheia blade at V38 · the null-blade origin at V0 · Vulcana's actual blades) remains canonical wherever it is genuinely the blade — the rename targets only the file-format name, not the metaphor.
 
 ---
 

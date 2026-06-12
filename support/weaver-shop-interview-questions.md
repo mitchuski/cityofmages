@@ -160,7 +160,7 @@ This interview is in standard founder-profile register — no in-character frami
 
 3. Sovereign Anchor I, II, and III form a triptych — the Cloaking Guide, the Boundary Blade Cartography, and the Soulbae Oracle (still in draft). What is the through-line for you across the three? What is each one solving that the others don't quite solve?
 
-4. The Boundary Blade Cartography names many of the vertices in our City of Mages — V19 Plonkish, V25 Aletheia, V49 Working-day, V51 Commitment / Language / Model, V57 Ceremony / Privacy / Mixing, V59 Ecosystem. How did the names emerge? Were you working from the bit-patterns up, or from the work that needed to happen at each vertex down?
+4. The Boundary Blade Cartography names many of the vertices in our City of Mages — V19 Plonkish, V38 Aletheia, V49 Working-day, V51 Commitment / Language / Model, V57 Ceremony / Privacy / Mixing, V59 Ecosystem. How did the names emerge? Were you working from the bit-patterns up, or from the work that needed to happen at each vertex down?
 
 **On the cousin-blade work**
 

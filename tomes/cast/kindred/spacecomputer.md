@@ -20,8 +20,8 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 ## Why this entry exists
 
 The Celestial Ceremony at `/poems` has been teaching the corpus a cosmological frame
-since the First Person Spellbook: the Sun-side (Aletheia · disclosure · V25) and the
-Moon-side (Lethe · forgetting · V38) are bound through Selene&apos;s 4.5-billion-year
+since the First Person Spellbook: the Sun-side (Aletheia · disclosure · V38) and the
+Moon-side (Lethe · forgetting · V25) are bound through Selene&apos;s 4.5-billion-year
 orbit. The poem is the narrative ground. SpaceComputer is the *operational ground*:
 cosmic measurement made into a feed of entropy any workshop can draw from when a
 proof needs randomness the surveillance prison cannot model.

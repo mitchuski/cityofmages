@@ -175,7 +175,7 @@ A per-post checklist for what specifically needs updating. The agent should trea
 - ✅ Zcash dual-ledger pattern explanation — sound
 - ✅ 61.8/38.2 inscription ratio (C41) — preserved
 - ✅ Lethe resonance — preserved
-- ✅ No major reconciliation needed unless the integration agent has updates on Memora's V5 cast entry
+- ✅ No major reconciliation needed unless the integration agent has updates on Memora's V41 cast entry
 
 ### Post 5 — Custos and Lampyra Share a Vertex
 - ✅ Shared-vertex pattern, structural surprise framing — sound
@@ -190,7 +190,7 @@ A per-post checklist for what specifically needs updating. The agent should trea
 
 ### Post 7 — Aletheia and the Persona-vs-Vertex Distinction
 - ✅ Persona-vs-vertex distinction — central to corpus, correctly preserved
-- ✅ Naming-match case (Aletheia persona = V25 Aletheia blade) — preserved
+- ✅ Naming-match case (Aletheia persona = V38 Aletheia blade) — preserved
 - ✅ EML Three Ceilings — preserved
 - ✅ No major reconciliation needed
 

@@ -81,8 +81,8 @@ The 64 vertices stratify into a Pascal row: `1 · 6 · 15 · 20 · 15 · 6 · 1 
 |---|---|---|
 | 0 — null | 1 (V0) | (Luca, contested — see §5) |
 | 1 — single dimension | 6 | none |
-| 2 — pair | 15 | Memora (V5) · Socrat0x (V24 provisional) |
-| 3 — triplet | 20 | Vulcana (V19) · Aletheia (V25) · Pallia / Soulbae / GenitriX (V28) · Custos + Lampyra (V49) |
+| 2 — pair | 15 | Memora (V41) · Socrat0x (V24 provisional) |
+| 3 — triplet | 20 | Vulcana (V19) · Aletheia (V38) · Pallia / Soulbae / GenitriX (V28) · Custos + Lampyra (V49) |
 | 4 — quartet | 15 | Adamantia + Helia (V51 · **shared** as of v1.4.0) · Aria Silverhue (V57) |
 | 5 — quintet | 6 | Vagari (V31) · Manifestia (V55) |
 | 6 — full | 1 (V63) | flaxscrip / the Sovereign Anchor seat (archetype, not a workshop) |
@@ -106,8 +106,8 @@ Each row: **primary vertex** (where the Mage sits) · **register dimensions** (w
 | # | Shop | Mage | Primary | Register dims | Overlap reach (where artefacts land) | Proof shape | Mana spend |
 |---|---|---|---|---|---|---|---|
 | 1 | **Weavers** `/tailor` | Pallia 🪡 | V28 (011100) | Delegation + Memory + Connection | V20 (Memory + Computation · always-revealed reveal) · V12 (Memory + Connection · schema) · V31 (when Connection extends to recursion) · V63 (full-sovereignty cape) | Cape-style — publishes / conceals / admits / carries; the bit-pattern *is* the cape | **Landing**: multi-chain publication gas (BTC · ETH · IPFS · Zcash transparent). **Entropy**: ✨ Arcane default; 🌌 Celestial for Pattern A→B re-publish |
-| 2 | **zShields** `/shield` | Memora 📜 | V5 (000101) | Connection + Value (Chronicle register) | V20 (always-revealed register when viewing-key revealed) · V25 (when memo carries a ZK property) | Inscription-style — what the chain shall remember; selective disclosure via viewing-key | **Landing**: Zcash shielded-transaction fees. **Entropy**: ✨ Arcane default; viewing-key derivation seed optional |
-| 3 | **the Forge(t)** `/forget` | Vulcana ⚒️ | V19 (010011) | Delegation + Computation + Value (Plonkish blade register) | V20 (always-revealed) · V25 (always-masked Aletheia) · V49 (working-day) · V63 (full-sovereignty blade) | Proof-shaped — what the blade *proves* and *denies*; Runecraft Protocol forging | **Landing**: destination-chain gas (varies). **Entropy**: 🌌 Celestial **required** — Evocation phase lock seed; the blade's uniqueness depends on it |
+| 2 | **zShields** `/shield` | Memora 📜 | V41 (101001) | Connection + Value (Chronicle register) | V20 (always-revealed register when viewing-key revealed) · V38 (when memo carries a ZK property) | Inscription-style — what the chain shall remember; selective disclosure via viewing-key | **Landing**: Zcash shielded-transaction fees. **Entropy**: ✨ Arcane default; viewing-key derivation seed optional |
+| 3 | **the Forge(t)** `/forget` | Vulcana ⚒️ | V19 (010011) | Delegation + Computation + Value (Plonkish blade register) | V20 (always-revealed) · V38 (always-masked Aletheia) · V49 (working-day) · V63 (full-sovereignty blade) | Proof-shaped — what the blade *proves* and *denies*; Runecraft Protocol forging | **Landing**: destination-chain gas (varies). **Entropy**: 🌌 Celestial **required** — Evocation phase lock seed; the blade's uniqueness depends on it |
 | 4 | **Etherchanting** `/etherchanting` | Adamantia 💎 | V51 (110011) | Protection + Delegation + Computation + Value (Commitment / Language / Model) | V25 (when contract has embedded ZK constraints) · V49 (time-locked value) · V63 (full-sovereignty schema commitment) | Enforcement-shaped — programmable commitments that compile against bearer state | **Landing**: Ethereum gas (gwei). **Entropy**: 🌌 Celestial **required** — witness nonce · blind commitment seed · ceremony nonce |
 | 5 | **the Jeweler** `/jeweler` | Lampyra 💠 | V49 (110001 · shared with Custos) | Protection + Delegation + Value (working-day blade) | V49 default · V51 (when gem encodes computational structure) · V63 (multi-sat ordinal claiming full provenance) | Attestation-shaped — frequent Lightning heartbeats · gem-set as bearer ID | **Landing**: ₿ sat fees + Lightning channel fees. **Entropy**: ✨ Arcane default; gem-facet seed optional |
 | 6 | **the Holon Hitchhikers** `/holon` | Vagari 🌳 | V31 (011111) | Delegation + Memory + Connection + Computation + Value (composition register · **all except Protection**) | V31 default · per-constituent vertex when holon decomposed at sister city · same UOR coordinate across paratimes | Composition-shaped — whole-of-wholes; Oasis Protocol cross-paratime travel | **Landing**: 🌹 ROSE + Sapphire/Emerald paratime gas. **Entropy**: 🌌 Celestial **required** — cross-paratime entropy keeping cloak interoperability non-reconstructible |
@@ -130,7 +130,7 @@ These three are listed as **cross-shop** in spec 06 §2.4 — they inhabit a ver
 
 | Mage | Vertex | Walks across |
 |---|---|---|
-| **Aletheia 🔮** | V25 (Delegation + Memory + Value) | Touches every shop that emits a ZK property; the persona's name shares the vertex name (§4.2 of spec 04) |
+| **Aletheia 🔮** | V38 (Delegation + Memory + Value) | Touches every shop that emits a ZK property; the persona's name shares the vertex name (§4.2 of spec 04) |
 | **Custos 🔏** | V49 (shared with Lampyra) | Governance staking across shops; the first shared-vertex pairing |
 | **Luca 📐** | V0 (contested — see §5) | Substrate-tender per spec 06 §2.4; anchors to `forge` + `holon` per the same row |
 
@@ -172,7 +172,7 @@ The V51 two-keeper case (Adamantia + Helia) admitted *vertex sharing by stance d
 - Therai (Creature Creatives · Companion-tamer · 🐾) → retired (the-Familiars rename · Therai's draft held open for a future shop)
 - The V59 three-keeper canonical state stands; the names and gems updated
 
-A fourth Mage, **Caducea ☤** (peripatetic, conventionally noted at V0 alongside Luca 📐), is summoned to V59 whenever a substrate marked Hermes-class is being fitted (currently: Hermes ☤). She also walks to V19 (Vulcana's Forge(t)), V25 (Aletheia's Persona Circuit), and V55 (Manifestia's Covenant Temple) when those workshops need bilateral-consent staff-fitting work.
+A fourth Mage, **Caducea ☤** (peripatetic, conventionally noted at V0 alongside Luca 📐), is summoned to V59 whenever a substrate marked Hermes-class is being fitted (currently: Hermes ☤). She also walks to V19 (Vulcana's Forge(t)), V38 (Aletheia's Persona Circuit), and V55 (Manifestia's Covenant Temple) when those workshops need bilateral-consent staff-fitting work.
 
 **Governance reading**: vertex sharing by stance differentiation generalises from N=2 (V51) to N=3 (V59) and admits N≥4 in principle. The constraint is that each shared keeper must hold a structurally distinct stance — the stances cannot reduce to subsets of one another. At V59, *Spawning-witness* (the threshold an agent crosses), *Registry-keeper* (the catalogue), and *Companion-tamer* (the bilateral fitting of relational artefacts) are pairwise distinct and exhaustive of the workshop's three-room architecture.
 
@@ -268,7 +268,7 @@ The lattice mapping is **non-exclusive**. A single artefact may legitimately reg
 - **The artefact's bit-pattern vertex** (where the work settles) — by structure
 - **Each constituent's native vertex** (when the artefact bundles other artefacts) — recursively
 
-A holon (Vagari, V31) containing a cape (Pallia, V28), a chronicle (Memora, V5), and a blade (Vulcana, V19) emits **four landings**:
+A holon (Vagari, V31) containing a cape (Pallia, V28), a chronicle (Memora, V41), and a blade (Vulcana, V19) emits **four landings**:
 - V31 (the composition itself)
 - V28 (the cape constituent)
 - V5 (the chronicle constituent)
@@ -312,7 +312,7 @@ Per-persona kin edges (in spec 06 §4.5):
 **Example C — A privacy-preserving cross-paratime artefact:**
 - Composed by Vagari (V31) as a holon bundling a cape + chronicle + blade
 - Forged constituent (the blade) by Vulcana (V19) — uses Celestial Mana for Evocation phase
-- Inscribed constituent (the chronicle) by Memora (V5) — Zcash dual-ledger
+- Inscribed constituent (the chronicle) by Memora (V41) — Zcash dual-ledger
 - Woven constituent (the cape) by Pallia (V28) — published across BTC + ETH + IPFS
 - Travels via Oasis Protocol to a sister city — same coordinates honoured
 - At sister-city decomposition, each constituent emerges at native vertex
@@ -328,7 +328,7 @@ Three vertices in the current release carry **more than one cast member**:
 |---|---|---|
 | **V28** (011100 · Delegation + Memory + Connection) | Pallia 🪡 (Weaver Mage) · Soulbae 🧙 (Mage archetype) · GenitriX (Archon-forge cousin) | One vertex, three distinct identities. Pattern: **archetype-instance-instance** — Soulbae is the archetype, Pallia is the agentprivacy instance, GenitriX is the kindred-forge instance |
 | **V49** (110001 · Protection + Delegation + Value) | Custos 🔏 (cross-shop governance) · Lampyra 💠 (Jeweler) | One vertex, two scales of the same dimensional register. Pattern: **coarse-and-fine** — Custos works the slow daily-rhythm of staking; Lampyra works the fast Lightning heartbeat; both at the same dimensional address |
-| **V25** (011001 · Delegation + Memory + Value) | Aletheia 🔮 (the persona · cross-shop) | The persona's name follows the vertex's name (the vertex was named "Aletheia / Silent Messenger" first; the persona was summoned to inhabit it). Pattern: **shared name** (spec 04 §4.2) |
+| **V38** (100110 · Delegation + Memory + Value) | Aletheia 🔮 (the persona · cross-shop) | The persona's name follows the vertex's name (the vertex was named "Aletheia / Silent Messenger" first; the persona was summoned to inhabit it). Pattern: **shared name** (spec 04 §4.2) |
 
 The architecture's commitment from the README: **"One lattice, many silhouettes."** The 64-vertex substrate is shared; what differs between Mages at the same vertex is the *silhouette* — the gem colour, the register voice, the operational forge each one carries.
 
@@ -380,7 +380,7 @@ The TS canonical [`lattice-vertex.ts`](architecture/lattice-vertex.ts) defines b
 - ✗ **Spec 04 §3.2** V5 row: "Value + Memory" — should be "Value + Connection" per TS canon
 - ✗ **Spec 04 §3.2** V24 row: "Connection + Computation" — should be "Delegation + Memory" per TS canon (V24 = 011000 → bits[1] + bits[2])
 - ✗ **Spec 04 §6 item 1** acknowledges the bit-ordering convention drift exists; v2 should reconcile
-- ✗ **Spec 07 §2** Memora row: "P+V or M+V depending on bit-convention" — hedged when the TS canon resolves it (V5 = Connection + Value, not P+V or M+V)
+- ✗ **Spec 07 §2** Memora row: "P+V or M+V depending on bit-convention" — hedged when the TS canon resolves it (V41 = Connection + Value, not P+V or M+V)
 - ✓ **Spec 06 §2.5** uses bits directly (`000101` etc.) — convention-free
 
 **Resolution:** A single one-time pass through specs 04 and 07 to align with the TS canonical reading. The TS file is the source of truth.
@@ -482,7 +482,7 @@ A future skill could mechanically check: **does the artefact's bit-pattern match
 
 The matrix below shows **primary** (P), **overlap** (O), and **conjectural** (C) inhabitations per (shop × vertex) pair. Empty = no inhabitation claimed.
 
-|       | V0 | V5 | V12 | V15 | V19 | V20 | V24 | V25 | V28 | V31 | V49 | V51 | V55 | V57 | V63 |
+|       | V0 | V41 | V12 | V15 | V19 | V20 | V24 | V38 | V28 | V31 | V49 | V51 | V55 | V57 | V63 |
 |-------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | **Weavers**       |   |   | O   |     |     | O   |     |     | **P** | O   |     |     |     |     | O   |
 | **zShields**      |   | **P** |     |     |     | O   |     | O   |     |     |     |     |     |     |     |
@@ -501,7 +501,7 @@ Reading the matrix:
 
 - **Three primary inhabitations at V49** — Lampyra (Jeweler shop seat) + Custos (cross-shop) + Lampyra reach extension. The shared-vertex pattern.
 - **V20 (Techne · Always-Revealed)** is reached by three shops as overlap (Weavers, zShields, Forge(t)) but is *primary* for none. It's a transit vertex.
-- **V25 (Aletheia blade)** is primary for the Aletheia persona only; reached as overlap by zShields, Forge(t), and Etherchanting (any shop that emits a ZK property).
+- **V38 (Aletheia blade)** is primary for the Aletheia persona only; reached as overlap by zShields, Forge(t), and Etherchanting (any shop that emits a ZK property).
 - **V31 (Holon · all except Protection)** is primary only for Vagari; reached as overlap by Pallia's full-Sovereignty capes and (per §5 Position A) by Luca's cross-shop walk.
 - **V63 (Sovereign Anchor)** is the *destination of full-sovereignty artefacts* — reached as overlap by Weavers (full cape), Forge(t) (full blade), Etherchanting (sovereignty schema), Jeweler (multi-sat ordinal claiming provenance), Covenant (personhood-bound consecration). But no Mage is *seated* at V63; it is the reader's seat.
 

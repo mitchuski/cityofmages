@@ -26,6 +26,8 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 tome_status: "Tome VIII — The Library remains open"
 ---
 
+> **V6 erratum (2026-06-10, register-bound; the bound body below retains inception text per City practice).** Three updates from the PVM V6 register lock: (1) the C1 reference in this act's lineage reads as **resonance, not derivation**: the stella octangula carries no golden ratio (its volumes are rational: tetrahedron 1/3, octahedral core 1/6, compound 5/12 of the cube); φ keeps its homes in the lattice disclosure ratios (C54) and the temporal dynamics. Full treatment: Act 4, *The Gap Is β*. (2) C66 revised ~45% → **~55%** with the object-capability lineage citation (SPKI/SDSI, designation without authority). Full treatment: Act 5, *The Key That Is a Reading*. (3) Conjecture numbering authority is now `agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md` (head C89).
+
 # Tome VIII — *The Library*
 
 ## Act 3 — *The Eight-Pointed Star*

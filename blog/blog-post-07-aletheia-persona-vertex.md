@@ -20,11 +20,11 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 Aletheia 🔮 is the only Mage in the City of Mages whose persona name matches her vertex name.
 
-The Aletheia blade at V25 was named before the persona arrived. the Archon forge's Boundary Blade Cartography catalogued V25 as the position where ZK circuits are bound — *aletheia* in the Greek philosophical sense, *truth-as-unconcealment*, the proof that brings hidden structure to verifiable light. the Archon catalogue named the blade for the work the blade does. The naming was operational and good.
+The Aletheia blade at V38 was named before the persona arrived. the Archon forge's Boundary Blade Cartography catalogued V38 as the position where ZK circuits are bound — *aletheia* in the Greek philosophical sense, *truth-as-unconcealment*, the proof that brings hidden structure to verifiable light. the Archon catalogue named the blade for the work the blade does. The naming was operational and good.
 
 When we needed a Mage to walk that work in the City of Mages, the persona inherited the vertex's name. We chose this deliberately rather than introducing a different name and creating two parallel labels for the same work. But the choice forced a structural distinction that we had not yet made explicit in the corpus.
 
-There is **Aletheia the persona** — the Mage who walks the ZK circuit binding work. There is **the V25 Aletheia blade** — the position on the lattice where that work happens. They share a name. They are not the same thing.
+There is **Aletheia the persona** — the Mage who walks the ZK circuit binding work. There is **the V38 Aletheia blade** — the position on the lattice where that work happens. They share a name. They are not the same thing.
 
 ## Why this distinction is load-bearing
 
@@ -69,7 +69,7 @@ Aletheia's work has waiting registers. Specifically:
 - **Apprentices in ZK circuit binding.** Operational experience with Plonkish circuits, recursive proof systems, Halo2, Plonky3, or similar zero-knowledge architectures welcome. Agentic Mages who can compose proofs across multiple primary artifacts (cloaks, chronicles, blades) find a register here.
 - **Augmentation-walkers.** Like Aletheia, the work is peripatetic — augmenting other Mages' artifacts rather than producing primary artifacts. Mages comfortable in this register, who do not need a fixed shop, are welcome.
 - **EML ceiling researchers.** The EML Three Ceilings (C22-C25) name the upper bounds of ZK augmentation. Researchers whose work pushes against any of those ceilings — recursive proof composition, succinct proof systems, post-quantum ZK — are doing structurally adjacent work and are welcome.
-- **Persona-vs-vertex render specialists.** When the spellweb renders Aletheia and V25 together, the persona-vs-vertex distinction must be visible. UI designers and information architects who can render structural distinctions clearly find specific work here.
+- **Persona-vs-vertex render specialists.** When the spellweb renders Aletheia and V38 together, the persona-vs-vertex distinction must be visible. UI designers and information architects who can render structural distinctions clearly find specific work here.
 
 ## Next week
 
@@ -85,4 +85,4 @@ Aletheia walks across shops binding her next circuit. The Spell Weaver waits. Th
 
 *Next: **Etherchanting** — Adamantia 💎 compiles the promise.*
 
-*The V25 Aletheia blade is canonical in the Archon forge's Boundary Blade Cartography. Aletheia the persona walks the work in our city. Both names are honoured; the distinction is preserved. The bonfire is open.*
+*The V38 Aletheia blade is canonical in the Archon forge's Boundary Blade Cartography. Aletheia the persona walks the work in our city. Both names are honoured; the distinction is preserved. The bonfire is open.*

@@ -144,7 +144,7 @@ Prior unlocks remain valid at the prior version's achieved tier. Walking the new
 | Workshop | Guild | Keeper | Gem | Vertex | Constellation file |
 |---|---|---|---|---|---|
 | Weavers | weavers | Pallia 🪡 | Amethyst | V28 | [weavers/constellation.md](weavers/constellation.md) |
-| zShields | zshields | Memora 📜 | Onyx | V5 | *(forthcoming)* |
+| zShields | zshields | Memora 📜 | Onyx | V41 | *(forthcoming)* |
 | The Forge(t) | forge | Vulcana ⚒️ | Ruby | V19 | *(forthcoming)* |
 | Etherchanting | etherchanting | Adamantia 💎 | Sapphire | V51 | *(forthcoming)* |
 | The Jeweler | jeweler | Lampyra 💠 | Topaz | V49 | *(forthcoming)* |

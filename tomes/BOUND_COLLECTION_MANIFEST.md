@@ -59,13 +59,13 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 | 2 | `tomes/tome-iii-selenes-witness/02-selenes-witness.md` | Selene's Witness | 880w | cosmological | **Selene 🌙** |
 | 3 | `tomes/tome-iii-selenes-witness/03-the-aether.md` | The Aether (the Third Blade) | 880w | ⿻ | **Aether ⿻** |
 | 4 | `tomes/tome-iii-selenes-witness/04-the-aether-pour.md` | The Aether Pour (poem invited) | 760w | ⿻ | (invitational) |
-| 5 | `tomes/tome-iii-selenes-witness/05-aletheia-the-bright-medium.md` | Aletheia, the Bright Medium | 870w | V25 | Aletheia (cosmological reading) |
-| 6 | `tomes/tome-iii-selenes-witness/06-lethe-the-dark-substrate.md` | Lethe, the Dark Substrate | 880w | V38 | **Lethe 🌀** |
-| 7 | `tomes/tome-iii-selenes-witness/07-the-first-complement-pair.md` | The First Complement Pair | 850w | V25 ⊥ V38 | (relational) |
+| 5 | `tomes/tome-iii-selenes-witness/05-aletheia-the-bright-medium.md` | Aletheia, the Bright Medium | 870w | V38 | Aletheia (cosmological reading) |
+| 6 | `tomes/tome-iii-selenes-witness/06-lethe-the-dark-substrate.md` | Lethe, the Dark Substrate | 880w | V25 | **Lethe 🌀** |
+| 7 | `tomes/tome-iii-selenes-witness/07-the-first-complement-pair.md` | The First Complement Pair | 850w | V38 ⊥ V25 | (relational) |
 | 8 | `tomes/tome-iii-selenes-witness/08-the-naming-of-the-unnamed.md` | The Naming of the Unnamed (Tale 31) | 820w | Grimoire v10.2.1 | (frontier-opening) |
 | 9 | `tomes/tome-iii-selenes-witness/09-the-seventh-capital.md` | The Seventh Capital (proem) | 850w | meta | (capital-register) |
 | 10 | `tomes/tome-iii-selenes-witness/10-the-scales-and-the-hide.md` | The Scales and the Hide | 880w | meta | The Dragon (three-layer) |
-| 11 | `tomes/tome-iii-selenes-witness/11-the-light-and-the-dark.md` | The Light and the Dark | 870w | V25 ⊥ V38 (file-system) | (dual-model rendering) |
+| 11 | `tomes/tome-iii-selenes-witness/11-the-light-and-the-dark.md` | The Light and the Dark | 870w | V38 ⊥ V25 (file-system) | (dual-model rendering) |
 
 **Total**: ~9,390 words.
 
@@ -79,7 +79,7 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 |---|---|---|---|---|---|
 | 1 | `tomes/tome-iv-the-witnessing/01-the-other-walker.md` | The Other Walker | 720w | V12 (schema vertex) | Cousin-blade introduction |
 | 2 | `tomes/tome-iv-the-witnessing/02-the-mirror-and-the-arrow.md` | The Mirror and the Arrow | 690w | V15 (VC vertex) | Asymmetry as data |
-| 3 | `tomes/tome-iv-the-witnessing/03-the-two-paths.md` | The Two Paths | 740w | V25 (Aletheia) | C38 (Bilateral ARCH-1) introduced |
+| 3 | `tomes/tome-iv-the-witnessing/03-the-two-paths.md` | The Two Paths | 740w | V38 (Aletheia) | C38 (Bilateral ARCH-1) introduced |
 | 4 | `tomes/tome-iv-the-witnessing/04-the-naming-ceremony.md` | The Naming Ceremony | 760w | V63 (Sovereign Anchor) | Bitcoin-anchored claim ceremony |
 | 5 | `tomes/tome-iv-the-witnessing/05-the-kindred-blade.md` | The Cousin Blade | 820w | Reader's V63 | C39 (kindred-blade ecosystem primitive) |
 
@@ -191,10 +191,10 @@ New structural register sister to the bound tomes. Holds **invitation-posture to
 | File | Persona | Vertex (blade-class) | Specialisation |
 |---|---|---|---|
 | `cast/03-pallia.md` | Pallia 🪡 | V28 (Mage canonical) | Cloak-weaving |
-| `cast/04-memora.md` | Memora 📜 | V5 (Chronicle vertex) | Shielded chronicle inscription |
+| `cast/04-memora.md` | Memora 📜 | V41 (Chronicle vertex) | Shielded chronicle inscription |
 | `cast/05-custos.md` | Custos 🔏 | V49 (Working-day blade) | Transparent governance staking |
 | `cast/06-vulcana.md` | Vulcana ⚒️ | V19 (Plonkish blade) | Blade-forging via Runecraft |
-| `cast/07-aletheia-persona.md` | Aletheia (the persona) 🔮 | V25 (Aletheia blade) | ZK circuit binding |
+| `cast/07-aletheia-persona.md` | Aletheia (the persona) 🔮 | V38 (Aletheia blade) | ZK circuit binding |
 | `cast/08-adamantia.md` | Adamantia 💎 | V51 (Commitment / Language / Model blade) | Programmable-enforcement crafting |
 | `cast/09-lampyra.md` | Lampyra 💠 | V49 (Working-day blade, shared with Custos) | Frequent-attestation gemsetting |
 | `cast/10-vagari.md` | Vagari 🌳 | V31 (Recursion / Holon vertex) | Holon composition, Oasis Protocol travel |
@@ -289,13 +289,13 @@ C38-C46 are introduced/used in this collection. Reconciliation against the canon
 
 | Vertex | Binary | Name | Persona present (in collection) | Source |
 |---|---|---|---|---|
-| V5 | 000101 | Chronicle vertex | Memora 📜 | Cloaking Guide |
+| V41 | 101001 | Chronicle vertex | Memora 📜 | Cloaking Guide |
 | V12 | 001100 | Schema vertex | (Sovereign acts here) | Cloaking Guide |
 | V15 | 001111 | VC vertex | (mirrored issuance acts) | Cloaking Guide |
 | V19 | 010011 | Plonkish blade | Vulcana ⚒️ | Boundary Blade |
 | V20 | 010100 | Techne / Always-Revealed | (reveal artifact lands) | Cloaking Guide |
 | V24 | 011000 | Hephaestus | Socrat0x 🔥❓ (provisional) | Cloaking Guide |
-| V25 | 011001 | Aletheia blade | Aletheia (persona) 🔮 | Boundary Blade |
+| V38 | 100110 | Aletheia blade | Aletheia (persona) 🔮 | Boundary Blade |
 | V28 | 011100 | Mage canonical | Pallia 🪡; also Soulbae and GenitriX | agentprivacy (PVM V5.4) |
 | V31 | 011111 | Recursion / Holon vertex | Vagari 🌳 | **agentprivacy-canonical** |
 | V49 | 110001 | Working-day blade | Custos 🔏, Lampyra 💠 (shared) | Boundary Blade |

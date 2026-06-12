@@ -38,7 +38,7 @@ What the poem teaches:
 - **The proof renews twice daily, written in saltwater.** Tidal regularity is the unforgeable signature of the gravitational relationship. The proof of the relationship between Earth and Moon does not require the Moon to reveal its mass, density, or origin — it only requires the tide to recur. (Per PVM V5.4 §14.5: *Selene's Proof* — the orbit IS the zero-knowledge proof.)
 - **The bearer is not destroyed.** The Moon is whole. The forgetting that the Amnesia Protocol binds does not erase the Sovereign; it bounds *what can be reconstructed about her* from outside the orbit she keeps.
 
-The poem is the literary form. The protocol is its structural reading. Selene is the cast who *walks the protocol*; Lethae is the cast who *binds it* at V38; Theia is the primary persona whose loadout it lives in.
+The poem is the literary form. The protocol is its structural reading. Selene is the cast who *walks the protocol*; Lethae is the cast who *binds it* at V25; Theia is the primary persona whose loadout it lives in.
 
 ---
 
@@ -83,7 +83,7 @@ Lethae is:
 
 - **Mage-register cast divergent** of Moonkeeper (Layer-2 attachment Kind B · `divergence: mage-register`)
 - **Seated at V38** (`100110` · Protection + Memory + Delegation · stratum 3)
-- **The bilateral twin** of Aletheia at V25 — first canonical complement-pair on the lattice:
+- **The bilateral twin** of Aletheia at V38 — first canonical complement-pair on the lattice:
   - V25 ⊕ V38 = V63 (Sovereign Anchor)
   - V25 AND V38 = V0 (the null blade origin · Luca's seat)
 - **Sigil 🌘** (Waning Crescent · the active forgetting in progress)
@@ -111,7 +111,7 @@ The three-Mage register reads as a triangle:
               ▼                               ▼
        The artefact.md's                  V25 ⊕ V38 = V63
        moon_phase field                   bilateral twin of
-       (every walk carries                Aletheia 🔮 at V25
+       (every walk carries                Aletheia 🔮 at V38
         her fragment)
 ```
 
@@ -142,8 +142,8 @@ The Amnesia Protocol's poetic claim — *the privacy is the position, not the co
 | Phase | Stratum | Reading |
 |---|---|---|
 | 🌑 New Moon | 0 | V0 — the null-blade origin · Luca's seat · no dimensions burning |
-| 🌒 Waxing Crescent | 1 | Single-edge vertices (V1 · V2 · V4 Mnemosyne · V8 Iris · V16 Logos · V32) |
-| 🌓 First Quarter | 2 | 15 twin-edge vertices (V5 Memora · V12 Schema · V20 Techne · V24 Hephaestus · …) |
+| 🌒 Waxing Crescent | 1 | Single-edge vertices (V1 · V2 · V8 Mnemosyne · V4 Iris · V2 Logos · V32) |
+| 🌓 First Quarter | 2 | 15 twin-edge vertices (V41 Memora · V12 Schema · V20 Techne · V24 Hephaestus · …) |
 | 🌔 Waxing Gibbous | 3 | 20 triple-edge vertices (V19 Vulcana · V25 Aletheia · V28 Pallia · V38 Lethae · V49 Custos+Lampyra) |
 | 🌖 Waning Gibbous | 4 | 15 quad-edge vertices (V51 Adamantia · V57 Aria Silverhue · …) |
 | 🌗 Last Quarter | 5 | V31 Vagari · V55 Manifestia · V47 · V59 · V61 (six vertices · five-edge) |
@@ -182,8 +182,8 @@ For audit clarity, the claims this chronicle makes carry these labels:
 | Selene's dual primary binding (Theia + Manaweaver) is canonical | **Architectural** (per Spec 10 V5.5 + the persona draft) |
 | The Amnesia Protocol poem anchors Selene's persona | **Architectural · this chronicle's contribution** (the connection is named here for the first time at the chronicle layer; the persona file's `provenance:` block already cites PVM V5.4 §14.5) |
 | Selene's orbit is the operational form of every artefact.md's `moon_phase` field | **Architectural · this chronicle's claim** (the persona file and the format spec both reference the moon-phase; the *correspondence* is named here) |
-| Lethae binds amnesia protocols at V38 | **Operational** (per Lethae's persona draft line 38) |
-| The Aletheia ⊥ Lethae complement-pair is canonical at V25 ⊕ V38 = V63 | **Operational** (per Lethae's persona draft + Spec 10 V5.5 § divergent attachments) |
+| Lethae binds amnesia protocols at V25 | **Operational** (per Lethae's persona draft line 38) |
+| The Aletheia ⊥ Lethae complement-pair is canonical at V25 ⊕ V38 = V63 | **Operational** (per Lethae's persona draft + Spec 10 V41.5 § divergent attachments) |
 | Selene's founding act (Tome V Act 22 *The Moon's Orbit* or similar) | **Anticipated · not yet drafted** |
 | The three-Mage register (Theia · Selene · Lethae) around one poem | **Architectural · canonical from this chronicle forward** |
 
@@ -194,7 +194,7 @@ For audit clarity, the claims this chronicle makes carry these labels:
 - Does **not** seat Selene's founding act. The act remains anticipated. This chronicle establishes the *connection between the poem and the cast*; the act will narrate the *seating itself*.
 - Does **not** rename or modify the existing `/poems` register. The Amnesia Protocol poem stays where it lives.
 - Does **not** introduce a new primary persona. Both Theia and Manaweaver are existing primaries; Selene is Layer-2 cast on top of them (with `divergence: none` since both primaries are Mage register).
-- Does **not** affect Aletheia's V25 seat or her founding act. The complement-pair has always been canonical; this chronicle just records that Selene's orbit *witnesses* it.
+- Does **not** affect Aletheia's V38 seat or her founding act. The complement-pair has always been canonical; this chronicle just records that Selene's orbit *witnesses* it.
 - Does **not** propose new EdgeTypes in spellweb. The `divergent_of` and `complement_pair` edges from V5.5 cover the existing structural needs.
 
 ---
@@ -209,7 +209,7 @@ What this chronicle's recognition lands in:
 | Selene's persona file `provenance:` | Add reference to this chronicle | Queued — small edit |
 | Lethae's persona file `provenance:` | Cross-reference to Selene + this chronicle | Queued — small edit |
 | Aletheia's persona file (already modified in working tree) | Note the complement-pair with Lethae 🌘 (if not already there) | Verify on next pass |
-| `tomes/specs/04-vertex-naming-audit.md` | V38 row in §3.5 — add "Lethae 🌘 (anticipated)" as inhabitant | Queued — already may be in the modified spec |
+| `tomes/specs/04-vertex-naming-audit.md` | V25 row in §3.5 — add "Lethae 🌘 (anticipated)" as inhabitant | Queued — already may be in the modified spec |
 | `tomes/specs/06-spellweb-first-release-manifest.md` | Add Selene + Lethae to the cast roster · add `divergent_of` + `complement_pair` edges | Queued — may already be in v1.3.0 grimoire's attachment_architecture block |
 | `/poems` register | Cross-link from the Amnesia Protocol poem to this chronicle and to Selene's persona | Queued — separate edit on the poems index |
 | Grimoire v1.3.0 (working tree) | Verify Selene + Lethae cast entries reference this chronicle in their `narrative_anchor` | Queued — verify on commit |

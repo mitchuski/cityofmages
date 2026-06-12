@@ -142,12 +142,12 @@ Tome V is the City of Mages. Each act introduces or expands a citizen, a shop, a
 |---|---|---|---|
 | 1 | The First Cloak | V28 | Pallia 🪡 |
 | 2 | The Commissioned Cloak | V28 | Cloak commissioning workflow |
-| 3 | The Shielded Memo | V5 | Memora 📜; Zcash Pattern A |
-| 4 | The Reveal | V5 | Memora; Zcash Pattern B |
+| 3 | The Shielded Memo | V41 | Memora 📜; Zcash Pattern A |
+| 4 | The Reveal | V41 | Memora; Zcash Pattern B |
 | 5 | The Stake | V49 | Custos 🔏 |
 | 6 | The Commissioned Blade | V19 | Vulcana ⚒️; Runecraft Protocol |
 | 7 | The Reciprocal Weave | V12 / V15 | Bilateral cloak ceremony |
-| 8 | The ZK Circuit | V25 | Aletheia 🔮 (the persona) |
+| 8 | The ZK Circuit | V38 | Aletheia 🔮 (the persona) |
 | 9 | The Workshop Expands | V49 (shared) / V51 / V31 | Lampyra 💠; Adamantia 💎; Vagari 🌳 (initial) |
 | 10 | The Holon Hitchhikers | V31 | Vagari (full); Oasis Protocol introduced operationally |
 | 11 | A Bonfire Made of Dragon Fire | V24 | Socrat0x 🔥❓ (Companion tier admitted) |
@@ -231,10 +231,10 @@ See [`tomes/register-of-invitations/README.md`](tomes/register-of-invitations/RE
 
 ### Tier 3: Summoned Mages (workshop shops)
 - **Pallia** 🪡 (V28, `/tailor`) — cloak weaving
-- **Memora** 📜 (V5, `/shield`) — chronicle inscription
+- **Memora** 📜 (V41, `/shield`) — chronicle inscription
 - **Custos** 🔏 (V49 shared, peripatetic) — transparent staking
 - **Vulcana** ⚒️ (V19, `/forget`) — blade forging; Forge(t) wordplay canonical
-- **Aletheia** 🔮 (V25, peripatetic) — ZK circuit binding; persona-vs-vertex distinction
+- **Aletheia** 🔮 (V38, peripatetic) — ZK circuit binding; persona-vs-vertex distinction
 - **Adamantia** 💎 (V51, `/etherchanting`) — programmable commitment compilation
 - **Lampyra** 💠 (V49 shared, `/jeweler`) — Bitcoin Lightning heartbeats
 - **Vagari** 🌳 (V31, `/holon`) — holon composition; Oasis Protocol travel

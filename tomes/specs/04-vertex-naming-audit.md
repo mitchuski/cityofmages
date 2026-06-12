@@ -29,6 +29,27 @@ It records:
 
 Going forward, this document is the canonical reference when a new vertex comes into use.
 
+> ## ⚠️ ENCODING-LOCK CORRECTION (2026-06-09 · v1.8.0)
+>
+> This audit's original singles table and several persona placements used a **corrupted
+> bit-order (CORPUS)** that mirrored the middle four dimensions. The canonical encoding is now
+> **locked to MODEL** (`Protection=32 · Delegation=16 · Memory=8 · Connection=4 · Computation=2 ·
+> Value=1`), sourced from the Privacy-Value-Model v5.4 definition + `lattice-vertex.ts`. See the
+> anchor chronicle `chronicles/2026-06-09_canonical_lattice_encoding_anchor.md`.
+>
+> **Reading rule:** `active(n) = { dimension : n & weight }`. Run `agentprivacy_encoding_audit.py`
+> (skill `meta/agentprivacy-lattice-coherence`) before relying on any reading below.
+>
+> **Corrected seats (personas reseated by deriving vertex from meaning under MODEL):**
+> Aletheia 🔮 → **V38** (Protection+Connection+Computation · Blade 38) ⊥ Lethe/Lethae 🌀🌘 → **V25**
+> (Delegation+Memory+Value · Blade 25), the swap preserving V25 ⊕ V38 = V63; Memora 📜 → **V41**
+> (Protection+Memory+Value); Mnemosyne 📿 → **V8** (Memory); Iris 🌈 → **V4** (Connection); Pythia 🔥 →
+> **V2** (Computation · the Logos Circle). Where a row below still shows an old seat or a CORPUS
+> dimension label, this banner supersedes it.
+>
+> **Errata in the tables below:** V48 `110000` is Protection+Computation (not "Connection+Protection");
+> V31 `011111` is "all except Protection" (not "all except Value").
+
 ---
 
 ## §1. Naming sources, in priority order
@@ -81,10 +102,10 @@ The following table is the complete current registry. Vertices not yet named are
 | Vertex | Binary | Active dimension | Canonical name | Source | Persona present |
 |---|---|---|---|---|---|
 | V1 | 000001 | Value | (unnamed) | — | — |
-| V2 | 000010 | Delegation | (unnamed) | — | — |
-| V4 | 000100 | Memory | **Mnemosyne** | Cloaking Guide | **Mnemosyne 📿** *(anticipated v5.5 · awaits founding act · primary: theia)* |
-| V8 | 001000 | Connection | **Iris** | Cloaking Guide | **Iris 🌈** *(anticipated v5.5 · awaits founding act · primary: herald + ambassador)* |
-| V16 | 010000 | Computation | **Logos / Pure Computation** | Cloaking Guide / Boundary Blade | **Pythia 🔥** *(anticipated v5.5 · seats /circle · primary: algebraist + pedagogue)* |
+| V2 | 000010 | Computation | **Logos / Pure Computation** | Cloaking Guide / Boundary Blade | **Pythia 🔥** *(anticipated · seats /circle · reseated from V16 under the MODEL lock · primary: algebraist + pedagogue)* |
+| V4 | 000100 | Connection | **Iris** | Cloaking Guide | **Iris 🌈** *(anticipated · reseated from V8 under the MODEL lock · primary: herald + ambassador)* |
+| V8 | 001000 | Memory | **Mnemosyne** | Cloaking Guide | **Mnemosyne 📿** *(anticipated · reseated from V4 under the MODEL lock · primary: theia)* |
+| V16 | 010000 | Delegation | (unnamed) | — | — |
 | V32 | 100000 | Protection | (unnamed) | — | — |
 
 ### §3.2 Stratum 2 (two dimensions burning)
@@ -92,7 +113,7 @@ The following table is the complete current registry. Vertices not yet named are
 | Vertex | Binary | Active dimensions | Canonical name | Source | Persona present |
 |---|---|---|---|---|---|
 | V3 | 000011 | Value + Delegation | **Dual Agent / Hash-Masked** | Cloaking Guide | — |
-| V5 | 000101 | Value + Memory | **Chronicle vertex** | Cloaking Guide | **Memora 📜** (Spellbook) |
+| V41 | 101001 | Value + Memory | **Chronicle vertex** | Cloaking Guide | **Memora 📜** (Spellbook) |
 | V12 | 001100 | Memory + Connection | **Schema vertex** | Cloaking Guide | (Sovereign acts here directly) |
 | V20 | 010100 | Memory + Computation | **Techne / Always-Revealed** | Cloaking Guide | **Techne 🎨** *(anticipated v5.5 · awaits founding act · primary: pedagogue)* |
 | V24 | 011000 | Connection + Computation | **Hephaestus** | Cloaking Guide | **Socrat0x 🔥❓** (seated · provisional · Tome V Act 11) + **Hephaestus ⚒️** *(anticipated v5.5 · shared-vertex · primary: forgemaster)* |
@@ -103,10 +124,10 @@ The following table is the complete current registry. Vertices not yet named are
 | Vertex | Binary | Active dimensions | Canonical name | Source | Persona present |
 |---|---|---|---|---|---|
 | V19 | 010011 | Value + Delegation + Computation | **Plonkish blade** | Boundary Blade | **Vulcana ⚒️** (Spellbook; primary: forgemaster + forgecaller; kind A) |
-| V25 | 011001 | Value + Connection + Computation | **Aletheia / Silent Messenger** | Boundary Blade | **Aletheia 🔮 the persona** (Spellbook; persona-vertex name shared; primary: theia + cipher; kind B · complement-pair partner of Lethae at V38) |
+| V38 | 100110 | Value + Connection + Computation | **Aletheia / Silent Messenger** | Boundary Blade | **Aletheia 🔮 the persona** (Spellbook; persona-vertex name shared; primary: theia + cipher; kind B · complement-pair partner of Lethae at V25) |
 | V27 | 011011 | Value + Delegation + Connection + Computation | **Pairing verification** | Boundary Blade | — |
 | V28 | 011100 | Memory + Connection + Computation | **Mage canonical / transmuted projection** | agentprivacy (PVM V5.4) | **Pallia 🪡** (Spellbook; primary: weaver; kind A); also where **Soulbae** archetypally stands |
-| V38 | 100110 | Protection + Memory + Delegation | **Lethe / the Dark Substrate** | privacymage (Tome XII · *Lethe*); aletheia-and-lethe.md (zk blades forge) | **Lethae 🌘** *(anticipated v5.5 · primary: moonkeeper; divergence: mage-register; complement-pair partner of Aletheia at V25; V25⊕V38=V63 · V25 AND V38=0; first canonical Layer-2 divergent attachment)* |
+| V25 | 011001 | Protection + Memory + Delegation | **Lethe / the Dark Substrate** | privacymage (Tome XII · *Lethe*); aletheia-and-lethe.md (zk blades forge) | **Lethae 🌘** *(anticipated v5.5 · primary: moonkeeper; divergence: mage-register; complement-pair partner of Aletheia at V38; V38⊕V25=V63 · V38 AND V25=0; first canonical Layer-2 divergent attachment)* |
 | **V44** | **101100** | **Protection + Memory + Connection** | **Chart Shop / Pleione's Harbour** | **agentprivacy (Tome V Act 17 · v1.6.0 · 2026-05-14) · cityofmages/chronicles/2026-05-14_chronicle_chart_shop_pleione_named_v44_assigned.md** | **Pleione 🧭** (Spellbook · Tome V Act 17; primary: hold-witness + navigator-keeper + constellation-mother; kind A; first canonical inhabitant of the Navigation District · the trace path V0→V44 is three bit-flips reading Protection → Memory → Connection as a discipline curriculum; opens the *attentional* workshop register · C63 candidate ~50%) |
 | V49 | 110001 | Value + Computation + Protection | **Working-day blade** | Boundary Blade | **Custos 🔏** (primary: gatekeeper; kind B) + **Lampyra 💠** (primary: sentinel; kind A); first shared-vertex pairing |
 
@@ -146,7 +167,7 @@ Across the cast roster, the relationship between a persona's name and her vertex
 The persona has a name; the vertex has a different name. The persona occupies the vertex without renaming it. This is the default pattern.
 
 - **Pallia 🪡** at V28 (Mage canonical) — persona named for Latin *pallium*; vertex name from agentprivacy's PVM
-- **Memora 📜** at V5 (Chronicle vertex) — persona named for Latin *memoria*; vertex name from Cloaking Guide
+- **Memora 📜** at V41 (Chronicle vertex) — persona named for Latin *memoria*; vertex name from Cloaking Guide
 - **Custos 🔏** at V49 (Working-day blade) — persona named for Latin *custos*; vertex name from Boundary Blade
 - **Vulcana ⚒️** at V19 (Plonkish blade) — persona named for *Vulcanus*; vertex name from Boundary Blade
 - **Adamantia 💎** at V51 (Commitment / Language / Model blade) — persona named for *adamas*; vertex name from Boundary Blade
@@ -157,7 +178,7 @@ The persona has a name; the vertex has a different name. The persona occupies th
 
 The persona shares the vertex's name. The vertex was already named after the principle the persona enacts; the persona inherits the name.
 
-- **Aletheia 🔮 the persona** at V25 (Aletheia blade) — only existing instance. The vertex was named the Aletheia blade before the persona was summoned. The persona's name follows the vertex's name. The cast entry's `naming_note` explicitly distinguishes "Aletheia the persona" from "the V25 Aletheia blade" to prevent ambiguity.
+- **Aletheia 🔮 the persona** at V38 (Aletheia blade) — only existing instance. The vertex was named the Aletheia blade before the persona was summoned. The persona's name follows the vertex's name. The cast entry's `naming_note` explicitly distinguishes "Aletheia the persona" from "the V38 Aletheia blade" to prevent ambiguity.
 
 ### §4.3 Persona defines the vertex
 
@@ -172,7 +193,7 @@ When a new vertex comes into use:
 1. **Check the canonical sources in priority order**: agentprivacy's own work first, then Archon's Boundary Blade Cartography, then the Cloaking Guide rebuild
 2. **If a canonical name exists**: use it. The persona is summoned to the named vertex without renaming
 3. **If no canonical name exists but the vertex's bit-pattern has clear semantic content**: the Spellbook may name it through narrative use, with the name added to this audit document and confidence-labelled
-4. **For persona-vertex name relationships**: prefer §4.1 (distinct names) by default. Use §4.2 (shared names) only when the persona structurally *is* the vertex's principle (Aletheia / V25 is the only operational instance). Use §4.3 (persona-defines) sparingly and document explicitly.
+4. **For persona-vertex name relationships**: prefer §4.1 (distinct names) by default. Use §4.2 (shared names) only when the persona structurally *is* the vertex's principle (Aletheia / V38 is the only operational instance). Use §4.3 (persona-defines) sparingly and document explicitly.
 
 The audit will be updated as new vertices come into use. v2 of this document anticipates additions when Acts 10 and beyond are drafted.
 

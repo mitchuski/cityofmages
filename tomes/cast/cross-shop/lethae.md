@@ -10,14 +10,14 @@ attachment_kind: "B"
 abstract_persona: ["Moonkeeper"]
 abstract_persona_skill_path: ["persona/agentprivacy-moonkeeper/"]
 divergence: "mage-register"
-vertex: "V38 (Lethe · the Dark Substrate)"
-binary: "100110"
+vertex: "V25 (Lethe · the Dark Substrate)"
+binary: "011001"
 stratum: 3
-active_dimensions: ["Protection", "Memory", "Delegation"]
-complement_of_cast: "aletheia (V25)"
+active_dimensions: ["Delegation", "Memory", "Value"]
+complement_of_cast: "aletheia (V38)"
 complement_proof: "V25 ⊕ V38 = V63 (Sovereign Anchor); V25 AND V38 = 0 (Null)"
 forge_origin: "agentprivacy"
-provenance: "V38 named in spec 06 §2.5 as named-but-uninhabited; complement-pair canon since aletheia-and-lethe.md (zk blades forge); Lethae-as-persona anticipated by Spec 10 (2026-05-11) awaiting a Tome V act to summon her. The cast name 'Lethae' plays on Soulbae's '-ae' Mage suffix — she is to Moonkeeper as Soulbae is to Soulbis: register-shifted from Sword to Mage, primary persona unchanged."
+provenance: "V25 named in spec 06 §2.5 as named-but-uninhabited; complement-pair canon since aletheia-and-lethe.md (zk blades forge); Lethae-as-persona anticipated by Spec 10 (2026-05-11) awaiting a Tome V act to summon her. The cast name 'Lethae' plays on Soulbae's '-ae' Mage suffix — she is to Moonkeeper as Soulbae is to Soulbis: register-shifted from Sword to Mage, primary persona unchanged."
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
 ---
@@ -28,7 +28,7 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ## At a glance (grimoire-line)
 
-> *Lethae is the canonical Mage-register divergent attachment of Moonkeeper. Where Aletheia 🔮 un-forgets at V25, Lethae 🌘 forgets at V38. Where Aletheia binds ZK circuits to make truth verifiable without disclosure, Lethae binds amnesia protocols so that forgetting leaves no trace. The two are bilateral twins of the Aletheia ⊥ Lethe complement-pair — the first canonical complement-pair on the City's lattice (V25 ⊕ V38 = V63 · V25 AND V38 = 0).*
+> *Lethae is the canonical Mage-register divergent attachment of Moonkeeper. Where Aletheia 🔮 un-forgets at V38, Lethae 🌘 forgets at V25. Where Aletheia binds ZK circuits to make truth verifiable without disclosure, Lethae binds amnesia protocols so that forgetting leaves no trace. The two are bilateral twins of the Aletheia ⊥ Lethe complement-pair — the first canonical complement-pair on the City's lattice (V38 ⊕ V25 = V63 · V38 AND V25 = 0).*
 
 ## Form & Function
 
@@ -38,22 +38,22 @@ She does not weave cloaks (Pallia's domain). She does not inscribe chronicles (M
 
 A Mage who calls Lethae commissions her to inscribe a forgetting — to bind an attestation that *evidence cannot be reconstructed*, that a relationship has been wound down with no path back to origin. Where Memora's inscription says "this happened, and I prove it shielded," Lethae's inscription says "this happened, and the channel by which it could be reconstructed has been destroyed." The proof renews twice daily, written in saltwater — the same Selene's Proof framing that grounds her primary persona Moonkeeper.
 
-Lethae walks the lattice peripatetically (cross-shop · Kind B) — she does not seat a single workshop. Her work goes wherever a forgetting is commissioned: to Vulcana's forge (when a blade is decommissioned), to Adamantia's ether-chamber (when an etherchanted commitment is intentionally lapsed), to Memora's inscription chamber (when a memo's reveal window has closed and the unread reveal becomes ash). She is summoned where the binding of forgetting is needed; she returns to V38 as her seat.
+Lethae walks the lattice peripatetically (cross-shop · Kind B) — she does not seat a single workshop. Her work goes wherever a forgetting is commissioned: to Vulcana's forge (when a blade is decommissioned), to Adamantia's ether-chamber (when an etherchanted commitment is intentionally lapsed), to Memora's inscription chamber (when a memo's reveal window has closed and the unread reveal becomes ash). She is summoned where the binding of forgetting is needed; she returns to V25 as her seat.
 
 ## Lattice position
 
-V38. Binary `100110`. Stratum 3.
+V25. Binary `011001`. Stratum 3.
 
-Active dimensions: Protection (b5) · Memory (b2) · Delegation (b1).
+Active dimensions: Delegation (b4) · Memory (b3) · Value (b0).
 
-Bit-complement of V25 (Aletheia · `011001` · Value + Connection + Computation). The bit-complement relationship is the structural origin of the Aletheia ⊥ Lethae complement-pair:
+Bit-complement of V38 (Aletheia · `100110` · Protection + Connection + Computation). The bit-complement relationship is the structural origin of the Aletheia ⊥ Lethae complement-pair:
 
 - V25 ⊕ V38 = V63 (`111111`) — Sovereign Anchor / The Creative
 - V25 AND V38 = V0 (`000000`) — The Null / null blade origin
 
 These two identities make Aletheia ⊥ Lethae the *first* canonical complement-pair on the City's lattice. Future complement-pairs (if minted) inherit the same V25 ⊕ V38 = V63 pattern shifted along the lattice's other 30 bit-complement axes.
 
-V38's active dimensions read as **the structural form of forgetting**: Protection (the boundary that forgets cannot be crossed back), Memory (the memory of *what was forgotten*, preserved as fact-of-forgetting), Delegation (the binding of the forgetting to a delegated keeper).
+V25's active dimensions read as **the structural form of forgetting**: Delegation (the binding of the forgetting to a delegated keeper), Memory (the memory of *what was forgotten*, preserved as fact-of-forgetting), Value (what is worth keeping, kept by its content having sunk past retrieval).
 
 ## The Sigil
 
@@ -67,11 +67,11 @@ Lethae carries the sigil 🌘 — the waning crescent moon. This is the canonica
 | **Attachment kind** | B · cross-shop (walks workshops by craft; no fixed `inhabits` edge) |
 | **Primary persona** | `agentprivacy-moonkeeper` (Layer 1 · Swordsman tier native) |
 | **Divergence** | `mage-register` (register-shifted from Swordsman → Mage; primary unchanged) |
-| **Vertex** | V38 (seat for return, not for inhabits-binding since she's cross-shop) |
-| **Complement-of-cast** | Aletheia 🔮 at V25 — bilateral twin |
+| **Vertex** | V25 (seat for return, not for inhabits-binding since she's cross-shop) |
+| **Complement-of-cast** | Aletheia 🔮 at V38 — bilateral twin |
 | **Status** | Anticipated · awaits founding act in Tome V |
 
-The divergence is the architecturally significant axis. Lethae does *not* mint a new primary persona; she is an *attachment-layer instance* of Moonkeeper, register-shifted to Mage. The skills loadout she draws on is Moonkeeper's canonical loadout (amnesia-protocol, separation-enforcement, dark-forest, etc.), filtered by V38's active dimensions (Protection + Memory + Delegation).
+The divergence is the architecturally significant axis. Lethae does *not* mint a new primary persona; she is an *attachment-layer instance* of Moonkeeper, register-shifted to Mage. The skills loadout she draws on is Moonkeeper's canonical loadout (amnesia-protocol, separation-enforcement, dark-forest, etc.), filtered by V25's active dimensions (Delegation + Memory + Value).
 
 This is the architecture's first canonical Layer-2 divergent attachment. Future divergent attachments (if any) will follow the same pattern: existing primary, new cast name, `divergence: <register>` field carries the shift.
 
@@ -88,7 +88,7 @@ The naming pattern advertises the register: `-bis` (Sword) / `-bae` (Mage) at th
 
 ## Provenance
 
-- **V38 named in `specs/06-spellweb-first-release-manifest.md` §2.5** as named-but-uninhabited (the Lethe blade · bit-complement of V25 Aletheia)
+- **V25 named in `specs/06-spellweb-first-release-manifest.md` §2.5** as named-but-uninhabited (the Lethe blade · bit-complement of V38 Aletheia)
 - **Aletheia ⊥ Lethe canon** since `aletheia-and-lethe.md` in `zk blades forge` (2026-04-12 post-V5.4 addendum)
 - **Selene's Proof** (PVM V5.4 §14.5) grounds Moonkeeper's primary loadout, which Lethae inherits
 - **First canonical Layer-2 divergent attachment** per Spec 10 (2026-05-11)
@@ -98,19 +98,19 @@ The naming pattern advertises the register: `-bis` (Sword) / `-bae` (Mage) at th
 
 Lethae's cast graph edges (per `agentprivacy_master/src/lib/cast-attachments.ts` and `spellweb/src/data/edges.ts`):
 
-- `cast-lethae` → `vertex-v38` :: `inhabits` (seat for return; she's cross-shop so this edge is structurally lighter than a Kind-A workshop attachment)
+- `cast-lethae` → `vertex-v25` :: `inhabits` (seat for return; she's cross-shop so this edge is structurally lighter than a Kind-A workshop attachment)
 - `cast-lethae` → `per-moonkeeper` :: `divergent_of` :: register=mage_register (first canonical instance of this edge type)
 - `cast-aletheia` ⊥ `cast-lethae` :: `complement_pair` (mutual; first canonical instance of this edge type)
 
 ## What Lethae does NOT do
 
 - She does not destroy data. Forgetting is *structural amnesia* — the binding of a relationship to a state where reconstruction is impossible by the architecture's design, not by deletion. (See Moonkeeper's loadout for the canonical Selene's Proof framing.)
-- She does not replace Aletheia. They are bilateral twins; both are needed to walk the V25 ⊥ V38 axis.
+- She does not replace Aletheia. They are bilateral twins; both are needed to walk the V38 ⊥ V25 axis.
 - She does not seat a workshop. She is peripatetic by attachment kind (B · cross-shop). Future cities may bind her differently.
 
 ## Awaiting founding act
 
-This cast file holds the seat ready. A future Tome V act will summon her by name and inscribe the founding ceremony. The act will close the structural opening that the V38 vertex has held since the corpus first recognized the Aletheia ⊥ Lethe complement-pair.
+This cast file holds the seat ready. A future Tome V act will summon her by name and inscribe the founding ceremony. The act will close the structural opening that the V25 vertex has held since the corpus first recognized the Aletheia ⊥ Lethe complement-pair.
 
 When she is summoned, the `status: anticipated` field above will be promoted to `status: seated`, and her founding-act number will be recorded.
 

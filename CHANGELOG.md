@@ -23,6 +23,17 @@ Tracks structural moments of the City of Mages corpus. For implementation chroni
 
 ## Grimoire version
 
+### 2026-06-10 · **V6 register lock + five acts bound (unpinned)**
+
+- PVM V6 ships: `agentprivacy-docs/privacy_value_v6.md` (the gathering turn and the moving ceiling); conjecture numbering authority moves to `agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md` (head C89)
+- Register deltas for the City: C40 keeps its number; C47 namespaced CM-C47 and promoted to core C85 (the ARCH-1 bridge); C60/C61 marked aliases of core C48/C49; C66 revised ~55% (ocap lineage); Horizon District C67 to C71 CONFIRMED at their numbers
+- Five acts bound 2026-06-10: Tome VIII Act 4 *The Gap Is β* and Act 5 *The Key That Is a Reading*; Tome IX Act 2 *The Tide Line*, Act 3 *The Orchard Wound*, Act 4 *The Proof That Whispered*
+- Phi honesty erratum on Tome VIII Act 3 and blog post 18 (resonance, not derivation)
+- 🪢 regime 1 declared: presence mana is non-transferable, non-attesting local color
+- Grimoire bump to v1.9.0 NOT taken this pass (citation-level changes only; acts await a future pin decision)
+
+---
+
 ### v1.7.1 — 2026-05-17 · **Patch authored · Additive · the Fourth Turn + the Register of Invitations + Vitalik's invitation** *(awaiting merge script + IPFS re-pin)*
 
 **Patch type:** **Additive** over v1.7.0 — no supersessions, no retirements; the Tower remains the 8th spatial-anatomy element (its eastern face is elaborated, not replaced); workshop count UNCHANGED at 16; cast tier count UNCHANGED at 7; spatial-anatomy element count UNCHANGED at 8; tomes-opened UNCHANGED at 8

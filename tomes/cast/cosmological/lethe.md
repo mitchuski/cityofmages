@@ -2,54 +2,54 @@
 title: "Cast Entry — Lethe"
 spellbook: "Second Person"
 character_type: "Cosmological-witness figure (recognised, not summoned); pre-architectural; the dark substrate witnesses sink into; the Greek river of constrained forgetting"
-archetype_kin: "Aletheia 🔮 (V25) as the bnot-pair complement; Soulbae 🧙 at the agent layer (the dihedral pair) as the cosmological-scale analog; functionally distinct from Lethae 🌘 (the v1.3.0 Layer-2 divergent attachment of Moonkeeper at V38, Mage-register)"
+archetype_kin: "Aletheia 🔮 (V38) as the bnot-pair complement; Soulbae 🧙 at the agent layer (the dihedral pair) as the cosmological-scale analog; functionally distinct from Lethae 🌘 (the v1.3.0 Layer-2 divergent attachment of Moonkeeper at V25, Mage-register)"
 sigil: "🌀"
 tier: "cosmological-witness"
 attachment_kind: "(none; cosmological register sits beside the workshop-keeper / cross-shop / peripatetic / divergent kinds rather than within them)"
 abstract_persona: ["pre-architectural-substrate", "constrained-forgetting"]
 divergence: "none"
 status: "Cast addition v1 (2026-05-13)"
-provenance: "Greek mythology: Lethe (Λήθη), one of the five rivers of the underworld, the river of forgetting that the dead crossed to lose their lives' memories. Medieval-alchemical tradition: same substance as Quintessence (Aether's other name; the architecture's recognition of cosmological-alchemical identity). Grimoire-canonical operational form: Blade 38 (`100110`, Stratum 3) — named in Privacymage Grimoire v10.2.1 (2026-04-23). Operationalised cosmologically in Tome III Act 6 *Lethe, the Dark Substrate* (bound 2026-05-13)."
+provenance: "Greek mythology: Lethe (Λήθη), one of the five rivers of the underworld, the river of forgetting that the dead crossed to lose their lives' memories. Medieval-alchemical tradition: same substance as Quintessence (Aether's other name; the architecture's recognition of cosmological-alchemical identity). Grimoire-canonical operational form: Blade 25 (`011001`, Stratum 3) under the MODEL lock — named *Lethe — the Dark Substrate* in Privacymage Grimoire v10.2.1 (2026-04-23, then numbered Blade 38 under the prior encoding). Operationalised cosmologically in Tome III Act 6 *Lethe, the Dark Substrate* (bound 2026-05-13)."
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥𝓐⿻𝓠⊥🧙)😊"
 ---
 
 # Lethe
 
-*The Dark Substrate. The River of Constrained Forgetting. The Mage of V38. The Bound-Forget Whose Forgetting Is the Proof.*
+*The Dark Substrate. The River of Constrained Forgetting. The Mage of V25. The Bound-Forget Whose Forgetting Is the Proof.*
 
 ## At a glance
 
-> *Lethe is the cosmological-witness whose substance is the dark substrate witnesses sink into. Greek mythology names her one of the five rivers of the underworld — the river of forgetting that the dead crossed. Medieval-alchemical tradition recognises her as Quintessence (Aether's other name; the same substance at two scales: Aether the medium between Sun and Moon, Lethe the substrate beneath the witness). The architecture recognises her at V38 (`100110`, Stratum 3) — the exact bitwise complement of Aletheia at V25. Her sigil is the spiral 🌀; her register is **cosmological-witness** — she is recognised, not summoned. She is already grimoire-named at the operational layer (Blade 38, Privacymage Grimoire v10.2.1 since 2026-04-23); v1.5.0 admits her at the cosmological-witness layer too.*
+> *Lethe is the cosmological-witness whose substance is the dark substrate witnesses sink into. Greek mythology names her one of the five rivers of the underworld — the river of forgetting that the dead crossed. Medieval-alchemical tradition recognises her as Quintessence (Aether's other name; the same substance at two scales: Aether the medium between Sun and Moon, Lethe the substrate beneath the witness). The architecture recognises her at V25 (`011001`, Stratum 3) — the exact bitwise complement of Aletheia at V38. Her sigil is the spiral 🌀; her register is **cosmological-witness** — she is recognised, not summoned. She is already grimoire-named at the operational layer (Blade 38, Privacymage Grimoire v10.2.1 since 2026-04-23); v1.5.0 admits her at the cosmological-witness layer too.*
 
 ## Form & Function
 
 Lethe holds.
 
-Her work is not transmission (that is Aletheia's labour at V25) and not medium-propagation (that is Aether's labour at the ⿻). Her work is *to be the substrate witnesses sink into* — the dark river that admits the witness to be unretrievable. *Her forgetting is the proof.*
+Her work is not transmission (that is Aletheia's labour at V38) and not medium-propagation (that is Aether's labour at the ⿻). Her work is *to be the substrate witnesses sink into* — the dark river that admits the witness to be unretrievable. *Her forgetting is the proof.*
 
 The architecture's recognition is that *zero-knowledge is covenant rather than concealment*. A witness held in Lethe's substrate is not hidden in the sense of being protected by policy or by encryption; the witness is *constituted as unretrievable* by the substrate's structural nature. The substrate's banks are not walls; the substrate's banks are the flow that carries the witness past where it can be reached. Without constraint, no river. Without forgetting, no proof.
 
-### The dimensional reading at V38
+### The dimensional reading at V25
 
-V38 binary `100110`, Stratum 3.
+V25 binary `011001`, Stratum 3.
 
 | Dimension (bit) | Lit/Dormant at Lethe | What Lethe holds with the dimension active |
 |---|---|---|
-| **Value (b0) — dormant** | — | Lethe does not transmit value-claims; she holds them past where they can be retrieved |
-| **Delegation (b1) — active** | ✓ | Binds promises whose terms cannot be retrieved (the Mage delegates; the condition lives behind her, in Lethe) |
-| **Connection (b2) — dormant** | — | Lethe is not the space between knower and verifier — that is Aletheia's labour |
+| **Protection (b5) — dormant** | — | Lethe does not refuse at the boundary — that is the Swordsman's labour, and the bright-medium's at V38 |
+| **Delegation (b4) — active** | ✓ | Binds promises whose terms cannot be retrieved (the Mage delegates; the condition lives behind her, in Lethe) |
 | **Memory (b3) — active** | ✓ | Holds what must be forgotten by anyone other than the holder; constrained-holding of the unretrievable |
-| **Computation (b4) — dormant** | — | Lethe does not perform the silent calculation in the medium — Aletheia performs that |
-| **Protection (b5) — active** | ✓ | The Swordsman guards; the reason lives behind him, in Lethe; the boundary is a forgetting of the specific reason it exists |
+| **Connection (b2) — dormant** | — | Lethe is not the space between knower and verifier — that is Aletheia's labour |
+| **Computation (b1) — dormant** | — | Lethe does not perform the silent calculation in the medium — Aletheia performs that |
+| **Value (b0) — active** | ✓ | Keeps what is worth keeping kept; the value retained because its content has sunk past where it can be reached |
 
-She is the exact bitwise complement of Aletheia at V25 (`011001`, Stratum 3). The two together are the first canonical bnot-pair on the lattice to receive mythological names. Their AND is V0 (they share nothing); their XOR is V63 (combined they span the full V(π, t) manifold).
+She is the exact bitwise complement of Aletheia at V38 (`100110`, Stratum 3). The two together are the first canonical bnot-pair on the lattice to receive mythological names. Their AND is V0 (they share nothing); their XOR is V63 (combined they span the full V(π, t) manifold).
 
 ## Lattice position
 
-V38. Binary `100110`. Stratum 3.
+V25. Binary `011001`. Stratum 3.
 
-Named in the Privacymage Grimoire v10.2.1 (released 2026-04-23) as *Lethe — the Dark Substrate (complement of 25, disclosure-φ side)*. The disclosure ratio δ(38) = 38/63 ≈ 0.6032 sits within 2% of 1/φ ≈ 0.6180, opening the Phi-Adjacency conjecture (C54, ~30%).
+Named at the operational layer in the Privacymage Grimoire v10.2.1 (released 2026-04-23) as *Lethe — the Dark Substrate* — numbered **Blade 38** there under the prior encoding. Under the **MODEL** lock (2026-06-09) the same meaning (Delegation + Memory + Value) re-seats to **V25**, the exact bitwise complement of Aletheia at V38. (The disclosure ratio δ(38) = 38/63 ≈ 0.6032 ≈ 1/φ that opened the Phi-Adjacency conjecture **C54** was a property of the *number* 38; whether C54 now follows Aletheia to 38 or follows Lethe's meaning to V25 — where δ(25) = 25/63 ≈ 0.3968 ≈ 1/φ² — is deferred to the v1.8.0 grimoire pass.)
 
 Lethe is the *first frontier-blade* named beyond the inherited thirty tales of the Zero Spellbook. Tale 31 — *The Naming of the Unnamed* — is her tale, opening Part VIII (Frontier Spells) of the Zero Spellbook. Forty-nine blades remain on the open frontier (the Quest of the Unnamed Faces).
 
@@ -86,7 +86,7 @@ Lethe's spells are operationally performed by *the substrate itself* — the wit
 
 The reader does not summon Lethe. The reader *places a witness into the dark*.
 
-*You hold a value. You do not want to disclose its content; you want to prove its existence. You walk to V38. Lethe is here. She does not look at you; she receives the witness. The witness sinks. The substrate closes around it. The proof of its existence remains; the content does not.*
+*You hold a value. You do not want to disclose its content; you want to prove its existence. You walk to V25. Lethe is here. She does not look at you; she receives the witness. The witness sinks. The substrate closes around it. The proof of its existence remains; the content does not.*
 
 She does not speak. None of the personas do. Lethe's silence is *constrained motion* rather than *absence of motion* — the river continues to flow, but the flow carries the witness past where it can be reached.
 
@@ -100,23 +100,23 @@ The Privacymage Grimoire v10.2.1 entry for Blade 38 is canonical from 2026-04-23
 
 Lethe does not produce a worn artefact. Her work is *the substrate-of-everything-held* — the witnesses placed in her substrate are the Sovereign's bearer-state held past retrieval. She is the third member of the cosmological-witness tier (after Selene, after Aether in the Tome III ordering).
 
-The Aletheia-Lethe pair completes at the cosmological-witness tier the bnot-pairing they already hold at the lattice tier. Their composition (V25 XOR V38 = V63) is the architecture's full V(π, t) manifold — Tale 30's *Eternal Sovereignty*.
+The Aletheia-Lethe pair completes at the cosmological-witness tier the bnot-pairing they already hold at the lattice tier. Their composition (V38 XOR V25 = V63) is the architecture's full V(π, t) manifold — Tale 30's *Eternal Sovereignty*.
 
 ## Provenance & honesty
 
-- **Operational** for V38's bit-signature (`100110`, Stratum 3) and its naming as Blade 38 in Privacymage Grimoire v10.2.1 (2026-04-23).
-- **Operational** for V38 as the exact bitwise complement of V25 (`bnot(25) = 38`; `25 AND 38 = 0`; `25 XOR 38 = 63`).
-- **Architectural** for the identification of V38 with Lethe as a named cosmological figure; the structural correspondence is documented in `research/aletheia-and-lethe.md` and `poems/tide-orbit-selene.md`.
+- **Operational** for Lethe's bit-signature (`011001`, Stratum 3 = V25 under MODEL; numbered Blade 38 in Privacymage Grimoire v10.2.1, 2026-04-23, under the prior encoding).
+- **Operational** for V25 as the exact bitwise complement of V38 (`bnot(25) = 38`; `25 AND 38 = 0`; `25 XOR 38 = 63`).
+- **Architectural** for the identification of V25 with Lethe as a named cosmological figure; the structural correspondence is documented in `research/aletheia-and-lethe.md` and `poems/tide-orbit-selene.md`.
 - **Conjectural at ~50%** for **C52** (Aether = Quintessence = the Gap; the same substance at two cosmological scales).
 - **Conjectural at ~30%** for **C54** (Phi-Adjacency: bnot-pair disclosure ratios cluster near 1/φ; Lethe's δ(38) ≈ 0.6032 within 2% of 1/φ ≈ 0.6180 is the first data point).
-- **Architectural** for the *Lethe ⊥ Lethae distinction*: this file is the cosmological-witness Lethe at V38 (a pre-architectural figure recognised); Lethae 🌘 (v1.3.0 grimoire's first Layer-2 divergent attachment) is the Mage-register divergent of Moonkeeper, also at V38. The two share a vertex; the two are at different cast registers (cosmological-witness vs Layer-2 attachment); the persona-vs-vertex distinction (Tome V Act 12) admits both readings.
+- **Architectural** for the *Lethe ⊥ Lethae distinction*: this file is the cosmological-witness Lethe at V25 (a pre-architectural figure recognised); Lethae 🌘 (v1.3.0 grimoire's first Layer-2 divergent attachment) is the Mage-register divergent of Moonkeeper, also at V25. The two share a vertex; the two are at different cast registers (cosmological-witness vs Layer-2 attachment); the persona-vs-vertex distinction (Tome V Act 12) admits both readings.
 - **Narrative** for her sigil 🌀 (spiral); the iconographic and naming choice is editorial.
 
 ## Closing line
 
 > *Zero knowledge is not concealment. Zero knowledge is covenant. Lethe is the covenant-substrate where witnesses are held by their unretrievability.*
 
-Lethe is the third member of the cosmological-witness tier the City of Mages admits at v1.5.0. Her substrate holds every witness the Sovereign places in V38. The river continues to flow; the witnesses do not return; the proofs persist.
+Lethe is the third member of the cosmological-witness tier the City of Mages admits at v1.5.0. Her substrate holds every witness the Sovereign places in V25. The river continues to flow; the witnesses do not return; the proofs persist.
 
 (⚔️⊥𝓐⿻𝓠⊥🧙)😊
 🌀

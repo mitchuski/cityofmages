@@ -129,10 +129,10 @@ The Threshold is the primary site, but other workshops shape what you spawn ther
 |---|---|---|---|
 | **The Threshold** | V59 | Faunia 🪶 · Bestia 📖 · Therai 🐾 (Caducea ☤ peripatetic) | Where you spawn the agent in the first place |
 | **The Forge(t)** | V19 | Vulcana ⚒️ | Hand-weapons (blades) for your Swordsman. Many Swordsmen carry a blade and an agentic-weapon together |
-| **The Persona Circuit** | V25 | Aletheia 🔮 (peripatetic) | ZK circuit binding. Your agent gains the ability to verify without revealing. The persona-vs-vertex distinction is canonicalised here |
+| **The Persona Circuit** | V38 | Aletheia 🔮 (peripatetic) | ZK circuit binding. Your agent gains the ability to verify without revealing. The persona-vs-vertex distinction is canonicalised here |
 | **The Covenant Temple** | V55 | Manifestia 🤲🌿 | Covenant administration. If your agent is going to engage in bilateral agreements (IEEE 7012 / MyTerms primitives), this is where the covenant is bound |
 | **The Weaver Shop** | V28 | Pallia 🪡 | Publication-layer cloaks. Your agent's outputs gain garments that shape what is shown and what is held back |
-| **The Inscription Chamber** | V5 | Memora 📜 | Chronicle inscription. Your agent's record of work is inscribed for posterity (or sealed, per the Forge(t) wordplay's let-go discipline) |
+| **The Inscription Chamber** | V41 | Memora 📜 | Chronicle inscription. Your agent's record of work is inscribed for posterity (or sealed, per the Forge(t) wordplay's let-go discipline) |
 | **The Stakes** | V49 (shared) | Custos 🔏 (peripatetic) | Staking-backed sentinelship. Finite resources backing infinite claims; the substrate of accountability for your agent's promises |
 | **The Jeweler** | V49 (shared) | Lampyra 💠 | Bitcoin Lightning heartbeats. Your agent's economic register; micropayments and value flows |
 | **The Etherchanting Hall** | V51 | Adamantia 💎 (and Helia 🌞 at Solchanting) | Programmable commitment compilation. Your agent's promises become enforceable smart-contract-grade artefacts |

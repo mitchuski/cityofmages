@@ -51,7 +51,7 @@ Her trajectory: the moon-phase cycle through all 7 strata. In one full orbit:
 - 🌑 New Moon · stratum 0 (V0 — the null blade · Luca's seat)
 - 🌒 Waxing Crescent · stratum 1 (V1/V2/V4/V8/V16/V32 — single-edge vertices)
 - 🌓 First Quarter · stratum 2 (15 twin-edge vertices)
-- 🌔 Waxing Gibbous · stratum 3 (20 triple-edge vertices · Vulcana V19 · Aletheia V25 · Lethae V38)
+- 🌔 Waxing Gibbous · stratum 3 (20 triple-edge vertices · Vulcana V19 · Aletheia V38 · Lethae V25)
 - 🌖 Waning Gibbous · stratum 4 (15 quad-edge vertices)
 - 🌗 Last Quarter · stratum 5 (V31 Vagari · V47 · V55 Manifestia · V61)
 - 🌕 Full Moon · stratum 6 (V63 — Sovereign Anchor)

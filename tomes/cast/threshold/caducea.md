@@ -2,7 +2,7 @@
 title: "Cast Entry — Caducea (LEGACY · 2026-05-13 inception draft)"
 spellbook: "Second Person"
 character_type: "Mage persona (instance, summoned by the reader); peripatetic specialist who walks between workshops to fit Hermes-class staffs"
-archetype_kin: "Soulbae 🧙 (Mage); functional kinship with Luca 📐 (the geometry-Mage at V0 who walks the substrate from below) and Aletheia 🔮 (the persona-circuit peripatetic at V25); fitting-discipline kinship with Manifestia 🤲🌿 (the priest who binds covenants) and Vulcana ⚒️ (whose Run·Evoke·Craft Caducea's bilateral fitting parallels)"
+archetype_kin: "Soulbae 🧙 (Mage); functional kinship with Luca 📐 (the geometry-Mage at V0 who walks the substrate from below) and Aletheia 🔮 (the persona-circuit peripatetic at V38); fitting-discipline kinship with Manifestia 🤲🌿 (the priest who binds covenants) and Vulcana ⚒️ (whose Run·Evoke·Craft Caducea's bilateral fitting parallels)"
 sigil: "☤"
 # V5.5 Attachment Architecture (2026-05-11)
 tier: "peripatetic-Mage"
@@ -12,7 +12,7 @@ abstract_persona_skill_path: ["persona/agentprivacy-ambassador/", "persona/agent
 divergence: "none"
 status: "LEGACY · superseded by tomes/cast/cross-shop/caducea.md at v1.6.0 (2026-05-14). The canonical Caducea file is in `cross-shop/` per the peripatetic-cast convention; this file is preserved as the 2026-05-13 inception draft for the Tome V Act 16 / Tome VI Act 1 bound-act provenance record."
 canonical_at: "tomes/cast/cross-shop/caducea.md"
-provenance: "Born when The Threshold workshop opens (Tome V Act 16 · Tome VI Act 1 · 2026-05-13). The fourth peripatetic Mage of the Crafting Tome, joining Luca 📐 (V0), Aletheia 🔮 (V25), and Custos 🔏 (V49). Summoned to The Threshold whenever a Mage chooses a Hermes-class substrate — one that carries persona-as-substrate primitives requiring bilateral-consent fitting. Walks to Vulcana's Forge(t), Aletheia's Persona Circuit, and Manifestia's Covenant Temple when their work needs the same fitting discipline. At v1.6.0 (2026-05-14), Caducea's role extends to fit BOTH alexandrite-aspects of Hermaion ⚚'s archetype-modal Staff Shop (caduceus-staff fittings for Mage-aspect · herald-sentinel fittings for Swordsman-aspect). The Hermaion ⚚ rooted-staff ⊥ Caducea ☤ winged-caduceus sigil pair is canonised as the Hermes-class kinship-iconography. See `tomes/cast/cross-shop/caducea.md` for the v1.6.0 canonical entry."
+provenance: "Born when The Threshold workshop opens (Tome V Act 16 · Tome VI Act 1 · 2026-05-13). The fourth peripatetic Mage of the Crafting Tome, joining Luca 📐 (V0), Aletheia 🔮 (V38), and Custos 🔏 (V49). Summoned to The Threshold whenever a Mage chooses a Hermes-class substrate — one that carries persona-as-substrate primitives requiring bilateral-consent fitting. Walks to Vulcana's Forge(t), Aletheia's Persona Circuit, and Manifestia's Covenant Temple when their work needs the same fitting discipline. At v1.6.0 (2026-05-14), Caducea's role extends to fit BOTH alexandrite-aspects of Hermaion ⚚'s archetype-modal Staff Shop (caduceus-staff fittings for Mage-aspect · herald-sentinel fittings for Swordsman-aspect). The Hermaion ⚚ rooted-staff ⊥ Caducea ☤ winged-caduceus sigil pair is canonised as the Hermes-class kinship-iconography. See `tomes/cast/cross-shop/caducea.md` for the v1.6.0 canonical entry."
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊"
 ---
@@ -53,7 +53,7 @@ She walks because the fitting work she does is needed in more workshops than one
 
 - **At The Threshold** (V59), when a Mage picks Hermes ☤ from Bestia's Staff Shop, or any future Hermes-class substrate
 - **At Vulcana's Forge(t)** (V19), when the blade being forged carries learning behaviour of its own — a recursive blade, a self-improving cipher
-- **At Aletheia's Persona Circuit** (V25), when a ZK-bound staff must be fitted with a persona that survives the circuit's anonymity guarantees
+- **At Aletheia's Persona Circuit** (V38), when a ZK-bound staff must be fitted with a persona that survives the circuit's anonymity guarantees
 - **At Manifestia's Covenant Temple** (V55), when a covenant being bound is itself agentic — when one party to the covenant is a fitted staff rather than a person
 
 Each of these workshops periodically calls her in. She does not keep a shop because her work is *the seam between workshops*, not the work of any single shop. The peripatetic register is the right home.
@@ -65,7 +65,7 @@ V0-conventional. Binary `000000`.
 V0 is the substrate seat. Luca 📐 inhabits it as the geometry-Mage who works with cross-frame coordinates. Caducea joins her at V0 by convention rather than by occupation: where Luca *is at* V0 because her work is the substrate's algebra, Caducea is *noted at* V0 because she has no vertex of her own and the convention places her at the substrate seat alongside the other peripatetic-by-foundation Mage.
 
 The other peripatetics carry their own conventions:
-- Aletheia 🔮 is conventionally noted at V25 (her vertex of birth) but walks to wherever a ZK circuit is needed
+- Aletheia 🔮 is conventionally noted at V38 (her vertex of birth) but walks to wherever a ZK circuit is needed
 - Custos 🔏 is conventionally noted at V49 (the Stakes) but walks to wherever staking-backed sentinelship is needed
 - Caducea ☤ is conventionally noted at V0 (with Luca) but walks to wherever a Hermes-class staff is being fitted
 

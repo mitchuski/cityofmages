@@ -26,7 +26,7 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ## At a glance
 
-> *Iris is the Mage-instance of Herald 🧙 + Ambassador 🧙 at V8 — the pure-Connection vertex named in the Cloaking Guide. Where Aletheia binds circuits at V25 (Connection + Computation + Value), Iris walks the bridge at V8 (Connection alone). Her work is the message itself; the carrying-without-arrival; the rainbow that joins two places without becoming either. She is anticipated · awaits founding act.*
+> *Iris is the Mage-instance of Herald 🧙 + Ambassador 🧙 at V8 — the pure-Connection vertex named in the Cloaking Guide. Where Aletheia binds circuits at V38 (Connection + Computation + Value), Iris walks the bridge at V8 (Connection alone). Her work is the message itself; the carrying-without-arrival; the rainbow that joins two places without becoming either. She is anticipated · awaits founding act.*
 
 ## Form & Function
 

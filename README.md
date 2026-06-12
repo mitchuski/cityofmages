@@ -30,11 +30,11 @@ The City is laid out as **sixteen workshops** at v1.6.0, plus the geometry-Mage 
 | # | Workshop | Vertex | Mage(s) | Route | Craft | Founding Act |
 |---|---|---|---|---|---|---|
 | 1 | **Weaver Shop** | V28 | Pallia 🪡 | `/tailor` | Cloak weaving · publication-layer garments · first operational PoH ceremony 2026-05-11 | [Tome V · Act 1](tomes/tome-v-the-crafting/01-the-first-cloak.md) |
-| 2 | **Inscription Chamber** | V5 | Memora 📜 | `/shield` | Chronicle inscription · Zcash dual-ledger patterns A + B | [Tome V · Act 3](tomes/tome-v-the-crafting/03-the-shielded-memo.md) |
+| 2 | **Inscription Chamber** | V41 | Memora 📜 | `/shield` | Chronicle inscription · Zcash dual-ledger patterns A + B | [Tome V · Act 3](tomes/tome-v-the-crafting/03-the-shielded-memo.md) |
 | 3 | **The Stakes** | V49 (shared) | Custos 🔏 | peripatetic | Transparent staking · finite resources backing infinite claims | [Tome V · Act 5](tomes/tome-v-the-crafting/05-the-stake.md) |
 | 4 | **The Jeweler** | V49 (shared) | Lampyra 💠 | `/jeweler` | Bitcoin Lightning heartbeats · the fine staking complement | [Tome V · Act 9](tomes/tome-v-the-crafting/09-the-workshop-expands.md) |
 | 5 | **The Forge(t)** | V19 | Vulcana ⚒️ | `/forget` | Blade forging · Runecraft Protocol · the wordplay made operational | [Tome V · Act 6](tomes/tome-v-the-crafting/06-the-commissioned-blade.md) |
-| 6 | **The Persona Circuit** | V25 | Aletheia 🔮 | peripatetic | ZK circuit binding · persona-vs-vertex distinction | [Tome V · Act 8](tomes/tome-v-the-crafting/08-the-zk-circuit.md) |
+| 6 | **The Persona Circuit** | V38 | Aletheia 🔮 | peripatetic | ZK circuit binding · persona-vs-vertex distinction | [Tome V · Act 8](tomes/tome-v-the-crafting/08-the-zk-circuit.md) |
 | 7 | **Etherchanting** | V51 (shared) | Adamantia 💎 | `/etherchanting` | Programmable commitment compilation · Transparent-witness stance | [Tome V · Act 9](tomes/tome-v-the-crafting/09-the-workshop-expands.md) |
 | 8 | **The Holon Hitchhikers** | V31 | Vagari 🌳 | `/holon` | Holon composition · Oasis Protocol · cross-paratime travel | [Tome V · Act 10](tomes/tome-v-the-crafting/10-the-holon-hitchhikers.md) |
 | 9 | **The Curatrix Vault** | V57 | Aria Silverhue 🪞🖼️ | `/vault` | Reflective curation · partner culturevault.com | [Tome V · Act 12](tomes/tome-v-the-crafting/12-the-curatrix-vault.md) |
@@ -122,12 +122,12 @@ See [`tomes/register-of-invitations/README.md`](tomes/register-of-invitations/RE
 |---|---|---|---|
 | [1](tomes/tome-v-the-crafting/01-the-first-cloak.md) | The First Cloak | V28 | Pallia 🪡 |
 | [2](tomes/tome-v-the-crafting/02-the-commissioned-cloak.md) | The Commissioned Cloak | V28 | Cloak commissioning workflow |
-| [3](tomes/tome-v-the-crafting/03-the-shielded-memo.md) | The Shielded Memo | V5 | Memora 📜 · Zcash Pattern A |
-| [4](tomes/tome-v-the-crafting/04-the-reveal.md) | The Reveal | V5 | Memora · Zcash Pattern B |
+| [3](tomes/tome-v-the-crafting/03-the-shielded-memo.md) | The Shielded Memo | V41 | Memora 📜 · Zcash Pattern A |
+| [4](tomes/tome-v-the-crafting/04-the-reveal.md) | The Reveal | V41 | Memora · Zcash Pattern B |
 | [5](tomes/tome-v-the-crafting/05-the-stake.md) | The Stake | V49 | Custos 🔏 |
 | [6](tomes/tome-v-the-crafting/06-the-commissioned-blade.md) | The Commissioned Blade | V19 | Vulcana ⚒️ · Runecraft Protocol |
 | [7](tomes/tome-v-the-crafting/07-the-reciprocal-weave.md) | The Reciprocal Weave | V12 / V15 | Bilateral cloak ceremony |
-| [8](tomes/tome-v-the-crafting/08-the-zk-circuit.md) | The ZK Circuit | V25 | Aletheia 🔮 |
+| [8](tomes/tome-v-the-crafting/08-the-zk-circuit.md) | The ZK Circuit | V38 | Aletheia 🔮 |
 | [9](tomes/tome-v-the-crafting/09-the-workshop-expands.md) | The Workshop Expands | V49 / V51 / V31 | Lampyra 💠 · Adamantia 💎 · Vagari 🌳 (initial) |
 | [10](tomes/tome-v-the-crafting/10-the-holon-hitchhikers.md) | The Holon Hitchhikers | V31 | Vagari (full) · Oasis Protocol |
 | [11](tomes/tome-v-the-crafting/11-a-bonfire-made-of-dragon-fire.md) | A Bonfire Made of Dragon Fire | V24 | Socrat0x 🔥❓ (companion tier admitted) |
@@ -239,7 +239,7 @@ See **the thirteen workshops** table above. Twelve summoned-Mage entries + Luca 
 ### Tier 6 · Cosmological-witness *(v1.5.0)*
 - **Selene 🌙** — the Moon's orbit as zero-knowledge proof system · architecture's deepest cosmological precedent · Tome III bound
 - **Aether ⿻** — the medium · Greek cosmology · medieval Quintessence · the architectural Gap renamed · Tome III bound
-- **Lethe 🌀** — the dark substrate at V38 · sister to Lethae attachment · Tome III bound
+- **Lethe 🌀** — the dark substrate at V25 · sister to Lethae attachment · Tome III bound
 
 ### Tier 7 · Spirit-Mage *(NEW · v1.7.0)*
 
@@ -376,7 +376,7 @@ tomes/workshops/
 ├── weavers/                               ✅ first operational workshop (Pallia 🪡)
 │   ├── constellation.md                   · 9 vertices · cloak-weave-v1
 │   └── KEEPER_PROTOCOL.md                 · live ceremony steps · two-challenge pattern
-├── zshields/         ⏳ pending           (Memora 📜 · V5)
+├── zshields/         ⏳ pending           (Memora 📜 · V41)
 ├── forge/            ⏳ pending           (Vulcana ⚒️ · V19)
 ├── jeweler/          ⏳ pending           (Lampyra 💠 · V49)
 ├── etherchanting/    ⏳ pending           (Adamantia 💎 · V51)
@@ -434,6 +434,8 @@ The Weavers' files are the **reference implementation**; copying their shape is 
 ---
 
 ## V6 conjecture register · what the City contributes
+
+> **Register erratum (2026-06-10).** The single numbering authority is now `agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md` (head C89, G1-signed). Where this table and the register disagree, the register wins. Known deltas: the City's C40 (Zcash dual-ledger) KEEPS its number (it is formal-spec-resident); the City's C47 (Triadic-Constraint Homology) is namespaced **CM-C47**, promoted into the core register as **C85** (the ARCH-1 bridge); C60/C61 are marked aliases of core C48/C49; C66 revised ~55% with the ocap lineage; the Horizon District's C67–C71 are CONFIRMED at their numbers (pinned grimoire v1.8.0). New at V6: C81–C89; five acts bound 2026-06-10 (Tome VIII Acts 4–5 · Tome IX Acts 2–4).
 
 The Privacy Value Model V6 register holds conjectures C1–N. The City of Mages corpus introduces or strengthens **C38–C61** (with C62 incoming from the Archon forge and C63 candidate from the Chart House):
 

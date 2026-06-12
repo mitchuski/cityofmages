@@ -422,7 +422,7 @@ The full registry of currently-released constellations. Filename format: `<shop>
 | Shop | Route | Resident Mage | Vertex | Founding Act | Ceremony shape | Template |
 |---|---|---|---|---|---|---|
 | Weavers | `/tailor` | Pallia 🪡 | V28 | Tome V Act 1 | RUN · E · CRAFT | `tailor-cloak-weave-v1.md` |
-| zShields | `/shield` | Memora 📜 | V5 | Tome V Act 3 | RUN · E · CRAFT | `shield-shielded-memo-v1.md` |
+| zShields | `/shield` | Memora 📜 | V41 | Tome V Act 3 | RUN · E · CRAFT | `shield-shielded-memo-v1.md` |
 | Forge(t) | `/forget` | Vulcana ⚒️ | V19 | Tome V Act 6 | RUN · E · CRAFT *(canonical)* | `forget-commissioned-blade-v1.md` |
 | Etherchanting | `/etherchanting` | Adamantia 💎 | V51 | Tome V Act 9 | RUN · E · CRAFT | `etherchanting-commitment-cut-v1.md` |
 | Jeweler | `/jeweler` | Lampyra 💠 | V49 | Tome V Act 9 | RUN · E · CRAFT | `jeweler-gem-set-v1.md` |

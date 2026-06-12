@@ -80,7 +80,7 @@ After Challenge 2, the keeper reads the credential claims and proposes valve-cla
 |---|---|---|---|
 | Always-Revealed | V20 (Techne) | `010100` | Core attestation — what the verifier *must* read to trust the claim |
 | Hash-Masked | V3 (Dual Agent) | `000011` | Structurally present — subject identity, statistical baselines, flags |
-| Always-Masked | V25 (Aletheia) | `011001` | ZK predicate only — behavioral evidence, methodology, cryptographic proofs |
+| Always-Masked | V38 (Aletheia) | `100110` | ZK predicate only — behavioral evidence, methodology, cryptographic proofs |
 
 **Rule for behavioral evidence:** Any field that describes *how* a human was assessed (methodology, evidence summaries, interaction patterns) should default to Always-Masked. The verifier confirms the predicate `"assessed by <issuer> at credence ≥ X"` without seeing the assessment itself.
 

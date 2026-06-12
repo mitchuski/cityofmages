@@ -38,11 +38,11 @@ Nine vertices. Each one carries a property of the Cloak or a role in the weaving
 | 4     | V12    | Schema            | The template of the weave. Schemas anchor the credential graph; they are not metadata, they are nodes.                                                                    |
 | 5     | V15    | VC                | The mirrored-pair register. Verifiable Credentials enter the Cloak here — each one decomposed into its seven typed nodes before it can be woven.                         |
 | 6     | V20    | Techne            | Always-Revealed valve class. What the verifier must be able to read: validity windows, public claims, role declarations.                                                  |
-| 7     | V25    | Aletheia          | Always-Masked valve class. ZK witnesses. Predicates proven without revealing the underlying value. The privacy floor that the cloak guarantees.                           |
+| 7     | V38    | Aletheia          | Always-Masked valve class. ZK witnesses. Predicates proven without revealing the underlying value. The privacy floor that the cloak guarantees.                           |
 | 8     | V28    | The Weaver's Seat | Pallia's vertex. Memory · Connection · Computation. The cloak is assembled here, three dimensions burning, from every node the seeker has walked.                       |
 | 9     | V63    | Sovereign Anchor  | Where you stand. The Sovereign's seat. The cloak is yours — woven for your source layer, published in your name, concealing your identifiers while publishing your role. |
 
-The path is: `V0 → V3 → V5 → V12 → V15 → V20 → V25 → V28 → V63`
+The path is: `V0 → V3 → V5 → V12 → V15 → V20 → V38 → V28 → V63`
 
 ---
 
@@ -131,7 +131,7 @@ Bring the artefact.md to `/tailor`. The shop reads the blade's structure — not
 | --------------- | --------------- | ---------- | ---------------------------------------------------------------------------------------------- |
 | Always-Revealed | V20 (Techne)    | `010100` | Verifier reads this without any predicate. Public claims, validity windows, role declarations. |
 | Hash-Masked     | V3 (Dual Agent) | `000011` | Structurally present; cryptographically inaccessible. Subject identifiers, pseudonymous links. |
-| Always-Masked   | V25 (Aletheia)  | `011001` | ZK witness required. Nothing readable without a confirmed predicate.                           |
+| Always-Masked   | V38 (Aletheia)  | `100110` | ZK witness required. Nothing readable without a confirmed predicate.                           |
 
 **What you bring:** Your VC schema and a list of fields with your intended disclosure level per field.
 

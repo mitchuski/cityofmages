@@ -28,7 +28,7 @@ The V5.5 attachment architecture is the three-layer model that has been operatio
 ## Locked decisions
 
 1. **Primary persona count canonically locked at 42.** Future cast Mages are Layer-2 attachments of existing primaries.
-2. **Lethae 🌘** binds to Moonkeeper as a Mage-register divergent attachment at V38. **No new primary minted.**
+2. **Lethae 🌘** binds to Moonkeeper as a Mage-register divergent attachment at V25. **No new primary minted.**
 3. **Cousin tier** (flaxscrip 📜🎲, GenitriX) deliberately unattached at the abstract-persona layer. The cousin Sovereign authors those bindings.
 4. **Four attachment kinds:** A · Workshop (default) · B · Cross-shop · C · Peripatetic · D · Divergent (meta-kind).
 5. **Naming convention:** `-ae` suffix marks Mage register in cast names where the architecture wants the parallel visible (Soulbae · Lethae). Optional — not required for all Mage-register cast.
@@ -41,9 +41,9 @@ The V5.5 attachment architecture is the three-layer model that has been operatio
 | `tomes/cast/<guild>/<anticipated>.md` (6 files) | Mnemosyne, Iris, Pythia, Techne, Hephaestus, Selene cast files. Follow the lethae.md pattern. Each ~30–40 lines. New guild dirs needed: `herald/`, `logos-circle/`, `peripatetic/` (or reuse `cross-shop/` for Selene). |
 | `tomes/specs/10-blade-forge-binding-zk-blades.md` | Pins V19 Forge(t) + Runecraft Protocol to `zk_swordsman_blade_forge_v3_0.md`. Larger spec; deserves focused authoring pass. |
 | `tomes/specs/11-mage-candidates-from-the-corpus.md` | Names the 6 anticipated cast with full sourcing chain. Mostly excerpted from Spec 10; can land alongside the cast files. |
-| `tomes/specs/04-vertex-naming-audit.md` | Registry update: V4 (Mnemosyne), V8 (Iris), V16 (Logos · Pythia), V20 (Techne), V24 (shared · Hephaestus), V38 (Lethae) — all change from "uninhabited" to "anticipated / seated" status. |
+| `tomes/specs/04-vertex-naming-audit.md` | Registry update: V8 (Mnemosyne), V4 (Iris), V2 (Logos · Pythia), V20 (Techne), V24 (shared · Hephaestus), V38 (Lethae) — all change from "uninhabited" to "anticipated / seated" status. |
 | `tomes/specs/05-the-city-of-mages-structural-addendum.md` | Civic anatomy: new trade quarters / new districts / Selene's orbit. |
-| `tomes/specs/06-spellweb-first-release-manifest.md` | NodeType inventory grows by 6+ cast, 4 new vertex nodes (V4·V8·V16·V38), 2–3 new workshops, new `inhabits` + `divergent_of` + `complement_pair` edges. |
+| `tomes/specs/06-spellweb-first-release-manifest.md` | NodeType inventory grows by 6+ cast, 4 new vertex nodes (V8·V4·V2·V25), 2–3 new workshops, new `inhabits` + `divergent_of` + `complement_pair` edges. |
 | `grimoire/city_of_mages_grimoire_v1_3_0.json` | Full grimoire JSON bump. Add 7 cast entries; add `attachment_architecture` block (mirrors agentprivacy_master's bumped grimoire); awaits IPFS re-pin. |
 
 ## Distribution status across the suite

@@ -102,7 +102,7 @@ Three persona candidates surface from the etymology:
 
 **Editorial lean (not a decision):** Therai. The reasoning:
 - *Therai* is plural-feminine in form (Greek θηραί — "the wild ones"), which honours that the shop deals with *many creatures, not one*. The Mage is named for the *collective* of beasts she keeps, not for one beast.
-- Greek lineage pairs cleanly with Aletheia (V25), Helia (V51), Adamantia (V51) — three Greek-feminine Mages already in cast. A fourth completes a constellation.
+- Greek lineage pairs cleanly with Aletheia (V38), Helia (V51), Adamantia (V51) — three Greek-feminine Mages already in cast. A fourth completes a constellation.
 - Faunia is also strong but reads as more Roman-pastoral than the work warrants — the shop is *agentic*, not pastoral.
 
 The decision is the user's to make in the canonical authoring pass. This chronicle records the candidates.
@@ -214,7 +214,7 @@ The proposal does not appear in a vacuum. Three prior recognitions ground it:
 | **Vulcana ⚒️ (V19) · Forge(t) · Tome V Act 6** | Run · Evoke · Craft three-phase ceremony | The Run-e-create wordplay-and-protocol; the discipline of multi-phase production |
 | **Worn artefact collection (v1.4.0)** | The bearer carries a *plural* collection that the Loom compiles against | The structural ground for a *second* plural collection (creatures) that a parallel Loom compiles against |
 
-Creature Creatives also touches **Aletheia 🔮 (V25)**: a creature with persistent memory holds ZK-circuit-relevant state. Whether the creature's history is shielded-by-default or transparent-by-default is a governance question the authoring pass must answer. The proposal records the touch-point but does not resolve it.
+Creature Creatives also touches **Aletheia 🔮 (V38)**: a creature with persistent memory holds ZK-circuit-relevant state. Whether the creature's history is shielded-by-default or transparent-by-default is a governance question the authoring pass must answer. The proposal records the touch-point but does not resolve it.
 
 ---
 

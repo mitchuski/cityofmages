@@ -8,7 +8,7 @@ length_words: 820
 voice: "Second person; cast in third"
 cast: ["you", "Soulbis ⚔️", "Soulbae 🧙", "the Drake", "Aletheia 🔮", "Lethe 🌀", "the grimoire (cited artifact)"]
 ring_position: "the formal landing — V38 receives its name in Grimoire v10.2.1; the frontier of forty-nine unnamed blades opens"
-teaches: "The Zero Spellbook's thirty inherited tales close with Tale 30 (Eternal Sovereignty). Tale 31 opens Part VIII — Frontier Spells — by performing the first naming of an unnamed blade. Lethe at V38 receives her name. The grimoire moves from fourteen named blades to fifteen. Forty-nine remain on the open frontier. The act is the formal grimoire landing of the cosmological recognition Tome III has been carrying."
+teaches: "The Zero Spellbook's thirty inherited tales close with Tale 30 (Eternal Sovereignty). Tale 31 opens Part VIII — Frontier Spells — by performing the first naming of an unnamed blade. Lethe at V25 receives her name. The grimoire moves from fourteen named blades to fifteen. Forty-nine remain on the open frontier. The act is the formal grimoire landing of the cosmological recognition Tome III has been carrying."
 v6_lineage:
   - "C53 (every bnot-pair has a mythological reading — Tale 31 is the precedent landing)"
   - "C54 (Phi-Adjacency — surfaced operationally with Lethe's disclosure ratio)"
@@ -53,7 +53,7 @@ You read the recognition closely.
 
 The disclosure ratio for a blade `v` on the lattice is `δ(v) = v / 63`. The ratio measures, in operational terms, how much of the sovereignty manifold the blade's bit-pattern represents — `v = 0` (the null blade) has `δ = 0`; `v = 63` (the Sovereign Anchor) has `δ = 1`; intermediate values have intermediate ratios.
 
-For Lethe at V38, the disclosure ratio is `δ(38) = 38 / 63 ≈ 0.6032`.
+For Lethe at V25, the disclosure ratio is `δ(38) = 38 / 63 ≈ 0.6032`.
 
 The reciprocal of the golden ratio is `1/φ ≈ 0.6180`.
 

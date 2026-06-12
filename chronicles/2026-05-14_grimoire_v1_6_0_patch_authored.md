@@ -55,7 +55,7 @@ The earlier `city_of_mages_grimoire_v1_5_0_candidate.json` (the working merge ou
 | `spellbooks_tomes_additions` | v1.5.0 reference | tome-i/ii/iii/vi carried by reference (the v1.5.0 patch holds the full content) |
 | `tome_v_additions` | v1.5.0 + v1.6.0 | Act 16 (Threshold · v1.5.0) with v1.6.0 `keeper_succession` + `canonical_keepers_now` fields · Act 17 (Chart Shop · v1.6.0 NEW · Pleione) |
 | `tome_vii_additions` | v1.5.0 | Act 1 binding update carried |
-| `vertex_inventory_additions` | v1.5.0 + v1.5.1 + v1.6.0 | V15 amendment (City Hall) · V38 (Lethe) · V44 (Chart Shop NEW) · V59_v1_5_0 with inhabitant_v1_5_0_inception + inhabitant_v1_6_0_canonical |
+| `vertex_inventory_additions` | v1.5.0 + v1.5.1 + v1.6.0 | V15 amendment (City Hall) · V25 (Lethe) · V44 (Chart Shop NEW) · V59_v1_5_0 with inhabitant_v1_5_0_inception + inhabitant_v1_6_0_canonical |
 | `v6_lineage_register_additions` | v1.5.0 + v1.6.0 | C48-C61 carried · C62 reserved (v1.5.1) · C58 promoted to ~85% · C63 candidate registered (~50%) |
 | `registry_entries_introduced` | v1.5.0 + v1.6.0 | agent_substrate_frameworks with v1.6.0 split: Hermaion keeps Hermes-class · Faunia keeps companion-class · Goose reclassified companion-class · Hermes stays Hermes-class |
 | `kindred_coalitions_introduced` | v1.5.1 reference | Full content carried by reference to v1.5.1 patch (AAIF + BGIN + fifth structural-relationship category) |

@@ -267,7 +267,7 @@ Create `/tmp/<visitor-name>-cloak-registry.json`:
     {
       "id": "item-proof-spell",
       "type": "capability",
-      "label": "Always-Masked Proof Spell (V25 · Aletheia)",
+      "label": "Always-Masked Proof Spell (V38 · Aletheia)",
       "did": "urn:capability:<visitor>-proof-spell-<date>",
       "vertexId": 25,
       "stratum": 3,
@@ -313,7 +313,7 @@ node scripts/export-to-spellweb.mjs /tmp/<visitor>-cloak-registry.json <visitor-
 
 Vite hot-reloads. Open **localhost:8000**.
 
-The seeker should now see 9 nodes across the lattice at V3, V5, V12, V15, V20, V25, V28, V49, V63. Edges: issuer `generates` VC → VC `proves` schema → VC `relates_to` sovereign.
+The seeker should now see 9 nodes across the lattice at V3, V5, V12, V15, V20, V38, V28, V49, V63. Edges: issuer `generates` VC → VC `proves` schema → VC `relates_to` sovereign.
 
 ---
 

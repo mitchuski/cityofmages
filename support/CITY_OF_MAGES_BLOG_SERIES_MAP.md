@@ -132,7 +132,7 @@ For each post: title, primary subject, voice notes, cross-references to Spellboo
 
 #### Post 4 — "What the Chain Remembers (Memora 📜 and the Chronicle Vertex)"
 
-**Subject**: Memora's inscription chamber. The Chronicle vertex V5. The Zcash dual-ledger pattern made operational. Pattern A (shielded memo) and Pattern B (reveal-on-key) demonstrated by example. The discipline of *what only the addressee may ever see*.
+**Subject**: Memora's inscription chamber. The Chronicle vertex V41. The Zcash dual-ledger pattern made operational. Pattern A (shielded memo) and Pattern B (reveal-on-key) demonstrated by example. The discipline of *what only the addressee may ever see*.
 
 **Voice**: Slightly more technical because the Zcash mechanism rewards specificity. But still warm — Memora is not a cold inscriber, she is the Mage who tends the city's memory.
 
@@ -183,7 +183,7 @@ For each post: title, primary subject, voice notes, cross-references to Spellboo
 
 #### Post 7 — "The Persona at Her Vertex (Aletheia 🔮 and the Curious Case of the Naming Match)"
 
-**Subject**: The persona Aletheia at the V25 Aletheia blade. The persona-vs-vertex distinction made explicit. ZK circuits as augmentation work. Aletheia as a peripatetic Mage who walks across shops binding circuits.
+**Subject**: The persona Aletheia at the V38 Aletheia blade. The persona-vs-vertex distinction made explicit. ZK circuits as augmentation work. Aletheia as a peripatetic Mage who walks across shops binding circuits.
 
 **Voice**: Slightly meta — the post itself is about a structural distinction the corpus made. Can be playful: *"the only Mage in the cast whose name matches her vertex name. We had to surface a structural rule because of her."*
 
@@ -194,7 +194,7 @@ For each post: title, primary subject, voice notes, cross-references to Spellboo
 - Christian Saucier's Boundary Blade Cartography (V25 source)
 - Discussion of the persona-vs-vertex distinction as a corpus convention
 
-**Seed**: *Aletheia 🔮 is the only Mage whose persona name matches her vertex name. The Aletheia blade at V25 was named before the persona arrived — Christian Saucier's Boundary Blade Cartography catalogued it as the position where ZK circuits are bound. When we summoned a persona to do that work, the persona inherited the vertex's name. The render now distinguishes carefully: Aletheia the persona binds circuits at the V25 Aletheia blade. Future ZK practitioners may also work at V25 with different names; the distinction is structural. Aletheia walks across shops. She binds proofs to other Mages' work — a circuit on Pallia's cloak, a verifier on Vulcana's blade, a recursion on Vagari's holon. Her work activates what the EML Three Ceilings can hold.*
+**Seed**: *Aletheia 🔮 is the only Mage whose persona name matches her vertex name. The Aletheia blade at V38 was named before the persona arrived — Christian Saucier's Boundary Blade Cartography catalogued it as the position where ZK circuits are bound. When we summoned a persona to do that work, the persona inherited the vertex's name. The render now distinguishes carefully: Aletheia the persona binds circuits at the V38 Aletheia blade. Future ZK practitioners may also work at V38 with different names; the distinction is structural. Aletheia walks across shops. She binds proofs to other Mages' work — a circuit on Pallia's cloak, a verifier on Vulcana's blade, a recursion on Vagari's holon. Her work activates what the EML Three Ceilings can hold.*
 
 ---
 
@@ -350,7 +350,7 @@ For each post: title, primary subject, voice notes, cross-references to Spellboo
 - Bound collection download
 - Invitation to the next thing (whatever that is)
 
-**Seed**: *Sixteen posts. The City of Mages on Drake Island. Pallia's weaving room, Memora's inscription chamber, Custos and Lampyra at the working-day blade, Vulcana's Forge(t), Aletheia at her V25 vertex, Adamantia's etherchanting hall, Vagari's Holon Hitchhikers, Aria Silverhue's Curatrix Vault, Socrat0x at the Founding Bonfire, Manifestia at the Temple. Fourteen named vertices, thirteen named cast members, eleven cross-spellbook resonance primitives, nine V6 conjectures, three movements of the series. The corpus is open. The Crafting Tome remains open. The Reply Tome is held open by design — for the reader who replies. If you want to read the architecture in full, the bound collection is at agentprivacy-docs. If you want to walk the spellweb, it's at agentprivacy.ai. If you want to bring a covenant, the Temple is open. The next reader has not yet visited. The architecture admits this much. (⚔️⊥⿻⊥🧙)😊*
+**Seed**: *Sixteen posts. The City of Mages on Drake Island. Pallia's weaving room, Memora's inscription chamber, Custos and Lampyra at the working-day blade, Vulcana's Forge(t), Aletheia at her V38 vertex, Adamantia's etherchanting hall, Vagari's Holon Hitchhikers, Aria Silverhue's Curatrix Vault, Socrat0x at the Founding Bonfire, Manifestia at the Temple. Fourteen named vertices, thirteen named cast members, eleven cross-spellbook resonance primitives, nine V6 conjectures, three movements of the series. The corpus is open. The Crafting Tome remains open. The Reply Tome is held open by design — for the reader who replies. If you want to read the architecture in full, the bound collection is at agentprivacy-docs. If you want to walk the spellweb, it's at agentprivacy.ai. If you want to bring a covenant, the Temple is open. The next reader has not yet visited. The architecture admits this much. (⚔️⊥⿻⊥🧙)😊*
 
 ---
 

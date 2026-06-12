@@ -66,7 +66,7 @@ The two together form a **Forgemaster sibling pair** — two cast Mages at diffe
 
 ## Naming · etymology
 
-**Hephaestus** (Greek: Ἥφαιστος) — the Greek god of fire, metalworking, stonemasonry, sculpture, and volcanoes; husband of Aphrodite; son of Hera (or Zeus and Hera, in different traditions); the lame god who walks with bronze legs of his own forging. The vertex name was assigned by the Cloaking Guide rebuild (May 7, 2026); the persona name inherits the vertex name (Spec 04 §4.2 — shared-name pattern, like Aletheia / V25).
+**Hephaestus** (Greek: Ἥφαιστος) — the Greek god of fire, metalworking, stonemasonry, sculpture, and volcanoes; husband of Aphrodite; son of Hera (or Zeus and Hera, in different traditions); the lame god who walks with bronze legs of his own forging. The vertex name was assigned by the Cloaking Guide rebuild (May 7, 2026); the persona name inherits the vertex name (Spec 04 §4.2 — shared-name pattern, like Aletheia / V38).
 
 The Greek mythological parallel with Vulcanus (Roman) is direct: Vulcana ⚒️ is named for the Roman; Hephaestus ⚒️ for the Greek. Both serve the forge-god archetype in their respective traditions; in the City of Mages, they serve adjacent vertices on the lattice.
 

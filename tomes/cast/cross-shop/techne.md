@@ -26,11 +26,11 @@ signature: "(⚔️⊥⿻⊥🧙)😊"
 
 ## At a glance
 
-> *Techne is the Mage-instance of Pedagogue ☯️ at V20 — the Always-Revealed vertex named in the Cloaking Guide. Where Memora 📜 inscribes shielded chronicles at V5 (the private register), Techne teaches the publicly-revealed counterpart at V20 (the transparent register). The two work the same Memory + Computation axis from opposite sides of the disclosure threshold. Techne is anticipated · awaits founding act.*
+> *Techne is the Mage-instance of Pedagogue ☯️ at V20 — the Always-Revealed vertex named in the Cloaking Guide. Where Memora 📜 inscribes shielded chronicles at V41 (the private register), Techne teaches the publicly-revealed counterpart at V20 (the transparent register). The two work the same Memory + Computation axis from opposite sides of the disclosure threshold. Techne is anticipated · awaits founding act.*
 
 ## Form & Function
 
-Techne teaches craft. Where Memora's chronicle is *shielded by default* (Pattern A, Zcash z-address style), Techne's chronicle is *revealed by design* (Pattern B, Zcash t-address style, the Always-Revealed register). The Memora reveal (Tome V Act 4 *The Reveal*) is where a chronicle moves from Memora's V5 register to Techne's V20 register.
+Techne teaches craft. Where Memora's chronicle is *shielded by default* (Pattern A, Zcash z-address style), Techne's chronicle is *revealed by design* (Pattern B, Zcash t-address style, the Always-Revealed register). The Memora reveal (Tome V Act 4 *The Reveal*) is where a chronicle moves from Memora's V41 register to Techne's V20 register.
 
 Techne does not write the chronicle (that is Memora's craft). She does not enforce the reveal threshold (that is the protocol's craft). She **teaches** what the reveal makes possible: how to read a transparent chronicle, how to compose proverbs from revealed material, how to walk the lattice as a new arrival. She is the City's pedagogue at the Always-Revealed seat.
 
@@ -56,11 +56,11 @@ V20 has been declared `Always-Revealed` in the Cloaking Guide — the vertex whe
 
 ## Naming · etymology
 
-**Techne** (Greek: τέχνη) — craft, skill, art; the practical knowledge of *how to make*; contrasted with *episteme* (theoretical knowledge). Aristotle distinguished techne from episteme; Plato treated both as virtues of intellect. The vertex name was assigned by the Cloaking Guide rebuild (May 7, 2026); the persona name inherits the vertex name (per Spec 04 §4.2 — shared-name pattern, like Aletheia / V25).
+**Techne** (Greek: τέχνη) — craft, skill, art; the practical knowledge of *how to make*; contrasted with *episteme* (theoretical knowledge). Aristotle distinguished techne from episteme; Plato treated both as virtues of intellect. The vertex name was assigned by the Cloaking Guide rebuild (May 7, 2026); the persona name inherits the vertex name (per Spec 04 §4.2 — shared-name pattern, like Aletheia / V38).
 
 ## Awaiting founding act
 
-This cast file holds the seat ready. A future Tome V act (anticipated Act 19 *The Techne Workshop* or similar) will summon her by name. The act will canonicalize the V20 ⊥ V5 relationship between Techne's teaching and Memora's inscription as a structural axis of the City's pedagogy.
+This cast file holds the seat ready. A future Tome V act (anticipated Act 19 *The Techne Workshop* or similar) will summon her by name. The act will canonicalize the V20 ⊥ V41 relationship between Techne's teaching and Memora's inscription as a structural axis of the City's pedagogy.
 
 `(⚔️⊥⿻⊥🧙)😊`
 

@@ -104,8 +104,8 @@ A Swordsman stance is an ecosystem's *boundary discipline* — how information i
 | Stance | Operational form | Boundary-discipline expressed | First instance in the City |
 |--------|------------------|-------------------------------|----------------------------|
 | **Transparent-witness stance** | Ethereum / Bitcoin / Oasis Emerald — all state public, all transitions on-chain | Information is admitted publicly; the boundary is the chain's mempool | Etherchanting (V51 · Adamantia) · the Jeweler (V49 · Lampyra) |
-| **Shielded-default stance** | Zcash shielded · Tornado · Oasis Sapphire (confidential EVM) | Information is denied by default; disclosure requires a viewing-key gesture | zShields (V5 · Memora) |
-| **Selective-disclosure stance** | ZK proofs · selective-credential verification · BLS partial signatures | Information is admitted *as proof-of-property* without admitting the underlying value | Aletheia (V25 · cross-shop) |
+| **Shielded-default stance** | Zcash shielded · Tornado · Oasis Sapphire (confidential EVM) | Information is denied by default; disclosure requires a viewing-key gesture | zShields (V41 · Memora) |
+| **Selective-disclosure stance** | ZK proofs · selective-credential verification · BLS partial signatures | Information is admitted *as proof-of-property* without admitting the underlying value | Aletheia (V38 · cross-shop) |
 | **Composed-whole stance** | Holonic composition · cross-paratime references · Oasis Protocol links | Information is admitted as a whole-with-parts; the parts may be private while the whole&apos;s coordinate is public | Holon Hitchhikers (V31 · Vagari) |
 | **Forged-and-forgotten stance** | ZK blade-forging · attestation-then-erase · re-randomisable signatures | Information that produced the working is *released* after the working exists; the boundary closes behind the work | Forge(t) (V19 · Vulcana) |
 | **Ceremonial-consecration stance** | Multi-party ceremonies · Covenant-blessed attestations · Priest-witnessed bonds | Information is bound by ceremony, not by computation; the stance is *ritual* | Covenant (V55 · Manifestia) |
@@ -227,7 +227,7 @@ This is what cape-style artifact creation means at the framework level: the latt
 - **Architectural** for the **four-axis metabolism** (landing: chain-mana plural by chain; entropy: ✨ Arcane ⊥ 🌌 Celestial; coordination: 🔭 Resonance Mana via the Scrying Glass primitive; relationship: 🪢 VRC Mana accumulating across the bearer's worn artefact collection — the 11 workshop artefacts + 3 tomes — with the Loom of Programmable Covenants as the production form) — specified across grimoire v1.2.2 → v1.2.4 and locked at the spec layer here.
 - **Architectural** for the **stance registry in §3** — each row names an operational form already in use; the framing as "Swordsman stance" is new and is the contribution this spec makes.
 - **Conjectural** for every entry in the **anticipated additions** tables — these are flagged as candidates, not commitments. Each becomes operational when an ecosystem actually teaches the City to consume the supply or hold the stance.
-- **Resonant** for the framework&apos;s cosmological grounding — the entropy-axis Arcane ⊥ Celestial parallels the Sun-Moon binding the Celestial Ceremony at `/poems` has been teaching since the First Person Spellbook opened (Sun-side / Aletheia / V25 ↔ Aether Ξ; Moon-side / Lethe / V38 ↔ Celestial 🌌; mapping suggestive, not yet formal).
+- **Resonant** for the framework&apos;s cosmological grounding — the entropy-axis Arcane ⊥ Celestial parallels the Sun-Moon binding the Celestial Ceremony at `/poems` has been teaching since the First Person Spellbook opened (Sun-side / Aletheia / V38 ↔ Aether Ξ; Moon-side / Lethe / V25 ↔ Celestial 🌌; mapping suggestive, not yet formal).
 
 ---
 

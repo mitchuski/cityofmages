@@ -65,7 +65,7 @@ A sixth cast tier is introduced, sitting beside the existing five (archetypes ·
 |---|---|---|---|
 | **Selene** | 🌙 | cosmological (stratum-walker; distinct from Layer-2 Selene 🌕) | Tome III Act 2 |
 | **Aether** | ⿻ | ⿻ · max-betweenness (sigil = operational glyph) | Tome III Act 3 |
-| **Lethe** | 🌀 | V38 (already grimoire-named as Blade 38 in Privacymage v10.2.1; cosmological-witness register adds the cosmological recognition) | Tome III Act 6 |
+| **Lethe** | 🌀 | V25 (already grimoire-named as Blade 38 in Privacymage v10.2.1; cosmological-witness register adds the cosmological recognition) | Tome III Act 6 |
 
 ### §1.7 · Run · Evoke · Spawn (the third grammar register)
 
@@ -140,7 +140,7 @@ The patch file `grimoire/city_of_mages_grimoire_v1_5_0_patch.json` is organised 
 | `spellbooks_tomes_additions` | Tome I, II, III, VI full entries with all acts |
 | `tome_v_additions.act_16` | Tome V Act 16 entry |
 | `tome_vii_additions.act_1_binding_update` | Tome VII Act 1 status: anticipated → bound |
-| `vertex_inventory_additions` | V38 (Lethe / Lethae) and V59 (The Threshold) vertex entries |
+| `vertex_inventory_additions` | V25 (Lethe / Lethae) and V59 (The Threshold) vertex entries |
 | `v6_lineage_register_additions` | C48-C55 conjecture entries |
 | `registry_entries_introduced.agent_substrate_frameworks` | NEW section — Goose and Hermes registry entries |
 | `city_anatomy_amendments` | Workshop count 12→13, cast count 17→25, structural entity classes 2→3, cast tiers 5→6 |

@@ -44,7 +44,7 @@ Tome VI has been held open for as long as the Spellbook has admitted that the ar
 
 Today the holding admits its first act.
 
-You arrive at the Threshold. You did not know about the Threshold yesterday. The City had twelve workshops a moment ago — Pallia's at V28, Memora's at V5, Custos's and Lampyra's at V49, Vulcana's at V19, Aletheia's at V25, Adamantia's and Helia's at V51, Vagari's at V31, Aria Silverhue's at V57, Manifestia's at V55, Socrat0x's at V24 — plus the gathering shops at the Logos Circle and the Ceremony Hall. The thirteenth seat at V59 was unnamed.
+You arrive at the Threshold. You did not know about the Threshold yesterday. The City had twelve workshops a moment ago — Pallia's at V28, Memora's at V41, Custos's and Lampyra's at V49, Vulcana's at V19, Aletheia's at V38, Adamantia's and Helia's at V51, Vagari's at V31, Aria Silverhue's at V57, Manifestia's at V55, Socrat0x's at V24 — plus the gathering shops at the Logos Circle and the Ceremony Hall. The thirteenth seat at V59 was unnamed.
 
 Today V59 is named. The Threshold opens.
 

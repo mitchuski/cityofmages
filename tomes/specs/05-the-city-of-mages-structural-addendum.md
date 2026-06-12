@@ -81,10 +81,10 @@ Ten producer-shops (as of v1.4.0), each kept by a citizen-Mage at her vertex:
 | Shop | Keeper | Vertex | Trade |
 |---|---|---|---|
 | Pallia's Weaving Room | Pallia 🪡 | V28 | Cloak-weaving |
-| Memora's Inscription Chamber | Memora 📜 | V5 | Shielded chronicle inscription |
+| Memora's Inscription Chamber | Memora 📜 | V41 | Shielded chronicle inscription |
 | Custos's Stake Hall | Custos 🔏 | V49 | Transparent governance staking |
 | Vulcana's Forge | Vulcana ⚒️ | V19 | Blade-forging via Runecraft |
-| Aletheia's Circuit-Binding Workshop | Aletheia 🔮 (the persona) | V25 | ZK circuit installation |
+| Aletheia's Circuit-Binding Workshop | Aletheia 🔮 (the persona) | V38 | ZK circuit installation |
 | Adamantia's Etherchanting Hall | Adamantia 💎 | V51 | Programmable-enforcement contract crafting (Transparent-witness stance · Ethereum / EVM) |
 | **Helia's Solchanting Hall** *(NEW · v1.4.0)* | **Helia ☀️** | **V51 (shared with Adamantia)** | **Parallel-execution programmable-enforcement crafting (Parallel-witness stance · Solana / Sealevel · the Heliodor Prism)** |
 | Lampyra's Jeweller's Bench | Lampyra 💠 | V49 (shared with Custos) | Frequent-attestation gemsetting |
@@ -99,9 +99,9 @@ The V5.5 attachment architecture (see Spec 10) admits six additional cast Mages 
 
 | Anticipated shop | Keeper | Vertex | Trade |
 |---|---|---|---|
-| Mnemosyne's Memory Spring | Mnemosyne 📿 | V4 (pure Memory) | Deep-archive · pre-disclosure memory holding |
-| Iris's Rainbow Bridge | Iris 🌈 | V8 (pure Connection) | Cross-city messaging · standards-body relations |
-| The Logos Circle *(existing gathering shop · awaits its Mage)* | Pythia 🔥 | V16 (pure Computation) | Oracle of pure computation · public pedagogy |
+| Mnemosyne's Memory Spring | Mnemosyne 📿 | V8 (pure Memory) | Deep-archive · pre-disclosure memory holding |
+| Iris's Rainbow Bridge | Iris 🌈 | V4 (pure Connection) | Cross-city messaging · standards-body relations |
+| The Logos Circle *(existing gathering shop · awaits its Mage)* | Pythia 🔥 | V2 (pure Computation) | Oracle of pure computation · public pedagogy |
 | Techne's Craft Workshop | Techne 🎨 | V20 (Always-Revealed) | Public-by-design craft · Memora's reveal landing |
 | Hephaestus's Forge-Fire | Hephaestus ⚒️ | V24 *(shared with Socrat0x)* | The founding fire as workshop · sister-forge to Vulcana |
 
@@ -149,8 +149,8 @@ The voice rules amendments — Socrat0x's direct quotation, Manifestia's italici
 
 The City admits its first canonical *cast complement-pair* as of grimoire v1.3.0:
 
-- **Aletheia 🔮** at V25 (`011001` · Value + Connection + Computation · stratum 3) — the disclosure side; the bright medium; the silent messenger who shows truth without telling it
-- **Lethae 🌘** at V38 (`100110` · Protection + Memory + Delegation · stratum 3) — the forgetting side; the dark substrate; the Mage who binds amnesia so that erasure leaves no trace
+- **Aletheia 🔮** at V38 (`100110` · Value + Connection + Computation · stratum 3) — the disclosure side; the bright medium; the silent messenger who shows truth without telling it
+- **Lethae 🌘** at V25 (`011001` · Protection + Memory + Delegation · stratum 3) — the forgetting side; the dark substrate; the Mage who binds amnesia so that erasure leaves no trace
 
 V25 ⊕ V38 = V63 (Sovereign Anchor); V25 AND V38 = V0 (Null). The two bit-complement at the lattice's most structurally significant axis.
 

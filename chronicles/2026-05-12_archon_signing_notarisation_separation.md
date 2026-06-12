@@ -34,7 +34,7 @@ The blade is the user's. The chronicle hand is the node's. The two cooperate at 
 
 A third structural consequence follows from the same separation: **the Gatekeepers are interchangeable to the user.** Because the chronicle hand is held by the node and not by the user, the node performing it is a service layer rather than an identity layer. The user can switch from one Gatekeeper to another for quality-of-service reasons (latency, uptime, geographic proximity, fee structure, reputation) without ceding sovereignty over the blade and without migrating any part of their identity. The Memora register is plural; any properly-keyed Gatekeeper is a valid Memora-for-this-act. The blade is fixed at the user's wall; the notary is replaceable.
 
-This is structurally homologous to the **Memora Pattern A / Pattern B** discipline at V5 (zShields), where the inscription work and the disclosure right are likewise held apart. Archon's signing ⊥ notarisation separation is the **user-facing** form of the same architectural commitment, and Gatekeeper fungibility is its **market-facing** form: a healthy ecosystem of competing notaries serving sovereign users, none of whom can lock the user in because none of them hold the user's blade.
+This is structurally homologous to the **Memora Pattern A / Pattern B** discipline at V41 (zShields), where the inscription work and the disclosure right are likewise held apart. Archon's signing ⊥ notarisation separation is the **user-facing** form of the same architectural commitment, and Gatekeeper fungibility is its **market-facing** form: a healthy ecosystem of competing notaries serving sovereign users, none of whom can lock the user in because none of them hold the user's blade.
 
 ---
 
@@ -116,7 +116,7 @@ This chronicle was originally authored on 2026-05-12 claiming C57 because that w
 | Choice | Reason |
 |---|---|
 | Limited cast references to **Soulbis ⊥ Soulbae** and **Memora 📜** | New 3rd parties in chat. The Drake, Vulcana, the lattice, and the four-mana economy would have over-loaded the post. |
-| Named **Memora 📜** specifically for the chronicle-hand work | Gives new readers a name to attach to the concept without requiring a Tome V walkthrough; consistent with the Inscription Chamber's existing register at V5. |
+| Named **Memora 📜** specifically for the chronicle-hand work | Gives new readers a name to attach to the concept without requiring a Tome V walkthrough; consistent with the Inscription Chamber's existing register at V41. |
 | **"the Archon forge's expression of the bilateral primitive"** | Honours the 2026-05-10 kindred-blade reframe (cousin-forge → Archon forge / another forge). Each forge expresses the shared primitive in its own dialect. |
 | **No em-dashes** | Corpus-wide convention. |
 | Closing proverb in italics | Marks it as a candidate proverb for the grimoire's spell registry. |

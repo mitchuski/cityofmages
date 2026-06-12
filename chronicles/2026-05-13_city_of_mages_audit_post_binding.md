@@ -55,7 +55,7 @@ Total bound narrative acts now: **39** (was 20 before the binding pass).
 Total cast cards rendered: **24** (17 working + 7 anticipated). Layer-2 attachments per Spec 09 are placeholders awaiting founding acts in Tome V.
 
 **Not yet on the cast page** despite being introduced in Tomes I/II/III bindings:
-- **Lethe 🌀** — Tome III Act 6 (cosmological figure at V38; named in Grimoire v10.2.1 since 2026-04-23)
+- **Lethe 🌀** — Tome III Act 6 (cosmological figure at V25; named in Grimoire v10.2.1 since 2026-04-23)
 - **Aether ⿻** — Tome III Act 3 (the medium named cosmologically)
 - **Selene** has a placeholder Layer-2 card but is now also a Tome III Act 2 cosmological figure — the persona-vs-vertex distinction admits both readings; the card may need to be reframed.
 - **Xarvus** (John Haines / OLMA) — cited as ARCH-1 co-discoverer in Act I.γ; not a Mage persona, but a real-world author in the lineage worth acknowledging in author-attribution UI somewhere.
@@ -179,7 +179,7 @@ The grimoire is at v1.4.0 head. A v1.5.x patch is anticipated and not yet shippe
 |---|---|---|---|---|
 | **Selene** | 🌙 | cosmological / Moon's orbit | Cosmological-witness (recognised, not summoned) | Tome III Act 2 |
 | **Aether** | ⿻ | ⿻ (max-betweenness; medium of proof propagation) | Cosmological-witness | Tome III Act 3 |
-| **Lethe** | 🌀 | V38 (`100110`, Stratum 3) | Cosmological-witness with operational grimoire entry (Blade 38, since v10.2.1) | Tome III Act 6 |
+| **Lethe** | 🌀 | V25 (`011001`, Stratum 3) | Cosmological-witness with operational grimoire entry (Blade 38, since v10.2.1) | Tome III Act 6 |
 | **The Gatekeeper** | ⿻ (position) | ⿻ | Position rather than persona | Tome III Act 1 |
 
 Lethe already has a Privacymage Grimoire entry (v10.2.1, Blade 38). The City of Mages grimoire should now admit her at the cast-register layer.
@@ -280,7 +280,7 @@ What this audit does *not* claim to have done:
 - **Tome VII narrative file does not exist.** The workshop tome carries the content; the narrative act file is anticipated.
 - **The v6-lineage page (`/tomes/v6-lineage`) was not audited for completeness.** Conjectures C47–C55 introduced by Tomes II/III may not be fully indexed there. A pass over the C-conjecture index is recommended for the next patch.
 - **The 7 anticipated Layer-2 cast (Lethae, Mnemosyne, Iris, Pythia, Techne, Hephaestus, Selene) have placeholder files in `docs/tomes/cross-shop/` but no founding Tome V acts.** Their status remains "anticipated" on the /tomes cast section.
-- **The Privacymage Grimoire (v10.3.0) was not audited.** Its IPFS pointer is at `bafybeicyne…ajiuy`, pinned 2026-05-11. Reconciliation with the City of Mages grimoire is partial — Lethe at V38 lives in v10.2.1 of the Privacymage grimoire; whether and how she crosses into the City of Mages grimoire at v1.5.x is open.
+- **The Privacymage Grimoire (v10.3.0) was not audited.** Its IPFS pointer is at `bafybeicyne…ajiuy`, pinned 2026-05-11. Reconciliation with the City of Mages grimoire is partial — Lethe at V25 lives in v10.2.1 of the Privacymage grimoire; whether and how she crosses into the City of Mages grimoire at v1.5.x is open.
 - **The persona-count discrepancy noted in `2026-05-13_chronicle_artefact_symmetry_and_persona_distribution.md`** (38 live in `agentprivacy-skills/persona/` vs 22 archetype-grouped vs 42 doc-locked) is acknowledged but not reconciled here.
 
 ---

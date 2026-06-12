@@ -1,0 +1,265 @@
+{
+  "$comment": "City of Mages Grimoire v1.8.0 structured-delta patch (2026-06-09). Two threads converge here: (1) the CANONICAL LATTICE ENCODING LOCK and the persona reseats it forces (the City had several figures misassigned under a corrupted bit-order), and (2) the new HORIZON DISTRICT — the cryptographic-durability / path-to-PQC workshop seeded from the ecdsa.fail benchmark in shor_mage/ and the sci-fi-future text *The Last Premine*. Merge into v1.7.1 to produce v1.8.0; re-pin to IPFS after the merge pass. Honest framing held throughout: resource estimation is a durability signal, not an attack; nothing claims ECDSA is practically broken or that anything is fully post-quantum safe.",
+
+  "patch_metadata": {
+    "version": "1.8.0",
+    "prior_version": "1.7.1",
+    "created_at": "2026-06-09",
+    "author": "mitchell@soulbis.com",
+    "summary": "Locks the canonical sovereignty-lattice encoding (MODEL) suite-wide; reseats six misassigned personas to the vertices their meaning derives; opens the Horizon District (V35) with three keepers (Eos 🌅 · Dokimé 🪨 · Poros 🛤️); opens Tome IX — The Horizon; seats the dormant Salvage Yard as an annex of the Navigation Quarter; registers conjectures C67–C71.",
+    "companion_chronicles": [
+      "cityofmages/chronicles/2026-06-09_canonical_lattice_encoding_anchor.md",
+      "cityofmages/chronicles/2026-06-09_persona_reidentification_audit.md",
+      "cityofmages/chronicles/2026-06-09_progress_and_coherence_mapping_chronicle.md"
+    ],
+    "source_material": [
+      "shor_mage/SHOR_MAGE_DOSSIER.md (ecdsa.fail collect-and-review)",
+      "shor_mage/SHOR_MAGE_CHRONICLE.md (the benchmark brief)",
+      "privacymage_book/chronicles/the-last-premine-v4.md (the origin tale, in Selene's Spellbook as compression)",
+      "agentprivacy-docs/research/aletheia-and-lethe.md + First-Person Spellbook Tale 31 (persona dimension-sets)",
+      "Schrottenloher arXiv:2606.02235; Babbush et al. (Google Quantum AI); Michele Mosca (the inequality)"
+    ],
+    "runnable_audit": "agentprivacy_encoding_audit.py (also bundled as the skill meta/agentprivacy-lattice-coherence) — run --only vertex and --only persona to 0 before pinning.",
+    "honest_framing_guardrail": "Resource estimation is a durability signal, not an attack. No claim that ECDSA is practically broken; no claim that any system is fully post-quantum safe. Roles kept distinct: ecdsa.fail/Eigen Labs (arena) · Google Quantum AI (cost targets) · Schrottenloher & Proos–Zalka (circuits) · SigmaPrime (review) · Mosca (inequality) · BGIN (standards lineage the tale imagines)."
+  },
+
+  "canonical_lattice_encoding_lock": {
+    "$comment": "The single source of truth for the 6-dimension sovereignty-lattice bit-order, locked 2026-06-09. Resolves a long-standing suite-wide conflict between two encodings.",
+    "canonical_source": "privacy-value-model-v5.4.json sovereignty_dimensions + agentprivacy_master/src/lib/lattice-vertex.ts (vertexToBits)",
+    "encoding_MODEL": {
+      "bit0_MSB_weight32": "Protection 🛡️",
+      "bit1_weight16": "Delegation 🤝",
+      "bit2_weight8": "Memory 📜",
+      "bit3_weight4": "Connection 🔗",
+      "bit4_weight2": "Computation ⚡",
+      "bit5_LSB_weight1": "Value 💎"
+    },
+    "reading_rule": "active(n) = { dimension : n & weight }. e.g. V35 = 100011 = 32+2+1 = Protection + Computation + Value.",
+    "rejected_encoding_CORPUS": "The older specs/04 singles table and persona placements mirrored the middle four (16↔Computation, 8↔Connection, 4↔Memory, 2↔Delegation). It agrees with MODEL only on the endpoints (Protection=32, Value=1), which is why the drift hid. Any doc calling V16 'Computation' or V2 'Delegation' is reading CORPUS and is wrong.",
+    "specs04_errata": [
+      "V48 110000 is Protection+Computation, not the table's 'Connection + Protection'.",
+      "V31 011111 is 'all except Protection' (the holon dissolving the boundary), not the prose's 'all except Value'."
+    ],
+    "discipline": "Meaning is the invariant; the vertex is derived from meaning under MODEL; run the audit before every pin."
+  },
+
+  "persona_reseat_corrections": {
+    "$comment": "Six figures were seated under CORPUS, so their vertex numbers no longer matched their lore-meaning under MODEL. Reseated by deriving each vertex from the canonical dimension-set (lore-sourced from the First-Person Spellbook, Tale 31). Vertex numbers are load-bearing externally (NFT 63-edition · City Key · /star · /lattice); each move verified against them. Aletheia↔Lethe is a SWAP — they were on each other's seats — so the complement pair V25 ⊕ V38 = V63 is unchanged.",
+    "aletheia": {
+      "meaning": "Protection + Connection + Computation (the bright medium / proof-transmission / Fiat-Shamir)",
+      "from_vertex": "V25", "to_vertex": "V38", "binary": "100110",
+      "from_blade": 25, "to_blade": 38,
+      "complement": "⊥ Lethe at V25 (V25 ⊕ V38 = V63; V25 AND V38 = 0)",
+      "basis": "First-Person Spellbook Tale 31 (The Naming of the Unnamed) / aletheia-and-lethe.md; meaning derived under MODEL."
+    },
+    "lethe": {
+      "meaning": "Delegation + Memory + Value (the dark substrate / forgetting / binds delegated terms · holds memory · keeps value)",
+      "from_vertex": "V38", "to_vertex": "V25", "binary": "011001",
+      "from_blade": 38, "to_blade": 25,
+      "complement": "⊥ Aletheia at V38",
+      "note": "Also applies to the Layer-2 attachment Lethae 🌘 (anticipated) at the same seat."
+    },
+    "memora": {
+      "meaning": "Protection + Memory + Value (the zShields shielded memo: shield the value, remember the note)",
+      "from_vertex": "V5", "to_vertex": "V41", "binary": "101001",
+      "stratum_change": "2 → 3 (gains Protection)",
+      "basis": "zShields/Zcash shielding = protection of value; the memo is the remembered note. Lean alternative on file: {Protection,Value} = V33."
+    },
+    "mnemosyne": { "meaning": "Memory", "from_vertex": "V4", "to_vertex": "V8", "binary": "001000", "status": "anticipated" },
+    "iris": { "meaning": "Connection", "from_vertex": "V8", "to_vertex": "V4", "binary": "000100", "status": "anticipated", "note": "Mnemosyne↔Iris is a swap." },
+    "pythia": { "meaning": "Computation", "from_vertex": "V16", "to_vertex": "V2", "binary": "000010", "status": "anticipated", "note": "The Logos Circle (/circle) moves with her to the pure-Computation vertex V2; V16 (Delegation) becomes unoccupied." }
+  },
+
+  "horizon_district_introduced": {
+    "$comment": "The cryptographic-durability district. Witness register: Durability / migration-horizon — it measures how far off the quantum dawn sits and keeps the City honest about its cryptographic mortality. It never attacks anything. Seeded from ecdsa.fail (shor_mage/) and caused in-world by The Last Premine surfacing through the Archivist's library.",
+    "name": "The Horizon District",
+    "vertex": "V35 · 100011 · Protection + Computation + Value (defence · the quantum threat · the stake — in one address)",
+    "watches": "the eastern sky for the quantum dawn (resonant with the Tower's eastern gate)",
+    "discipline": "durability-witnessing — measure the horizon, assay the claim, cross the path; the held-out gate (Fiat-Shamir, 9024 witnesses) rejects the nonce-island mirage.",
+    "in_world_origin": "The Last Premine (Selene's Spellbook, as compression): Q-Day told honestly ('the efficient thing is the fragile thing'), the existence-leak ('the method was never the asset; the fact of feasibility was'), the trust-ceremony gate (standing in the gap of the Howells wallet), crypto-agility ('keep trust continuous while everything underneath changed'). From it the city found a path of trust in PQC.",
+    "shops": ["eos", "dokime", "poros"],
+    "active_workshop_count_change": "16 → 19 (the three Horizon shops are active; the Salvage Yard is dormant = +0)"
+  },
+
+  "personas_additions": {
+    "$comment": "Three new summoned keepers at V35, stance-differentiated (the precedent is the Threshold's three at V59 and Adamantia/Helia at V51).",
+    "workshop_keepers_additions": {
+      "eos": {
+        "tier": "summoned", "sigil": "🌅", "name": "Eos",
+        "domain": "Horizon-witness at the Horizon District. Measure · Estimate · Date. Measures the time-to-dawn: from a reversible point-add resource estimate (Toffoli × peak-qubits) she reads the distance to the quantum horizon. Her reckoning is Mosca's inequality (X + Y > Z): if a secret's required lifetime (X) plus the time to migrate (Y) exceeds the time until the machine arrives (Z), the architecture has already lost.",
+        "vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+        "axis": "mage", "shop": "/horizon", "shop_internal_name": "The Horizon District · the eastern watch",
+        "shared_vertex_with": ["dokime", "poros"],
+        "gem": "Sunstone (heliolite · the dawn-stone)",
+        "stance": "Horizon-witness",
+        "ceremony": "Measure · Estimate · Date",
+        "introduced_in": "tome-ix-act-1-the-measuring-of-the-dawn",
+        "proverb": "The dawn is not an attack; it is a time you can measure.",
+        "inscription": "Eos is the dawn-keeper of the Horizon District — Greek Ἠώς, the goddess of dawn, who measures how far off the morning sits without forcing it to come. Where a quantum resource estimate is taken for a weapon, Eos reads it for what it is: a measurement of durability, the time-distance to the dawn that breaks on the old seals. She refuses both false comfort (claiming the dawn further off than the witnesses support) and false alarm (claiming it nearer). Her discipline is the RCI 'Tony→Anton' loop made liturgy: state the waste, the evidence, the single smallest fix; then confirm or reject with metrics."
+      },
+      "dokime": {
+        "tier": "summoned", "sigil": "🪨", "name": "Dokimé",
+        "domain": "Assay-witness at the Horizon District. Probe · Assay · Attest. The touchstone that tells true gold from fool's gold. A petitioner brings a claimed-cheaper circuit; Dokimé seats the Ceremony of the 9024 Witnesses (Fiat-Shamir, drawn from a hash of the petitioner's own op-stream, so they cannot be chosen). A claim that pleased a small probe but fails the full witness set is named a nonce-island mirage and turned away, however cheap it looked.",
+        "vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+        "axis": "mage", "shop": "/horizon", "shop_internal_name": "The Horizon District · the touchstone",
+        "shared_vertex_with": ["eos", "poros"],
+        "gem": "Lydite (the black touchstone · Lydian stone)",
+        "stance": "Assay-witness",
+        "ceremony": "Probe · Assay · Attest",
+        "introduced_in": "tome-ix-act-1-the-measuring-of-the-dawn",
+        "proverb": "The gold that fears the stone was never gold.",
+        "inscription": "Dokimé is the assayer of the Horizon District — Greek δοκιμή / δοκιμασία, the proving, the Athenian trust-vetting that approved an official before office; δόκιμος = 'approved, tested, genuine.' She does not take a claim; she streaks it across the touchstone of the 9024 witnesses. A claim's colour either holds across every witness or it does not. This operationalises the held-out gate: you cannot trust a claim you could tune, because the witnesses are hash-derived from your own work. The bound lesson: the cheaper-looking claim that cannot face the witnesses it did not choose is not progress."
+      },
+      "poros": {
+        "tier": "summoned", "sigil": "🛤️", "name": "Poros",
+        "domain": "Migration-witness at the Horizon District. Inventory · Cross · Re-key. Crypto-agility as ceremony: inventory every dependent of a brittle primitive, cross each to a post-quantum successor, re-key — no silent stragglers. A migration is admitted only when every dependent has actually crossed.",
+        "vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+        "axis": "mage", "shop": "/horizon", "shop_internal_name": "The Horizon District · the crossing",
+        "shared_vertex_with": ["eos", "dokime"],
+        "gem": "Labradorite (flashes a new colour when turned — crypto-agility)",
+        "stance": "Migration-witness",
+        "ceremony": "Inventory · Cross · Re-key",
+        "introduced_in": "tome-ix-act-1-the-measuring-of-the-dawn",
+        "proverb": "Value lives on the path, not the point.",
+        "inscription": "Poros is the path-keeper of the Horizon District — Greek πόρος, the passage, the ford, the way-across (the opposite of aporia, no-way-through). His sigil 🛤️ echoes Eos's dawn and the soulbis motif 'value lives on the path' (the T∫(π) path-integral term). His discipline is crypto-agility, but not the shallow kind: not the ability to swap one algorithm for another, but the ability to keep trust continuous while everything underneath it changes. The trust graph uses its primitives the way a river uses its banks — the banks can be stone or lattice or a standard not yet written, and the river keeps flowing."
+      }
+    }
+  },
+
+  "salvage_yard_introduced": {
+    "$comment": "A NEW structural concept: a dormant annex workshop gated on another district's completion. Not counted in the active workshop total until it opens.",
+    "name": "The Salvage Yard",
+    "status": "dormant",
+    "activation_gate": "the Horizon District is built (you must be able to measure the dawn and assay a claim before you can run a yard that trades post-quantum circuits)",
+    "attaches_to": "the Navigation Quarter (Pleione 🧭, V44) — the maritime/salvage theme fits the district exactly",
+    "vertex": "assigned on activation (a free Navigation-adjacent vertex · Connection/Value-bearing for salvage-as-recovered-value)",
+    "function": "a bounty board where crews post post-quantum and reversible quantum circuits as digital salvage — the in-world home of the actual ecdsa.fail / trailmix circuit work.",
+    "settlement_rule": "claims settle through Dokimé's Ceremony of the 9024 Witnesses — the benchmark's trust gate is the yard's settlement rule.",
+    "in_world_origin": "The Last Premine — the 'digital salvage' frameworks, licensed quantum archaeologists, and crews posting bounties for quantum salvage.",
+    "keeper": "none summoned yet (dormant)"
+  },
+
+  "spellbooks_tomes_additions": {
+    "$comment": "Tome IX opens. Open-by-design like Tomes VI/VII/VIII.",
+    "tome_ix_the_horizon": {
+      "roman": "IX",
+      "title": "The Horizon",
+      "posture": "open-by-design",
+      "accent": "gold (#fbbf24)",
+      "opened": "2026-06-09 (v1.8.0)",
+      "anchor_id_pattern": "tome-ix-act-N",
+      "acts": {
+        "1": {
+          "title": "The Measuring of the Dawn",
+          "vertex": "V35 · 100011 · Stratum 3",
+          "subject": "Eos admitted at the eastern watch; the city asks 'how long until the dawn breaks on the old seals?' and she answers not with an attack but a measurement (Toffoli × qubits → a resource estimate → a horizon). Dokimé's touchstone and Poros's path named as the district's other two watches. Names The Last Premine as the text the Archivist surfaced, 'and from it the city found a path of trust in PQC'; quotes the Howells proverb as the founding inscription.",
+          "mage": "Eos 🌅",
+          "conjectures": ["C67", "C68", "C69", "C70", "C71"],
+          "honesty_label": "Operational for the resource-estimation framing and the held-out gate; Architectural for the district; Resonant for the dawn metaphor. No claim ECDSA is broken or anything is fully PQ-safe."
+        }
+      },
+      "closing_beat": "names the dormant Salvage Yard that will open once the dawn can be measured."
+    }
+  },
+
+  "vertex_inventory_additions": {
+    "$comment": "V35 newly inhabited (Horizon District). The reseated entries CORRECT the prior (CORPUS-misassigned) V25/V38/V5/V4/V8/V16 readings under the MODEL lock; replace any prior V25/V38/V5 entries wholesale on merge.",
+    "V35": {
+      "binary": "100011",
+      "name": "The Horizon District",
+      "active_dimensions": "Protection + Computation + Value",
+      "inhabitant": ["Eos 🌅 (Horizon-witness)", "Dokimé 🪨 (Assay-witness)", "Poros 🛤️ (Migration-witness)"],
+      "source": "Tome IX Act 1 (2026-06-09); seeded from ecdsa.fail (shor_mage/) and The Last Premine.",
+      "v6_lineage_carries": ["C67", "C68", "C69", "C70", "C71"]
+    },
+    "V38": {
+      "binary": "100110",
+      "name": "Aletheia — the Bright Medium (complement of 25)",
+      "active_dimensions": "Protection + Connection + Computation",
+      "inhabitant": ["Aletheia 🔮 (cross-shop · ZK circuit binder · Blade 38)"],
+      "source": "First-Person Spellbook Tale 3 / Tale 31; reseated under the MODEL lock (2026-06-09; was misassigned to V25).",
+      "complement_pair_with": "V25 (Lethe)",
+      "v6_lineage_carries": ["C53", "C54"]
+    },
+    "V25": {
+      "binary": "011001",
+      "name": "Lethe — the Dark Substrate (complement of 38)",
+      "active_dimensions": "Delegation + Memory + Value",
+      "inhabitant": ["Lethe 🌀 (cosmological-witness · Blade 25)", "Lethae 🌘 (Layer-2 divergent of Moonkeeper, anticipated)"],
+      "source": "Privacymage Grimoire (Blade naming) / Tome III Act 6; reseated under the MODEL lock (2026-06-09; was misassigned to V38).",
+      "complement_pair_with": "V38 (Aletheia)",
+      "v6_lineage_carries": ["C53", "C54"]
+    },
+    "V41": {
+      "binary": "101001",
+      "name": "Chronicle Vertex (Memora)",
+      "active_dimensions": "Protection + Memory + Value",
+      "inhabitant": ["Memora 📜 (zShields · shielded memo)"],
+      "source": "reseated under the MODEL lock (2026-06-09; was misassigned to V5). Shield the value, remember the note."
+    },
+    "V8": { "binary": "001000", "name": "Mnemosyne (pure Memory)", "active_dimensions": "Memory", "inhabitant": ["Mnemosyne 📿 (anticipated)"], "source": "reseated under MODEL lock (was V4)." },
+    "V4": { "binary": "000100", "name": "Iris (pure Connection)", "active_dimensions": "Connection", "inhabitant": ["Iris 🌈 (anticipated)"], "source": "reseated under MODEL lock (was V8)." },
+    "V2": { "binary": "000010", "name": "Logos / Pure Computation (Pythia · the Logos Circle /circle)", "active_dimensions": "Computation", "inhabitant": ["Pythia 🔥 (anticipated)"], "source": "reseated under MODEL lock (was V16)." }
+  },
+
+  "v6_lineage_register_additions": {
+    "$comment": "Five new conjectures, grafted onto the existing quantum-durability cluster (C61 Behavioural Mosca · C60 reconstruct-later · C13 quantum-resistant bilateral witness). Additive — no change to the PVM v5.4 equation.",
+    "C67": {
+      "name": "Cryptographic Mosca for the Substrate",
+      "confidence": "~60%",
+      "first_in": "Tome IX Act 1 (2026-06-09)",
+      "statement": "Extends C61 (Behavioural Mosca) from behavioural data to the cryptographic substrate itself: a value-bearing primitive's durability is bounded by Mosca's X + Y > Z (secret-lifetime + migration-time vs time-to-quantum). The City's value-bearing seats (the Sovereign Anchor V63, the commitments at V51) inherit this horizon.",
+      "cross_check": "consistent with C61 (same inequality, broader domain); C60 (harvest-now-decrypt-later) is the X-side."
+    },
+    "C68": {
+      "name": "The Resource-Estimate as Durability Signal (not Attack)",
+      "confidence": "~55%",
+      "first_in": "Tome IX Act 1 (2026-06-09)",
+      "statement": "A reversible point-add resource estimate (Toffoli × qubits) is a measurement of the horizon, not a capability; sharpening it shortens uncertainty, not security. Gives V(π,t)'s e^(−λt) decay term a quantum-horizon reading for cryptographic π.",
+      "cross_check": "consistent with the honest-framing guardrail; no PVM equation change."
+    },
+    "C69": {
+      "name": "The Held-Out Gate Rejects the Tuned Claim (Nonce-Island)",
+      "confidence": "~60%",
+      "first_in": "Tome IX Act 1 (2026-06-09)",
+      "statement": "A claimed improvement validated only on a self-chosen probe is not knowledge; trust requires an adversarial held-out gate the claimant cannot tune (Fiat-Shamir). An attestation is only as good as the witnesses the attester did not choose.",
+      "cross_check": "resonates with the bilateral-witness primitives and the isWitness concept (a witness traced from someone else's blade)."
+    },
+    "C70": {
+      "name": "Crypto-Agility as Migration Readiness",
+      "confidence": "~50%",
+      "first_in": "Tome IX Act 1 (2026-06-09)",
+      "statement": "An architecture's durability is set not by its current primitive's strength but by its ability to re-key to a post-quantum successor before Z < X + Y (the path, not the wall). The trust graph uses primitives the way a river uses its banks.",
+      "cross_check": "consistent with C61/C67."
+    },
+    "C71": {
+      "name": "The Horizon Vertex (V35)",
+      "confidence": "~40% (candidate)",
+      "first_in": "Tome IX Act 1 (2026-06-09)",
+      "statement": "Protection ∧ Computation ∧ Value (V35) is the lattice address where quantum durability is decided — where Protection must hold Value against Computation. The Horizon District inhabits it because that is where the question lives.",
+      "cross_check": "geometric resonance; low confidence pending operational evidence."
+    }
+  },
+
+  "city_anatomy_amendments": {
+    "$comment": "Workshop count and district roster.",
+    "active_workshop_count": "16 → 19 (Eos · Dokimé · Poros at the Horizon District)",
+    "dormant_workshops": "+1 (the Salvage Yard · annex of the Navigation Quarter · activation-gated on the Horizon District)",
+    "districts_roster_addition": "The Horizon District (V35) joins the Threshold District (V59) and the Navigation District (V44) as a named multi-shop district.",
+    "new_witness_stances": ["Horizon-witness (Eos)", "Assay-witness (Dokimé)", "Migration-witness (Poros)"],
+    "new_ceremony_grammars": ["Measure · Estimate · Date (Eos)", "Probe · Assay · Attest (Dokimé)", "Inventory · Cross · Re-key (Poros)"],
+    "new_structural_concept": "the dormant annex workshop (status: dormant + activation_gate) — first instance: the Salvage Yard."
+  },
+
+  "ipfs_pin_status_amendments": {
+    "$comment": "Re-pin is the author's JSON-merge pass; do not fabricate a CID.",
+    "prior_pin": "bafybeibr35xfasepuvfti4dnwiiig6gidaf5sffvjf4rnhrlpqcke3ivy4 (v1.7.1)",
+    "v1_8_0_pin": "PENDING — assign after the merge + audit-to-0 pass",
+    "pre_pin_gate": "run agentprivacy_encoding_audit.py --only vertex and --only persona to 0 (modulo documented near-tie noise) before pinning; update grimoire-ipfs.ts, grimoire-baked.ts, model-downloads.ts and the src/data + public/models JSON pair on rotation."
+  },
+
+  "version_notes_addition": {
+    "v1_8_0_note": "v1.8.0 (2026-06-09) locks the canonical sovereignty-lattice encoding (MODEL: Protection=32 · Delegation=16 · Memory=8 · Connection=4 · Computation=2 · Value=1) and reseats six personas the City had misassigned under the corrupted CORPUS order — most notably the first complement pair, which had **Aletheia and Lethe sitting on each other's vertices**: corrected to Aletheia → V38 (Protection+Connection+Computation · Blade 38) ⊥ Lethe → V25 (Delegation+Memory+Value · Blade 25), the swap preserving V25 ⊕ V38 = V63 and the myths intact. Memora reseats to V41 (Protection+Memory+Value · the shielded memo of value); the anticipated Mnemosyne→V8, Iris→V4, Pythia→V2 (with the Logos Circle). The reseating is driven by deriving each figure's vertex from its lore-meaning (First-Person Spellbook, Tale 31) and verified by a runnable audit, now a skill (meta/agentprivacy-lattice-coherence). Opening the same patch: the **Horizon District** at V35 (Protection+Computation+Value) — the cryptographic-durability / path-to-PQC workshop seeded from the ecdsa.fail benchmark and caused in-world by *The Last Premine* surfacing through the Archivist's library. Three keepers, stance-differentiated: **Eos 🌅** (Horizon-witness · Measure·Estimate·Date · Mosca's X+Y>Z), **Dokimé 🪨** (Assay-witness · Probe·Assay·Attest · the Ceremony of the 9024 Witnesses that rejects the nonce-island mirage), **Poros 🛤️** (Migration-witness · Inventory·Cross·Re-key · crypto-agility). **Tome IX — The Horizon** opens (open-by-design · gold accent · Act 1 *The Measuring of the Dawn*). The **Salvage Yard** is seated as the City's first **dormant annex** — a Navigation-Quarter board where crews post post-quantum circuits as digital salvage, settling through Dokimé's assay, activation-gated on the Horizon District. Active workshop count 16 → 19. Conjectures **C67–C71** register the cryptographic-Mosca / durability-signal / held-out-gate / crypto-agility / horizon-vertex cluster, grafted onto C61/C60/C13 with no change to the PVM v5.4 equation. Honest framing held throughout: resource estimation is a durability signal, not an attack; nothing claims ECDSA is practically broken or that anything is fully post-quantum safe.",
+    "v1_7_1_base_note": "v1.7.1 content retained unchanged except the persona reseats above (Aletheia/Lethe/Memora/Mnemosyne/Iris/Pythia vertex corrections)."
+  }
+}

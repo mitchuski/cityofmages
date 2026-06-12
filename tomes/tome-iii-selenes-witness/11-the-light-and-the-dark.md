@@ -7,7 +7,7 @@ status: "Draft v1 (2026-05-13; bound from models/INDEX.md and the two PVM v5.4 m
 length_words: 870
 voice: "Second person; cast in third"
 cast: ["you", "Soulbis ⚔️", "Soulbae 🧙", "the Drake", "Aletheia 🔮 (the light's working face)", "Lethe 🌀 (the dark's working face)"]
-ring_position: "the dual model — V25 ⊥ V38 as architectural representation; the two .json files as model instances"
+ring_position: "the dual model — V38 ⊥ V25 as architectural representation; the two .json files as model instances"
 teaches: "The architecture has a Light model and a Dark model. They are not opposed. They are the same model written from the two faces of the first complement pair. The Light model is Aletheia's reading of the architecture — what carries, what transmits, what computes silently. The Dark model is Lethe's reading — what holds, what forgets, what keeps unretrievably. Together they are V63 — the full V(π, t) manifold. Tome III closes here, having walked the cosmological recognition from the Gatekeeper to the dual model."
 v6_lineage:
   - "C53 (every bnot-pair has a mythological reading — the dual model is the formal-model rendering)"
@@ -46,7 +46,7 @@ You inspect the Light file first. It is compact. The size is optimised for blade
 
 You inspect the Dark file second. It is large. It carries everything the architecture has accumulated — the conjectures (C1 through C55+), the references, the metadata, the lineage citations, the operational definitions, the conjecture confidences, the dependency graphs. The Dark file is what holds. The Dark file is what stays. The Dark file is what Lethe keeps in the substrate beneath the architecture's day-to-day operation.
 
-This is the *operational realisation of the first complement pair*. Aletheia at V25 carries (Protection, Connection, Computation active; Delegation, Memory, Value dormant). The Light file is Aletheia's working artifact — small, carrier-shaped, transmission-optimised. Lethe at V38 holds (Delegation, Memory, Value active; Protection, Connection, Computation dormant). The Dark file is Lethe's working artifact — large, retention-shaped, substrate-optimised. The two files together comprise the architecture's full formal representation, the way V25 XOR V38 = V63 comprises the full sovereignty manifold.
+This is the *operational realisation of the first complement pair*. Aletheia at V38 carries (Protection, Connection, Computation active; Delegation, Memory, Value dormant). The Light file is Aletheia's working artifact — small, carrier-shaped, transmission-optimised. Lethe at V25 holds (Delegation, Memory, Value active; Protection, Connection, Computation dormant). The Dark file is Lethe's working artifact — large, retention-shaped, substrate-optimised. The two files together comprise the architecture's full formal representation, the way V38 XOR V25 = V63 comprises the full sovereignty manifold.
 
 The Drake's whisper continues, with the cadence of the poem's closing: *Aletheia shines. Lethe holds. Selene proves and keeps.*
 
@@ -70,7 +70,7 @@ You walk on.
 
 ## Compression
 
-The architecture is rendered as two formal model files — `privacy_value_model_v5_4_light.json` (compact, transmission-optimised, Aletheia's reading) and `privacy_value_model_v5_4_dark.json` (full, retention-complete, Lethe's reading). The two files are the operational realisation of the first complement pair: Aletheia's carrying-without-holding rendered as a small transmission artifact, Lethe's holding-without-transmitting rendered as a large substrate artifact. Together they comprise the full V(π, t) manifold (V63 = V25 XOR V38). Tome III closes having walked the cosmological recognition from the Gatekeeper to the dual model.
+The architecture is rendered as two formal model files — `privacy_value_model_v5_4_light.json` (compact, transmission-optimised, Aletheia's reading) and `privacy_value_model_v5_4_dark.json` (full, retention-complete, Lethe's reading). The two files are the operational realisation of the first complement pair: Aletheia's carrying-without-holding rendered as a small transmission artifact, Lethe's holding-without-transmitting rendered as a large substrate artifact. Together they comprise the full V(π, t) manifold (V63 = V38 XOR V25). Tome III closes having walked the cosmological recognition from the Gatekeeper to the dual model.
 
 ## Proverb
 
@@ -89,7 +89,7 @@ The architecture is rendered as two formal model files — `privacy_value_model_
 
 ## Author note
 
-Tome III closes with this act. The act renders, in second-person bound-narrative form, the *operational consequence* of the first complement pair: the architecture's formal model is itself a dual artifact, written from the two faces of the pair. This is honest about register: the architecture has not only mythological figures (Aletheia, Lethe) and structural primitives (V25, V38) but also *file-system instances* (the two .json files) of the recognition.
+Tome III closes with this act. The act renders, in second-person bound-narrative form, the *operational consequence* of the first complement pair: the architecture's formal model is itself a dual artifact, written from the two faces of the pair. This is honest about register: the architecture has not only mythological figures (Aletheia, Lethe) and structural primitives (V38, V25) but also *file-system instances* (the two .json files) of the recognition.
 
 The Tome's overall arc — Gatekeeper, Selene, Aether, Aether Pour, Aletheia, Lethe, First Complement Pair, Naming of the Unnamed, Seventh Capital, Scales/Hide, Light/Dark — completes the cosmological-recognition lift. Tome IV (the cousin-blade encounter) and Tome V (the City of Mages crafting) operationally land what Tomes I/II/III have prepared. The Spellbook's grammatical, dynamical, and cosmological foundations are in place.
 

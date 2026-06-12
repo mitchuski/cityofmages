@@ -21,7 +21,7 @@ export const DIMENSION_LABELS = [
 export type DimensionIndex = 0 | 1 | 2 | 3 | 4 | 5;
 
 /**
- * Parse a vertex string like "V28", "V25 (Aletheia)", "V25 · V63 (anchor)".
+ * Parse a vertex string like "V28", "V38 (Aletheia)", "V38 · V63 (anchor)".
  * Returns the first valid vertex number it finds, or null.
  */
 export function parseVertex(raw: string | undefined): number | null {
