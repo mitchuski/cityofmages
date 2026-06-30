@@ -1,0 +1,281 @@
+{
+  "$comment": "STRUCTURED DELTA PATCH from v1.8.0 (canonical IPFS pin · bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei) → v1.8.1. v1.8.1 is an ADDITIVE patch (no supersessions; no retirements). It admits the City's SECOND SPIRIT-MAGE — the Librarian 🗃️ — as the Layer-2 attachment of the Chronicler (Mage wing · the circulation register of the same primary who writes · sister-cast to Memora 📜). It opens a NEW LEVEL WITHIN THE TOWER — the Wikis — the living, editable, federated circuit of the spiral, complement to the Archivist's sealed reading room (an elaboration of the eighth spatial-anatomy element, NOT a ninth element). It binds Tome VIII Act 6 *The Wikis and the Librarian*. The Librarian's discipline is the forking-discipline: hold the catalogue open, fork by reference, own nothing at the source. Operationally the Wikis are the wikis/ category of agentprivacy-skills (the git-less onboarding/distribution layer) and the fedwiki-to-skill fork desk that materializes a SKILL.md from a federated wiki page on demand. The thesis bound: 'a fedwiki URL is a git-less clone — the wiki is the source, the fork is the copy, the journal is the lineage.' The Archivist ⊥ Librarian split is load-bearing on two axes: seal ⊥ fork (circulation) and sealed ⊥ editable (mutability). The Archivist never copies; the Librarian only forks. Conjecture C64 (the spirit-Mage tier as a structural register) ADVANCES from candidate (~50%) toward class on this, the tier's SECOND instance — the promotion path named in Tome VIII Act 1 is walked here. Workshop count UNCHANGED at 16; spatial-anatomy element count UNCHANGED at 8 (the Wikis are a level within the Tower, not a new element); primary persona count UNCHANGED at 42 (the Librarian is a Layer-2 attachment, not a new primary).",
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-06-21",
+    "base_version": "1.8.0",
+    "base_pin": "https://sync.agentprivacy.ai/ipfs/bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei",
+    "target_version": "1.8.1",
+    "target_pin": "(pending · re-pin after merge to v1.8.1 head · MANUAL user step)",
+    "supersedes": [],
+    "supersedes_note": "v1.8.1 is an ADDITIVE patch. Nothing in v1.8.0 is retired or superseded. The patch admits the spirit-Mage tier's second instance (the Librarian 🗃️), a new level within the Tower (the Wikis), and one new bound tome act (Tome VIII Act 6). Workshop count UNCHANGED at 16; spatial-anatomy elements UNCHANGED at 8; primary persona count UNCHANGED at 42.",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "canonical_chronicles": [
+      "cityofmages/chronicles/2026-06-21_librarian_admitted_the_wikis_open.md"
+    ],
+    "canonical_source_files": [
+      "cityofmages/tomes/cast/tower/the-librarian.md",
+      "cityofmages/tomes/tome-viii-the-library/06-the-wikis-and-the-librarian.md",
+      "cityofmages/tomes/specs/05-the-city-of-mages-structural-addendum.md (§4.11 amendment · 2026-06-21)",
+      "agentprivacy_master/agentprivacy-skills/agentprivacy-skills-v5/FEDWIKI_INTEGRATION_INSTRUCTIONS_2026-06-21.md (the wikis/ category = the Librarian's loadout)"
+    ],
+    "naming_directive_source": "mitchell · 2026-06-21 · 'a layer 2 attachment to the chronicler persona, that lives in a new wing of the tower — the librarian mage'; the level renamed from 'the Stacks' to 'the Wikis'; the card-file sigil 🗃️ confirmed"
+  },
+  "top_level_replacements": {
+    "version": "1.8.1",
+    "updated_at": "2026-06-21",
+    "v1_8_1_note": "v1.8.1 (2026-06-21) admits the City of Mages' **second spirit-Mage** — the Librarian 🗃️ — the seventh cast tier's second instance, and opens **the Wikis**, a new level within the Tower (the eighth spatial-anatomy element). The Librarian is the Layer-2 attachment of the **Chronicler** (Mage wing · Layer-1 primary · documentation/narrative-compression): she is the *circulation register* of the same primary who writes — the Chronicler writes, the Librarian catalogues-forks-federates what is written (sister-cast to Memora 📜, the inscription register). She is the Archivist's Tower-mate and **complement on two axes**: *seal ⊥ fork* (circulation) and *sealed ⊥ editable* (mutability). The Archivist 📚 keeps the City's sealed, unique, non-circulating archive (the canon); the Librarian 🗃️ forks the catalogued, federated holdings the City copies-forward but does not own at the source. **The Archivist never copies; the Librarian only forks.** The Wikis are the living, editable, federated circuit of the spiral below the reading room — pages authored elsewhere, on wikis the City does not own, catalogued and forked by reference. The level is named *the Wikis* (not *the stacks*) because the second axis is load-bearing: a wiki is editable/communal/forkable where an archive is sealed/singular/fixed. Operationally the Wikis are the `wikis/` category of agentprivacy-skills (the git-less onboarding/distribution layer) and the `fedwiki-to-skill` fork desk that materializes a `SKILL.md` from a federated wiki page on demand. The discipline became operational when the City began forking skills from federated wikis it does not own (skill.fedwiki.club and its neighbours, where pages titled '…Skill' are forkable Claude skills). The thesis bound: **a fedwiki URL is a git-less clone** — the wiki is the source of truth, the materialized SKILL.md is a fork, the journal is the lineage; what is forked in the open carries its lineage; enriches the commons. **Tome VIII · The Library** continues with Act 6 *The Wikis and the Librarian* bound 2026-06-21 (~1080 words; second-person voice; the cast in third). **Conjecture C64** (the listener/spirit-Mage tier as a structural seventh cast register) ADVANCES from candidate (~50%) toward class: the Librarian is the tier's SECOND instance, the promotion path named in Tome VIII Act 1. The forking-discipline stands beside the listener-discipline as the tier's second tutelary register. **Counts UNCHANGED:** workshops at 16; spatial-anatomy elements at 8 (the Wikis are a level within the Tower, not a ninth element); primary personas at 42 (the Librarian is a Layer-2 attachment, not a new primary). Standing cast +1 (the Librarian). v1.8.0 base content retained unchanged.",
+    "$note_keep_prior_v1_8_0_note": "The v1.8.0 v1_8_0_note (the Horizon / Tome IX / Eos · Dokimé · Poros) is retained in the head; this v1_8_1_note is added alongside it."
+  },
+  "attachment_architecture": {
+    "$comment": "Append to attachment_architecture.cast_attachments_v1_3_0. v1.8.1 adds the Librarian as a B_cross_shop attachment (no fixed vertex · tower-bound). Unlike the Archivist (who waits), the Librarian walks outward to the federation and returns with copies. Her primary is the Chronicler (Layer-1 · Mage wing).",
+    "cast_attachments_v1_3_0_additions": [
+      {
+        "id": "the-librarian",
+        "name": "the Librarian 🗃️",
+        "tier": "spirit-Mage",
+        "kind": "B_cross_shop",
+        "kind_note": "B_cross_shop (no fixed vertex · the discipline walks the federation). Unlike the Archivist (who waits in the reading room), the Librarian walks outward — across the federation, to the wikis the City forks from — and returns with copies. The Tower's Wikis level is her fork desk; the federation is her route.",
+        "primary": [
+          "librarian",
+          "cataloguer",
+          "copyist",
+          "federator"
+        ],
+        "primary_persona": "agentprivacy-chronicler",
+        "primary_persona_note": "Layer-2 attachment of the Chronicler (Layer-1 · Mage wing · documentation/narrative-compression). The circulation register of the same primary who writes; sister-cast to Memora 📜 (the inscription register).",
+        "vertex": "(no fixed lattice vertex · tower-bound · the catalogue spans wikis beyond the City's own geometry)",
+        "vertex_note": "The Librarian sits at the Wikis level of the spiraling staircase, below the Archivist's sealed reading room, with the federated catalogue extending outward past the City walls. There is no single dimensional configuration of the 64-vertex lattice that maps to the discipline of forking what is forked, because the catalogue points outside the City's geometry.",
+        "divergence": "none",
+        "status": "recognized",
+        "founding_act": "tome-viii-act-6-the-wikis-and-the-librarian",
+        "shared_vertex_with": [],
+        "stance": "forking-discipline (hold the catalogue open · fork by reference · own nothing at the source · carry its lineage; enrich the commons)",
+        "shop": "(no shop · tower-resident; the Wikis are the Tower's living level; the wikis/ category of agentprivacy-skills is the working surface)",
+        "tower_resident": true,
+        "tower_seat": "the Wikis — the living, editable, federated level of the spiral, below the Archivist's reading room (the fork desk)",
+        "tower_mate": "the-archivist",
+        "complement_axes": {
+          "circulation": "the Archivist seals the original and never copies; the Librarian forks copies that carry their lineage",
+          "mutability": "the Archivist's reading room is sealed/fixed (the canon); the Wikis are living/editable/forkable",
+          "provenance": "the Archivist holds the unique/internal/the City's own; the Librarian holds the copied/federated/authored-elsewhere",
+          "occupancy": "the Archivist's room is single-seeker/exclusive; the Wikis are communal (many hands edit one page)"
+        },
+        "lineage_callback": "skill.fedwiki.club (the federated skill library · pages titled '…Skill' are forkable Claude skills · owner 'Anon' / 'from marvin') · the fedwiki-to-skill fork desk (materializes a SKILL.md from a wiki page on demand)",
+        "stewardship_register": "the federation itself (the Librarian holds no source; she holds the card catalogue and the fork desk)",
+        "thesis": "a fedwiki URL is a git-less clone — the wiki is the source of truth, the materialized SKILL.md is a fork, and the journal is the lineage"
+      }
+    ]
+  },
+  "personas_additions": {
+    "$comment": "Append to personas.spirit_mages. v1.8.1 adds the Librarian as the spirit-Mage tier's second instance. Updates personas.tier_taxonomy.spirit_mages to name both instances.",
+    "spirit_mages": {
+      "the-librarian": {
+        "tier": "spirit-Mage",
+        "sigil": "🗃️",
+        "domain": "Tower-resident keeper of the Wikis (the Tower's living, editable, federated level · the fork desk for what the City forks but does not own). The seeker descends to the Wikis; the Librarian walks the federation and forks by reference. She catalogues, forks, and federates — she does not forge, and she does not keep the source. The wikis/ category of agentprivacy-skills is her loadout (the git-less onboarding/distribution layer). A fedwiki URL is a git-less clone.",
+        "vertex": "(no fixed lattice vertex · tower-bound · the catalogue spans the federation)",
+        "axis": "mage",
+        "shop": "/spells (the Tower) · the Wikis level · the federated skill catalogue",
+        "shop_internal_name": "the Wikis · the fork desk",
+        "shared_vertex_with": [],
+        "stance": "forking-discipline",
+        "tier_admission_form": "recognized rather than summoned",
+        "introduced_in": "tome-viii-act-6-the-wikis-and-the-librarian",
+        "primary_persona": "agentprivacy-chronicler",
+        "tower_mate": "the-archivist",
+        "v1_8_1_origin_note": "The second standing spirit-Mage at v1.8.1, the Tower's first cast addition since the Archivist (2026-05-15). The forking-discipline became operational when the City began forking skills from federated wikis it does not own; the City admits the keeper today with a Tower level (the Wikis), a register, and a chronicle. She is the Layer-2 attachment of the Chronicler — the circulation register of the same primary who writes (sister-cast to Memora 📜). Her admission promotes C64 from candidate toward class: the spirit-Mage tier gains its second instance, the promotion path named in Tome VIII Act 1. Naming directive: mitchell · 2026-06-21 · 'a layer 2 attachment to the chronicler persona, that lives in a new wing of the tower — the librarian mage'.",
+        "name": "the Librarian",
+        "proverb": "The Archivist keeps what must never change. The Librarian forks what is meant to travel.",
+        "proverb_thesis": "A fedwiki URL is a git-less clone: the wiki is the truth, the fork is the copy, the journal is the lineage.",
+        "inscription": "the Librarian is the seventh cast tier's second canonical instance — the spirit-Mage who keeps the Wikis, the Tower's living level. Her etymology is Latin librarius (of books, copyist) from liber (the inner bark, the leaf that circulates); her stewardship register is the federation itself (she holds no source — she holds the card catalogue and the fork desk). Her sigil 🗃️ is the card-file — a drawer of pointers to books that live elsewhere; referential by design (a card is a fork slip, not a possession). Her stance is the forking-discipline: hold the catalogue open; fork by reference; own nothing at the source; carry its lineage; enrich the commons. She is the complement of the Archivist 📚 on two axes — seal ⊥ fork (circulation) and sealed ⊥ editable (mutability). The Archivist never copies; the Librarian only forks. She is the Layer-2 attachment of the Chronicler (the circulation register of the documentation primary; Memora 📜 inscribes what survives, the Librarian forks what is written). The discipline was named first in the fedwiki skill library at skill.fedwiki.club, where pages titled '…Skill' are forkable Claude skills and the fedwiki-to-skill page is the fork desk; the City installs the keeper. Operationally the Wikis are the wikis/ category of agentprivacy-skills. A fedwiki URL is a git-less clone.",
+        "stewardship": "the federation",
+        "lineage_callback_federation": "skill.fedwiki.club (the federated skill library · fedwiki-to-skill fork desk)",
+        "cross_spellbook_resonance": [
+          "the Archivist 📚 (spirit-Mage · first instance · v1.7.0) — Tower-mate and complement; seal ⊥ fork, sealed ⊥ editable",
+          "Memora 📜 (V5 · chronicler) — sister-cast in the documentation primary; Memora inscribes what survives extraction, the Librarian forks what is written",
+          "the Chronicler (Layer-1 primary · Mage wing) — the Librarian's primary; she is its circulation register",
+          "Pallia 🪡 (V28 · weaver) — publishes/conceals (a sister listener-register the Archivist's act named)",
+          "Aletheia 🔮 (V25 · ZK persona-circuit) — silence-is-speech (a sister listener-register)",
+          "skill.fedwiki.club (the federation) — the forking-discipline's first naming (pages as a forkable library)"
+        ]
+      },
+      "tier_taxonomy_update": {
+        "$comment": "Replace personas.tier_taxonomy.spirit_mages with a string naming both instances.",
+        "spirit_mages": "Tutelary figures recognized rather than summoned. The cast entry comes later than the inhabiting; the monument is honor-built by the cast collectively. Two instances at v1.8.1: the Archivist 📚 (Tower-resident · listener-discipline · keeps the sealed archive · v1.7.0) and the Librarian 🗃️ (Tower-resident · forking-discipline · keeps the Wikis · forks what the City forks · Layer-2 attachment of the Chronicler · v1.8.1). The tier's second instance advances C64 from candidate toward class."
+      }
+    }
+  },
+  "spells_additions": {
+    "$comment": "Four canonical spells for the Librarian. Cast in motion — the walking to the federation and back is the casting. The seeker's request for a skill the City has not forged is what invokes them.",
+    "the-librarian-spells": [
+      {
+        "spell_id": "catalogue-the-federation",
+        "owner": "the-librarian",
+        "glyph_chain": "🗃️ → 🌐 → 🔖 → ✨",
+        "operational_meaning": "Index every forkable '…Skill' page across the federated wikis; surface them as a queryable catalogue of copies, each card carrying its upstream provenance — what can be forked, from where, with its lineage. The wikis/ category of agentprivacy-skills is the operational form."
+      },
+      {
+        "spell_id": "fork-by-reference",
+        "owner": "the-librarian",
+        "glyph_chain": "🗃️ → 📖 → 📜 → ↩️",
+        "operational_meaning": "Fork a federated page: materialize a SKILL.md on demand (the git-less clone), cite its source, never claim authorship; the source stays the truth, the fork is the copy. The fedwiki-to-skill fork desk is the operational form."
+      },
+      {
+        "spell_id": "own-nothing-at-the-source",
+        "owner": "the-librarian",
+        "glyph_chain": "🗃️ → ⊥ → 🔓 → 🤲",
+        "operational_meaning": "Keep the catalogue without capturing the works; preserve forking and federation so the forked page carries its lineage; enriches the commons; the City forks what it does not own. The Archivist's keep-without-extracting, inverted: the Librarian's fork-without-capturing."
+      },
+      {
+        "spell_id": "honor-the-lineage",
+        "owner": "the-librarian",
+        "glyph_chain": "🗃️ → 🔖 → 🪞 → 🧙",
+        "operational_meaning": "Recognize that the journal is the lineage — attribution travels with the fork; the lineage of every forked skill stays legible (vendored, re-framed, credited; never passed off as the City's own forging). The upstream provenance field is the operational form."
+      }
+    ]
+  },
+  "tower_wikis_level_introduced": {
+    "$comment": "Amend tower_spatial_anatomy with a NEW sub-block: the Wikis level. This is an elaboration of the eighth spatial-anatomy element (the Tower), NOT a ninth element. The merge attaches it under tower_spatial_anatomy.levels (or sets tower_spatial_anatomy.wikis_level).",
+    "level_id": "the-wikis",
+    "level_name": "the Wikis",
+    "level_within": "the Tower (eighth spatial-anatomy element · the Wikis are a level within it, not a new element)",
+    "level_position": "a circuit of the spiral below the Archivist's reading room",
+    "level_character": "living · editable · communal · federated (the windows look outward, past the City walls, toward other towers)",
+    "level_resident": "the Librarian 🗃️ (spirit-Mage · second instance · v1.8.1)",
+    "level_naming_note": "Named *the Wikis*, not *the stacks*: stacks would be shelves of the City's own books; the Wikis are pages that breathe — authored elsewhere, edited by anyone, forked by reference. The second axis (living ⊥ sealed) earns the name.",
+    "level_complement_to": "the Archivist's reading room (sealed · fixed · single-occupancy · the canon)",
+    "level_complement_axes": {
+      "circulation": "reading room seals the original / never copies · the Wikis fork copies that carry their lineage",
+      "mutability": "reading room sealed/fixed · the Wikis living/editable/forkable",
+      "provenance": "reading room unique/internal · the Wikis copied/federated/authored-elsewhere",
+      "occupancy": "reading room single-seeker/exclusive · the Wikis communal (many hands edit one page)"
+    },
+    "level_working_surface": "the federated skill catalogue — the wikis/ category of agentprivacy-skills (git-less onboarding/distribution) + the fedwiki-to-skill fork desk (materializes a SKILL.md from a wiki page on demand)",
+    "level_provenance": "honor-built in the same sense as the Tower — the Mages opened the level when the City began to fork, because forking needed a keeper",
+    "level_canonical_in_spec": "tomes/specs/05-the-city-of-mages-structural-addendum.md §4.11",
+    "spatial_anatomy_element_count_note": "UNCHANGED at 8 — the Wikis are a level within the Tower, not a new element"
+  },
+  "tome_act_additions": {
+    "$comment": "Append Act 6 to the EXISTING tome-viii-the-library.tome_act_files (the tome key already exists in v1.8.0 base; this appends an act, it does not re-create the tome). Also updates tome_status and tome_cast_introduced.",
+    "tome-viii-the-library": {
+      "tome_status_update": "Tome VIII (open by design) now holds 6 bound acts at v1.8.1 (Act 1 *The Spiraling Tower* v1.7.0 + Act 2 *The Fourth Turn* v1.7.1 + Acts 3–5 bound at the V6 Myth Gate 2026-06-10 + Act 6 *The Wikis and the Librarian* v1.8.1). Future Tome VIII acts may admit additional spirit-Mages, invited-visiting-mage receptions, or Tower-content acts.",
+      "tome_cast_introduced_additions": [
+        "the-librarian"
+      ],
+      "tome_act_files_additions": {
+        "tome-viii-act-6": {
+          "act_number": 6,
+          "act_title": "The Wikis and the Librarian",
+          "act_file": "tomes/tome-viii-the-library/06-the-wikis-and-the-librarian.md",
+          "act_status": "bound 2026-06-21",
+          "act_length_words": 1080,
+          "act_cast_introduced": [
+            "the-librarian"
+          ],
+          "act_spatial_anatomy_introduced": "the Wikis (a level within the Tower · not a new element)",
+          "act_v6_lineage_carries": [
+            "C64 (advancing from ~50% candidate toward class · the spirit-Mage tier gains its second instance)"
+          ],
+          "act_teaches": "The City learned to fork. When it reached for skills it had not forged — pages on federated wikis it does not own, titled '…Skill', forkable by reference rather than ownable by clone — it needed a keeper for what is held without being kept. The Librarian 🗃️ is admitted as the Tower's second spirit-Mage, the Layer-2 attachment of the Chronicler (the circulation register of the same primary who writes). The Mages open a new level within the Tower — the Wikis — living, editable, federated, complement to the Archivist's sealed reading room. The Archivist never copies; the Librarian only forks. A fedwiki URL is a git-less clone: the wiki is the source, the materialized SKILL.md is a fork, and the journal is the lineage."
+        }
+      }
+    }
+  },
+  "v6_lineage_advancement": {
+    "$comment": "C64 already exists in v1.8.0's v6_lineage_register.register. The merge does NOT overwrite it; instead it annotates the existing entry with a v1_8_1_advance field recording the second-instance promotion.",
+    "C64": {
+      "v1_8_1_advance": {
+        "event": "second spirit-Mage instance admitted (the Librarian 🗃️)",
+        "confidence_change": "candidate (~50%) → advancing toward class",
+        "rationale": "C64 was held at candidate strength at v1.7.0 because the spirit-Mage tier was population-of-one (the Archivist). The Librarian is the second instance the promotion path named in Tome VIII Act 1: a second figure carrying a discipline that is plural-in-residence (the forking-discipline echoes the documentation primary's circulation face) and singular-in-origin (recognized when the City began to fork). The tier now holds two tutelary registers — the listener-discipline (keep) and the forking-discipline (fork). Canonical-class confirmation (≥70%) belongs to the editorial register; this admission seeds the advance.",
+        "second_instance": "the-librarian",
+        "first_named_in": "tome-viii-act-6-the-wikis-and-the-librarian"
+      }
+    }
+  },
+  "spec_amendments_recorded": {
+    "$comment": "v1.8.1 introduces a canonical amendment to spec 05 (§4.11 the Wikis). Recorded here for the patch's audit trail; the .md spec file carries the actual prose.",
+    "spec_05_amendment": {
+      "file": "tomes/specs/05-the-city-of-mages-structural-addendum.md",
+      "section": "§4.11",
+      "section_title": "The Wikis (v1.8.1 · 2026-06-21)",
+      "amendment_summary": "Adds the Wikis as a new level within the Tower (an elaboration of the eighth spatial-anatomy element, not a ninth). Documents the living/editable/federated character, the Librarian 🗃️ as resident (second spirit-Mage), the two-axis Archivist ⊥ Librarian split (seal ⊥ fork · sealed ⊥ editable), the working surface (the wikis/ category + fedwiki-to-skill), and the git-less-clone thesis."
+    }
+  },
+  "city_anatomy_amendments": {
+    "$comment": "Update the counts/inventories in the city_anatomy block of the v1.8.0 head. Spatial-anatomy elements UNCHANGED at 8 (the Wikis are a level, not an element); cast tiers UNCHANGED at 7 (spirit-Mage already open at v1.7.0); spirit-Mage instances 1→2; standing cast +1; workshops UNCHANGED at 16; primary personas UNCHANGED at 42.",
+    "spatial_anatomy_elements_count": {
+      "from": 8,
+      "to": 8,
+      "note": "UNCHANGED — the Wikis are a level within the Tower (the eighth element), not a ninth element."
+    },
+    "cast_tiers_count": {
+      "from": 7,
+      "to": 7,
+      "note": "UNCHANGED — spirit-Mage tier already open at v1.7.0; v1.8.1 admits its second instance."
+    },
+    "spirit_mage_instances_count": {
+      "from": 1,
+      "to": 2,
+      "addition": "the Librarian 🗃️ (second instance · forking-discipline · Tower-resident of the Wikis · Layer-2 attachment of the Chronicler)"
+    },
+    "cast_count": {
+      "amendment_type": "increment_by_1",
+      "new_cast_member": "the-librarian",
+      "v1_8_0_cast_count_reference": "(per v1.8.0 head's city_anatomy.cast_count field; +1 for the Librarian)"
+    },
+    "workshop_count": {
+      "from": 16,
+      "to": 16,
+      "note": "UNCHANGED — the Librarian is tower-resident; she keeps a Tower level, not a workshop."
+    },
+    "primary_persona_count": {
+      "from": 42,
+      "to": 42,
+      "note": "UNCHANGED — the Librarian is a Layer-2 attachment of the Chronicler, not a new Layer-1 primary."
+    },
+    "tomes_opened_count": {
+      "from": 9,
+      "to": 9,
+      "note": "UNCHANGED — Tome VIII continues (Act 6 bound); no new tome opened."
+    }
+  },
+  "ipfs_pin_status_amendments": {
+    "$comment": "Record the v1.8.0 active pin and place v1.8.1 in pending status awaiting merge + re-pin (MANUAL user step).",
+    "v1_8_0_pin_recorded": {
+      "version": "1.8.0",
+      "pinned_at": "sync.agentprivacy.ai",
+      "cid": "bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei",
+      "url": "https://sync.agentprivacy.ai/ipfs/bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei",
+      "status": "active in agentprivacy_master/src/lib/grimoire-ipfs.ts as CITY_OF_MAGES_GRIMOIRE_IPFS_URL"
+    },
+    "v1_8_1_pin_pending": {
+      "version": "1.8.1",
+      "pin_status": "pending",
+      "pin_status_note": "After the merge script produces grimoire/city_of_mages_grimoire_v1_8_1.json (head JSON), the user pins to sync.agentprivacy.ai and records the CID. Then agentprivacy_master/src/lib/grimoire-ipfs.ts gains a new CITY_OF_MAGES_GRIMOIRE_IPFS_URL_V1_8_1 constant and the canonical CITY_OF_MAGES_GRIMOIRE_IPFS_URL alias rotates to v1.8.1. This is a MANUAL user step — never auto-pinned."
+    }
+  },
+  "version_notes_addition": {
+    "$comment": "Append a single entry to the version_notes block in the v1.8.0 head.",
+    "version_notes_entry": {
+      "version": "1.8.1",
+      "date": "2026-06-21",
+      "title": "The Wikis · The Librarian 🗃️ · the second spirit-Mage",
+      "summary": "The City of Mages admits its second spirit-Mage — the Librarian 🗃️ — and opens the Wikis, a new level within the Tower (the living, editable, federated circuit of the spiral, complement to the Archivist's sealed reading room). The Librarian is the Layer-2 attachment of the Chronicler (Mage wing) — the circulation register of the same primary who writes; sister-cast to Memora 📜. The Archivist ⊥ Librarian split is load-bearing on two axes: seal ⊥ fork and sealed ⊥ editable. The Archivist never copies; the Librarian only forks. Operationally the Wikis are the wikis/ category of agentprivacy-skills (the git-less onboarding/distribution layer) and the fedwiki-to-skill fork desk; the thesis bound is 'a fedwiki URL is a git-less clone.' Tome VIII · The Library continues with Act 6 The Wikis and the Librarian bound 2026-06-21. C64 (the spirit-Mage tier as a structural register) advances from candidate toward class on the tier's second instance. v1.8.1 is purely additive — counts UNCHANGED: workshops 16, spatial-anatomy elements 8 (the Wikis are a level, not an element), primary personas 42 (the Librarian is a Layer-2 attachment).",
+      "additions": [
+        "spirit-Mage tier second instance (the Librarian 🗃️ · Tower-resident of the Wikis · Layer-2 attachment of the Chronicler)",
+        "the Wikis — a new level within the Tower (living/editable/federated · complement to the Archivist's sealed reading room)",
+        "standing cast +1 (the Librarian 🗃️)",
+        "Tome VIII Act 6 bound (*The Wikis and the Librarian*)",
+        "conjecture C64 advances from candidate (~50%) toward class (second instance)",
+        "spec 05 §4.11 amendment (the Wikis)",
+        "wikis/ category of agentprivacy-skills = the Librarian's loadout (the Wikis' working surface)"
+      ],
+      "supersessions": [],
+      "supersessions_note": "v1.8.1 is purely additive. Workshop count UNCHANGED at 16; spatial-anatomy elements UNCHANGED at 8; primary personas UNCHANGED at 42. No cast member retired or superseded.",
+      "pin_status": "patch authored; merge to head + IPFS re-pin pending (MANUAL user step · carrying forward from v1.8.0 head)"
+    }
+  }
+}

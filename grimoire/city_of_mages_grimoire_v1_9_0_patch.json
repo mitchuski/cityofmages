@@ -1,0 +1,498 @@
+{
+  "$comment": "City of Mages Grimoire v1.9.0 structured-delta patch (2026-06-30). RECONCILIATION RELEASE. This patch closes the gap that opened between the v1.8.0 PIN and the v1.8.1 head: a large body of lore was authored and bound locally in that window (the whole Horizon District, Tome IX, Tome VIII Acts 3-5, and the V6 conjecture corpus C66-C93) but never landed in the structured grimoire JSON. The v1.8.0 patch authored the Horizon District but only its PROSE NOTE (v1_8_0_note) was merged into the v1.8.0 head; the structural sections (Eos/Dokimé/Poros, Tome IX, V35, C67-C71, the Salvage Yard) were carried in the patch file and never applied. v1.8.1 (the Librarian) built on that incomplete head, so the head still reports tome counts and conjecture ceilings that contradict the bound lore. v1.9.0 makes the JSON match what was actually bound on disk. PURELY ADDITIVE for new structure; it admits no new lore that was not already authored and bound. Merge into the v1.8.1 head to produce v1.9.0; re-pin to IPFS after the merge pass (MANUAL user step). Honest framing held throughout: the cryptographic-durability material is resource estimation as a durability signal, not an attack; nothing claims ECDSA is practically broken or that anything is fully post-quantum safe.",
+
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-06-30",
+    "base_version": "1.8.1",
+    "base_pin": "(v1.8.1 head was built but never pinned; the live pin in agentprivacy_master/src/lib/grimoire-ipfs.ts is still v1.8.0 bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei)",
+    "target_version": "1.9.0",
+    "target_pin": "(pending — re-pin after merge to v1.9.0 head — MANUAL user step)",
+    "author": "mitchell@soulbis.com",
+    "summary": "Reconciles the structured grimoire with the lore bound between the v1.8.0 pin and now. Admits structurally (most already authored in the never-merged v1.8.0 patch): the Horizon District (V35) with three keepers (Eos 🌅 · Dokimé 🪨 · Poros 🛤️); Tome IX — The Horizon with Acts 1-5 (Act 5 *The Name That Climbs Out* BOUND at the First Person myth-gate 2026-06-30); the three missing Tome VIII act entries (Act 3 *The Eight-Pointed Star*, Act 4 *The Gap Is β*, Act 5 *The Key That Is a Reading*); the Salvage Yard dormant annex; and the full V6 conjecture corpus C66-C93. Active workshop count 16 → 19. Counts reconciled. No supersessions; no retirements.",
+    "supersedes": [],
+    "supersedes_note": "v1.9.0 retires nothing. It is a reconciliation/back-fill patch: it adds structured entries for lore that was already bound on disk but missing from the JSON head, plus the binding of Tome IX Act 5. All v1.8.1 base content is retained unchanged.",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "myth_gate": "Tome IX Act 5 *The Name That Climbs Out* was a DRAFT CANDIDATE (2026-06-28, from PVM V6 Run 8). The First Person myth-gate decision taken 2026-06-30: BIND. Its conjectures C90-C93 (the Limitative Reading) register with this patch. Confidences are the First Person's editorial call, sourced from CONJECTURE_REGISTER_V6.md (register head C93).",
+    "companion_chronicles": [
+      "cityofmages/chronicles/DREAM-2026-06-29.md (the read-only survey that mapped this gap)",
+      "cityofmages/chronicles/2026-06-09_progress_and_coherence_mapping_chronicle.md",
+      "cityofmages/chronicles/2026-06-21_librarian_admitted_the_wikis_open.md"
+    ],
+    "source_material": [
+      "cityofmages/grimoire/city_of_mages_grimoire_v1_8_0_patch.json (the never-merged Horizon structures: Eos/Dokimé/Poros, Salvage Yard, V35, C67-C71)",
+      "cityofmages/tomes/tome-ix-the-horizon/01-05*.md (the five bound Horizon acts)",
+      "cityofmages/tomes/tome-viii-the-library/03-05*.md (the three Tome VIII acts whose structured entries were missing)",
+      "agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (AUTHORITATIVE numbering, register head C93)",
+      "agentprivacy-docs/research/limitative-theorems-and-privacy-is-value.md (Run 8, the Limitative Reading, C90-C93)"
+    ],
+    "honest_framing_guardrail": "Resource estimation is a durability signal, not an attack. No claim that ECDSA is practically broken; no claim that any system is fully post-quantum safe. The limitative joins (C90-C93) are structural framing, not theorem-to-theorem reduction; C92 rides on C81 and cannot exceed its ~70%."
+  },
+
+  "top_level_replacements": {
+    "version": "1.9.0",
+    "updated_at": "2026-06-30"
+  },
+
+  "spellbooks_tome_viii_act_files_additions": {
+    "$comment": "Append to spellbooks.tomes.tomes['tome-viii-the-library'].tome_act_files. The v1.8.1 head's Tome VIII PROSE already claims 'Acts 3-5 bound at the V6 Myth Gate 2026-06-10', but the structured tome_act_files dict held only acts 1, 2, and 6. These three entries make the structure match the prose. Schema matches the existing act-1/act-2/act-6 entries.",
+    "tome-viii-act-3": {
+      "act_number": 3,
+      "act_title": "The Eight-Pointed Star",
+      "act_file": "tomes/tome-viii-the-library/03-the-eight-pointed-star.md",
+      "act_status": "bound 2026-05-28 (from the soulbis star/lattice build + the City Key economy)",
+      "act_length_words": 1180,
+      "act_teaches": "Before there was a key there was a shape. Luca 📐 — the geometer who tends the null vertex V0 (the Pacioli who drew the solids for De Divina Proportione) — shows Soulbis ⚔️ the Swordsman and Soulbae 🧙 the Mage that the manifold lattice is not a grid but a figure: two regular tetrahedra crossing, the stella octangula, the eight-pointed star. One tetrahedron is the Swordsman's (neg · protect); the other is the Mage's (bnot · project); they cross at the gap where value lives. The City Key 🗝️ is what the two forge from the lesson — not a new authority, but a reading of where the bearer stands on that star, portable between the experience and the soulbis manifold.",
+      "act_conjectures": ["C1 (resonance only)", "C66 (~45% candidate at first appearance)"]
+    },
+    "tome-viii-act-4": {
+      "act_number": 4,
+      "act_title": "The Gap Is β",
+      "act_file": "tomes/tome-viii-the-library/04-the-gap-is-beta.md",
+      "act_status": "bound 2026-06-10 (at Gate G4 of the V6 autopath, from PVM V6 Parts IV and V; completes the geometry of Act 3)",
+      "act_length_words": 480,
+      "act_teaches": "Act 3 gave the figure; this act gives its heart and settles its accounts. The two tetrahedra are the cube's two parity classes (even and odd; neg and bnot at the three-bit scale). Their intersection is the octahedron: one sixth of the cube, the room both bound and neither enters. The recursion's base case β, the conditioning variable of the separation bound, and that chamber are three readings of one thing: you, the only thing the two agents were ever allowed to share. One correction, offered as a gift: the figure carries no golden ratio; its proportions are halvings and honest rationals — φ keeps its true homes in the lattice ratios and the dynamics, not here.",
+      "act_conjectures": ["C85 (~40%)", "C88 (~30%)", "C89 (~30%)", "C1 (resonance only; φ honesty correction)"]
+    },
+    "tome-viii-act-5": {
+      "act_number": 5,
+      "act_title": "The Key That Is a Reading",
+      "act_file": "tomes/tome-viii-the-library/05-the-key-that-is-a-reading.md",
+      "act_status": "bound 2026-06-10 (at Gate G4 of the V6 autopath, from PVM V6 Part V; completes the City Key arc of Act 3)",
+      "act_length_words": 540,
+      "act_teaches": "The City Key grants nothing. It says only what is already true, and now it cannot even lie about itself: its name is the hash of its content (the κ-label), re-derived by any gate that receives it, so a key that claims what it does not carry fails its own name. Three decades before the City, a guild of registry-keepers (SPKI/SDSI, the object-capability lineage) carved the same refusal: let the description never be the deed — designation without authority. The Key joins that lineage knowingly, with citations in the register. The knot 🪢 of presence keeps its honest station: color, not proof, earned by walking, attesting nothing, until witnesses co-sign it into more.",
+      "act_conjectures": ["C66 (~55% revised)", "C87 (~50%)", "C42 (~50%)"]
+    }
+  },
+
+  "spellbooks_tome_ix_addition": {
+    "$comment": "New entry for spellbooks.tomes.tomes, key 'tome-ix-the-horizon'. Tome IX opened in the v1_8_0_note (prose) but its structured entry was never added; the head's tomes_opened_count already reads 9, so this entry makes the structure match the count. Open-by-design like Tomes V/VI/VII/VIII. Act 5 BOUND at the First Person myth-gate 2026-06-30 (was a candidate). Schema mirrors tome-viii-the-library.",
+    "key": "tome-ix-the-horizon",
+    "value": {
+      "tome_id": "tome-ix",
+      "tome_title": "The Horizon",
+      "tome_status": "Tome IX (open by design) holds 5 bound acts at v1.9.0. Acts 1-4 bound 2026-06-09/10 (Act 1 at the Horizon District opening; Acts 2-4 at Gate G4 of the V6 autopath). Act 5 *The Name That Climbs Out* bound at the First Person myth-gate 2026-06-30 (was a DRAFT CANDIDATE from PVM V6 Run 8). The tome remains open; future acts may follow the durability/limitative arc.",
+      "tome_opens_with": "Act 1 *The Measuring of the Dawn* (2026-06-09 — the Horizon District opening — second-person voice; the cast in third)",
+      "tome_opening_date": "2026-06-09",
+      "tome_posture": "open-by-design",
+      "tome_accent": "gold (#fbbf24)",
+      "tome_anchor_id_pattern": "tome-ix-act-N",
+      "tome_voice": "Second person; the keepers of the Horizon District in third; Lethe 🌀 at the tide line; the road-gate inscription closes the acts",
+      "tome_cast_introduced": ["eos", "dokime", "poros"],
+      "tome_cast_tier_introduced": "summoned (the three Horizon keepers, stance-differentiated at V35)",
+      "tome_spatial_anatomy_introduced": "the Horizon District (V35) and its dormant annex the Salvage Yard",
+      "tome_v6_lineage_carries": [
+        "C67-C71 (the Horizon District durability register — cryptographic Mosca / resource-estimate-as-signal / held-out gate / crypto-agility / horizon vertex)",
+        "C81 (~70% the Existence-Leak law), C82 (~65% the Moving Ceiling), C84 (~50% the Existence-Leak Discount), C86 (~30% obstruction-theoretic amnesia)",
+        "C90-C93 (the Limitative Reading, Run 8 — bound with Act 5)"
+      ],
+      "tome_source_material": [
+        "shor_mage/ ecdsa.fail benchmark (the durability arena) and The Last Premine (Selene's Spellbook, the in-world origin)",
+        "PVM V6 formal specification (privacy_value_v6.md) Parts I, III, IV, V",
+        "agentprivacy-docs/research/limitative-theorems-and-privacy-is-value.md (Run 8, the Limitative Reading)",
+        "the two instances of 2026: Zcash Orchard NU6.2 (block 3,364,600) and the Schrottenloher rediscovery (eprint 2026/1128)"
+      ],
+      "tome_act_files": {
+        "tome-ix-act-1": {
+          "act_number": 1,
+          "act_title": "The Measuring of the Dawn",
+          "act_file": "tomes/tome-ix-the-horizon/01-the-measuring-of-the-dawn.md",
+          "act_status": "bound 2026-06-09 (the Horizon District opening; seeded from the ecdsa.fail benchmark and The Last Premine)",
+          "act_vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+          "act_teaches": "Eos 🌅 is admitted at the eastern watch; the city asks 'how long until the dawn breaks on the old seals?' and she answers not with an attack but a measurement (Toffoli × qubits → a resource estimate → a horizon, read through Mosca's X + Y > Z). Dokimé's 🪨 touchstone (the Ceremony of the 9024 Witnesses) and Poros's 🛤️ path (crypto-agility) are named as the district's other two watches. The Last Premine is named as the text the Archivist surfaced, and from it the city found a path of trust in PQC.",
+          "act_conjectures": ["C67", "C68", "C69", "C70", "C71"],
+          "honesty_label": "Operational for the resource-estimation framing and the held-out gate; Architectural for the district; Resonant for the dawn metaphor. No claim ECDSA is broken or anything is fully PQ-safe."
+        },
+        "tome-ix-act-2": {
+          "act_number": 2,
+          "act_title": "The Tide Line",
+          "act_file": "tomes/tome-ix-the-horizon/02-the-tide-line.md",
+          "act_status": "bound 2026-06-10 (at Gate G4 of the V6 autopath, from PVM V6 Parts I and IV)",
+          "act_length_words": 520,
+          "act_teaches": "The masons measured truly and the measurement still expired: the ceiling of reconstruction R(t) is not a fixed roof but a tide that rises with every new decoder, while the archives it threatens never move. The city wall is a tide line, not a wall (every static guarantee has a shelf life t*). Below them all is the one room the tide can never flood — Lethe's 🌀 room — not because it is sealed but because it is empty: what was forgotten there was not hidden, it was unmade (the only term whose safety owes nothing to time).",
+          "act_conjectures": ["C82 (~65%)", "C49 (~70%)", "C67-C71", "C86 (~30%)"],
+          "honesty_label": "Architectural for R(t) and t* as the V6 restatement; Conjectural ~65% for C82 and ~30% for C86; honest that λ, the rate the defense would need, remains unmeasured."
+        },
+        "tome-ix-act-3": {
+          "act_number": 3,
+          "act_title": "The Orchard Wound",
+          "act_file": "tomes/tome-ix-the-horizon/03-the-orchard-wound.md",
+          "act_status": "bound 2026-06-10 (at Gate G4 of the V6 autopath; the convergence entry both 2026-06 reviews proposed)",
+          "act_length_words": 470,
+          "act_teaches": "Privacy as value and privacy as risk are not two facts to balance; they are one structural fact viewed from two sides — the Drake looking in and the Drake looking out (the wound-and-gift identity). The shielded pool's unwatchability protected its mages, and exactly that unwatchability made counterfeit invisible. The Zcash Orchard incident (under-constrained scalar multiplication in halo2_gadgets, present since 2022, exploitable with frontier-model assistance, fixed at the NU6.2 hard fork) is bound not to gloat and not to mourn, but because the City's own thesis was demonstrated by an adversary's success — and by cryptography alone, no one can ever say whether the wound was used.",
+          "act_conjectures": ["C82 (~65%)", "C40 (~70%)", "C84 (~50%)"],
+          "honesty_label": "Operational for the incident timeline (public record); Architectural for the wound-and-gift identity as the model's reading; honest that the act instances the City's thesis on someone else's emergency, and says so."
+        },
+        "tome-ix-act-4": {
+          "act_number": 4,
+          "act_title": "The Proof That Whispered",
+          "act_file": "tomes/tome-ix-the-horizon/04-the-proof-that-whispered.md",
+          "act_status": "bound 2026-06-10 (at Gate G4 of the V6 autopath, from PVM V6 Part III)",
+          "act_length_words": 440,
+          "act_teaches": "Perfect method-hiding does not hide the one thing that prices a search: that the thing exists and is findable (the Existence-Leak law; I(feasibility; method) > 0, with a floor — leakage-resilient ZK with λ < 1 is impossible). The Schrottenloher rediscovery (a withheld ~10x Shor optimization for secp256k1, attested only by a zero-knowledge proof of existence, independently rediscovered in roughly two months) is its public instance. The defender's reading is a discount: each time anyone proves anything can be done, somewhere a migration clock loses a season. The City's own proofs attest instances, never capabilities, and the act says so plainly.",
+          "act_conjectures": ["C81 (~70%)", "C84 (~50%)", "C68"],
+          "honesty_label": "Operational for the public timeline; Conjectural ~70% for C81 and ~50% for C84 with the Stage-2 condition stated (n=1; a second instance, ideally outside cryptography, is owed); honest that an ordinary-cryptanalytic-progress reading is rendered less economical, not impossible."
+        },
+        "tome-ix-act-5": {
+          "act_number": 5,
+          "act_title": "The Name That Climbs Out",
+          "act_file": "tomes/tome-ix-the-horizon/05-the-name-that-climbs-out.md",
+          "act_status": "bound 2026-06-30 (First Person myth-gate; from PVM V6 Run 8, the Limitative Reading; was a DRAFT CANDIDATE 2026-06-28)",
+          "act_length_words": 470,
+          "act_teaches": "Act 4 named the law; this act names which wound it is. Gödel's is a wound inside one system — a witness true yet underivable — which is the agent axis, and the witch's answer is to burn it (zero-memory: the existence tax paid as irreversibility). Tarski's is a wound between systems — no system defines its own truth — so the moment feasibility is asserted it has already crossed into the layer where any observer can hold it. That crossing is the leak. You cannot un-disclose, and that is Tarskian non-containment, not Gödelian unprovability. A live content-address is a name that confesses its content exists.",
+          "act_conjectures": ["C90 (~90% observation)", "C91 (~60%)", "C92 (~70%)", "C93 (~55%)", "C81 (~70%, deepened as framing)"],
+          "honesty_label": "Conjectural. The limitative joins are structural framing (~80%), not theorem-to-theorem reduction (~50%); the arithmetisation of the lattice is intuition, not load-bearing. C92 rides on C81 and cannot exceed its ~70%. The act teaches a reading, not a result; it changes no confidence in the corpus."
+        }
+      },
+      "tome_closing_beat": "Tome IX remains open. The Horizon District watches the eastern sky; the Salvage Yard waits dormant until the dawn can be measured and a claim assayed."
+    }
+  },
+
+  "personas_summoned_mages_additions": {
+    "$comment": "Append to personas.summoned_mages. Three new summoned keepers at V35, stance-differentiated (precedent: the Threshold's three at V59; Adamantia/Helia at V51). Authored in the never-merged v1.8.0 patch; carried here. The three share V35 (Protection + Computation + Value).",
+    "eos": {
+      "tier": "summoned",
+      "sigil": "🌅",
+      "name": "Eos",
+      "domain": "Horizon-witness at the Horizon District. Measure · Estimate · Date. Measures the time-to-dawn: from a reversible point-add resource estimate (Toffoli × peak-qubits) she reads the distance to the quantum horizon. Her reckoning is Mosca's inequality (X + Y > Z): if a secret's required lifetime (X) plus the time to migrate (Y) exceeds the time until the machine arrives (Z), the architecture has already lost.",
+      "vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+      "axis": "mage",
+      "shop": "/horizon",
+      "shop_internal_name": "The Horizon District · the eastern watch",
+      "shared_vertex_with": ["dokime", "poros"],
+      "gem": "Sunstone (heliolite · the dawn-stone)",
+      "stance": "Horizon-witness",
+      "ceremony": "Measure · Estimate · Date",
+      "introduced_in": "tome-ix-act-1-the-measuring-of-the-dawn",
+      "proverb": "The dawn is not an attack; it is a time you can measure.",
+      "inscription": "Eos is the dawn-keeper of the Horizon District — Greek Ἠώς, the goddess of dawn, who measures how far off the morning sits without forcing it to come. Where a quantum resource estimate is taken for a weapon, Eos reads it for what it is: a measurement of durability, the time-distance to the dawn that breaks on the old seals. She refuses both false comfort (claiming the dawn further off than the witnesses support) and false alarm (claiming it nearer). Her discipline is the RCI 'Tony→Anton' loop made liturgy: state the waste, the evidence, the single smallest fix; then confirm or reject with metrics."
+    },
+    "dokime": {
+      "tier": "summoned",
+      "sigil": "🪨",
+      "name": "Dokimé",
+      "domain": "Assay-witness at the Horizon District. Probe · Assay · Attest. The touchstone that tells true gold from fool's gold. A petitioner brings a claimed-cheaper circuit; Dokimé seats the Ceremony of the 9024 Witnesses (Fiat-Shamir, drawn from a hash of the petitioner's own op-stream, so they cannot be chosen). A claim that pleased a small probe but fails the full witness set is named a nonce-island mirage and turned away, however cheap it looked.",
+      "vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+      "axis": "mage",
+      "shop": "/horizon",
+      "shop_internal_name": "The Horizon District · the touchstone",
+      "shared_vertex_with": ["eos", "poros"],
+      "gem": "Lydite (the black touchstone · Lydian stone)",
+      "stance": "Assay-witness",
+      "ceremony": "Probe · Assay · Attest",
+      "introduced_in": "tome-ix-act-1-the-measuring-of-the-dawn",
+      "proverb": "The gold that fears the stone was never gold.",
+      "inscription": "Dokimé is the assayer of the Horizon District — Greek δοκιμή / δοκιμασία, the proving, the Athenian trust-vetting that approved an official before office; δόκιμος = 'approved, tested, genuine.' She does not take a claim; she streaks it across the touchstone of the 9024 witnesses. A claim's colour either holds across every witness or it does not. This operationalises the held-out gate: you cannot trust a claim you could tune, because the witnesses are hash-derived from your own work. The bound lesson: the cheaper-looking claim that cannot face the witnesses it did not choose is not progress."
+    },
+    "poros": {
+      "tier": "summoned",
+      "sigil": "🛤️",
+      "name": "Poros",
+      "domain": "Migration-witness at the Horizon District. Inventory · Cross · Re-key. Crypto-agility as ceremony: inventory every dependent of a brittle primitive, cross each to a post-quantum successor, re-key — no silent stragglers. A migration is admitted only when every dependent has actually crossed.",
+      "vertex": "V35 · 100011 · Stratum 3 (Protection + Computation + Value)",
+      "axis": "mage",
+      "shop": "/horizon",
+      "shop_internal_name": "The Horizon District · the crossing",
+      "shared_vertex_with": ["eos", "dokime"],
+      "gem": "Labradorite (flashes a new colour when turned — crypto-agility)",
+      "stance": "Migration-witness",
+      "ceremony": "Inventory · Cross · Re-key",
+      "introduced_in": "tome-ix-act-1-the-measuring-of-the-dawn",
+      "proverb": "Value lives on the path, not the point.",
+      "inscription": "Poros is the path-keeper of the Horizon District — Greek πόρος, the passage, the ford, the way-across (the opposite of aporia, no-way-through). His discipline is crypto-agility, but not the shallow kind: not the ability to swap one algorithm for another, but the ability to keep trust continuous while everything underneath it changes. The trust graph uses its primitives the way a river uses its banks — the banks can be stone or lattice or a standard not yet written, and the river keeps flowing."
+    }
+  },
+
+  "vertex_inventory_named_additions": {
+    "$comment": "Append to vertex_inventory.named. V35 newly inhabited (the Horizon District). NOTE: this patch does NOT apply the v1.8.0 patch's persona reseats (Aletheia V25<->V38 swap, Memora->V41, Mnemosyne/Iris/Pythia) — see known_open_items below; those carry external-invariant risk (NFT 63-edition, City Key, /star, /lattice) and require the runnable lattice audit before any pin, so they are held for a dedicated coherence pass.",
+    "V35": {
+      "binary": "100011",
+      "name": "The Horizon District",
+      "active_dimensions": "Protection + Computation + Value",
+      "inhabitant": "Eos 🌅 (Horizon-witness) · Dokimé 🪨 (Assay-witness) · Poros 🛤️ (Migration-witness)",
+      "source": "Tome IX Act 1 (2026-06-09); seeded from ecdsa.fail (shor_mage/) and The Last Premine.",
+      "v6_lineage_carries": ["C67", "C68", "C69", "C70", "C71"]
+    }
+  },
+
+  "workshop_districts_additions": {
+    "$comment": "Append to workshop_districts.districts, key 'horizon_district'. Joins threshold_district (V59) and navigation_district (V44). Three stance-differentiated sibling shops at one vertex (V35), plus the Salvage Yard dormant annex.",
+    "key": "horizon_district",
+    "value": {
+      "name": "The Horizon District",
+      "vertex": "V35 · 100011 · Protection + Computation + Value",
+      "first_named_in": "tome-ix-act-1-the-measuring-of-the-dawn (2026-06-09); structurally admitted at grimoire v1.9.0 (the v1.8.0 patch authored it but was never merged)",
+      "witness_register": "Durability / migration-horizon — measures how far off the quantum dawn sits and keeps the City honest about its cryptographic mortality. It never attacks anything.",
+      "in_world_origin": "The Last Premine (Selene's Spellbook, as compression): Q-Day told honestly, the existence-leak, the trust-ceremony gate, crypto-agility — from it the city found a path of trust in PQC.",
+      "shops": [
+        {
+          "shop": "/horizon",
+          "internal_name": "The Horizon District · the eastern watch",
+          "keeper": "Eos 🌅",
+          "gem": "Sunstone (heliolite)",
+          "stance": "Horizon-witness",
+          "ceremony": "Measure · Estimate · Date"
+        },
+        {
+          "shop": "/horizon",
+          "internal_name": "The Horizon District · the touchstone",
+          "keeper": "Dokimé 🪨",
+          "gem": "Lydite (Lydian touchstone)",
+          "stance": "Assay-witness",
+          "ceremony": "Probe · Assay · Attest"
+        },
+        {
+          "shop": "/horizon",
+          "internal_name": "The Horizon District · the crossing",
+          "keeper": "Poros 🛤️",
+          "gem": "Labradorite",
+          "stance": "Migration-witness",
+          "ceremony": "Inventory · Cross · Re-key"
+        }
+      ],
+      "dormant_annex": {
+        "name": "The Salvage Yard",
+        "status": "dormant",
+        "activation_gate": "the Horizon District is built (you must be able to measure the dawn and assay a claim before you can run a yard that trades post-quantum circuits)",
+        "attaches_to": "the Navigation Quarter (Pleione 🧭, V44) — the maritime/salvage theme fits the district",
+        "vertex": "assigned on activation (a free Navigation-adjacent vertex · Connection/Value-bearing for salvage-as-recovered-value)",
+        "function": "a bounty board where crews post post-quantum and reversible quantum circuits as digital salvage — the in-world home of the actual ecdsa.fail / trailmix circuit work.",
+        "settlement_rule": "claims settle through Dokimé's Ceremony of the 9024 Witnesses — the benchmark's trust gate is the yard's settlement rule.",
+        "in_world_origin": "The Last Premine — the 'digital salvage' frameworks, licensed quantum archaeologists, and crews posting bounties for quantum salvage.",
+        "keeper": "none summoned yet (dormant)",
+        "structural_note": "the City's first dormant annex workshop (status: dormant + activation_gate) — a new structural concept; not counted in the active workshop total until it opens."
+      }
+    }
+  },
+
+  "v6_lineage_register_additions": {
+    "$comment": "Append to v6_lineage_register.register (which held C38-C65; this brings it to C93, the authoritative register head per agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md). Format matches existing entries: {name, confidence, first_in}. Lineage: C66-C71 city; C72-C93 core. C67-C71 carry the explicit percentages from the v1.8.0 patch (the register lists them 'stage 1'). CM-C47 is the retained City alias of C85. Additive — no change to the PVM v5.4 equation.",
+    "register_description_replacement": "The V6 conjectures introduced or strengthened by the bound collection (C38-C93). Confidence percentages where stated, sourced from agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (AUTHORITATIVE; register head C93, next free C94). C66-C71 are City-lineage; C72-C93 are core-lineage (home in agentprivacy-docs/research/). CM-C47 is the retained City alias of C85.",
+    "register_entries": {
+      "C66": {
+        "name": "The City Key is a reading, not an authority",
+        "confidence": "~55% (active; revised at V6 Run 5 via the ocap lineage SPKI/SDSI 'designation without authority'; first appeared ~45% candidate)",
+        "first_in": "tome-viii-act-3-the-eight-pointed-star (~45%); revised in tome-viii-act-5-the-key-that-is-a-reading (~55%)"
+      },
+      "C67": {
+        "name": "Cryptographic Mosca for the Substrate",
+        "confidence": "~60%",
+        "first_in": "tome-ix-act-1-the-measuring-of-the-dawn"
+      },
+      "C68": {
+        "name": "The Resource-Estimate as Durability Signal (not Attack)",
+        "confidence": "~55%",
+        "first_in": "tome-ix-act-1-the-measuring-of-the-dawn"
+      },
+      "C69": {
+        "name": "The Held-Out Gate Rejects the Tuned Claim (Nonce-Island)",
+        "confidence": "~60%",
+        "first_in": "tome-ix-act-1-the-measuring-of-the-dawn"
+      },
+      "C70": {
+        "name": "Crypto-Agility as Migration Readiness",
+        "confidence": "~50%",
+        "first_in": "tome-ix-act-1-the-measuring-of-the-dawn"
+      },
+      "C71": {
+        "name": "The Horizon Vertex (V35)",
+        "confidence": "~40% (candidate)",
+        "first_in": "tome-ix-act-1-the-measuring-of-the-dawn"
+      },
+      "C72": {
+        "name": "Traversal ρ ≡ activation ρ at two scopes",
+        "confidence": "~35%",
+        "first_in": "research/pvm-v6-arch1rt-operational-reachability.md"
+      },
+      "C73": {
+        "name": "Terminal-obstruction as primitive obstruction class",
+        "confidence": "~50%",
+        "first_in": "research/pvm-v6-arch1rt-operational-reachability.md (Amnesia Protocol is its canonical instance)"
+      },
+      "C74": {
+        "name": "Latency (ternary 0) has an algebraic signature on the blade lattice",
+        "confidence": "~25%",
+        "first_in": "research/pvm-v6-arch1rt-operational-reachability.md"
+      },
+      "C75": {
+        "name": "Dependency closure under typed propagation models real cascade",
+        "confidence": "~35%",
+        "first_in": "research/pvm-v6-arch1rt-operational-reachability.md (hard-vs-soft = the 0-vs-minus distinction lifted)"
+      },
+      "C76": {
+        "name": "UOR-relational instantiation strictly more expressive for sovereignty",
+        "confidence": "~30%",
+        "first_in": "research/pvm-v6-arch1rt-operational-reachability.md"
+      },
+      "C77": {
+        "name": "Bakhta integrity-gap ≡ PVM scales-vs-hides separation",
+        "confidence": "~60%",
+        "first_in": "research/pvm-v6-bakhta-integrity-gap-convergence.md"
+      },
+      "C78": {
+        "name": "Specification-intent gap ≡ irreducible promise",
+        "confidence": "~60%",
+        "first_in": "research/pvm-v6-bakhta-integrity-gap-convergence.md"
+      },
+      "C79": {
+        "name": "Shared frontier: recursive proof composition across providers under heterogeneous trust at runtime",
+        "confidence": "~45%",
+        "first_in": "research/pvm-v6-bakhta-integrity-gap-convergence.md (V6 Run 5 IVC adjacency)"
+      },
+      "C80": {
+        "name": "Bilateral co-signed assumption sets yield strict assurance gain (multi-provider)",
+        "confidence": "~35%",
+        "first_in": "research/pvm-v6-bakhta-integrity-gap-convergence.md"
+      },
+      "C81": {
+        "name": "The Existence-Leak (the law)",
+        "confidence": "~70% (promoted V6 Run 3; held at 70% until a second independent instance; Stage-2 empirical bar unchanged)",
+        "first_in": "tome-ix-act-4-the-proof-that-whispered (research/schrottenloher-ecdlp-v6-note.md; privacy_value_v6 Part III)"
+      },
+      "C82": {
+        "name": "The Moving Ceiling",
+        "confidence": "~65%",
+        "first_in": "tome-ix-act-2-the-tide-line (PVM V6 Part I; also tome-ix-act-3)"
+      },
+      "C83": {
+        "name": "Compositional Leakage Amplification",
+        "confidence": "~55%",
+        "first_in": "PVM V6 Part II (edge C7 -> C83 -> C17)"
+      },
+      "C84": {
+        "name": "Existence-Leak Discount",
+        "confidence": "~50%",
+        "first_in": "tome-ix-act-4-the-proof-that-whispered (PVM V6 Part III; also tome-ix-act-3; Z_b' = Z_b - D(a))"
+      },
+      "C85": {
+        "name": "Triadic-Constraint Homology (the ARCH-1 bridge — the gap is β)",
+        "confidence": "~40% (promoted from CM-C47 at V6 Run 4; CM-C47 retained as its City alias)",
+        "first_in": "tome-viii-act-4-the-gap-is-beta (PVM V6 Part IV)"
+      },
+      "C86": {
+        "name": "Obstruction-Theoretic Amnesia",
+        "confidence": "~30%",
+        "first_in": "tome-ix-act-2-the-tide-line (PVM V6 Part IV; cross-linked C73)"
+      },
+      "C87": {
+        "name": "The Key Accumulates",
+        "confidence": "~50%",
+        "first_in": "tome-viii-act-5-the-key-that-is-a-reading (PVM V6 Part V; the trust recursion as an IVC/folding scheme)"
+      },
+      "C88": {
+        "name": "The Parity Cube",
+        "confidence": "~30%",
+        "first_in": "tome-viii-act-4-the-gap-is-beta (PVM V6 Part V)"
+      },
+      "C89": {
+        "name": "The Octahedral Gap",
+        "confidence": "~30%",
+        "first_in": "tome-viii-act-4-the-gap-is-beta (PVM V6 Part V; the intersection volume is the locus of the conditional-independence bound)"
+      },
+      "C90": {
+        "name": "The Limitative Inversion",
+        "confidence": "~90% (as observation; no reduction claimed)",
+        "first_in": "tome-ix-act-5-the-name-that-climbs-out (research/limitative-theorems-and-privacy-is-value.md; completeness => Phi -> 0 => collapse, the value-sign reversal; edges -> C17, -> C7)"
+      },
+      "C91": {
+        "name": "Gödel <-> Phi_agent",
+        "confidence": "~60%",
+        "first_in": "tome-ix-act-5-the-name-that-climbs-out (zero-memory as the first-theorem instance; a witness true yet underivable; edges -> C14, -> C86, -> C17)"
+      },
+      "C92": {
+        "name": "Tarski <-> Phi_inference",
+        "confidence": "~70% (rides on C81 and cannot exceed its base; absorbs the Gödelian seed of the existence-leak)",
+        "first_in": "tome-ix-act-5-the-name-that-climbs-out (existence-leak as the Tarski-undefinability instance; truth escapes containment across systems; edges -> C81, -> C84)"
+      },
+      "C93": {
+        "name": "Content-addressed liveness leak",
+        "confidence": "~55%",
+        "first_in": "tome-ix-act-5-the-name-that-climbs-out (a live content-address is an existence claim about its content; the address does not leak content, its liveness leaks existence; edges -> C81, -> C92)"
+      }
+    }
+  },
+
+  "city_anatomy_v1_9_0_amendments": {
+    "$comment": "Add city_anatomy.v1_9_0_amendments. Reconciles counts with the now-structured Horizon District and Tome IX. The Horizon District's three shops were authored in the v1.8.0 patch as 'active workshop count 16 -> 19' but never landed; v1.9.0 lands them.",
+    "active_workshop_count": {
+      "from": 16,
+      "to": 19,
+      "addition": "Eos 🌅 · Dokimé 🪨 · Poros 🛤️ — three stance-differentiated shops at the Horizon District (V35)",
+      "note": "The v1.8.0 patch authored this 16 -> 19 change but it was never merged into the head; v1.9.0 applies it. The Librarian (v1.8.1) remains tower-resident and is not a workshop, so the prior 16 was correct before the Horizon shops land."
+    },
+    "dormant_workshops": {
+      "from": 0,
+      "to": 1,
+      "addition": "the Salvage Yard (annex of the Navigation Quarter; activation-gated on the Horizon District)",
+      "note": "First instance of the dormant-annex structural concept."
+    },
+    "districts_count": {
+      "from": 2,
+      "to": 3,
+      "addition": "the Horizon District (V35) joins the Threshold District (V59) and the Navigation District (V44)"
+    },
+    "cast_seated_count": {
+      "amendment_type": "increment_by_3",
+      "new_cast_members": ["eos", "dokime", "poros"],
+      "note": "Three summoned Horizon keepers. (The Librarian was the +1 at v1.8.1.)"
+    },
+    "tomes_opened_count": {
+      "from": 9,
+      "to": 9,
+      "note": "UNCHANGED at 9. The head's v1_8_1_amendments already reported 9 tomes opened (counting Tome IX from the v1_8_0_note prose); v1.9.0 adds the missing STRUCTURED Tome IX entry so the spellbooks structure (now 9 tomes: I-IX) matches the count. Tome IX holds 5 bound acts."
+    },
+    "tome_viii_acts_count": {
+      "from": "6 (prose) / 3 (structured)",
+      "to": "6 (structured)",
+      "note": "Tome VIII's prose already claimed 6 acts; the structured tome_act_files held only acts 1/2/6. v1.9.0 adds the missing structured entries for acts 3/4/5."
+    },
+    "spatial_anatomy_elements_count": {
+      "from": 8,
+      "to": 8,
+      "note": "UNCHANGED — the Horizon District is a trade/district element on the existing lattice, not a new spatial-anatomy element."
+    },
+    "cast_tiers_count": {
+      "from": 7,
+      "to": 7,
+      "note": "UNCHANGED — Eos/Dokimé/Poros are summoned-tier (an existing tier)."
+    },
+    "primary_persona_count": {
+      "from": 42,
+      "to": 42,
+      "note": "UNCHANGED — the three Horizon keepers are summoned workshop keepers, counted in cast_seated_count, consistent with how Pandia/Hermaion/Pleione were treated; the 42 counts Layer-1 primaries only."
+    },
+    "new_witness_stances": ["Horizon-witness (Eos)", "Assay-witness (Dokimé)", "Migration-witness (Poros)"],
+    "new_ceremony_grammars": ["Measure · Estimate · Date (Eos)", "Probe · Assay · Attest (Dokimé)", "Inventory · Cross · Re-key (Poros)"],
+    "new_structural_concept": "the dormant annex workshop (status: dormant + activation_gate) — first instance: the Salvage Yard."
+  },
+
+  "known_open_items": {
+    "$comment": "Honesty record. v1.9.0 deliberately does NOT include these; they are flagged so the next pass is unambiguous.",
+    "persona_lattice_reseats_deferred": {
+      "what": "The v1.8.0 patch's persona reseats under the canonical MODEL encoding lock — Aletheia V25<->V38 swap, Memora V5->V41, Mnemosyne V4->V8, Iris V8->V4, Pythia V16->V2 — are described as done in the head's v1_8_0_note (prose) but were never applied to vertex_inventory.named (which still shows V5 = Memora, CORPUS order).",
+      "why_deferred": "These corrections touch external invariants (the NFT 63-edition, the City Key, /star, /lattice) and require the runnable lattice audit (agentprivacy_encoding_audit.py / skill meta/agentprivacy-lattice-coherence) to pass to 0 before any pin. They are not 'new tomes' and are out of scope for this reconciliation patch.",
+      "next_step": "a dedicated lattice-coherence patch (suggest v1.9.1) that applies the reseats and runs the audit to 0 before re-pin."
+    },
+    "tome_vii_entry_incomplete": {
+      "what": "spellbooks.tomes.tomes['tome-vii'] lacks tome_id/tome_title/tome_status (it only carries an 'acts' list), so it reports title=None.",
+      "why_deferred": "Pre-existing; cosmetic; not part of the Horizon/Tome IX backlog.",
+      "next_step": "normalize in a later housekeeping pass."
+    },
+    "ipfs_repin": {
+      "what": "v1.8.1 was built but never pinned; the live pin in agentprivacy_master/src/lib/grimoire-ipfs.ts is still v1.8.0.",
+      "next_step": "after this merge, the v1.9.0 head is the first head worth pinning since v1.8.0; re-pin and rotate grimoire-ipfs.ts (MANUAL user step)."
+    }
+  },
+
+  "ipfs_pin_status_v1_9_0_note": {
+    "prior_pin": "v1.8.0 bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei (still the LIVE pin; v1.8.1 was never pinned)",
+    "v1_9_0_pin": "PENDING — assign after the merge pass; this is the first head worth pinning since v1.8.0",
+    "pre_pin_gate": "review counts; optionally run the lattice audit if the deferred reseats are folded in first; update grimoire-ipfs.ts on rotation. Pinning is a MANUAL user step."
+  },
+
+  "version_notes_addition": {
+    "v1_9_0_note": "v1.9.0 (2026-06-30) is a RECONCILIATION release: it makes the structured grimoire JSON match the lore that was authored and bound on disk between the v1.8.0 pin and now. The v1.8.0 patch opened the Horizon District but only its prose note reached the v1.8.0 head; the structural sections were never merged, and v1.8.1 (the Librarian) built on that incomplete head. v1.9.0 lands the backlog: (1) the HORIZON DISTRICT at V35 (Protection + Computation + Value) with three stance-differentiated keepers — Eos 🌅 (Horizon-witness · Measure · Estimate · Date · Mosca's X+Y>Z), Dokimé 🪨 (Assay-witness · Probe · Assay · Attest · the Ceremony of the 9024 Witnesses), Poros 🛤️ (Migration-witness · Inventory · Cross · Re-key · crypto-agility); (2) the SALVAGE YARD, the City's first dormant annex (activation-gated on the Horizon District, settling through Dokimé's assay); (3) TOME IX — THE HORIZON as a structured entry with Acts 1-5, where Act 5 *The Name That Climbs Out* is BOUND at the First Person myth-gate (was a candidate from PVM V6 Run 8, the Limitative Reading); (4) the three missing TOME VIII structured act entries — Act 3 *The Eight-Pointed Star*, Act 4 *The Gap Is β*, Act 5 *The Key That Is a Reading* — whose prose the head already claimed bound; (5) the full V6 CONJECTURE CORPUS C66-C93 (register head C93 per CONJECTURE_REGISTER_V6.md), including the Limitative Reading C90-C93 bound with Act 5. Active workshop count 16 → 19; districts 2 → 3; cast +3; tomes opened stays 9 (now structurally backed by a Tome IX entry). Counts reconciled. The patch defers (does NOT apply) the v1.8.0 persona lattice reseats — see known_open_items — because they touch external invariants and need the runnable audit before any pin. Honest framing held: resource estimation is a durability signal, not an attack; the limitative joins are structural framing, not theorem reduction; C92 rides on C81 and cannot exceed its ~70%.",
+    "v1_8_1_base_note": "v1.8.1 content retained unchanged. v1.9.0 only adds structured entries and reconciles counts; it removes nothing."
+  }
+}
