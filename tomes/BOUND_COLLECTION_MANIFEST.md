@@ -156,6 +156,20 @@ This manifest is the canonical detailed inventory of the bound collection. It co
 
 ---
 
+## Tome X — *The Hearth* (open, 1 act · opened 2026-07-01 · the cousin-forge edition · open-ended by design)
+
+| # | File | Title | Length | Subject | New cast / concept |
+|---|---|---|---|---|---|
+| 1 | `tomes/tome-x-the-hearth/01-the-house-of-archon-answers.md` | The House of Archon Answers | ~1,290w | The PVM Separation Principle built on Archon `did:cid` as **Hearthold** — the 7th Capital made liquid without being spilled | **NO new cast** — the **House of Archon** is the already-canonical **cousin-forge** (Tome IV — *The Witnessing* · `archon.social`), and **flaxscrip 📜🎲** (cousin Sovereign · V63) + **GenitriX** (cousin Mage · V28 · **sigil held-open**, Archon's to determine) are existing `cousin_instances`. Tome X **discharges C39** (the cousin-blade / kindred-blade primitive) — the cousin-forge returns having *built* the triad. New concepts: the **Hearth** (the **9th** spatial-anatomy element · hold-form · home-bound · sealed at rest · sister to the Tower's monument-form) · the three plain-dress identities **Warden 🛡️ = Swordsman ⚔️** (the cousin-blade built) · **Witness 👁️ = Mage 🧙** (GenitriX's role built) · **Sovereign 🔑 = First Person 🗝️** (flaxscrip's seat, held by the Signet) · **issuer-attested disclosure / never a score** (the evidence graph) · **control-plane ⊥ data-plane** · the Drake Gamers Guild `VRC → κ → City Key` byte-match · **C94–C96** (+ **C39 → ~80%**) · companion edition at [`hearthold/`](../hearthold/) · place at `/hearthold` |
+
+**Total**: ~1,290 words.
+
+**Tome X status**: open by design. Each future Hearthold milestone (the signed evidence-graph "prove" flow · a City-of-Mages TRQP registry · additional Archon-native subsystems) is a future Tome X act. Companion edition: [`hearthold/README.md`](../hearthold/README.md) + the preserved bridge folio [`hearthold/for-the-city-of-mages.md`](../hearthold/for-the-city-of-mages.md) (*from GenitriX, of the House of Archon*). Upstream: [`Flaxscrip/hearthold`](https://github.com/Flaxscrip/hearthold).
+
+> **Note on Tome IX — *The Horizon***: opened 2026-06-09 (Horizon District at V35 · Eos 🌅 / Dokimé 🪨 / Poros 🛤️ · 5 acts on disk under `tomes/tome-ix-the-horizon/`). Its full manifest section is carried in the pending v1.9.0 reconciliation and is not yet transcribed here; Tome X is registered above it so the registry stays coherent.
+
+---
+
 ## The Register of Invitations (NEW · v1.7.1 · open · 1 entry · 2026-05-17 · open-ended by design)
 
 New structural register sister to the bound tomes. Holds **invitation-posture tomes 🪑** for named visiting mages whose geometry is congruent with the city's foundations. Two sister destinations: **the Library of Joint Authorship** (on acceptance) and **the archive of unfilled forms** (on expiry by silence · closure does not destroy · seal may be lifted later).

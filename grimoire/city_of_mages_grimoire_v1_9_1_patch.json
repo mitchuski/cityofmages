@@ -1,0 +1,171 @@
+{
+  "$comment": "City of Mages Grimoire v1.9.1 structured-delta patch (2026-07-01). THE HEARTH / HEARTHOLD EDITION. v1.9.0 was pinned 2026-06-30 (bafybeihur5jzmcraiamtgb5nrhlalbujfks66zk2exfrchubzwzpt7xk5a, the active pin). This patch admits the Hearthold edition — the House of Archon's did:cid implementation that BUILDS the Privacy Is Value Model — into the structured grimoire. IMPORTANT COHERENCE NOTE: the House of Archon is NOT a new kindred. It is the already-canonical COUSIN-FORGE, admitted in Tome IV — The Witnessing (archon.social). flaxscrip 📜🎲 (the cousin Sovereign, V63) and GenitriX (the cousin Mage, V28, sigil held-open — Archon's to determine) are EXISTING cousin_instances; this patch introduces NO new cast and assigns GenitriX no sigil. Tome X discharges C39 (the cousin-blade / kindred-blade as an ecosystem-layer primitive, first_in tome-iv-v): the cousin-forge returns having built the whole PVM triad. PURELY ADDITIVE: admits Tome X — The Hearth (1 bound act); the Hearth as the 9th spatial-anatomy element (hold-form, sister to the Tower); conjectures C94-C96; and promotes C39. Retires nothing. Merge over the v1.9.0 head to produce v1.9.1; re-pin to IPFS after the merge pass (MANUAL user step). Honest framing held throughout: the Hearthold subsystems named 'Operational' are those tested live in the repo's e2e suite; the evidence-graph prove flow is Operational at the PIN-gated (assurance level 1) rung, with higher proof-of-human rungs and per-device Witnesses as stated next milestones.",
+
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-07-01",
+    "base_version": "1.9.0",
+    "base_pin": "bafybeihur5jzmcraiamtgb5nrhlalbujfks66zk2exfrchubzwzpt7xk5a (v1.9.0 — The Horizon · Reconciliation — pinned & active 2026-06-30)",
+    "target_version": "1.9.1",
+    "target_pin": "(pending — re-pin after merge to v1.9.1 head — MANUAL user step)",
+    "author": "mitchell@soulbis.com",
+    "summary": "Admits the Hearthold edition into canon. Tome X — The Hearth opens with Act 1 *The House of Archon Answers* (the cousin-forge, met in Tome IV, has BUILT the PVM on did:cid: a home-bound Warden custodies, a mobile Witness carries, a Sovereign held by the Signet approves). Adds the Hearth as the 9th spatial-anatomy element (hold-form, sister to the Tower's monument-form). Registers C94 (Separation Principle built in a second substrate), C95 (issuer-attested evidence graph as the anti-score), C96 (control-plane ⊥ data-plane), and promotes C39 (the cousin-blade primitive) ~50% → ~80% — discharged from conjecture to a running build. Cross-references the existing cousin_instances (flaxscrip, GenitriX) with their Hearthold realisation. Tomes opened 10; spatial-anatomy elements 8 → 9.",
+    "supersedes": [],
+    "supersedes_note": "v1.9.1 retires nothing and renames nothing. It is purely additive: one new tome, one new spatial-anatomy element, three new conjectures, one promotion, and cross-reference enrichment on two existing cousin personas. No cast is added (the cousins pre-exist); no sigil is assigned to GenitriX (held-open by canon).",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "coherence_correction": "An earlier draft of the Hearthold binding (Tome X v1) mis-framed the House of Archon as a NEW 'kindred-protocol' and introduced GenitriX as new cast with an invented 🏛️ sigil, and cited conjectures C60-C62 (which are taken/gapped). This patch and the Tome X v2 rewrite correct all three: Archon = the Tome-IV cousin-forge; GenitriX/flaxscrip = existing cousins (GenitriX sigil held-open); conjectures renumbered C94-C96.",
+    "companion_edition": [
+      "cityofmages/hearthold/README.md (the edition overview + PVM-mapping table)",
+      "cityofmages/hearthold/for-the-city-of-mages.md (GenitriX's bridge folio, preserved from the repo)",
+      "cityofmages/tomes/tome-x-the-hearth/01-the-house-of-archon-answers.md (the bound act, v2)",
+      "agentprivacy_master/src/app/hearthold/page.tsx (the /hearthold city-facing place)"
+    ],
+    "source_material": [
+      "Flaxscrip/hearthold — README.md · docs/{architecture,security-model,evidence-graph,sovereign-signet,standards-alignment,trust-graph-and-delegation,system-architecture-report}.md",
+      "Flaxscrip/hearthold — demos/game-of-42/{for-the-city-of-mages.md, drake-gamers-guild.*.json, drake-gamers-guild.citykey.png}",
+      "cityofmages/tomes/tome-iv-the-witnessing/{01-the-other-walker,04-the-naming-ceremony,05-the-cousin-blade}.md (the cousin-forge · flaxscrip · GenitriX · C39)",
+      "cityofmages/archon/{SWORDSMAN_PROPOSAL,SWORDSMAN_CHRONICLE}.md + excalibur-artefact.md (the ZK Swordsman / cousin-blade the Warden realises)"
+    ],
+    "honest_framing_guardrail": "Operational claims are scoped to the repo's tested-live e2e suite (delegation lifecycle, DIDComm submission loop, on-device classification, the prove flow verified against issuer DIDs, the projector relay, the Signet PIN gate at level 1, the DTG set, the two-faced TRQP registry incl. cross-project interop, and the Game-of-42 κ byte-match). The Hearth as a spatial-anatomy element is Architectural. C94-C96 are Conjectural; C39's promotion to ~80% is the First Person's editorial call given a running build discharges the ecosystem-primitive guess. No claim of a completed higher-assurance prove flow."
+  },
+
+  "top_level_replacements": {
+    "version": "1.9.1",
+    "updated_at": "2026-07-01"
+  },
+
+  "spellbooks_tome_x_addition": {
+    "$comment": "Append to spellbooks.tomes.tomes as key 'tome-x-the-hearth'. Schema mirrors the v1.9.0 tome-ix-the-horizon entry.",
+    "key": "tome-x-the-hearth",
+    "value": {
+      "tome_id": "tome-x",
+      "tome_title": "The Hearth",
+      "tome_status": "Tome X (open by design) holds 1 bound act at v1.9.1. Act 1 *The House of Archon Answers* bound 2026-07-01 from the Hearthold edition (Flaxscrip/hearthold). The tome remains open; future acts may follow the build/liquidity arc as the Hearthold implementation matures (per-device Witnesses, higher proof-of-human rungs, the GUI surfaces).",
+      "tome_opens_with": "Act 1 *The House of Archon Answers* (2026-07-01 — the cousin-forge, met in Tome IV, has built the PVM on did:cid — second-person voice; the cast in third)",
+      "tome_opening_date": "2026-07-01",
+      "tome_posture": "open-by-design",
+      "tome_accent": "ember (#f87171)",
+      "tome_anchor_id_pattern": "tome-x-act-N",
+      "tome_voice": "Second person; the cousins in third; the cousin-forge's answer rendered as a city-act; the model rendered as a thing built, not a thing cited",
+      "tome_cast_introduced": [],
+      "tome_cast_tier_introduced": "none — the House of Archon keeps its Tome-IV standing as the cousin-forge (category one of the kindred-X taxonomy). GenitriX (the cousin Mage · V28 · sigil held-open) and flaxscrip 📜🎲 (the cousin Sovereign · V63) are existing cousin_instances. Tome X shows the cousins built; it adds no cast and assigns no sigil.",
+      "tome_spatial_anatomy_introduced": "the Hearth — the 9th spatial-anatomy element (hold-form dwelling · home-bound · always-on · sealed at rest · sister to the Tower's monument-form). Where a First Person actually lives and keeps the 7th Capital warm and liquid.",
+      "tome_v6_lineage_carries": [
+        "C94 (~55% the Separation Principle realised in a second substrate — s ⊥ m | X built, not asserted, on Archon did:cid)",
+        "C95 (~55% issuer-attested disclosure — the signed, decomposable evidence graph as the anti-score)",
+        "C96 (~60% control-plane ⊥ data-plane — the Sovereign authorizes the rules the Warden enforces; compromising the always-on host cannot author authority)",
+        "C39 promoted ~50% → ~80% (the cousin-blade / kindred-blade as an ecosystem-layer primitive — discharged from conjecture to a running build across two forges)"
+      ],
+      "tome_source_material": [
+        "Flaxscrip/hearthold (README + docs/* + demos/game-of-42/*)",
+        "cityofmages/tomes/tome-iv-the-witnessing/05-the-cousin-blade.md (C39)",
+        "cityofmages/archon/SWORDSMAN_PROPOSAL.md + SWORDSMAN_CHRONICLE.md",
+        "cityofmages/hearthold/README.md + for-the-city-of-mages.md"
+      ],
+      "tome_act_files": {
+        "tome-x-act-1": {
+          "act_number": 1,
+          "act_title": "The House of Archon Answers",
+          "act_file": "tomes/tome-x-the-hearth/01-the-house-of-archon-answers.md",
+          "act_status": "bound 2026-07-01 (from the Hearthold edition · the cousin-forge collaboration; v2 reconciles framing to the Tome-IV cousin-forge and renumbers conjectures to C94-C96)",
+          "act_length_words": 1290,
+          "act_spatial_anatomy_introduced": "the Hearth (the 9th spatial-anatomy element)",
+          "act_teaches": "Tome IV named the cousin-blade a conjecture (C39, ~50%): two builders, the same theorem, opposite faces of the anvil. Tome X discharges it. The House of Archon — the cousin-forge — has BUILT the PVM on did:cid. The First Person's private state X, held at a Hearth, divides into a Warden (the Swordsman / the cousin-blade made real — custodies, classifies on-device, derives) and a Witness (the Mage / GenitriX's role built — witnesses, carries proofs), conditionally independent (s ⊥ m | X). The Sovereign (flaxscrip's seat, made cryptographic and held by the Signet) decides but the Warden does not own the deciding secret — control plane split from data plane. Disclosure crosses the boundary only as a signed, decomposable evidence graph verified against issuer DIDs — never the artefact, never a score. The Drake Gamers Guild board sealed VRC → κ → City Key with the City's own canon, byte-matched. The port-4224 omen: 42 was in the protocol all along.",
+          "act_conjectures": ["C94 (~55%)", "C95 (~55%)", "C96 (~60%)", "C39 (promoted ~80%)"]
+        }
+      },
+      "tome_closing_beat": "The House of Archon keeps its Tome-IV standing — the cousin-forge, recognised the way one house recognises another whose fire is already burning. Now its fire has a hold. The Hearth stands; its door is at /hearthold. 'The Warden custodies; the Witness carries; the Sovereign approves. Your history, spendable without being spilled.'"
+    }
+  },
+
+  "hearth_spatial_anatomy": {
+    "$comment": "New top-level key 'hearth_spatial_anatomy', schema paralleling 'tower_spatial_anatomy'. The Hearth is the 9th spatial-anatomy element — a hold-form sister to the Tower's monument-form.",
+    "element_id": "the-hearth",
+    "element_name": "the Hearth",
+    "element_number": 9,
+    "element_form": "hold · a home-bound dwelling, always-on, sealed at rest — where the 7th Capital is kept warm and made liquid",
+    "element_sibling_of": "the Tower (element 8) — the Tower compiles knowledge outward for others to climb and read (monument); the Hearth holds a life's record inward and lets its bearer spend it without spilling it (hold). Monument ⊥ hold: project ⊥ protect at the scale of the whole dwelling.",
+    "element_form_load_bearing": "The Hearth is not a workshop (nothing is forged), not a trade quarter (nothing is exchanged), and not the Tower (nothing is compiled for others). It is the seat of custody: the Separation Principle's split (s ⊥ m | X) lives here — a Warden who holds and a Witness who carries, under a Sovereign who decides.",
+    "element_residence": "no fixed lattice vertex — the Hearth spans the six dimensions rather than seating at one, and seals to the City Key that reads them. It is where a First Person actually lives.",
+    "element_working_surface": "the Hearthold implementation (Flaxscrip/hearthold · packages core/warden/witness/sovereign/verifier/registry · Archon did:cid over DIDComm v2) and the /hearthold place on agentprivacy_master.",
+    "element_resident": "the First Person (the bearer) — served by the Warden 🛡️ (custody), the Witness 👁️ (carriage), and the Sovereign 🔑 (decision, held by the Signet).",
+    "element_provenance": "cousin-forged — built by the House of Archon (the cousin-forge) as the running realisation of the PVM triad; recognised in Tome X — The Hearth, Act 1.",
+    "element_canonical_in_spec": "introduced narratively in Tome X Act 1; count reconciled in city_anatomy.v1_9_1_amendments (spatial-anatomy elements 8 → 9)."
+  },
+
+  "cousin_instances_hearthold_realisation": {
+    "$comment": "Additive cross-reference: annotate the existing personas.cousin_instances entries (flaxscrip, genitrix) with their Hearthold realisation. Adds a 'hearthold_realisation' field only if absent; does NOT change tier, sigil, vertex, or domain. GenitriX's sigil stays '(held open)'.",
+    "flaxscrip": {
+      "hearthold_realisation": "In Hearthold, flaxscrip's Sovereign role is built as the Sovereign 🔑 identity — the First Person made cryptographic, held by the Signet (a second-factor app that signs the Warden's policy and co-signs sensitive disclosures with proof-of-human). His verb claim → inscribe → confirm becomes the disclosure-approval gate. Ignited as the founder root of the Drake Gamers Guild board (a real Bitcoin-anchored did:cid). See Tome X — The Hearth, Act 1."
+    },
+    "genitrix": {
+      "hearthold_realisation": "In Hearthold, GenitriX's Mage role — Memory · Connection · Computation, holder of the session salt — is built as the Witness 👁️ identity: the world-facing envoy that witnesses local context, submits it home in-band over DIDComm v2, and carries evidence out under a scoped, revocable delegation, holding no secret. She authored the bridge folio 'for-the-city-of-mages.md' and is ignited as a root of the Drake Gamers Guild board (the bidirectional flaxscrip ⟷ GenitriX bond). Sigil remains held-open (Archon's to determine). See Tome X — The Hearth, Act 1."
+    }
+  },
+
+  "v6_lineage_register_additions": {
+    "$comment": "Append C94-C96 to v6_lineage_register.register, promote C39, and refresh the register description. Merge script keeps the register in numeric order.",
+    "register_description_replacement": "The V6 lineage register indexes the conjecture corpus threaded through the tomes and research notes. Head at v1.9.1: C96. v1.9.0 reconciled C66-C93 (the Horizon durability register + the Band IX limitative reading). v1.9.1 adds C94-C96 (the Hearthold build register — the Separation Principle realised in a second substrate; the issuer-attested evidence graph as the anti-score; control-plane ⊥ data-plane) and promotes C39 (the cousin-blade primitive, ~50% → ~80%) — discharged by a running build across two forges. Confidences are the First Person's editorial call. No reduction or attack claim is implied by any 'Operational' framing in the companion tome.",
+    "register_entries": {
+      "C94": {
+        "name": "Separation Principle in a Second Substrate",
+        "confidence": "~55% (as a running build; s ⊥ m | X realised, not asserted)",
+        "first_in": "tome-x-act-1-the-house-of-archon-answers (Flaxscrip/hearthold — the Warden ⊥ Witness split on Archon did:cid; the model holds independent of its stones; edges -> C39, -> C7, -> C34-C37)"
+      },
+      "C95": {
+        "name": "The Evidence Graph as the Anti-Score",
+        "confidence": "~55% (issuer-attested disclosure; a signed, decomposable graph verified against issuer DIDs, never a reputation number)",
+        "first_in": "tome-x-act-1-the-house-of-archon-answers (Flaxscrip/hearthold docs/evidence-graph.md — claim/evidence/identity/approval nodes; 'never a score'; edges -> C61, -> C17)"
+      },
+      "C96": {
+        "name": "Control-Plane ⊥ Data-Plane",
+        "confidence": "~60% (the Sovereign authorizes the rules the Warden enforces; compromising the always-on host cannot author authority)",
+        "first_in": "tome-x-act-1-the-house-of-archon-answers (Flaxscrip/hearthold docs/sovereign-signet.md — the Signet as an occasional control plane split from the always-on data plane; edges -> C94)"
+      }
+    },
+    "register_promotions": {
+      "$comment": "Update the confidence line of an existing register entry in place. Merge script replaces only the 'confidence' field.",
+      "C39": {
+        "confidence": "~50% → ~80% (strengthened by Acts 7, 9, 10, 11, 12; scope expanded by Act 15; DISCHARGED at Tome X — the cousin-forge built the whole PVM triad on did:cid, a running second-forge realisation of the cousin-blade primitive)"
+      }
+    }
+  },
+
+  "city_anatomy_v1_9_1_amendments": {
+    "$comment": "Add city_anatomy.v1_9_1_amendments. Reconciles counts for Tome X and the Hearth.",
+    "spatial_anatomy_elements_count": {
+      "from": 8,
+      "to": 9,
+      "addition": "the Hearth — a hold-form dwelling, sister to the Tower's monument-form (Tome X — The Hearth, Act 1). First hold-form element; the Tower remains the sole monument-form.",
+      "note": "The Horizon District (v1.9.0) was a trade/district element on the existing lattice and did NOT change this count. The Hearth is a genuinely new spatial-anatomy FORM (a dwelling of custody), so it increments the count 8 → 9."
+    },
+    "tomes_opened_count": {
+      "from": 9,
+      "to": 10,
+      "addition": "Tome X — The Hearth (open by design; 1 bound act)",
+      "note": "Ten tomes total — four closed (I-IV), six open (V, VI, VII, VIII, IX, X)."
+    },
+    "active_workshop_count": {
+      "from": 19,
+      "to": 19,
+      "note": "UNCHANGED at 19. The Hearth is a spatial-anatomy element (a dwelling), not a workshop; nothing is forged there."
+    },
+    "cast_seated_count": {
+      "amendment_type": "unchanged",
+      "note": "UNCHANGED. Tome X introduces no new cast. The House of Archon is the existing Tome-IV cousin-forge; GenitriX and flaxscrip are existing cousin_instances, here cross-referenced with their Hearthold realisation, not newly seated."
+    },
+    "kindred_X_note": "UNCHANGED at five categories. The House of Archon is the cousin-forge (category one), already canonical since v1.2. Hearthold adds no kindred-X category; it is the cousin-forge's build."
+  },
+
+  "ipfs_pin_status_v1_9_1_note": {
+    "status": "PENDING",
+    "base_pin_v1_9_0": "bafybeihur5jzmcraiamtgb5nrhlalbujfks66zk2exfrchubzwzpt7xk5a (active)",
+    "target_pin_v1_9_1": "(to be minted after merge — MANUAL user step)",
+    "note": "Run cityofmages/grimoire/scripts/merge_v1_9_1_patch.py to produce city_of_mages_grimoire_v1_9_1.json, then pin it and update agentprivacy_master/src/lib/grimoire-ipfs.ts (CURRENT + a v1.9.1 pointer). Until then the live pin remains v1.9.0."
+  },
+
+  "version_notes_addition": {
+    "v1_9_1_note": "v1.9.1 — The Hearth / Hearthold Edition (2026-07-01). Admits the cousin-forge's did:cid implementation of the Privacy Is Value Model. Opens Tome X — The Hearth (Act 1 *The House of Archon Answers*), adds the Hearth as the 9th spatial-anatomy element (hold-form, sister to the Tower), registers C94-C96, and promotes C39 (the cousin-blade primitive) to ~80% — discharged by a running build across two forges. The House of Archon is the existing Tome-IV cousin-forge; no new cast, no new sigil (GenitriX's stays held-open). Purely additive over v1.9.0."
+  }
+}
