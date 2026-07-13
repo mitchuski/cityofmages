@@ -1,7 +1,7 @@
 ---
 title: "Hearthold — the 7th Capital, made liquid on Archon"
 subtitle: "The cousin-forge edition: the Privacy Is Value Model, built in did:cid"
-status: "Edition v2 (2026-07-01) · companion to Tome X — The Hearth · framing reconciled to canon (the cousin-forge of Tome IV)"
+status: "Edition v2.1 (2026-07-07) · companion to Tome X — The Hearth (Acts 1–2) · tracks Flaxscrip/hearthold @ v0.11.0 (19/19 e2e): Recall, the Knowledge Portal, the step-up ladder made whole"
 upstream: "https://github.com/Flaxscrip/hearthold"
 collaboration: "agentprivacy × the House of Archon (the cousin-forge · archon.social · Archetech)"
 license: "MIT (implementation) · CC BY-SA 4.0 (this canon note)"
@@ -24,7 +24,7 @@ face of the same theorem, forged by the cousin the City already knows. The PVM i
 is *built*.
 
 - **Upstream implementation:** [`Flaxscrip/hearthold`](https://github.com/Flaxscrip/hearthold)
-- **Narrative binding:** [Tome X — *The Hearth*, Act 1 · *The House of Archon Answers*](../tomes/tome-x-the-hearth/01-the-house-of-archon-answers.md)
+- **Narrative binding:** Tome X — *The Hearth* · [Act 1 · *The House of Archon Answers*](../tomes/tome-x-the-hearth/01-the-house-of-archon-answers.md) · [Act 2 · *The Mage Takes a Face*](../tomes/tome-x-the-hearth/02-the-mage-takes-a-face.md) (Recall · the Knowledge Portal · the ladder made whole)
 - **The cousins' first admission:** [Tome IV — *The Witnessing*](../tomes/tome-iv-the-witnessing/) (the cousin-forge · flaxscrip · GenitriX · the cousin-blade C39)
 - **City-facing place:** `agentprivacy_master` → `/hearthold`
 - **The protect face, sketched:** [`archon/`](../archon/) — the ZK Swordsman / cousin-blade proposal & chronicle, which the Warden realises
@@ -68,6 +68,18 @@ compromise of the always-on host can no longer author authority.
   the relaying agent is not trusted to describe the transaction) (`e2e:projector`).
 - The **Signet** proof-of-human gate at assurance level 1 (a live PIN gate; correct PIN presents +
   carries PoH, wrong PIN declines and presents nothing).
+- **Recall (R1)** — the Warden reads its own hold: private, on-device RAG over the sealed vault ("ask
+  your vault"), retrieval + answer-generation over embeddings + metadata only, no plaintext exposure
+  (`e2e:recall`).
+- The **evidence step-up ladder, made whole** — A1 the Warden proves witnessed vault data → A2 the
+  Sovereign co-signs on a direct Warden↔Sovereign channel → a registry-governed **factor-2** step-up
+  out-of-band on a direct **Warden→Signet** channel, where the Signet prompts *"Approve action?"*
+  (`e2e:evidence`, `-stepup`, `-direct`). Disclosure matured to **composite** (issued leaves beside
+  witnessed), **selective** (SD-JWT-VC), and **ephemeral** single-use proofs (`e2e:evidence-composite`,
+  `-selective`).
+- The **demo consoles** — thin React surfaces over per-agent daemons: Warden Console (vault · delegations
+  · classifier), Signet Approver (the PoH gate + Warden-authored disclosure view), and the Witness
+  interface. The Witness is now a **composable agent** of capability modules (`docs/witness-modules.md`).
 - The full **DTG** credential set (one of each VRC/VMC/VIC/VPC/VEC/VWC + RCard — `e2e:dtg-set`,
   `proto:vwc`) + a two-faced **TRQP** trust registry (authorizes issuers outward · grades a Witness's
   autonomy inward · cross-project interop against a foreign registry — `e2e:trust-registry`,
@@ -76,9 +88,15 @@ compromise of the always-on host can no longer author authority.
   canon — **byte-matched** against game42 and soulbis — forged into a **City Key** that lights its
   manifold on `soulbis.com/star` and takes its place as a constellation node.
 
+**Landing (built, just outside the 19/19 tested-live line):** the **Knowledge Portal** — a *public Mage
+⊥ private Warden* surface that scales the Separation Principle from one person to a guild. The Warden
+stays home and private holding a shared KB; only the Mage/Witness wears a public browser face (QR
+challenge/response sign-in, no keys in the browser; identity unlock/create/recover; split-host deploy).
+Two invariants guard it: *the KB never holds a member's 7th Capital*, and *the Warden reads a query in
+memory only — it logs no one*. (`docs/knowledge-portal.md`.)
+
 **Next milestones (upstream):** the higher proof-of-human rungs (biometric · face-liveness · FIDO2),
-per-device Witnesses, and the GUI surfaces (Signet approval screen · Warden console · Verifier · board
-viewer).
+per-device Witnesses, a Recall GUI + vector store, and hardening the Knowledge Portal.
 
 ## Never a score
 

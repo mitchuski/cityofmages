@@ -1,0 +1,68 @@
+{
+  "$comment": "City of Mages Grimoire v1.9.2 structured-delta patch (2026-07-11). THE LOOMKEEPER'S WEAVE / OVERLAY EDITION. Base = v1.9.1 head (Hearthold edition merged 2026-07-01; live IPFS pin still v1.8.0 per the standing reconciliation queue). This patch admits the OVERLAY LAYER of the V6 research programme into the structured grimoire: agentprivacy-docs/papers/Programme/overlays/ — a first-person-directed lane where the poetic register reads the formal corpus whole. PURELY ADDITIVE: admits Tome IX Act 7 *The Loomkeeper's Weave* (DRAFT, unbound until First-Person review); registers the Weave (nine threads over four dimensions) and the Nine Keys (cohere-gated understanding cards, proverb-as-principles) as overlay artifacts; introduces NO new cast — the Loomkeeper is a DRAFT PERSONA with no sigil, no vertex and no tier, admission pending the First Person's ruling, mirroring the GenitriX held-open discipline. Mints NO new conjecture. Retires nothing.",
+
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-07-11",
+    "base_version": "1.9.1",
+    "base_pin": "(v1.9.1 head on disk; live IPFS pin remains v1.8.0 — the v1.9.x re-pin is a standing MANUAL user step)",
+    "target_version": "1.9.2",
+    "target_pin": "(pending — re-pin after merge; MANUAL user step)",
+    "author": "mitchell@soulbis.com",
+    "summary": "Admits the Overlay Weave into the grimoire. The V6 research programme's poetic layer was swept by four parallel seats (46 proverbs, 33 protocols, 17 spells and emoji strings, 26 sci-fi concepts — 122 items, every one anchored file:line to its formal twin), woven into nine threads with a twelve-row casting-forward table (four UNCAST paper seeds), and minted as nine understanding cards that passed the understanding-compression cohere gate first run — understanding-as-key enacted on the research programme itself. Tome IX gains a DRAFT Act 7, The Loomkeeper's Weave. The Loomkeeper enters as a draft persona only.",
+    "supersedes": [],
+    "supersedes_note": "v1.9.2 retires nothing and renames nothing. One draft act, one draft persona (held-open), two overlay artifact registrations, zero conjectures, zero cast.",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "companion_edition": [
+      "agentprivacy-docs/papers/Programme/overlays/README.md (the lane charter)",
+      "agentprivacy-docs/papers/Programme/overlays/WEAVE.md (the nine threads + casting-forward table)",
+      "agentprivacy-docs/papers/Programme/overlays/keys/cards.json (the Nine Keys, cohere-gated)",
+      "agentprivacy-docs/papers/Programme/overlays/persona/LOOMKEEPER.md (the draft persona card)",
+      "cityofmages/tomes/tome-ix-the-horizon/07-the-loomkeepers-weave.md (the DRAFT act)",
+      "spellweb/src/data/nodes.ts + edges.ts (doc-overlay-weave · concept-overlay-keys · concept-loomkeeper · chron-overlay-run-1; uncommitted)"
+    ],
+    "source_material": [
+      "agentprivacy-docs/papers/Programme/overlays/sweeps/{OV-P_proverbs,OV-R_protocols,OV-S_spells,OV-F_scifi_concepts}.md",
+      "agentprivacy-docs/papers/Programme/pipeline/chronicles/2026-07-11_loomkeeper-overlay-run-1.md",
+      "agentprivacy-docs/papers/Programme/pipeline/chronicles/2026-07-10_the-twelve-cycles.md (the runtime arc the overlay reads)"
+    ],
+    "honest_framing_guardrail": "Overlay artifacts are OVERLAY, not canon: the weave amplifies and never strengthens — every thread's formal-twin line states only what the anchored source states, and the fenced results (the capacity-deficit iff; the CTR-OBS-01 subadditive correction with its equality condition; GR-7 dating of every ceiling) are carried exactly. The Nine Keys are declared-ceremony artifacts (visibility 100%) over the First Person's own corpus; inscribing any key onchain, into spellweb ceremonies, or into a VRC is the First Person's act. The four UNCAST casting-forward directions are unclaimed research seeds, not commitments. Act 7 is DRAFT and unbound; the Loomkeeper is a draft persona and NOT cast."
+  },
+
+  "top_level_replacements": {
+    "version": "1.9.2",
+    "updated_at": "2026-07-11"
+  },
+
+  "spellbooks_tome_ix_amendment": {
+    "$comment": "Amend spellbooks.tomes.tomes['tome-ix-the-horizon'].tome_status: append the Act 7 draft note. Act binds only after First-Person review.",
+    "tome_status_append": "Act 7 *The Loomkeeper's Weave* DRAFT (2026-07-11; bound from overlay-run-1 — the four-dimension sweep, the nine threads, the Nine Keys; binds after First-Person review).",
+    "tome_anchor_id": "tome-ix-act-7"
+  },
+
+  "overlay_layer_registration": {
+    "$comment": "New top-level section 'overlay_weave' to merge at the grimoire root, sibling to cross_spellbook_resonance.",
+    "key": "overlay_weave",
+    "value": {
+      "description": "The overlay layer of the V6 research programme: the sanctioned inverse of the pipeline's GR-4 register fence. Four dimensions swept across the formal corpus (proverbs · protocols · spells and emoji strings · sci-fi concepts), woven into threads, minted as understanding keys. The lane is read-only over its sources; it amplifies, never strengthens.",
+      "home": "agentprivacy-docs/papers/Programme/overlays/",
+      "run_1": {
+        "date": "2026-07-11",
+        "sweeps": {"proverbs": 46, "protocols": 33, "spells_and_emoji_strings": 17, "scifi_concepts": 26, "items_total": 122},
+        "threads": ["the moving ceiling", "the amnesia gap", "not allowed to collude", "the signature that does not multiply", "the existence leak", "understanding as key", "the outside eye", "the record that admits error", "the work writes its own exam"],
+        "keys": {"count": 9, "format": "understanding-compression cards, proverb as principles line", "gate": "cohere PASS first run (9 cards, all round-trips close)"},
+        "casting_forward_uncast": ["the skills-dominance benchmark (competence survives amnesia)", "honest interactive publishing as a genre", "hash-drawn test points (Fiat-Shamir-in-workflow + grinding analysis)", "forgetting as a review primitive"],
+        "load_bearing_finds": ["⊥ is the one symbol with a passport for both registers — mathematics first, so it survives the emoji fence inside TIER-A papers: simultaneously conditional independence, separation of duties, and Swordsman⊥Mage", "the gate ladder, the observer intake and the ceremony ladders are one shape at three scales: staged passage, human-held terminal act, appended record", "proverbs form at three geological layers — canon (slow, C-numbered), TIER-P codas, and the runtime's lessons-banked blocks, where scar tissue compresses into law within one cycle of the wound", "the first proverb accepted from outside the walls is retained under attribution: preserve mystery in the journey, remove ambiguity from the evidence"]
+      },
+      "draft_persona": {
+        "name": "the Loomkeeper",
+        "emoji_working": "🧵",
+        "status": "DRAFT — no sigil, no vertex, no tier; admission pending First-Person ruling (GR-10 held; the GenitriX held-open discipline applied)",
+        "card": "overlays/persona/LOOMKEEPER.md",
+        "one_line": "The pipeline weaves blind; the Loomkeeper reads the pattern in colour."
+      },
+      "proverb": "A poet with a ledger, not a poet instead of one."
+    }
+  }
+}

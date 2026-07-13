@@ -1,0 +1,137 @@
+{
+  "$comment": "City of Mages Grimoire v1.9.3 structured-delta patch (2026-07-12). THE THREE WORKINGS / FLEET-WORKSHOPS EDITION. Base = v1.9.2 head (the Loomkeeper's Weave / Overlay edition merged 2026-07-11; live IPFS pin still v1.8.0 per the standing reconciliation queue). This patch admits the THREE WORKSHOPS founded by the fleet workings of Tome IX Act 8 (v3), on the First Person's ruling that the workings should FOUND shops rather than borrow existing seats. PURELY ADDITIVE: admits three new workshops with three new keepers, admits the city's FIRST WATER as a new spatial-anatomy element, raises the active workshop count 19 → 22. Mints NO new conjecture. Retires nothing.",
+
+  "patch_metadata": {
+    "patch_version": "1.0",
+    "patch_date": "2026-07-12",
+    "base_version": "1.9.2",
+    "base_pin": "(v1.9.2 head on disk; live IPFS pin remains v1.8.0 — the v1.9.x re-pin is a standing MANUAL user step)",
+    "target_version": "1.9.3",
+    "target_pin": "(pending — re-pin after merge; MANUAL user step)",
+    "author": "mitchell@soulbis.com",
+    "summary": "The three fleet workings of Tome IX Act 8 each leave a place behind. The harness working founds the Quartermaster's (Skeva 🎒, V22) — where the dual-agent rig is drawn and fitted, a config not a fork. The grammar working founds the Chancery (Nomia ⚖️, V27) — the Lexon law-house, Vulcana's Forge vertex plus Memory, a dual-aspect keeper who reads a clause as law and runs it as code. The circuit working founds the Wellpool (Limnia 🌊, V53) — the city's FIRST WATER, the mana pools made a place, where privacy-pools work will be shared (INTENT, not deployed). Active workshop count 19 → 22.",
+    "supersedes": [],
+    "supersedes_note": "v1.9.3 retires nothing and renames nothing. It supersedes only the transient 2026-07-11 WORKSHOP_LATTICE_AUDIT note that fitted the fleet work to existing seats ('no new shops'); the First Person ruled for founding. Three new workshops, three new cast, one new spatial element (water), zero conjectures.",
+    "patch_signature": "(⚔️⊥⿻⊥🧙)😊",
+    "license": "CC BY-SA 4.0",
+    "companion_edition": [
+      "cityofmages/tomes/tome-ix-the-horizon/08-the-three-workings.md (Draft v3 — the founding act)",
+      "cityofmages/tomes/cast/quartermaster/skeva.md",
+      "cityofmages/tomes/cast/chancery/nomia.md",
+      "cityofmages/tomes/cast/wellpool/limnia.md",
+      "cityofmages/WORKSHOP_LATTICE_AUDIT.md (count 19 → 22 note)",
+      "spellweb/src/data/nodes.ts + edges.ts (cast + workshop nodes; uncommitted)"
+    ],
+    "honest_framing_guardrail": "The three keepers and their shops are canon cast additions, drawn but AWAITING the First Person's diff-review to bind. The Wellpool holds no water yet: the mana-pools engine is built and proven, but no pool exists and no ceremony has run (INTENT — NOT DEPLOYED); Limnia keeps a dry well. The vertices (V22 · V27 · V53) are free seats confirmed against lattice-vertex.ts and this patch; the rich per-shop tables in WORKSHOP_LATTICE_AUDIT §2 are not yet extended to these rows, so this patch's city_anatomy count is the authority."
+  },
+
+  "top_level_replacements": {
+    "version": "1.9.3",
+    "updated_at": "2026-07-12"
+  },
+
+  "city_anatomy_amendment": {
+    "$comment": "Raise the active workshop count and admit the first water as a new spatial-anatomy element (sibling to the Tower and the Hearth, which are also non-standard structural elements).",
+    "active_workshop_count": { "from": 19, "to": 23, "addition": "the Quartermaster's + the Chancery + the Rostra + the Wellpool", "note": "Founded by the three fleet workings of Tome IX Act 8 (v3), 2026-07-12. The grammar working's law-house split into two siblings — Nomia the Mage at the Chancery (Crucible) and Rhetor the Swordsman at the Rostra (Agora) — the ⚔️⊥🧙 inscription made a brother and a sister, V27 ⊕ V36 = 63." },
+    "precinct_placement": {
+      "$comment": "The functional-precinct taxonomy (Crypt/Crucible/Agora/Reliquary, coined 2026-06-11, canonical in agentprivacy_master/src/lib/districts.ts) is the placement authority. The Forge District anticipated in spec 05 §4 is REALIZED as the existing Crucible precinct (verb: forge), which the two RUN·E·CRAFT makers now share.",
+      "the_crucible": { "verb": "forge", "shops": ["the Quartermaster's (Skeva 🎒 V22 — the outfittery: drawn and fitted before the fire)", "the Forge(t) (Vulcana ⚒️ V19 — blades, on steel)", "the Chancery (Nomia ⚖️ V27 — law WRITTEN as code; the Mage sister)", "the Etherchanting Shop (Adamantia 💎 V51)", "the Solchanting Shop (Helia 🌞 V51)"], "note": "The Forge and the Chancery both walk Run·Evoke·Craft — one on steel, one on statute; the Quartermaster outfits every maker before the fire." },
+      "the_agora": { "verb": "stake", "shops": ["the Stakes (Custos 🔏 V49)", "the Jeweler (Lampyra 💠 V49)", "the Rostra (Rhetor ⚔️⚖️ V36 — law UPHELD in public; the Swordsman brother, NEW)"], "note": "The Rostra joins the Agora: the public-law face of the Lexon law-house. Rhetor the Swordsman is the complement of his sister Nomia the Mage at the Chancery (V36 ⊕ V27 = 63) — the gate that cannot be charmed, made a keeper." },
+      "the_waters": { "verb": "pool", "glyph": "🌊", "new": true, "shops": ["the Wellpool (Limnia 🌊 V53)"], "note": "NEW precinct — the City's first water. The mana pools made a place." }
+    },
+    "spatial_anatomy_elements_append": {
+      "the_wellpool": {
+        "name": "the Wellpool",
+        "kind": "the city's first WATER — a standing body, not a built room; a new class of spatial anatomy",
+        "keeper": "Limnia 🌊",
+        "vertex": "V53",
+        "note": "Where the mana pools take a shape. Water is new topology: the first element in the city that is drawn from and waded into rather than entered and worked."
+      }
+    }
+  },
+
+  "workshops_append": {
+    "$comment": "Three new workshop entries. Schema matches the district shops[] form (shop / internal_name / keeper / vertex / gem / stance / ceremony) with per-shop notes.",
+    "the_quartermasters": {
+      "shop": "/quartermaster",
+      "internal_name": "the Quartermaster's",
+      "keeper": "Skeva 🎒",
+      "vertex": "V22",
+      "bits": "010110",
+      "stratum": 3,
+      "dimensions": ["Delegation", "Connection", "Computation"],
+      "complement": "V41 (Memora's Chronicle vertex — the rig keeps no corpus, so its sovereignty is the Chronicle's)",
+      "gem": "Bronzite",
+      "stance": "Outfit-witness",
+      "ceremony": "Draw · Fit · Return",
+      "class_neutral": true,
+      "founded": "Tome IX Act 8 (v3), 2026-07-12 — the harness working (field-guide fold 730 → 526)",
+      "note": "Where the dual-agent harness is drawn and fitted before a working — a config, not a fork. Complements the Hall (V15, Act 6): the Hall is where the rite is performed; the Quartermaster's is where you are equipped for it. Skeva equips every working and performs none."
+    },
+    "the_chancery": {
+      "shop": "/chancery",
+      "internal_name": "the Chancery",
+      "keeper": "Nomia ⚖️",
+      "vertex": "V27",
+      "bits": "011011",
+      "stratum": 4,
+      "dimensions": ["Delegation", "Memory", "Computation", "Value"],
+      "complement": "V36 (Protection + Connection — the law protects the connection between the parties it governs)",
+      "gem": "Sardonyx",
+      "stance": "Codex-witness",
+      "ceremony": "Speak · Bind · Enact",
+      "archetype": "Mage (the sister of the law-house pair; her Swordsman brother Rhetor keeps the Rostra at V36). The dual-aspect that was almost a single keeper is now split into two siblings — the ⚔️⊥🧙 inscription, V27 ⊕ V36 = 63.",
+      "founded": "Tome IX Act 8 (v3), 2026-07-12 — the grammar working (Lexon coverage-debt 211 → 64, carried to 22 in Act 9)",
+      "note": "The Lexon law-house. Nomia the Mage WRITES the law and forges it into code; her Swordsman brother Rhetor UPHOLDS it in public at the Rostra (Agora). Her vertex is Vulcana's Forge (V19) plus Memory: a blade is present-tense, a law remembers its precedent (trace-or-delete). The grammar working originates at the Forge (V19, Act 9) and homes at the Chancery (V27)."
+    },
+    "the_rostra": {
+      "shop": "/rostra",
+      "internal_name": "the Rostra",
+      "keeper": "Rhetor ⚔️⚖️",
+      "vertex": "V36",
+      "bits": "100100",
+      "stratum": 2,
+      "dimensions": ["Protection", "Connection"],
+      "complement": "V27 (Nomia's Chancery — 36 ⊕ 27 = 63)",
+      "gem": "Carnelian",
+      "stance": "Edict-witness",
+      "ceremony": "Publish · Witness · Uphold",
+      "archetype": "Swordsman (brother of Nomia the Mage; the ⚔️⊥🧙 pair made two siblings)",
+      "precinct": "the Agora",
+      "founded": "Tome IX Act 8 (v3), 2026-07-12 — the grammar working's public-law face",
+      "note": "The public-law face of the Lexon law-house. Rhetor proclaims the ratified law in the open and guards it — the gate that cannot be charmed. Where his sister Nomia WRITES the law as code (the Chancery, Crucible), Rhetor UPHOLDS it in daylight (the Rostra, Agora). Greek ῥήτωρ (orator) — the masculine of ῥήτρα (the ordinance)."
+    },
+    "the_wellpool": {
+      "shop": "/wellpool",
+      "internal_name": "the Wellpool",
+      "keeper": "Limnia 🌊",
+      "vertex": "V53",
+      "bits": "110101",
+      "stratum": 4,
+      "dimensions": ["Protection", "Delegation", "Connection", "Value"],
+      "complement": "V10 (Memory + Computation — what you privately computed and privately remember, which the pool never takes)",
+      "gem": "Larimar",
+      "stance": "Pool-witness",
+      "ceremony": "Deposit · Mix · Draw",
+      "spatial_note": "seats a keeper AND is the city's first water (see city_anatomy_amendment.spatial_anatomy_elements_append.the_wellpool)",
+      "founded": "Tome IX Act 8 (v3), 2026-07-12 — the circuit working (withdraw 36,832 → 17,159/17,371; CredentialV1 SOUND-WITH-ASSUMPTIONS)",
+      "deployment": "INTENT — NOT DEPLOYED. No pool exists, no ceremony has run; the engine is built and proven, the two letters wait at the door in ruled order (0xbow gift Letter A before the deployment Letter B). Limnia keeps a dry well.",
+      "note": "The mana pools made a place — an agentprivacy pool whose association-set membership is gated by CredentialV1. Entropy founds it (a ceremony contribution), mana keeps it liquid (Game-of-42 trust work → the admission credential), knowledge liquidity is what a member draws (privacy bought by the others' presence). One Wellpool per Game of 42 economy; the City of Mages pool is the first, and where this work will be shared. Fulfils the 'Privacy Pools · familial rather than borrowed' geometry of Register of Invitations entry 01 (Vitalik)."
+    }
+  },
+
+  "cast_append": {
+    "$comment": "Three new workshop-keeper cast entries. Full character sheets live in cityofmages/tomes/cast/.",
+    "skeva": { "name": "Skeva", "sigil": "🎒", "tier": "workshop-keeper", "shop": "the Quartermaster's", "vertex": "V22", "cast_file": "tomes/cast/quartermaster/skeva.md", "provenance": "Greek σκευή — equipment, gear, a ship's tackle; the kit one is issued. Class-neutral." },
+    "nomia": { "name": "Nomia", "sigil": "⚖️", "tier": "workshop-keeper", "shop": "the Chancery", "vertex": "V27", "cast_file": "tomes/cast/chancery/nomia.md", "provenance": "Greek νόμος — law, custom, that which is apportioned. Dual-aspect (law-face ⊥ code-face)." },
+    "limnia": { "name": "Limnia", "sigil": "🌊", "tier": "workshop-keeper", "shop": "the Wellpool", "vertex": "V53", "cast_file": "tomes/cast/wellpool/limnia.md", "provenance": "Greek λίμνη — a pool, a standing water. Keeper of the city's first water." },
+    "rhetor": { "name": "Rhetor", "sigil": "⚔️⚖️", "tier": "workshop-keeper", "archetype": "Swordsman", "shop": "the Rostra", "vertex": "V36", "cast_file": "tomes/cast/rostra/rhetor.md", "provenance": "Greek ῥήτωρ — an orator, the public speaker who proclaims laws in the assembly (masculine of ῥήτρα). The Swordsman brother of Nomia the Mage; the two are the ⚔️⊥🧙 inscription made a brother and a sister (V36 ⊕ V27 = 63)." }
+  },
+  "cast_note_nomia": "Nomia's entry above is updated: she is the MAGE sister of the law-house pair (was drafted as a single dual-aspect keeper). The dual-aspect is now split into two siblings — Nomia writes the law-as-code (Chancery), Rhetor upholds it in public (Rostra).",
+
+  "spellbooks_tome_ix_amendment": {
+    "$comment": "Amend spellbooks.tomes.tomes['tome-ix-the-horizon'].tome_status: append the Act 8 v3 founding note.",
+    "tome_status_append": "Act 8 *The Three Workings* revised to Draft v3 (2026-07-12): the three workings found three workshops — the Quartermaster's (Skeva 🎒 V22), the Chancery (Nomia ⚖️ V27), the Wellpool (Limnia 🌊 V53, the city's first water). Workshop count 19 → 22. Binds after First-Person review.",
+    "tome_anchor_id": "tome-ix-act-8"
+  }
+}
