@@ -112,7 +112,7 @@ Each step below uses the same sub-structure: *pathway position · what happens �
 - a *Swordsman* hash-chain entry $\sigma_j = \mathrm{Ed25519}_{\text{session}}(\mathrm{SHA256}(\lambda_j \,\|\, \sigma_{j-1}))$, where the session key is generated at ceremony open and will be burned at step 7;
 - a *Mage* annotation: a JSON-LD fragment in the persistent identity's spellbook, signed under the Mage's long-lived key.
 
-The two sides accumulate in parallel and remain conditionally independent given the constellation. The 62-Lap Theorem holds that $m \geq 620$ intentional transitions drive the reconstruction ceiling $R < 1$ — at that density the proof becomes irreducible.
+The two sides accumulate in parallel and remain conditionally independent given the constellation. The 62-Lap Theorem holds that $m \geq 620$ intentional transitions drive the reconstruction ceiling $R < 1$ — at that density the proof becomes irreducible. (Unit note, 2026-07-18: transitions here; the deployed spec's tier table counts full constellation traversals — see the technical spec §2 unit note, ledger L154. The threshold is conjectural at any value, register C11.)
 
 **Semantic operation.** Shared attention. The forging *is* the lived attention of both parties on the same nodes in the same order. This is the irreducible substance of the eventual proof. Compression in step 5 will name it; inscription in step 6 will commit to it; rehydration in step 9 will test it; but the attention itself can only happen here.
 

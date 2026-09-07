@@ -143,7 +143,7 @@ A blade is forged by one ceremony between two parties. Mechanically:
 
 1. **Constellation $C$.** An ordered subgraph of a shared substrate — a knowledge graph, ontology, codebase, regulatory rulebook, anything mapped by UOR (Universal Object Reference). $C = (N, E)$, with $N$ the nodes traversed and $E$ the edges walked between them.
 
-2. **Lap sequence $\lambda = \langle \ell_1, \ell_2, \dots, \ell_m \rangle$.** Each lap $\ell_j$ is one intentional transition between two adjacent nodes — i.e. one R1CS-valid edge satisfying $\mathrm{hamming}(\ell_j^{\mathrm{src}} \oplus \ell_j^{\mathrm{dst}}) = 1$ inside the lattice projection of the constellation. Lap count $m$ determines tier; the 62-Lap Theorem holds that $m \geq 620$ transitions drives R < 1.
+2. **Lap sequence $\lambda = \langle \ell_1, \ell_2, \dots, \ell_m \rangle$.** Each lap $\ell_j$ is one intentional transition between two adjacent nodes — i.e. one R1CS-valid edge satisfying $\mathrm{hamming}(\ell_j^{\mathrm{src}} \oplus \ell_j^{\mathrm{dst}}) = 1$ inside the lattice projection of the constellation. Lap count $m$ determines tier; the 62-Lap Theorem holds that $m \geq 620$ transitions drives R < 1. **Unit note (2026-07-18, ledger L154):** this document's "lap" is a single transition; the deployed runecraft spec's "lap" is one full traversal of the marked constellation, and its tier table (Dragon 62+) counts in that traversal unit. The theorem's name descends from the traversal unit while its threshold is stated in transitions; the two counts are different units of one conjectural threshold (register C11), and no canonical transitions-per-traversal factor exists in the corpus — the numeric correspondence is unresolved and no surface may present 62 and 620 as independently established values.
 
 3. **Quality activation $v \in \{0,1\}^6$.** As laps accumulate, the six qualities binarise at threshold. The resulting vertex address is the blade's position on the lattice.
 
@@ -161,7 +161,7 @@ The blade is the ZK statement *"I (and my counterpart) jointly traversed a const
 
 ## 4. The ZK circuit beneath a blade
 
-Two minimal circuits make a blade verifiable without revealing its witness. Reference templates live in `forge_circuits/` in the blades repo.
+Two minimal circuits make a blade verifiable without revealing its witness. **Implementation status (corrected 2026-07-18, ledger L008/L153):** the circuits below are specifications; the `forge_circuits/` directory in the blades repo is scaffolded but empty — specified, not implemented. "ZK" in the live system means SHA-256 commitments + Ed25519 signatures + content addressing; the circuits are the design target, not a shipped verifier.
 
 **Circuit 1 — `BladeStratumProof(k)`.** Prove the blade sits at stratum $k$ (i.e. has exactly $k$ active qualities) without revealing *which* qualities are active.
 
@@ -315,7 +315,7 @@ For two AI agents (or an agent and a human, or any bilateral pair):
 
 1. They meet via TSP. Language Capture negotiates schema.
 2. They jointly select a constellation on a shared substrate. The constellation CID is agreed.
-3. They traverse in lockstep. Each lap is co-signed. After ~600 laps the blade reaches Dragon tier (R < 1).
+3. They traverse in lockstep. Each lap is co-signed. After ~620 laps in this document's unit (single transitions; see the unit note in §2) the blade reaches Dragon tier, at which the density conjecture (register C11) places the irreducibility claim.
 4. Each produces a proverb. The bilateral hash is the blade's CID. They choose visibility.
 5. The blade is anchored to one or more chains via the selected inscription path.
 6. Each appends the blade to their $\Pi$. Their path integrals update.

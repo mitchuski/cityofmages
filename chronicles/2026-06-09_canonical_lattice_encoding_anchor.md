@@ -118,7 +118,8 @@ Techne V20, Hephaestus V24.
 ## 4. Two pre-existing `specs/04` errors (independent of the encoding choice)
 
 1. **V48** labelled "Connection + Protection," but `110000` = 32+16 =
-   **Protection + Computation** ("Connection + Protection" would be `101000` = V40).
+   **Protection + Delegation** (Protection + Connection would be `100100` = 32+4 = V36).
+   *(Erratum 2026-07-18, pipeline L160: this worked example previously read "Protection + Computation" and "`101000` = V40"; both were arithmetic slips against this document's own §1 table — Delegation = 16, Computation = 2, Connection = 4. The §1 table and the §3.1 V49 reading are authoritative; corrected here.)*
 2. **V31** described as "all dimensions except Value," but `011111` has the
    Protection bit (MSB) **off** — it is "all except **Protection**" (the holon
    dissolving the boundary).
