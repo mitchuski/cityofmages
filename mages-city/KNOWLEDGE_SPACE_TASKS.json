@@ -1,0 +1,64 @@
+{
+  "kind": "agentprivacy.knowledge-space-design/1",
+  "date": "2026-09-08",
+  "authority": "Keeper-directed design; not an authorization token",
+  "canonical": "KNOWLEDGE_SPACES.md",
+  "tasks": [
+    {
+      "id": "KS-01",
+      "owner": "agentprivacy.guide + agentprivacy-mcp",
+      "title": "Page and capability contracts",
+      "status": "proposed-integration",
+      "work": "Pin each participating route, exact content representation/revision, supported task profiles and origin. Keep stale/missing content explicit.",
+      "acceptance": "A changed page revision is detected; unknown or deceptive origins cannot inherit support."
+    },
+    {
+      "id": "KS-02",
+      "owner": "star + browser bridge",
+      "title": "Automatic carry and first contact",
+      "status": "proposed-integration",
+      "work": "Reuse existing custody and canonical renderer; separate intent/personalisation from identity/delegation.",
+      "acceptance": "Same key crosses two permitted origins without leaking disallowed fields; merely viewing changes neither κ nor prior."
+    },
+    {
+      "id": "KS-03",
+      "owner": "mages_city / city_mage + VTA adapters",
+      "title": "Scoped permission exchange",
+      "status": "proposed-integration",
+      "work": "Bind actual subject, audience, resource, action, task version, challenge and expiry using supported identity/delegation services.",
+      "acceptance": "Wrong audience, stale challenge, revoked grant and unsupported task refuse at the receiving service."
+    },
+    {
+      "id": "KS-04",
+      "owner": "mages_city + FedWiki adapter",
+      "title": "Record-space task",
+      "status": "proposed-integration",
+      "work": "Create/revise a page with an explicit space ID, expected revision and operation ID; retain append-only operation outcomes.",
+      "acceptance": "Exact retry is idempotent, changed retry payload refuses, conflict preserves both prior record and pending intent."
+    },
+    {
+      "id": "KS-05",
+      "owner": "agentprivacy-mcp + spellweb + star",
+      "title": "Evidence and evolution",
+      "status": "proposed-integration",
+      "work": "Retain intact originals privately; fold authorized receipt commitments through one κ/prior rule; propose graph edges for required countersign.",
+      "acceptance": "JSON/PNG round-trip preserves unknown fields and evidence; no signed edge arises from viewing or an unchecked claim."
+    },
+    {
+      "id": "KS-06",
+      "owner": "mages_city / Namekeeper",
+      "title": "Earned address binding",
+      "status": "proposed-integration",
+      "work": "Reuse current admission and DNS ladder; bind the existing space ID to a granted name without resetting knowledge.",
+      "acceptance": "Dry-run verifies name/subject/space binding and policy evidence; live DNS remains a separate authorized release."
+    },
+    {
+      "id": "KS-07",
+      "owner": "agentprivacy.guide",
+      "title": "Federation projection",
+      "status": "proposed-integration",
+      "work": "Manifest circulating canonical content and sealed implementation/private material; project at summary altitude with lineage.",
+      "acceptance": "No private key, raw journey, internal path or unsupported live claim in generated pages; links and fork lineage survive rebuild."
+    }
+  ]
+}

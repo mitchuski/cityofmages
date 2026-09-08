@@ -75,3 +75,7 @@ district's *what this room is in the City* line; the guide's builder reads it fo
 doors. One file, two builders, no drift.
 
 *Nothing here is bound. The First Person's read comes first.*
+
+## VTA + Star: agent knowledge spaces (2026-09-08)
+
+[The agent knowledge space](KNOWLEDGE_SPACES.md) is the canonical role contract for the keeper's new direction. [The shared task map](KNOWLEDGE_SPACE_TASKS.json) names owners, sequence and acceptance gates. The board/deployment truth remains in the working City's deploy/ and decision register.
