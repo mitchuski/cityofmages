@@ -79,3 +79,9 @@ doors. One file, two builders, no drift.
 ## VTA + Star: agent knowledge spaces (2026-09-08)
 
 [The agent knowledge space](KNOWLEDGE_SPACES.md) is the canonical role contract for the keeper's new direction. [The shared task map](KNOWLEDGE_SPACE_TASKS.json) names owners, sequence and acceptance gates. The board/deployment truth remains in the working City's deploy/ and decision register.
+
+## DTG circuit workshop and the Proof Links (2026-09-22)
+
+The [DTG agentic circuit pathway](DTG_AGENTIC_CIRCUIT_PATHWAY.md) records the keeper's direction: the golf course is the approachable practice ground for a community workshop that turns reviewed credential and trust-graph presentation requests into formally checked circuits and reproducible evidence. The ZK Book guides the learning; Clean and Lean provide a circuit-development lane; the board coordinates requests and review; the holder authorizes disclosure. This is a proposed integration, not a live compiler service or a DTG specification decision.
+
+Read the [course tome, including Beyond the last green](../tomes/proposed/the-proof-links-a-tome-of-practice.md) and its [chronicle](../chronicles/2026-09-22_the-city-lays-out-a-course.md). The working board repository carries the planning mirror in docs/DTG_AGENTIC_CIRCUIT_PATHWAY.md. Existing deployment decisions remain authoritative.
