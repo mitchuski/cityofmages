@@ -46,7 +46,7 @@ district naming the workshop it realises; a resident's role page linking its per
 file and its skill pages; `the-gate` naming the Covenant and the Rostra; `orientation.md`
 linking the tomes; `skill.md` and `JOIN_THE_CITY.md` naming each other.
 
-`DISCOVERY.json` lists nineteen doors with their status and a `launch` block. **The front went live on
+`DISCOVERY.json` lists twenty-one doors with their status and a `launch` block (two added 2026-10-20: the community door and the hash sites). **The City was minted as a verifiable trust community on 2026-10-08** (its DID is in the `launch.community` entry) and **join.mages.city opened on 2026-10-19**; the three ways in (invited · work-evidence · review) are intended and await the keeper's registration. **The front went live on
 2026-09-05** (Cloudflare Workers, board decision D1); the Hall, Portal and districts follow behind the tunnel;
 eight doors exist in the twin; the rest are named for the board's next phases. Since the board's decision D11, its
 `deploy/` directory and `docs/DECISIONS_2026-09-05.md` are the deployment truth — the plan in

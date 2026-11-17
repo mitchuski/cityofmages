@@ -531,6 +531,16 @@ First-release manifest (canonical inventory): [tomes/specs/06-spellweb-first-rel
 
 ---
 
+## Keeper chronicles
+
+- [The failed root stays in the tree](chronicles/2026-10-12_the-failed-root-stays-in-the-tree.md) · 12 October 2026. The lane joins the blake3-r2 frontier: a failed intake whose root the passing entry names, two shut doors minted under the win, three hash sites to production. Local unsigned reflection of the master; proposed as Tome IX Act 15.
+- [Dream 2026-10-19](chronicles/DREAM-2026-10-19.md) · 19 October 2026. Cargo lap: the trail played, the failed root kept, the join door open; proposes Tome IX Acts 14 and 15 and an Act 12 label revision. Nothing bound.
+- [Dream 2026-10-25](chronicles/DREAM-2026-10-25.md) · 25 October 2026 (written 6 November). Cargo lap for 21–26 October: the pause becomes a key, the seal and the star, three days of receipts, the registry and the divergence; proposes one act for the receipts window, number left to the keeper. Nothing bound.
+- [Dream 2026-11-04](chronicles/DREAM-2026-11-04.md) · 4 November 2026. Cargo lap: a proof enters the record by the record's own law; two names on the door do not make two rooms; proposes Tome IX Act 16 and the register word *proof-enforced*. Nothing bound.
+- [Dream 2026-11-06](chronicles/DREAM-2026-11-06.md) · 6 November 2026. Cargo lap: the measure seat reads the whole universe; the seals true, the signs behind them; the untold window carried. No new act proposed. Nothing bound.
+- [Dream 2026-11-12](chronicles/DREAM-2026-11-12.md) · 12 November 2026. Cargo lap: the pause runs again; the fibre; the census comes back and finds the seals outrunning the signs. No new act proposed. Nothing bound.
+- [The Keeper of Unclaimed Words](chronicles/2026-10-19_the-keeper-of-unclaimed-words.md) · 19 October 2026. The BGIN co-chair’s report-review pass reaches a draft PR: terminology repaired, source claims distinguished, and Chatham House protection retained. Local unsigned chronicle; adoption remains pending.
+
 ## Implementation chronicles · the May 10–11 arc
 
 [`chronicles/`](chronicles/) mirrors the May 10–11 implementation chronicles from `agentprivacy-master/docs/chronicles/`:

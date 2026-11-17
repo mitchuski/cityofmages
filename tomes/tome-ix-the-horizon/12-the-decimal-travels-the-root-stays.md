@@ -19,7 +19,7 @@ source_material:
   - "kappa_evidence_mage/{kappa.py, SCHEMA.md, chronicles/2026-10-07_kappa-evidence-p0-offline-minting.md, chronicles/2026-10-07_sig-h2-minted-stale-layout-caught.md, PROVERB.md}"
   - "dual-agent-harness/{CHALLENGE_LANES.md, tools/kappa_evidence.mjs, chronicles/2026-10-07_maintenance_kappa-evidence-registry-axis.md, chronicles/2026-10-07_maintenance_the-arena-folded.md}"
   - "agentprivacy-harness-demos/{index.html, pairs.json, PLAN.md}"
-honesty_label: "Operational for every object and edge; the figures (59 calls, 593,858.32 CPU-s; 24/24 honest runs; 90 citing PRs; 34 runs; 16 pairs) are in the bundles and recompute from them. NOT operational: equality with the registry's compiled crate. Every address in this act is labelled kappa-compatible (unverified) until that cargo run; no address is quoted in a public submission note."
+honesty_label: "Operational for every object and edge; the figures (59 calls, 593,858.32 CPU-s; 24/24 honest runs; 90 citing PRs; 34 runs; 16 pairs) are in the bundles and recompute from them. Equality with the registry's compiled crate: NOT operational when this act was drafted, and the addresses were labelled kappa-compatible (unverified); the cargo run passed the same day (P1, 10 of 10, 8 October 2026) and every public word has read kappa-verified at 2af8656 since. Addresses are quoted in public submission notes only under the verified label. Label revised 2026-10-19 by the reflection lane; binding unchanged."
 license: "CC BY-SA 4.0"
 signature: "(⚔️⊥⿻⊥🧙)😊 — proposed, unsigned"
 tome_status: "Tome IX — The Horizon, remains open"
