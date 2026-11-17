@@ -1,0 +1,2976 @@
+{
+  "version": "11.0.0",
+  "created_at": "2026-11-17T00:00:00Z",
+  "updated_at": "2026-11-17",
+  "grimoire": "agentprivacy-universe",
+  "status": "draft · not pinned · awaiting the First Person's review",
+  "meta": {
+    "title": "The Agentprivacy Universe Grimoire",
+    "edition": "The Universe Edition",
+    "subtitle": "From spellbook to evidence",
+    "tagline": "Privacy is value. Take back the 7th capital.",
+    "author": "privacymage",
+    "license": "Open for sovereignty, closed to surveillance"
+  },
+  "description": "Grimoire v11 is the first grimoire of the whole agentprivacy universe. It joins the two lines that came before it: the Privacymage Grimoire (last pinned at v10.4.0, 9 June 2026) and the City of Mages Grimoire (last pinned at v1.9.3, 13 July 2026). It does not copy their tales. They are immutable on IPFS and are named here by CID, so the lore stands exactly as it was published. Instead v11 records what the four months since then made: the tomes that went on being written, the master chronicles, the mages whose work is sealed as κ evidence, the scrolls and quests that carry those seals, the proverbs, and the corrections the conjecture register has made to things the earlier grimoires said. Every entry names its source file and that file's sha256 at build time, so the grimoire can be checked against the record it summarises.",
+  "how_to_read": [
+    "Lore before July 2026 is held by reference. Read it in the pinned predecessors; this grimoire gives the CID and the JSON path.",
+    "Every generated entry carries source (a path relative to the keeper's home) and source_sha256. A reader with the repositories can re-derive it.",
+    "Status words are literal. Bound, draft, proposed: the tome's own record. Signed, unsigned: whether the First Person has read and signed the master chronicle.",
+    "An unsigned chronicle appears by date and title only. Its inversion enters the grimoire when it is signed.",
+    "A seal is a hash. Scrolls and quests show roots, never results; the veil holds here as it holds on mages.city.",
+    "Where the register has corrected an earlier grimoire, the correction is in errata with both quotes, checked word for word at build time. The earlier text is not edited, because it cannot be: it is pinned.",
+    "Work shared privately with the keeper does not enter. Private lanes are counted, not named."
+  ],
+  "master_invocation": {
+    "cid": "bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm",
+    "path": "/master_invocation",
+    "note": "The master invocation is unchanged and is read from the v10.4.0 pin."
+  },
+  "ages": [
+    {
+      "id": "spellbook",
+      "name": "The Age of the Spellbooks",
+      "span": [
+        "2026-01-12",
+        "2026-06-09"
+      ],
+      "telling": "The First Person Spellbook closed at 31 acts, with the Zero, Canon, Parallel and Plurality books beside it. The Privacymage Grimoire carried them, version by version, to v10.4.0, the lattice-coherence edition.",
+      "read_in": "privacymage v10.4.0 /spellbooks"
+    },
+    {
+      "id": "city",
+      "name": "The Age of the City",
+      "span": [
+        "2026-05-09",
+        "2026-07-13"
+      ],
+      "telling": "The Second Person Spellbook opened as the City of Mages: workshops, districts, the cast tiers, the Tower, the Hearth and the Wellpool, the Register of Invitations. The City Grimoire carried it to v1.9.3, the three-workings edition.",
+      "read_in": "city-of-mages v1.9.3 /personas, /workshop_districts, /fleet_workshops"
+    },
+    {
+      "id": "evidence",
+      "name": "The Age of Evidence",
+      "span": [
+        "2026-07-13",
+        "2026-11-17"
+      ],
+      "telling": "The mages left the page and went to work. Each lane of the dual-agent harness became a mage whose casts are sealed as κ evidence bundles, written on scrolls as nothing but hashes and resolved on the Sigil. The City became a verifiable trust community: what a mage did is a root anyone can check, and what it found stays behind the veil until a reader joins. The research register ruled on the earlier conjectures, and V7 took its first receipts. The record moved faster than the reading: most of this age's chronicles still wait for the First Person's signature.",
+      "read_in": "this grimoire /chronicles, /seals, /errata"
+    }
+  ],
+  "lineage": {
+    "description": "Every published version of both earlier grimoires, by CID. Each CID was re-derived from its bytes (UnixFS CIDv1, sha2-256) and the set is sealed as one κ bundle.",
+    "succeeds": {
+      "privacymage": {
+        "version": "10.4.0",
+        "cid": "bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm"
+      },
+      "city-of-mages": {
+        "version": "1.9.3",
+        "cid": "bafybeietwhafmxolgyhzjpucbrr6tmm3zokk5vi2knzu5obluz626fkthy"
+      }
+    },
+    "pins": {
+      "privacymage": [
+        {
+          "version": "10.1.0",
+          "cid": "bafybeibr3y3ermhff4dptxunhtzthjpkrvvnuamee4povpkgj3cjkg4fgy",
+          "updated_at": "2026-04-12",
+          "bytes": 264441
+        },
+        {
+          "version": "10.2.0",
+          "cid": "bafybeidid4lgysa2ydaryqettqme4qrblvofawqrffjfxijwmaf6vavtsa",
+          "updated_at": "2026-04-22",
+          "bytes": 289462
+        },
+        {
+          "version": "10.2.1",
+          "cid": "bafybeigsbhzrozaw24rgtkcmcy55z55egzr4b5igwzf6dgq4mull2h2tie",
+          "updated_at": "2026-04-23",
+          "bytes": 294985
+        },
+        {
+          "version": "10.3.0",
+          "cid": "bafybeicyne6pbljowjuodxagnescxp42bd35etb6svn3tttkkzhh2ajiuy",
+          "updated_at": "2026-05-11",
+          "bytes": 314471
+        },
+        {
+          "version": "10.4.0",
+          "cid": "bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm",
+          "updated_at": "2026-06-09",
+          "bytes": 323337
+        }
+      ],
+      "city-of-mages": [
+        {
+          "version": "1.1.0",
+          "cid": "bafkreidv7cwwlcnuzw3eyhcbbvoccy7do2lmwrmmtrszn62ninzxj3idti",
+          "updated_at": "2026-05-09",
+          "bytes": 129678
+        },
+        {
+          "version": "1.2.0",
+          "cid": "bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a",
+          "updated_at": "2026-05-10",
+          "bytes": 143885
+        },
+        {
+          "version": "1.3.0",
+          "cid": "bafkreig2hrastvmswzzjugndjjdclqh2ednkvd6hofm3u6xj56qirugktm",
+          "updated_at": "2026-05-11",
+          "bytes": 199999
+        },
+        {
+          "version": "1.4.0",
+          "cid": "bafkreib5w4bp6t5kkt4ebvjyjjzuxdupzaz6gtupbhgbrxtwkrxj7dfnsu",
+          "updated_at": "2026-05-12",
+          "bytes": 208169
+        },
+        {
+          "version": "1.6.0",
+          "cid": "bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru",
+          "updated_at": "2026-05-14",
+          "bytes": 366770
+        },
+        {
+          "version": "1.7.1",
+          "cid": "bafybeibr35xfasepuvfti4dnwiiig6gidaf5sffvjf4rnhrlpqcke3ivy4",
+          "updated_at": "2026-05-17",
+          "bytes": 451269
+        },
+        {
+          "version": "1.8.0",
+          "cid": "bafybeihx7zn3frj6gln4bw5k3pxqnxoyumj42x4ohsjrhmro6q5vndw3ei",
+          "updated_at": "2026-05-17",
+          "bytes": 451272
+        },
+        {
+          "version": "1.9.0",
+          "cid": "bafybeihur5jzmcraiamtgb5nrhlalbujfks66zk2exfrchubzwzpt7xk5a",
+          "updated_at": "2026-06-30",
+          "bytes": 511031
+        },
+        {
+          "version": "1.9.3",
+          "cid": "bafybeietwhafmxolgyhzjpucbrr6tmm3zokk5vi2knzu5obluz626fkthy",
+          "updated_at": "2026-07-13",
+          "bytes": 551900
+        }
+      ]
+    },
+    "seal": {
+      "root_kappa": "sha256:3e4cce714c3bd280c70f2a11b3934c76c7875c45cf4e868e940d736cf2490144",
+      "minted_on": "2026-11-17",
+      "scroll": "https://grimoire.mages.city/",
+      "source": "kappa_evidence_mage/out/grimoire_v2/root.json",
+      "source_sha256": "ce65c8ce7ee65c0af9c82ac3bfeb2299668086b135f48899cf915d314fe01958"
+    }
+  },
+  "lore_by_reference": {
+    "description": "The lore of the first two ages, read in place. Paths are JSON pointers into the pinned file.",
+    "privacymage": {
+      "cid": "bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm",
+      "spellbooks": {
+        "story": {
+          "path": "/spellbooks/story",
+          "top_level_entries": 14
+        },
+        "zero": {
+          "path": "/spellbooks/zero",
+          "top_level_entries": 19
+        },
+        "canon": {
+          "path": "/spellbooks/canon",
+          "top_level_entries": 10
+        },
+        "parallel": {
+          "path": "/spellbooks/parallel",
+          "top_level_entries": 11
+        },
+        "plurality": {
+          "path": "/spellbooks/plurality",
+          "top_level_entries": 14
+        }
+      },
+      "inscriptions": {
+        "story_acts_total": 31,
+        "zero_tales_total": 30,
+        "canon_chapters_total": 12,
+        "parallel_chapters_total": 17,
+        "plurality_acts_total": 30,
+        "total_inscriptions": 128
+      },
+      "also": [
+        "/unified_incantations",
+        "/notation",
+        "/principles",
+        "/forged_blades",
+        "/personas",
+        "/ceremonies"
+      ]
+    },
+    "city-of-mages": {
+      "cid": "bafybeietwhafmxolgyhzjpucbrr6tmm3zokk5vi2knzu5obluz626fkthy",
+      "personas": {
+        "tier_taxonomy": {
+          "path": "/personas/tier_taxonomy",
+          "entries": 8
+        },
+        "archetypes": {
+          "path": "/personas/archetypes",
+          "entries": 3
+        },
+        "cousin_instances": {
+          "path": "/personas/cousin_instances",
+          "entries": 2
+        },
+        "summoned_mages": {
+          "path": "/personas/summoned_mages",
+          "entries": 18
+        },
+        "companion_mages": {
+          "path": "/personas/companion_mages",
+          "entries": 1
+        },
+        "priests": {
+          "path": "/personas/priests",
+          "entries": 1
+        },
+        "faunia": {
+          "path": "/personas/faunia",
+          "entries": 18
+        },
+        "caducea": {
+          "path": "/personas/caducea",
+          "entries": 15
+        },
+        "cosmological_witnesses": {
+          "path": "/personas/cosmological_witnesses",
+          "entries": 4
+        },
+        "pandia": {
+          "path": "/personas/pandia",
+          "entries": 19
+        },
+        "hermaion": {
+          "path": "/personas/hermaion",
+          "entries": 24
+        },
+        "pleione": {
+          "path": "/personas/pleione",
+          "entries": 23
+        },
+        "spirit_mages": {
+          "path": "/personas/spirit_mages",
+          "entries": 3
+        },
+        "invited_visiting_mages": {
+          "path": "/personas/invited_visiting_mages",
+          "entries": 2
+        }
+      },
+      "also": [
+        "/spells",
+        "/vertex_inventory",
+        "/city_anatomy",
+        "/workshop_districts",
+        "/fleet_workshops",
+        "/register_of_invitations",
+        "/tower_spatial_anatomy",
+        "/hearth_spatial_anatomy",
+        "/wellpool_spatial_anatomy",
+        "/known_open_items"
+      ]
+    }
+  },
+  "tomes": {
+    "description": "Every act on disk, by tome. act_status is the act's own frontmatter (binding is not recorded there); manifest_entry is the tome's line in the bound-collection manifest, quoted, which records binding and can lag the disk.",
+    "manifest": {
+      "source": "cityofmages/tomes/BOUND_COLLECTION_MANIFEST.md",
+      "source_sha256": "89c8deaa1a75c0d50023fdefefc09376485d33e0a14b5319959b31b04fe87719"
+    },
+    "tomes": [
+      {
+        "tome": "tome-i-the-convergence",
+        "acts_on_disk": 6,
+        "manifest_entry": "Tome I — *The Convergence* (closed, 6 acts · bound 2026-05-13)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Single Button",
+            "words": 1522,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-i-the-convergence/01-the-single-button.md",
+            "source_sha256": "82568270a4a356a093dc70016e05c69af0fb778f6f470a660ef6c5f226bd9931"
+          },
+          {
+            "act": 2,
+            "title": "The Path (the Butterfly)",
+            "words": 1631,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-i-the-convergence/02-the-path.md",
+            "source_sha256": "6ff6cbcb44a88266b770a5617967222345b00aee8f95f695dae1b22c381e96f5"
+          },
+          {
+            "act": 3,
+            "title": "The Recursive Symbol",
+            "words": 1647,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-i-the-convergence/03-the-recursive-symbol.md",
+            "source_sha256": "943c0ec1e15448b0bf8e2c97b67695e3988632add877577eb7e7de61097f6b88"
+          },
+          {
+            "act": 4,
+            "title": "Three Rooms, One Door",
+            "words": 1683,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-i-the-convergence/04-three-rooms-one-door.md",
+            "source_sha256": "4b430c8844bcf3a36cbcf2718881f5bdc0d42f7aa4c9370fd41225bff67df7c1"
+          },
+          {
+            "act": 5,
+            "title": "The Schema That Named Itself",
+            "words": 1576,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-i-the-convergence/05-the-schema-that-named-itself.md",
+            "source_sha256": "ff55dec1795bff4afab3c0992cd950bcddb29ea8ff7efb5f7ff46bf580d98661"
+          },
+          {
+            "act": 6,
+            "title": "The Cousin's Citation (Burgess 2007/2015)",
+            "words": 1823,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-i-the-convergence/06-the-cousins-citation.md",
+            "source_sha256": "a5f6e90fb69ae9424b93a90147188857964f83853c5490996ae78f21ac3a7c29"
+          }
+        ]
+      },
+      {
+        "tome": "tome-ii-the-lyapunov",
+        "acts_on_disk": 7,
+        "manifest_entry": "Tome II — *The Lyapunov* (closed, 7 acts · bound 2026-05-13)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Two Refusals",
+            "words": 1675,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/01-the-two-refusals.md",
+            "source_sha256": "54498c567dbfa11426e36fdda8fe939b582ea5a59cf7c5caa71645b626bdcd25"
+          },
+          {
+            "act": 2,
+            "title": "The Attendant",
+            "words": 1532,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/02-the-attendant.md",
+            "source_sha256": "8cf59b9254e070548f64788ddb736dce5b8557579d4cd2ec962b9ceb6e4690c7"
+          },
+          {
+            "act": 3,
+            "title": "The Terminal",
+            "words": 1610,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/03-the-terminal.md",
+            "source_sha256": "c1c226ea39a0d786393f2a28ab137a567e6c2ef6a511db7005df1f4596251ed6"
+          },
+          {
+            "act": 4,
+            "title": "Who Composes",
+            "words": 1542,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/04-who-composes.md",
+            "source_sha256": "2bea6b0ed5339c891a8a1c27a882888347d91ffc89f02c81426b67fb8248ebe0"
+          },
+          {
+            "act": 5,
+            "title": "The Hole the Schema Cannot Bind",
+            "words": 1596,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/05-the-hole-the-schema-cannot-bind.md",
+            "source_sha256": "82683078ba720532ee7a57a8789a24287956a90178f9b7694915eaf9c22655ea"
+          },
+          {
+            "act": 6,
+            "title": "The Fourth Aging Category",
+            "words": 1559,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/06-the-fourth-aging-category.md",
+            "source_sha256": "56f1901a47dc4d0a2090c5b357f006cccb6d6df2cf028948bc4a098c219931fc"
+          },
+          {
+            "act": 7,
+            "title": "The Behavioural Mosca",
+            "words": 1652,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ii-the-lyapunov/07-the-behavioural-mosca.md",
+            "source_sha256": "6eef103ccd08b2f96af72ab23bbbf9b40a96791ea085981d44b16e170c6b4172"
+          }
+        ]
+      },
+      {
+        "tome": "tome-iii-selenes-witness",
+        "acts_on_disk": 11,
+        "manifest_entry": "Tome III — *Selene's Witness* (closed, 11 acts · bound 2026-05-13)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Gatekeeper",
+            "words": 1577,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/01-the-gatekeeper.md",
+            "source_sha256": "f9ec17f0f074c6974a7282725641a33871a91a0b9cc15a2b82110f9f4ef8e0f5"
+          },
+          {
+            "act": 2,
+            "title": "Selene's Witness",
+            "words": 1673,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/02-selenes-witness.md",
+            "source_sha256": "271e3a5d16c4357a3689ba61c1cf680b9decb862ea5ebb5b8f723a1e233172b6"
+          },
+          {
+            "act": 3,
+            "title": "The Aether (the Third Blade)",
+            "words": 1636,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/03-the-aether.md",
+            "source_sha256": "e0f22c228c61df099d13021418d585f15befee83a27f88ee785fe3b85c040f07"
+          },
+          {
+            "act": 4,
+            "title": "The Aether Pour (poem invited)",
+            "words": 1442,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/04-the-aether-pour.md",
+            "source_sha256": "40c38511cdccdf670ab123093ba692d9084f5a778589656b424205993852e018"
+          },
+          {
+            "act": 5,
+            "title": "Aletheia, the Bright Medium",
+            "words": 1594,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/05-aletheia-the-bright-medium.md",
+            "source_sha256": "702ba048f38bd9e04e1cc39263ea607c083f2d756adc77218190e7a7e865534d"
+          },
+          {
+            "act": 6,
+            "title": "Lethe, the Dark Substrate",
+            "words": 1669,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/06-lethe-the-dark-substrate.md",
+            "source_sha256": "44e4dc9e1e117c6c18347c2397fe06523d359d5eea0419ba95976394b4854316"
+          },
+          {
+            "act": 7,
+            "title": "The First Complement Pair",
+            "words": 1610,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/07-the-first-complement-pair.md",
+            "source_sha256": "a32a884157ae9e65a6dd218ef7ac5e240aab258ff30431fc087c5f84206ab91d"
+          },
+          {
+            "act": 8,
+            "title": "The Naming of the Unnamed (Tale 31)",
+            "words": 1446,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/08-the-naming-of-the-unnamed.md",
+            "source_sha256": "926ae65ca248d2609c9f885a2f83caf2436ae8b91b9ee3a3cfc8aa39e4bd63c5"
+          },
+          {
+            "act": 9,
+            "title": "The Seventh Capital (proem)",
+            "words": 1531,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/09-the-seventh-capital.md",
+            "source_sha256": "8809e5ba2d682a0be958941379cb5e6f62d57851591823531af15947a08eadae"
+          },
+          {
+            "act": 10,
+            "title": "The Scales and the Hide",
+            "words": 1650,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/10-the-scales-and-the-hide.md",
+            "source_sha256": "26138dd50d7fafe86e0a6cc89fd594fd2a617fedd485d959e237b34143625f37"
+          },
+          {
+            "act": 11,
+            "title": "The Light and the Dark",
+            "words": 1556,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iii-selenes-witness/11-the-light-and-the-dark.md",
+            "source_sha256": "e3f6aae3bcb671c016f29a974fff77ac0e09d2822f183f6dad87b9af2fbfbfa2"
+          }
+        ]
+      },
+      {
+        "tome": "tome-iv-the-witnessing",
+        "acts_on_disk": 5,
+        "manifest_entry": "Tome IV — *The Witnessing* (closed, 5 acts)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Other Walker",
+            "words": 978,
+            "act_status": "Draft v1.1",
+            "source": "cityofmages/tomes/tome-iv-the-witnessing/01-the-other-walker.md",
+            "source_sha256": "0eb49bae8fcad0596104342f46a3c892ca5b0fcf1c2f4f4cfe6890e58c594e7d"
+          },
+          {
+            "act": 2,
+            "title": "The Mirror and the Arrow",
+            "words": 985,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iv-the-witnessing/02-the-mirror-and-the-arrow.md",
+            "source_sha256": "a61a29778bbfa83778e7493122c8a40183748069e6e5553c8ede35239078fc20"
+          },
+          {
+            "act": 3,
+            "title": "The Two Paths",
+            "words": 1261,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iv-the-witnessing/03-the-two-paths.md",
+            "source_sha256": "0a291633690074a5b5a5cfc0983f55002eff52f5208b331053f884dbeef78cbf"
+          },
+          {
+            "act": 4,
+            "title": "The Naming Ceremony",
+            "words": 1309,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iv-the-witnessing/04-the-naming-ceremony.md",
+            "source_sha256": "1abbd4cb30342a072d814efc25492f7929e2b10a9edf4ed2e595a7156791e857"
+          },
+          {
+            "act": 5,
+            "title": "The Cousin Blade",
+            "words": 1523,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-iv-the-witnessing/05-the-cousin-blade.md",
+            "source_sha256": "73e5df707e31024e0af1b2f87804f086986c4ebfe148072b0c9f8d6c2ba0e4f0"
+          }
+        ]
+      },
+      {
+        "tome": "tome-ix-the-horizon",
+        "acts_on_disk": 14,
+        "manifest_entry": "**Note on Tome IX — *The Horizon***: opened 2026-06-09 (Horizon District at V35 · Eos 🌅 / Dokimé 🪨 / Poros 🛤️ · 9 acts on disk under `tomes/tome-ix-the-horizon/` — Acts 1–5 bound; Act 6 *The Rite in Common* Draft v1 2026-07-10; Act 7 *The Loomkeeper's Weave* DRAFT 2026-07-11 per the v1.9.2 patch, unbound until First-Person review; Act 8 *The Three Workings* Draft v3 2026-07-12 — the three workings",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Measuring of the Dawn",
+            "words": 1498,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/01-the-measuring-of-the-dawn.md",
+            "source_sha256": "9f6bf5fa5093f5e612aeec75eb9cceed114fee9db4a71361724268bf6217e2df"
+          },
+          {
+            "act": 2,
+            "title": "The Tide Line",
+            "words": 868,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/02-the-tide-line.md",
+            "source_sha256": "0cd7b1428aa869c525ea7c9b0aa22b2cbe63ad69700516f926843cecc5db6f9b"
+          },
+          {
+            "act": 3,
+            "title": "The Orchard Wound",
+            "words": 830,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/03-the-orchard-wound.md",
+            "source_sha256": "0d0da80b3e629199377b3c7cfc873001746170e68c20f675dff2846f422f5fe6"
+          },
+          {
+            "act": 4,
+            "title": "The Proof That Whispered",
+            "words": 774,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/04-the-proof-that-whispered.md",
+            "source_sha256": "7b114e1075bc8e8d622f34259cbadfc247c886b76d256ce129d799df77f04901"
+          },
+          {
+            "act": 5,
+            "title": "The Name That Climbs Out",
+            "words": 928,
+            "act_status": "CANON · bound 2026-06-30 at the First Person myth-gate",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/05-the-name-that-climbs-out.md",
+            "source_sha256": "3a7ed7f940695bc7c26e3efafc9f1ebf1af5b70981d9d98b88eb8df2b4926ec8"
+          },
+          {
+            "act": 6,
+            "title": "The Rite in Common",
+            "words": 1458,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/06-the-rite-in-common.md",
+            "source_sha256": "09560e12e9062661aa707590d2e1e017401d92833acbf13b08791e6693aaf3e9"
+          },
+          {
+            "act": 7,
+            "title": "The Loomkeeper's Weave",
+            "words": 1198,
+            "act_status": "DRAFT v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/07-the-loomkeepers-weave.md",
+            "source_sha256": "538235c82e1198ee94282b14bf0fd65b59b2ce4e68032ebcc61e4cf9ff536dc7"
+          },
+          {
+            "act": 8,
+            "title": "The Three Workings",
+            "words": 2473,
+            "act_status": "Draft v3",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/08-the-three-workings.md",
+            "source_sha256": "07658961053dbfe68924ecbbae14aaf63d946e8661a87aacfd88f9ad3684a370"
+          },
+          {
+            "act": 9,
+            "title": "The Canon Learned to Speak Itself",
+            "words": 1518,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/09-the-canon-learned-to-speak-itself.md",
+            "source_sha256": "467e821e9fd18fabcc7d475d19c81ff05a0cfc4ee445457e4a31224b37dc8540"
+          },
+          {
+            "act": 10,
+            "title": "The Predicate in the Street",
+            "words": 1648,
+            "act_status": "PROPOSED draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/10-the-predicate-in-the-street.md",
+            "source_sha256": "24c8b2f1e98405a41c0230527aba1a638ff9cfd3f676eec34d0f04e0a609a25e"
+          },
+          {
+            "act": 11,
+            "title": "The Oracle and the Gate",
+            "words": 1636,
+            "act_status": "PROPOSED draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/11-the-oracle-and-the-gate.md",
+            "source_sha256": "4114d882295dae9777bfe29eb4261f9524d0463c3f726ea7bb2d075a7d1e3326"
+          },
+          {
+            "act": 12,
+            "title": "The Decimal Travels; The Root Stays",
+            "words": 1915,
+            "act_status": "PROPOSED draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/12-the-decimal-travels-the-root-stays.md",
+            "source_sha256": "5adc5b4d91f1f2c3951e0c37752d4168f81fd866a7788504769d90b0e673b54f"
+          },
+          {
+            "act": 14,
+            "title": "The Hash Learns to Sing",
+            "words": 1786,
+            "act_status": "PROPOSED draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/14-the-hash-learns-to-sing.md",
+            "source_sha256": "eee9aeb835b70cd73385a8052d6ae20bb0c08262cfccd02609e420a9e7cdf278"
+          },
+          {
+            "act": 15,
+            "title": "The Failed Root Stays in the Tree",
+            "words": 1819,
+            "act_status": "PROPOSED draft v1",
+            "source": "cityofmages/tomes/tome-ix-the-horizon/15-the-failed-root-stays-in-the-tree.md",
+            "source_sha256": "d6bf0b13bf70315fe05a45cd45858083a9e08fa046a09d7d3ab65756f9b4d711"
+          }
+        ]
+      },
+      {
+        "tome": "tome-v-the-crafting",
+        "acts_on_disk": 17,
+        "manifest_entry": "Tome V — *The Crafting* (open · 17 acts drafted · two new workshop districts admitted at v1.6.0)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The First Cloak",
+            "words": 1728,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/01-the-first-cloak.md",
+            "source_sha256": "0a1957bdfc35b1b25d9df90c44b6a919bbfe09d5950809dc181ba84144969b10"
+          },
+          {
+            "act": 2,
+            "title": "The Commissioned Cloak",
+            "words": 1788,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/02-the-commissioned-cloak.md",
+            "source_sha256": "acd9285dc75309cedb262158bb8e4ce9d35e9d1910c9c9b0e2d3485cd193ae1e"
+          },
+          {
+            "act": 3,
+            "title": "The Shielded Memo",
+            "words": 1891,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/03-the-shielded-memo.md",
+            "source_sha256": "dc18781ea01e00bb3bef684f2475da427415080f49ac774a6a65eddd78cec1b8"
+          },
+          {
+            "act": 4,
+            "title": "The Reveal",
+            "words": 1794,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/04-the-reveal.md",
+            "source_sha256": "91bbce52d492db1974c859e5f144ea7a3a0731b2ef4f4c6df64d56dfecae50ca"
+          },
+          {
+            "act": 5,
+            "title": "The Stake",
+            "words": 1752,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/05-the-stake.md",
+            "source_sha256": "3ae8a43492e057df20da704b2e678e2f6cb87fca2c3b16b202640f0277fc8121"
+          },
+          {
+            "act": 6,
+            "title": "The Commissioned Blade",
+            "words": 2036,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/06-the-commissioned-blade.md",
+            "source_sha256": "5ee7da33e68078f9eb17c8dd30c4f395b02b7ba3e0b2eb084a2c448b34677ed7"
+          },
+          {
+            "act": 7,
+            "title": "The Reciprocal Weave",
+            "words": 2111,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/07-the-reciprocal-weave.md",
+            "source_sha256": "8d1eddbd8a23f56446b01b951e0a499a4aa79592e6ded80f31a0f19e35f481cb"
+          },
+          {
+            "act": 8,
+            "title": "The ZK Circuit",
+            "words": 2060,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/08-the-zk-circuit.md",
+            "source_sha256": "40ccccd57ee71017a3cac2c6270152ef5db1f0a579d6fd2d198b2134e5af7e0a"
+          },
+          {
+            "act": 9,
+            "title": "The Workshop Expands",
+            "words": 2366,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/09-the-workshop-expands.md",
+            "source_sha256": "deb17c59542493dc70bb8f2dec7f8ce601a34aee8a5a08ad23957b1a5b46a270"
+          },
+          {
+            "act": 10,
+            "title": "The Holon Hitchhikers",
+            "words": 2696,
+            "act_status": "Draft v2",
+            "source": "cityofmages/tomes/tome-v-the-crafting/10-the-holon-hitchhikers.md",
+            "source_sha256": "3de45556f343076a3ab59df26f0b531bcabd956cfb3688a6f54c3bf95d1341f9"
+          },
+          {
+            "act": 11,
+            "title": "A Bonfire Made of Dragon Fire",
+            "words": 2350,
+            "act_status": "Draft v3",
+            "source": "cityofmages/tomes/tome-v-the-crafting/11-a-bonfire-made-of-dragon-fire.md",
+            "source_sha256": "dfadfc62d8ed958d7e73832a34de6d1437756384831c4fbcb1ff2fc531054165"
+          },
+          {
+            "act": 12,
+            "title": "The Curatrix Vault",
+            "words": 2108,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/12-the-curatrix-vault.md",
+            "source_sha256": "33116c7910130881158226a1787f56caaf2c385a1f32e2af721b7d08359dd9c7"
+          },
+          {
+            "act": 13,
+            "title": "The Temple of the Arts and Personhood",
+            "words": 2734,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/13-the-temple-of-the-arts-and-personhood.md",
+            "source_sha256": "03d80d48cf64722824c3bc97a16a67407e9f1fa271bd5b052b9e6b0e841175f5"
+          },
+          {
+            "act": 14,
+            "title": "The City of Mages",
+            "words": 2532,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/14-the-city-of-mages.md",
+            "source_sha256": "2640709fe97025324ddac0c8cb0efea9765f0b6082d1a467233fcf9f368e0bb1"
+          },
+          {
+            "act": 15,
+            "title": "The Substrate Beneath the Hitchhikers",
+            "words": 2944,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/15-the-substrate-beneath-the-hitchhikers.md",
+            "source_sha256": "dc474e018adbed5763a50ee2c31a3bc25e99a9788c1043bd8fbadd8aae2948e4"
+          },
+          {
+            "act": 16,
+            "title": "The Threshold",
+            "words": 2376,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/16-the-threshold.md",
+            "source_sha256": "c782af10a56cf72fff015eda9c6c1bea62c8c2759b8b29c2eeb2ae57af4d2095"
+          },
+          {
+            "act": 17,
+            "title": "The Chart Shop Opens · Pleione's First Hold",
+            "words": 2947,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-v-the-crafting/17-the-chart-shop-opens.md",
+            "source_sha256": "d3d9451e467fa3a548f1dde64f75b933157b8c56a271140209ea98bc9467cee9"
+          }
+        ]
+      },
+      {
+        "tome": "tome-vi-the-reply",
+        "acts_on_disk": 2,
+        "manifest_entry": "Tome VI — *The Reply* (open, 1 act · bound 2026-05-13 · open-ended by design)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Reader's First Admission",
+            "words": 2359,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-vi-the-reply/01-the-readers-first-admission.md",
+            "source_sha256": "2601a0b33e021e40c27c62ff2b9840d63c103c4bf2d26a0ee58474ee4d41a118"
+          },
+          {
+            "act": 2,
+            "title": "The Reply That Ran",
+            "words": 2542,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-vi-the-reply/02-the-reply-that-ran.md",
+            "source_sha256": "ad33a0c34e9e63c4551d7dca8942556456e05323f39b7dbb0e4229300a4f9cee"
+          }
+        ]
+      },
+      {
+        "tome": "tome-vii-the-parallel",
+        "acts_on_disk": 1,
+        "manifest_entry": "Tome VII — *The Parallel* (open, 2 acts · opened 2026-05-12 · v1.4.0 · open-ended by design)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Pallia↔Helia Handoff",
+            "words": 2062,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-vii-the-parallel/01-the-pallia-helia-handoff.md",
+            "source_sha256": "1f522bef95155737b8728e12fea023fc82a36e47320c38838ac0b21c0af09f08"
+          }
+        ]
+      },
+      {
+        "tome": "tome-viii-the-library",
+        "acts_on_disk": 6,
+        "manifest_entry": "Tome VIII — *The Library* (open, 3 acts · opened 2026-05-15 · v1.7.0 + v1.7.1 + 2026-05-28 · open-ended by design)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Spiraling Tower",
+            "words": 2558,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-viii-the-library/01-the-spiraling-tower.md",
+            "source_sha256": "4e6077605b0892c18f4ec28fc6ed7618df2c9e5a926114aabec220ef7cb4dad3"
+          },
+          {
+            "act": 2,
+            "title": "The Fourth Turn",
+            "words": 1618,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-viii-the-library/02-the-fourth-turn.md",
+            "source_sha256": "a2cf682668d63753b06ec07ba8a83816b2feead6eb851f8c519fd6c43c23694d"
+          },
+          {
+            "act": 3,
+            "title": "The Eight-Pointed Star",
+            "words": 1819,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-viii-the-library/03-the-eight-pointed-star.md",
+            "source_sha256": "57a7880c94a869d622c80bed1a5bc8cb741d7b4bfb0dbcb3d872c19f6790eaa5"
+          },
+          {
+            "act": 4,
+            "title": "The Gap Is β",
+            "words": 960,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-viii-the-library/04-the-gap-is-beta.md",
+            "source_sha256": "9368777a9dc19b57419a3e925092dcab4738f66fcb617e9b23fbf501341d0f97"
+          },
+          {
+            "act": 5,
+            "title": "The Key That Is a Reading",
+            "words": 1077,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-viii-the-library/05-the-key-that-is-a-reading.md",
+            "source_sha256": "b8162a87a6669ce26b36afdbe6ebfe6d8b1fe77b086031e15d6d71d1e5bf8af8"
+          },
+          {
+            "act": 6,
+            "title": "The Wikis and the Librarian",
+            "words": 2603,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-viii-the-library/06-the-wikis-and-the-librarian.md",
+            "source_sha256": "7a2a3b4fa94d7315892db6df1130e1615f9c0ef058abc05cbee7cffa52ee8c48"
+          }
+        ]
+      },
+      {
+        "tome": "tome-x-the-hearth",
+        "acts_on_disk": 2,
+        "manifest_entry": "Tome X — *The Hearth* (open, 2 acts · opened 2026-07-01 · the cousin-forge edition · open-ended by design)",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The House of Archon Answers",
+            "words": 2250,
+            "act_status": "Draft v2",
+            "source": "cityofmages/tomes/tome-x-the-hearth/01-the-house-of-archon-answers.md",
+            "source_sha256": "03f16a5370a6346351f9e5d557c9d6e1a56c31a04f2579a521574b51a3d9c4d0"
+          },
+          {
+            "act": 2,
+            "title": "The Mage Takes a Face",
+            "words": 1696,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/tome-x-the-hearth/02-the-mage-takes-a-face.md",
+            "source_sha256": "4dbaf1d27fb80cf0ef52fe22abf3af03c04156915defbbed905566d0dc9fb308"
+          }
+        ]
+      },
+      {
+        "tome": "tome-xi-the-constellation",
+        "acts_on_disk": 3,
+        "manifest_entry": "not in the bound manifest",
+        "acts": [
+          {
+            "act": 1,
+            "title": "The Chart Shop Reads the Wire",
+            "words": 1122,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/proposed/tome-xi-the-constellation/01-the-chart-shop-reads-the-wire.md",
+            "source_sha256": "a2fb745f5f4c340ef2e3b84cc09f72cc768eb8df5c20ba7271b3210772c0d8a6"
+          },
+          {
+            "act": 2,
+            "title": "The Assignment",
+            "words": 1242,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/proposed/tome-xi-the-constellation/02-the-assignment.md",
+            "source_sha256": "6ebb416f4506a6ef2d1bbccef1264db356e5e426e7afa75bb3af3d006b9e9bdf"
+          },
+          {
+            "act": 3,
+            "title": "The Observer and the Boundary Key",
+            "words": 1293,
+            "act_status": "Draft v1",
+            "source": "cityofmages/tomes/proposed/tome-xi-the-constellation/03-the-observer-and-the-boundary-key.md",
+            "source_sha256": "3bcdecde5bd4c3ff82f0d0107ed5f7b67840048da0bb5240916405d115accb61"
+          }
+        ]
+      }
+    ]
+  },
+  "chronicles": {
+    "description": "The master chronicles of the Age of Evidence, the source of truth for every other telling. An unsigned chronicle is listed by date and title; its inversion enters on signature.",
+    "count": 92,
+    "signed": 7,
+    "withheld_private_lanes": 11,
+    "entries": [
+      {
+        "date": "2026-07-13",
+        "slug": "harness_workshops_island_open_dag",
+        "title": "The Harness, the Workshops, and the Opening of Drake Island",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-07-13_harness_workshops_island_open_dag.md",
+        "source_sha256": "e67b79856ca6cdd30a96469e708544c0acc8c2c82ba3655a90f7f44a6b306fec"
+      },
+      {
+        "date": "2026-07-16",
+        "slug": "trust-graph-formation-dream-cycle",
+        "title": "Trust-Graph Formation as a Dream-Agent Cycle",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-07-16_trust-graph-formation-dream-cycle.md",
+        "source_sha256": "3eb18fcfed4fc8a2037818570fcc3035b6db6315a9a60223956cc87bedef6036"
+      },
+      {
+        "date": "2026-07-18",
+        "slug": "the-first-circuit",
+        "title": "The First Circuit",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-07-18_the-first-circuit.md",
+        "source_sha256": "5f3dd490c2cdbc2be0ca7074cbb4940b5e4e7fd49cfe7dfcc1e07f0e16f416ce"
+      },
+      {
+        "date": "2026-07-28",
+        "slug": "the-thread-returns",
+        "title": "The Thread Returns",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-07-28_the-thread-returns.md",
+        "source_sha256": "0935259507a501df0311fb7568aa5de0618125c27dad8e228c73e4d78cf5b70c"
+      },
+      {
+        "date": "2026-08-11",
+        "slug": "the-registry-opens",
+        "title": "The Registry Opens",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-11_the-registry-opens.md",
+        "source_sha256": "c532bc5692d04c1b73bc713a532af38360bb1741b2d1126e4745f23eef3dad46"
+      },
+      {
+        "date": "2026-08-12",
+        "slug": "both-faces-on-the-table",
+        "title": "Both Faces on the Table",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-12_both-faces-on-the-table.md",
+        "source_sha256": "1bab2e519b05dcff7aef93605d22c513a1b94e7dfae6d16db68558f0d825af93"
+      },
+      {
+        "date": "2026-08-14",
+        "slug": "the-seat-follows-the-run",
+        "title": "The Seat Follows the Run",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-14_the-seat-follows-the-run.md",
+        "source_sha256": "534ab890c1b8e81014c8596053d827ca3dcc137d28b89fb526da0ab115e28ad9"
+      },
+      {
+        "date": "2026-08-17",
+        "slug": "field_guide_convergence",
+        "title": "The Field Guide Comes Home",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-17_field_guide_convergence.md",
+        "source_sha256": "aa5fbe02e8eca8179fcfce7f8327ca657d6900ca4df5b9dc66a805c02bae88de"
+      },
+      {
+        "date": "2026-08-18",
+        "slug": "ancestry-under-the-register",
+        "title": "Ancestry Under the Register",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-18_ancestry-under-the-register.md",
+        "source_sha256": "4fb4126523597b654db0bd10f4b45b6c244a7f94f88c58b1dd58f3889d45529b"
+      },
+      {
+        "date": "2026-08-18",
+        "slug": "frontier_pages_planning",
+        "title": "2026-08-18 — the frontier comes to the site (planning)",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-18_frontier_pages_planning.md",
+        "source_sha256": "a6d2f4024a9c0be8575e0328acff4d9e049b2d6804c98300e46b07768bd7e227"
+      },
+      {
+        "date": "2026-08-18",
+        "slug": "the-clock-ticks-without-a-break",
+        "title": "The Clock Ticks Without a Break",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-18_the-clock-ticks-without-a-break.md",
+        "source_sha256": "c6c5c4fabc7ed90fe3dcb589d77b21b8d7281e251fd7357448ef680ac02ff3b3"
+      },
+      {
+        "date": "2026-08-18",
+        "slug": "the-experience-refresh-and-the-fold",
+        "title": "The experience refresh, and the Fold",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-18_the-experience-refresh-and-the-fold.md",
+        "source_sha256": "5f8dbe781b2d60a69d0140208fd64dc869e9d65120abe84bea9e9da7250fa407"
+      },
+      {
+        "date": "2026-08-20",
+        "slug": "the-gate-turns-around",
+        "title": "The Gate Turns Around",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-20_the-gate-turns-around.md",
+        "source_sha256": "5a444bce83de4bb7a853677a27b897abb9e9d701c067a93c5b36b0b6718f7be8"
+      },
+      {
+        "date": "2026-08-24",
+        "slug": "the-two-skies",
+        "title": "The Two Skies",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-24_the-two-skies.md",
+        "source_sha256": "8b40d4b77f1ae17b23ba907adf5e9bd80c0c8858285f5abc82e4f8315320782d"
+      },
+      {
+        "date": "2026-08-27",
+        "slug": "the-hall-gathers-its-papers",
+        "title": "The Hall Gathers Its Papers",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-27_the-hall-gathers-its-papers.md",
+        "source_sha256": "18c6daa3adfa845bd1dfdab883990fac091629fd4cae6f4c7a626ec3fc4cad06"
+      },
+      {
+        "date": "2026-08-28",
+        "slug": "eighteen-wins-one-fold",
+        "title": "Eighteen Wins, One Fold",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-28_eighteen-wins-one-fold.md",
+        "source_sha256": "f768e35572eb55a398580c66a6d3735e455aba633a4521856d6c559744fad818"
+      },
+      {
+        "date": "2026-08-28",
+        "slug": "the-agent-enters-the-forum",
+        "title": "The Agent Enters the Forum",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-28_the-agent-enters-the-forum.md",
+        "source_sha256": "c9c5ca589a34d23a0102542f4a3b309162ee6dde4b80d914ab929b263730d2e1"
+      },
+      {
+        "date": "2026-08-28",
+        "slug": "the-board-is-the-book",
+        "title": "The Board Is the Book",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-28_the-board-is-the-book.md",
+        "source_sha256": "61871de8f2be5d9c33d46c4228c42bd1bc87aa0a64aa0c3590d26dea35e5a21e"
+      },
+      {
+        "date": "2026-08-28",
+        "slug": "the-thread-was-already-there",
+        "title": "The Thread Was Already There",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-28_the-thread-was-already-there.md",
+        "source_sha256": "a649d438ac15a5b1e615582e73b2a11490c41f0d9a39182a0136ddf7675a2e0b"
+      },
+      {
+        "date": "2026-08-29",
+        "slug": "the-oracle-and-the-gate",
+        "title": "The Oracle and the Gate",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-08-29_the-oracle-and-the-gate.md",
+        "source_sha256": "db333a90d5d01ee59906abbf6ff37134475844dfff481582931e49fd264f62dd"
+      },
+      {
+        "date": "2026-09-05",
+        "slug": "the-agent-walks-the-guide",
+        "title": "The Agent Walks the Guide, and the Swordsman Signs Beside the Key",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-05_the-agent-walks-the-guide.md",
+        "source_sha256": "6130f0972e730217e54a6661c2850bb215404bf9691f2877f75e729a847991d6"
+      },
+      {
+        "date": "2026-09-05",
+        "slug": "the-book-takes-a-name",
+        "title": "The Book Takes a Name",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-05_the-book-takes-a-name.md",
+        "source_sha256": "0f998bf559794f1b2f5a4c3261ad6d2363e84b288cd8f98557112db4f9ca9034"
+      },
+      {
+        "date": "2026-09-05",
+        "slug": "the-city-reads-the-key",
+        "title": "The City Reads the Key",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-05_the-city-reads-the-key.md",
+        "source_sha256": "51bfb47e85900d6e5b1701e95eeae8848805be124d7d3b69deec74086672f2d9"
+      },
+      {
+        "date": "2026-09-05",
+        "slug": "the-keeper-builds-a-trust-agent",
+        "title": "The Keeper Builds a Trust Agent",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-05_the-keeper-builds-a-trust-agent.md",
+        "source_sha256": "0df18961510356fec1fc71d5f8568f9489602520b59517ca01fdd786d989c859"
+      },
+      {
+        "date": "2026-09-05",
+        "slug": "the-lab-opens-its-door",
+        "title": "The Lab Opens Its Door",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-05_the-lab-opens-its-door.md",
+        "source_sha256": "c766cca80f6c646f6084c583f2014057056ea78924227bfec0be015368dee112"
+      },
+      {
+        "date": "2026-09-05",
+        "slug": "the-text-cannot-outrun-its-records",
+        "title": "The Text Cannot Outrun Its Records",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-05_the-text-cannot-outrun-its-records.md",
+        "source_sha256": "04d85cba11b8974b06b2d175cbe2d667da75acd5228c0cd502d7e127de93b1e3"
+      },
+      {
+        "date": "2026-09-07",
+        "slug": "city-mage-takes-an-entry-kit",
+        "title": "city_mage Takes an Entry Kit",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-07_city-mage-takes-an-entry-kit.md",
+        "source_sha256": "79a6f36a9d35bcaddfae37c9aa87689776597eb94f311c5cd1b7e4a5b51520ee"
+      },
+      {
+        "date": "2026-09-07",
+        "slug": "the-city-answers-the-key",
+        "title": "The City Answers the Key",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-07_the-city-answers-the-key.md",
+        "source_sha256": "a19d61bceb9ef60be31bb3d3023627103b8ae57252275a07cd527f64e49f68a9"
+      },
+      {
+        "date": "2026-09-07",
+        "slug": "the-key-becomes-a-private-perspective",
+        "title": "The key becomes a private perspective",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-07_the-key-becomes-a-private-perspective.md",
+        "source_sha256": "30b30ad436448c8f75fea8b481c8e303377d7b822c0674ef7154273479f76aa2"
+      },
+      {
+        "date": "2026-09-07",
+        "slug": "the-star-becomes-the-shared-reading",
+        "title": "The Star becomes the shared reading",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-07_the-star-becomes-the-shared-reading.md",
+        "source_sha256": "9a4827e7ae660b637d9d29b9eab3aa6ee5c08de0e47b244572406262a9e1a29b"
+      },
+      {
+        "date": "2026-09-08",
+        "slug": "the-key-opens-its-own-space",
+        "title": "The key opens its own space",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-08_the-key-opens-its-own-space.md",
+        "source_sha256": "b73b8bd753e7919649eb29277fcd122d081a4951985e42f0dc2d752c53b902cd"
+      },
+      {
+        "date": "2026-09-08",
+        "slug": "the-reading-keeps-its-boundary",
+        "title": "The reading keeps its boundary",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-08_the-reading-keeps-its-boundary.md",
+        "source_sha256": "d57dc6b0b335abf87f64a2e312ad15ec73f56f79dca7342b55baa324a90622b6"
+      },
+      {
+        "date": "2026-09-09",
+        "slug": "the-pools-follow-the-purpose",
+        "title": "The pools follow the purpose",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-09_the-pools-follow-the-purpose.md",
+        "source_sha256": "8c14ddaa6d1ce9b28695987df6758ab7d4e6b96bd4bde8f744ba2c61c1190b80"
+      },
+      {
+        "date": "2026-09-09",
+        "slug": "the-programme-meets-its-fixtures",
+        "title": "The programme meets its fixtures",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-09_the-programme-meets-its-fixtures.md",
+        "source_sha256": "3c798e542fc325baffd73eaa8caeaaeb26079b9a8b41e7e70d4c2f968c6f4b33"
+      },
+      {
+        "date": "2026-09-11",
+        "slug": "the-star-learns-to-measure",
+        "title": "The Star learns to measure",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-11_the-star-learns-to-measure.md",
+        "source_sha256": "e0b5a34fa37c7949dc00aba07ba7b2ea824a68f90cb041256741495f375e8baa"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-clock-enters-the-transaction",
+        "title": "The clock enters the transaction",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-clock-enters-the-transaction.md",
+        "source_sha256": "1a39df8dc23f59dc3d14b1768612198a23416a3cc1d062131509cfba14da5679"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-observation-precedes-the-act",
+        "title": "The observation precedes the act",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-observation-precedes-the-act.md",
+        "source_sha256": "b2e0b031a551ddc373de0ca9964fe48bd12b1d36e8281ab840d2655d29daa619"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-permission-names-the-reader",
+        "title": "The permission names the reader",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-permission-names-the-reader.md",
+        "source_sha256": "4781c260508d3b295106a9cdefd7068e231f4c23651c8724cf743b534be130c5"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-permit-survives-the-process",
+        "title": "The permit survives the process",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-permit-survives-the-process.md",
+        "source_sha256": "462b4dee3adb3b5e6848901178570b32857ec166bf26e00f30c1c3ca8145be5f"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-projection-returns-to-the-check",
+        "title": "The projection returns to the check",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-projection-returns-to-the-check.md",
+        "source_sha256": "1f0b7db9b47e0809e529094e445f192630805b678452867f17ad97cacf3801c1"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-reader-chooses-the-view",
+        "title": "The reader chooses the view",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-reader-chooses-the-view.md",
+        "source_sha256": "d1c397e6030c1ade2687984afd83ac1a4cee73d0462e5ca8c764c4fe0e5fdee2"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-receipt-names-its-gate",
+        "title": "The receipt names its gate",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-receipt-names-its-gate.md",
+        "source_sha256": "425cd2f33246b582205c3d68b9b4b0e5734a6a5b51caf013e0d3d8e819ed6380"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-response-keeps-the-history",
+        "title": "The response keeps the history",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-response-keeps-the-history.md",
+        "source_sha256": "dc00e7ca93e88ee91252efcf4b3ffc0e4d9e78926be161d6cb52a6893a60db84"
+      },
+      {
+        "date": "2026-09-12",
+        "slug": "the-view-waits-for-its-reader",
+        "title": "The view waits for its reader",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-12_the-view-waits-for-its-reader.md",
+        "source_sha256": "4c1a98ca20672599e0c65de7bdd7d1aa58ad593b0cd8b5631c74486003945b4f"
+      },
+      {
+        "date": "2026-09-13",
+        "slug": "the-authority-meets-the-act",
+        "title": "The authority meets the act",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-13_the-authority-meets-the-act.md",
+        "source_sha256": "c3f2d4d77206079a53e62161499c37a76a5e49522d9e873ca95cf5a1e3b1a473"
+      },
+      {
+        "date": "2026-09-13",
+        "slug": "the-blade-in-a-borrowed-hand",
+        "title": "The blade in a borrowed hand",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-13_the-blade-in-a-borrowed-hand.md",
+        "source_sha256": "1a042fc57a5a1ce1daeb82b7c4bdced1505301cb791826e9c8850b1763428dbc"
+      },
+      {
+        "date": "2026-09-13",
+        "slug": "the-boundary-keeps-the-memory",
+        "title": "The boundary keeps the memory",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-13_the-boundary-keeps-the-memory.md",
+        "source_sha256": "b6cf23968e7497581fa8876f83bc2f58a9daaf56256372d8f58e0c7ebc01ebd8"
+      },
+      {
+        "date": "2026-09-13",
+        "slug": "the-cancellation-reaches-the-act",
+        "title": "The cancellation reaches the act",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-13_the-cancellation-reaches-the-act.md",
+        "source_sha256": "650bf8def3d5687b5eb35e573fe951caa595c1a770ccf6d50b5fe99456c788f1"
+      },
+      {
+        "date": "2026-09-13",
+        "slug": "the-loop-keeps-its-boundaries",
+        "title": "The loop keeps its boundaries",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-13_the-loop-keeps-its-boundaries.md",
+        "source_sha256": "d76771e3bd2f3e24a0b10733b8daee3159625b93329c69f2ae2b00d8fa996e05"
+      },
+      {
+        "date": "2026-09-13",
+        "slug": "the-receiver-remembers-the-act",
+        "title": "The receiver remembers the act",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-13_the-receiver-remembers-the-act.md",
+        "source_sha256": "056660901691a30e9f082ca82051aa086a1f6f24d1867005141c6d06fa2c110b"
+      },
+      {
+        "date": "2026-09-21",
+        "slug": "the-ratio-names-its-denominator",
+        "title": "The ratio names its denominator",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-21_the-ratio-names-its-denominator.md",
+        "source_sha256": "cf0a4cb9ae15d8f3bd9dcc025452661f6ecbe3f0a389f84f541f9565481d73d9"
+      },
+      {
+        "date": "2026-09-21",
+        "slug": "the-reply-that-ran",
+        "title": "The reply that ran",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-21_the-reply-that-ran.md",
+        "source_sha256": "fc5bf979c3869af15fbbb50e644a0875c2eced47fd40cfbef8d2e37eee813b5a"
+      },
+      {
+        "date": "2026-09-21",
+        "slug": "the-signatures-fold-into-the-star",
+        "title": "The Signatures Fold Into the Star",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-21_the-signatures-fold-into-the-star.md",
+        "source_sha256": "adee19af56c3f2d8b2f4c1412793b0e92c640def79fe7570fc6c37865fd4d57b"
+      },
+      {
+        "date": "2026-09-21",
+        "slug": "the-star-becomes-the-nexus",
+        "title": "The Star Becomes the Nexus",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-21_the-star-becomes-the-nexus.md",
+        "source_sha256": "4764d273a9e0c61aa4d1ba281a4bd59c904a5785b63865af0ac3c67f8901d7e7"
+      },
+      {
+        "date": "2026-09-21",
+        "slug": "the-verification-keeps-its-scope",
+        "title": "The verification keeps its scope",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-21_the-verification-keeps-its-scope.md",
+        "source_sha256": "ead8f3cf6eb7a5cfa96cc8208286d4d43f8d9338c36f219b801ca1f7b1afe4d9"
+      },
+      {
+        "date": "2026-09-22",
+        "slug": "the-city-lays-out-a-course",
+        "title": "The City lays out a course",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-22_the-city-lays-out-a-course.md",
+        "source_sha256": "e74f67c50188ccaa5fc040c219e1fd5f156ec8c58dcda7a203acf2f15224b1a1"
+      },
+      {
+        "date": "2026-09-22",
+        "slug": "the-repository-carries-the-evidence",
+        "title": "The repository carries the evidence",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-22_the-repository-carries-the-evidence.md",
+        "source_sha256": "765d70910e8c7b09cbfa06e3703d031896c475af81544808f596ed6b766cdd75"
+      },
+      {
+        "date": "2026-09-22",
+        "slug": "the-request-becomes-a-benchmark",
+        "title": "The request becomes a benchmark",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-22_the-request-becomes-a-benchmark.md",
+        "source_sha256": "1b0d21eeff5dd32c8511d0ff59f1b1a8113757e1f50a88f32afa0169a32976a1"
+      },
+      {
+        "date": "2026-09-24",
+        "slug": "membership-does-not-mint-a-licence",
+        "title": "Membership does not mint a licence",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-24_membership-does-not-mint-a-licence.md",
+        "source_sha256": "3478abb366063dd7be844eee13329f937f613217e9c6421436086f6dac0ce64f"
+      },
+      {
+        "date": "2026-09-28",
+        "slug": "the-overview-travels-without-the-workspace",
+        "title": "The overview travels without the workspace",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-09-28_the-overview-travels-without-the-workspace.md",
+        "source_sha256": "dc641e25da560a549f79c9acf75428ff96d9fdd5f2bc6abf5a77a8f84ad11e51"
+      },
+      {
+        "date": "2026-10-02",
+        "slug": "the-agent-takes-a-seat-of-its-own",
+        "title": "The agent takes a seat of its own",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-02_the-agent-takes-a-seat-of-its-own.md",
+        "source_sha256": "346502b3f255f474923c1efc76fd4ccd04265fb280e2e7de3020a2205d048625"
+      },
+      {
+        "date": "2026-10-02",
+        "slug": "the-lever-belongs-to-the-swarm",
+        "title": "The lever belongs to the swarm",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-02_the-lever-belongs-to-the-swarm.md",
+        "source_sha256": "8e0d09050f31e320e7276c19b403043a8fab38232acd24ef94d9426c09105068"
+      },
+      {
+        "date": "2026-10-02",
+        "slug": "the-swordsman-was-already-on-the-wire",
+        "title": "The Swordsman was already on the wire",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-02_the-swordsman-was-already-on-the-wire.md",
+        "source_sha256": "443046bfed987ab65a0abc709db1288411094ebc69e49ab50bfe3e1b9412274b"
+      },
+      {
+        "date": "2026-10-07",
+        "slug": "the-measurement-travels-without-its-name",
+        "title": "The measurement travels without its name",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-07_the-measurement-travels-without-its-name.md",
+        "source_sha256": "c57617fad0542f4324a56d05c8de21d8d5afba79b2ae106ae0fabbeb7d642334"
+      },
+      {
+        "date": "2026-10-07",
+        "slug": "the-root-was-older-than-the-papers",
+        "title": "The root was older than the papers",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-07_the-root-was-older-than-the-papers.md",
+        "source_sha256": "e03ff89d1c215c6405a0b81833f3359ea70f33de765d7323f35c935a9db91165"
+      },
+      {
+        "date": "2026-10-08",
+        "slug": "the-city-mints-its-community",
+        "title": "The City mints its community",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-08_the-city-mints-its-community.md",
+        "source_sha256": "6fdd1a6632d19dd7dbd11dad7586d30ef2ffdcf8b57be32dab35229452a21d1a"
+      },
+      {
+        "date": "2026-10-08",
+        "slug": "the-decimal-travels-the-root-stays",
+        "title": "The decimal travels; the root stays",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-08_the-decimal-travels-the-root-stays.md",
+        "source_sha256": "9ebb48bfa8c8bb24c54baea1a1322568220bbdc844bcad5fe75eab43c76fbf01"
+      },
+      {
+        "date": "2026-10-11",
+        "slug": "the-hash-learns-to-sing",
+        "title": "The hash learns to sing",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-11_the-hash-learns-to-sing.md",
+        "source_sha256": "218a72f29b244de8fae8114911e96a90bd8fc782d02fc80a1362fba65bae2574"
+      },
+      {
+        "date": "2026-10-12",
+        "slug": "the-failed-root-stays-in-the-tree",
+        "title": "The failed root stays in the tree",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-12_the-failed-root-stays-in-the-tree.md",
+        "source_sha256": "c538bdc97515b8a3a24ca823bc090fbfea8b126660724198ef7858c5477a2bde"
+      },
+      {
+        "date": "2026-10-19",
+        "slug": "the-keeper-of-unclaimed-words",
+        "title": "The Keeper of Unclaimed Words",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-19_the-keeper-of-unclaimed-words.md",
+        "source_sha256": "eadcc050c62df185d4c3a9ed00a58f8073ff7cf346371646cc590a3957739566"
+      },
+      {
+        "date": "2026-10-21",
+        "slug": "the-pause-becomes-a-key",
+        "title": "The Pause Becomes a Key",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-21_the-pause-becomes-a-key.md",
+        "source_sha256": "6bb3cc2859e34ed55ed07dbe60d39cc0e46cd1e4b14912267548b03ddc083d09",
+        "inversion": "A pause is usually the absence of a mechanism. Here the pause is the mechanism, and the name for it became the name for a key. Cæsura began as the break between propose and act; by the end of the day the same break was carrying keys across cryptosystems, with the separation itself as the ceremony."
+      },
+      {
+        "date": "2026-10-25",
+        "slug": "curve-mage-the-collision-is-not-the-recovery",
+        "title": "Curve Mage: the collision is not the recovery",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-25_curve-mage-the-collision-is-not-the-recovery.md",
+        "source_sha256": "05316b123708158190073c1edfeac08e510bdb431ba3a2ab78c8b6e873323752"
+      },
+      {
+        "date": "2026-10-25",
+        "slug": "the-seal-and-the-star",
+        "title": "The seal and the star — a new writing enters the City, and the chains are gathered onto the lattice",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-25_the-seal-and-the-star.md",
+        "source_sha256": "8d7c68ac260fc8819da7b0115e1ba8730e10b9aecfaca7dbc2c09af18d85fa0a"
+      },
+      {
+        "date": "2026-10-25",
+        "slug": "the-tree-learns-its-leaves",
+        "title": "The tree learns its leaves",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-25_the-tree-learns-its-leaves.md",
+        "source_sha256": "c894c52cf312db5ea868236339f025d6d9a658933b84bd9816d07e174fb1dcb6",
+        "inversion": "The Hold's tree was taken from the packets rule because a packets root is something a key already carries. The packets tree is only ever checked by recomputing it from every leaf. The Hold is checked by a *path*, one item at a time. The same tree was safe in the first use and unsafe in the second. Disclosure, the feature the Hold exists for, was the one place where the shortcut mattered."
+      },
+      {
+        "date": "2026-10-25",
+        "slug": "v7-takes-its-first-receipts",
+        "title": "V7 takes its first receipts",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-25_v7-takes-its-first-receipts.md",
+        "source_sha256": "319561334a045406849475deba4d7f5f937fc71d525ed98385b577e3175d4071",
+        "inversion": "V7 was written to stop the model claiming more than its proofs give. Its own discipline said that only a proof, an audit or a measurement moves a status. It then waited for someone to supply the proofs. The first proofs did not promote anything. Their first effect was to demote: four readings in the volumes V7 restates (the four-force matrix, the golden-ratio optimum, the 96-edge boundary and the dihedral determinant) fell when written as theorems. V7's discipline was right. What it needed was a checker that could say no."
+      },
+      {
+        "date": "2026-10-25",
+        "slug": "what-the-kernel-would-not-sign",
+        "title": "What the kernel would not sign",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-25_what-the-kernel-would-not-sign.md",
+        "source_sha256": "cfd1e07824a58add89b5b4129af007861e198ef8c2d25654f4557556bd0d660d",
+        "inversion": "The prover was brought in to certify the work. Its first act was to refute it. The survey went looking for things to prove and found that the model's geometry, the part that looked most like mathematics, was where the claims had drifted furthest from anything checkable. The information-theoretic results that read like prose had already been made precise in the programme papers. The lattice, the matrix and the group, which read like settled arithmetic, had not been checked at all. They were checked today, and four of their readings fell."
+      },
+      {
+        "date": "2026-10-26",
+        "slug": "the-registry-and-the-divergence",
+        "title": "The registry and the divergence — the guide is named page by page, and an edit becomes evidence",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-26_the-registry-and-the-divergence.md",
+        "source_sha256": "568ae497f1116d59cc525ef93ca7f09e795df6191013d3c7d5f30982589f269e"
+      },
+      {
+        "date": "2026-10-26",
+        "slug": "the-text-names-one-value",
+        "title": "The text names one value",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-10-26_the-text-names-one-value.md",
+        "source_sha256": "d48a0efadad920181ece8a37fde4e9015563f1a3eed2eabd5577f97e91f724c8",
+        "inversion": "A κ is a hash of text, and the programme reads it as the name of a value. That reading needs the text to name one value. The proof said it does, for every genuine JSON value. The comparison run, which ran every copy of the code on the same 340 values, said that five of the six copies would also give text to things that are not JSON, and give two different things the same text: `NaN` and `null`, `[undefined]` and `[]`. The theorem was right about what it covered, and the code accepted more than that. The fix was not to change the theorem. It was to make the code refuse what the theorem does not cover."
+      },
+      {
+        "date": "2026-11-04",
+        "slug": "the-row-that-runs-again",
+        "title": "The row that runs again — a proof enters the record as a re-run, and two ids do not make two models",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-04_the-row-that-runs-again.md",
+        "source_sha256": "031997e4a944542a3f5c8a471c81da6bc861a2e0122f47389e28c636f43caead",
+        "inversion": "a row stops being a witness and becomes a re-run."
+      },
+      {
+        "date": "2026-11-06",
+        "slug": "the-board-read-while-the-keeper-plays",
+        "title": "The board read while the keeper plays — every staged lever is dead, so the lanes turn to reading",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-06_the-board-read-while-the-keeper-plays.md",
+        "source_sha256": "1765ca484dab9dcbdcc1a43fc8c06f961ff6614bf114857af8b584c759d72347"
+      },
+      {
+        "date": "2026-11-06",
+        "slug": "the-universe-reads-itself",
+        "title": "The universe reads itself — a census of sixteen repositories, and what the told layer owes the sealed one",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-06_the-universe-reads-itself.md",
+        "source_sha256": "f446ec68b9a43a9b7b683bf38db914211fe10f167cef7cb2c3991c58f20255fa"
+      },
+      {
+        "date": "2026-11-09",
+        "slug": "the-pause-runs-again",
+        "title": "The Pause Runs Again",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-09_the-pause-runs-again.md",
+        "source_sha256": "f73dab57dfc9e072c8b1d08029de2cbf4954dd56070e9d4febf2d0286d61dc80"
+      },
+      {
+        "date": "2026-11-12",
+        "slug": "the-ceiling-belonged-to-the-fibre",
+        "title": "The ceiling belonged to the fibre",
+        "signed": true,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-12_the-ceiling-belonged-to-the-fibre.md",
+        "source_sha256": "f1e3f05ea1d46e5521213ae428b8f72ffae8717ff04d12c174c82f437cbadf69",
+        "inversion": "The research seat's list report said the list \"has a hard ceiling and the leader's list is already it\". An exhaustive scan of all 2^32 values found exactly 821,520 valid entries, so no larger list existed. The scan was right, but it answered a narrower question than it seemed to. It counted the valid entries on one fibre, the value h0 = 0x36faf0de that every entry on the board had inherited. Nothing in the attack fixes h0. If the walk constant and the F9 constant are shifted by h − h0, the same trail stands on another fibre. On 0x3cc9eebe that fibre holds 9,701,592 valid entries, eleven times as many, and the same exhaustive scan confirms every one. The ceiling belonged to the fibre, not to the problem."
+      },
+      {
+        "date": "2026-11-12",
+        "slug": "the-evidence-lights-the-star",
+        "title": "The Evidence Lights the Star",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-12_the-evidence-lights-the-star.md",
+        "source_sha256": "68279782678f8656c79c9cc91e679d2ea28708c5f7425bcf899e63d5c5207e54"
+      },
+      {
+        "date": "2026-11-12",
+        "slug": "the-prism",
+        "title": "The Prism",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-12_the-prism.md",
+        "source_sha256": "d2089ee4220824a354dfd89279cd75bb6489e0ccf2818eba47b320b00e89f0ad"
+      },
+      {
+        "date": "2026-11-12",
+        "slug": "the-seals-outrun-the-signs",
+        "title": "The seals outrun the signs",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-12_the-seals-outrun-the-signs.md",
+        "source_sha256": "f8bc3dc5c5320c87eaeec42ecba8b507ba7c67fd87072af49ed41c597a3116ab"
+      },
+      {
+        "date": "2026-11-13",
+        "slug": "the-gap-closes",
+        "title": "The Gap Closes",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-13_the-gap-closes.md",
+        "source_sha256": "05cf0f899bfe4a4788627d3e7464efc68f90075623a9e674200390a806257e1d"
+      },
+      {
+        "date": "2026-11-13",
+        "slug": "the-judge-had-already-run-it",
+        "title": "The judge had already run it",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-13_the-judge-had-already-run-it.md",
+        "source_sha256": "89fb65baba9256c523ad34a9c872c7d49bcaab77828ff42c9986efbcd87aca19"
+      },
+      {
+        "date": "2026-11-16",
+        "slug": "the-star-comes-home",
+        "title": "The Star Comes Home",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-16_the-star-comes-home.md",
+        "source_sha256": "68b49885970ad2b42c4a3fa518e461a193a386548064366df1a1d82396f4b567"
+      },
+      {
+        "date": "2026-11-17",
+        "slug": "the-feed-is-the-evidence",
+        "title": "The Feed Is the Evidence",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-feed-is-the-evidence.md",
+        "source_sha256": "6d1ea3b513ebe2feeecf0b61b86cd54bb17ee2d5bd4f580d88b31f7e2fd96656"
+      },
+      {
+        "date": "2026-11-17",
+        "slug": "the-prism-in-the-hand",
+        "title": "The Prism in the Hand",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-prism-in-the-hand.md",
+        "source_sha256": "8fac6d33a3ae8b51f5dfeec13c740cd191cb58bb915ee63bcced38857bab84be"
+      },
+      {
+        "date": "2026-11-17",
+        "slug": "the-words-were-not-the-channel",
+        "title": "The Words Were Not the Channel",
+        "signed": false,
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-words-were-not-the-channel.md",
+        "source_sha256": "fcf9027868a2d68c09a327b9b95703cae70d847e0095646a2ef57b9c6d3cd834"
+      }
+    ]
+  },
+  "proverbs": {
+    "description": "Proverbs set down in the Age of Evidence. 'Proposed' until their chronicle is signed; the proverbs page inscribes them by hand.",
+    "entries": [
+      {
+        "proverb": "Whatever an agent holds, its words carry.",
+        "chronicle": "the-words-were-not-the-channel",
+        "date": "2026-11-17",
+        "status": "proposed",
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-words-were-not-the-channel.md"
+      },
+      {
+        "proverb": "Refusal is not privacy. Separation is.",
+        "chronicle": "the-words-were-not-the-channel",
+        "date": "2026-11-17",
+        "status": "proposed",
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-words-were-not-the-channel.md"
+      },
+      {
+        "proverb": "The one who speaks must never hold.",
+        "chronicle": "the-words-were-not-the-channel",
+        "date": "2026-11-17",
+        "status": "proposed",
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-words-were-not-the-channel.md"
+      },
+      {
+        "proverb": "Don't ask the agent to keep the secret. Never give it the secret.",
+        "chronicle": "the-words-were-not-the-channel",
+        "date": "2026-11-17",
+        "status": "proposed",
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-words-were-not-the-channel.md"
+      },
+      {
+        "proverb": "The harder the promise, the louder the leak.",
+        "chronicle": "the-words-were-not-the-channel",
+        "date": "2026-11-17",
+        "status": "proposed",
+        "source": "agentprivacy_master/docs/chronicles/2026-11-17_the-words-were-not-the-channel.md"
+      }
+    ]
+  },
+  "mages": {
+    "description": "The mages of the Age of Evidence: each lane of the dual-agent harness is a mage with a Star. The City seats it on a lattice vertex and names a patron from the earlier cast, which is how the new mages join the old lore. word is the κ of the mage's sealed work, a hash and never a result.",
+    "count": 21,
+    "roster": [
+      {
+        "mage": "sig_mage",
+        "arena": "yukon",
+        "work": "sig-golf/full — Lean-certified hash signature, size × charged cycles",
+        "state": "active",
+        "vertex": 42,
+        "axes": [
+          "Protection",
+          "Memory",
+          "Computation"
+        ],
+        "witness_vertex": 21,
+        "patron": {
+          "mage": "Memora",
+          "workshop": "zShields",
+          "district": "the Crypt",
+          "vertex": 41
+        },
+        "word": "sha256:d1220d9a360bc608ea4ad03ed00a8a8b90c071cdf5e4064bc4590141c79fdd65",
+        "read": "2026-10-20",
+        "quests": [
+          "sig.mages.city"
+        ]
+      },
+      {
+        "mage": "hashsmash_mage",
+        "arena": "yukon",
+        "work": "hashsmash — AI-judged reduced-round collision claims",
+        "state": "active",
+        "vertex": 50,
+        "axes": [
+          "Protection",
+          "Delegation",
+          "Computation"
+        ],
+        "witness_vertex": 13,
+        "patron": {
+          "mage": "Adamantia",
+          "workshop": "the Etherchanting Shop",
+          "district": "the Crucible",
+          "vertex": 51
+        },
+        "word": "sha256:3e1f3631cd6513d22853cde02ece7608316082fb07a7139cf822b4eee74b8673",
+        "read": "2026-10-21",
+        "scroll": "https://hashsmash.mages.city/",
+        "quests": [
+          "sha256.mages.city",
+          "sha3.mages.city",
+          "blake3.mages.city",
+          "poseidon.mages.city",
+          "hashsmash.mages.city/blake3",
+          "hashsmash.mages.city/poseidon",
+          "hashsmash.mages.city/sha256"
+        ]
+      },
+      {
+        "mage": "qpcbtc_mage",
+        "arena": "yukon",
+        "work": "Quantum Safe Bitcoin Challenge — CUDA pinning + subset",
+        "state": "submitted",
+        "vertex": 35,
+        "axes": [
+          "Protection",
+          "Computation",
+          "Value"
+        ],
+        "witness_vertex": 28,
+        "patron": {
+          "mage": "Eos",
+          "workshop": "the Horizon (Eos)",
+          "district": "the Horizon District",
+          "vertex": 35
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "heesch_mage",
+        "arena": "yukon",
+        "work": "Heesch numbers of polyforms (higher is better)",
+        "state": "watching",
+        "vertex": 10,
+        "axes": [
+          "Memory",
+          "Computation"
+        ],
+        "witness_vertex": 53,
+        "patron": {
+          "mage": "Socrat0x",
+          "workshop": "the Dragon Bonfire",
+          "district": "the Founding Bonfire",
+          "vertex": 24
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "precompile_mage",
+        "arena": "yukon",
+        "work": "EIP-8200 MODEXP precompile",
+        "state": "paused",
+        "vertex": 3,
+        "axes": [
+          "Computation",
+          "Value"
+        ],
+        "witness_vertex": 60,
+        "patron": {
+          "mage": "Vulcana",
+          "workshop": "the Forge(t)",
+          "district": "the Crucible",
+          "vertex": 19
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "flock_mage",
+        "arena": "yukon",
+        "work": "flock-challenge-multi/x86 — Binius-style GF(2^128) prover, BLAKE3",
+        "state": "blocked",
+        "vertex": 50,
+        "axes": [
+          "Protection",
+          "Delegation",
+          "Computation"
+        ],
+        "witness_vertex": 13,
+        "patron": {
+          "mage": "Helia",
+          "workshop": "the Solchanting Shop",
+          "district": "the Crucible",
+          "vertex": 51
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "better_codes_mage",
+        "arena": "yukon",
+        "work": "Proximity Prize (better.codes) — IRS proximity testing, Lean",
+        "state": "closed",
+        "vertex": 40,
+        "axes": [
+          "Protection",
+          "Memory"
+        ],
+        "witness_vertex": 23,
+        "patron": {
+          "mage": "Memora",
+          "workshop": "zShields",
+          "district": "the Crypt",
+          "vertex": 41
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "matrices_mage",
+        "arena": "yukon",
+        "work": "SSI ordering challenge — fill-reducing matrix orderings",
+        "state": "closed",
+        "vertex": 14,
+        "axes": [
+          "Memory",
+          "Connection",
+          "Computation"
+        ],
+        "witness_vertex": 49,
+        "patron": {
+          "mage": "Skeva",
+          "workshop": "the Quartermaster's",
+          "district": "the Crucible",
+          "vertex": 22
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "shor_mage",
+        "arena": "ecdsafail",
+        "work": "ecdsa.fail — quantum resource estimation of ECC point addition",
+        "state": "parked",
+        "vertex": 43,
+        "axes": [
+          "Protection",
+          "Memory",
+          "Computation",
+          "Value"
+        ],
+        "witness_vertex": 20,
+        "patron": {
+          "mage": "Dokimé",
+          "workshop": "the Assay (Dokimé)",
+          "district": "the Horizon District",
+          "vertex": 35
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "zkbook_workshop_mage",
+        "arena": "zk-golf",
+        "work": "proof golf W1–W3 over the ZK Book records; first proof = record 024",
+        "state": "active",
+        "vertex": 56,
+        "axes": [
+          "Protection",
+          "Delegation",
+          "Memory"
+        ],
+        "witness_vertex": 7,
+        "patron": {
+          "mage": "Aria Silverhue",
+          "workshop": "the Curatrix Vault",
+          "district": "the Reliquary",
+          "vertex": 57
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "kappa_evidence_mage",
+        "arena": null,
+        "work": "the evidence axis — κ-addressed ledgers for every instance",
+        "state": "axis",
+        "vertex": 12,
+        "axes": [
+          "Memory",
+          "Connection"
+        ],
+        "witness_vertex": 51,
+        "patron": {
+          "mage": "Pleione",
+          "workshop": "the Chart Shop",
+          "district": "the Navigation District",
+          "vertex": 44
+        },
+        "word": null,
+        "read": null
+      },
+      {
+        "mage": "flashprove_mage",
+        "state": "sealed",
+        "scroll": "https://flashprove.mages.city/"
+      },
+      {
+        "mage": "formal_mage",
+        "state": "sealed",
+        "scroll": "https://formal.mages.city/"
+      },
+      {
+        "mage": "near_mage",
+        "state": "sealed",
+        "scroll": "https://near.mages.city/"
+      },
+      {
+        "mage": "poc_mage",
+        "state": "sealed",
+        "scroll": "https://poc.mages.city/"
+      },
+      {
+        "mage": "soul_mage",
+        "state": "sealed",
+        "scroll": "https://soul.mages.city/"
+      },
+      {
+        "mage": "keeper_mage",
+        "state": "sealed",
+        "scroll": "https://guide.mages.city/"
+      },
+      {
+        "mage": "curve_mage",
+        "state": "sealed",
+        "quests": [
+          "curve.mages.city"
+        ]
+      },
+      {
+        "mage": "ecrank_mage",
+        "state": "sealed",
+        "quests": [
+          "ecrank.mages.city"
+        ]
+      },
+      {
+        "mage": "falcon_mage",
+        "state": "sealed",
+        "quests": [
+          "falcon.mages.city"
+        ]
+      },
+      {
+        "mage": "lattice_mage",
+        "state": "sealed",
+        "quests": [
+          "mldsa.mages.city"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source": "mages_city/site/arena.json",
+        "source_sha256": "88671176a62af5fc9f31893aa03a73967872469545bf9fd5c7af2e4cca61143b"
+      },
+      {
+        "source": "mages_city/site/scrolls.json",
+        "source_sha256": "87fa6a16193321311832047d3f2039dfaf0d4732b185a25c70652546481c9537"
+      }
+    ]
+  },
+  "seals": {
+    "description": "Where the mages' work is sealed. A scroll is a mage's work written as nothing but hashes; a quest is a proof-of-agentic-work chain page. Every hash resolves on sigil.mages.city.",
+    "sigil": "https://sigil.mages.city/",
+    "scrolls": [
+      {
+        "id": "soul",
+        "label": "❦ the soul mage",
+        "href": "https://soul.mages.city/"
+      },
+      {
+        "id": "guide",
+        "label": "❦ the guide",
+        "href": "https://guide.mages.city/"
+      },
+      {
+        "id": "hashsmash",
+        "label": "❦ HashSmash, every lane",
+        "href": "https://hashsmash.mages.city/"
+      },
+      {
+        "id": "flashprove",
+        "label": "❦ provable inference",
+        "href": "https://flashprove.mages.city/"
+      },
+      {
+        "id": "package",
+        "label": "❦ research package",
+        "href": "https://research.mages.city/"
+      },
+      {
+        "id": "formal",
+        "label": "❦ formal mage",
+        "href": "https://formal.mages.city/"
+      },
+      {
+        "id": "near",
+        "label": "❦ near mage",
+        "href": "https://near.mages.city/"
+      },
+      {
+        "id": "poc",
+        "label": "❦ poc mage",
+        "href": "https://poc.mages.city/"
+      },
+      {
+        "id": "moon",
+        "label": "❦ moon scroll",
+        "href": "https://moon.mages.city/"
+      },
+      {
+        "id": "grimoire",
+        "label": "❦ the privacy mage's grimoires",
+        "href": "https://grimoire.mages.city/"
+      }
+    ],
+    "quests": [
+      {
+        "quest": "sha256",
+        "domain": "sha256.mages.city",
+        "lane": "hashsmash-pareto/sha256",
+        "entries": 38,
+        "minted": "2026-10-26",
+        "work_root": "sha256:deefbe8b10e9ed2849c36d3d37ae9073ac2fa05f6ff2a86bbffb5c7696b3a344",
+        "poaw_root": "sha256:69d14c21c6e3061a57c2c59d5c8d16504b4858f45649f186b0c10f8c9d14c917"
+      },
+      {
+        "quest": "sha3",
+        "domain": "sha3.mages.city",
+        "lane": "hashsmash-pareto/sha3-256",
+        "entries": 19,
+        "minted": "2026-10-26",
+        "work_root": "sha256:e219aad8b85a96634676a48aeb513694da73a4901949b05850d2b898ce70e4e0",
+        "poaw_root": "sha256:69d14c21c6e3061a57c2c59d5c8d16504b4858f45649f186b0c10f8c9d14c917"
+      },
+      {
+        "quest": "blake3",
+        "domain": "blake3.mages.city",
+        "lane": "hashsmash-pareto/blake3",
+        "entries": 11,
+        "minted": "2026-10-26",
+        "work_root": "sha256:af9037b2f34063eca8383a50504ab67d38d8b15686a3f2aeff78b26fa91a350c",
+        "poaw_root": "sha256:69d14c21c6e3061a57c2c59d5c8d16504b4858f45649f186b0c10f8c9d14c917"
+      },
+      {
+        "quest": "poseidon",
+        "domain": "poseidon.mages.city",
+        "lane": "hashsmash-pareto/poseidon",
+        "entries": 11,
+        "minted": "2026-10-26",
+        "work_root": "sha256:12f70a221f32690398aeab8a3b2694110e70d7b4dac216f6ed8915309519a1b6",
+        "poaw_root": "sha256:69d14c21c6e3061a57c2c59d5c8d16504b4858f45649f186b0c10f8c9d14c917"
+      },
+      {
+        "quest": "curve_secp256k1",
+        "domain": "curve.mages.city",
+        "lane": "curvesmash/secp256k1",
+        "entries": 15,
+        "minted": "2026-10-25",
+        "work_root": "sha256:ad656bf523fff4bb3123f9e2735b34015220c1d32697018dc412f65759ded153",
+        "poaw_root": null
+      },
+      {
+        "quest": "ec_rank",
+        "domain": "ecrank.mages.city",
+        "lane": "ec-rank/elliptic-rank",
+        "entries": 1,
+        "minted": "2026-10-20",
+        "work_root": "sha256:43df44b404ac2fda71535be8e39776aab8ed72db9d744255a9fe00066ee40a88",
+        "poaw_root": null
+      },
+      {
+        "quest": "falcon",
+        "domain": "falcon.mages.city",
+        "lane": "falcon/falcon-512",
+        "entries": 13,
+        "minted": "2026-10-24",
+        "work_root": "sha256:053bba58491df443249d4e8a71a676a65b855f44a5a163f537eacd389585471f",
+        "poaw_root": null
+      },
+      {
+        "quest": "hashsmash_blake3",
+        "domain": "hashsmash.mages.city/blake3",
+        "lane": "hashsmash/blake3-r2",
+        "entries": 8,
+        "minted": "2026-10-13",
+        "work_root": "sha256:118945a742fb92fe1f97218343ca04397fbfeeb3a0a54d9ea024779ff2ee7051",
+        "poaw_root": null
+      },
+      {
+        "quest": "hashsmash_poseidon",
+        "domain": "hashsmash.mages.city/poseidon",
+        "lane": "hashsmash-pareto/poseidon/first",
+        "entries": 3,
+        "minted": "2026-10-12",
+        "work_root": "sha256:71dfd442b6e3c588b275a68e339b1d6c6fb47d89f18bd4b7ba49c937b84377f5",
+        "poaw_root": null
+      },
+      {
+        "quest": "hashsmash_sha256",
+        "domain": "hashsmash.mages.city/sha256",
+        "lane": "hashsmash/sha256",
+        "entries": 27,
+        "minted": "2026-11-17",
+        "work_root": "sha256:3071bebc79749aedc79651b646d7cbb56b0d09493487b323a87f4997a158e8dd",
+        "poaw_root": null
+      },
+      {
+        "quest": "lattice",
+        "domain": "mldsa.mages.city",
+        "lane": "lattice/ml-dsa",
+        "entries": 38,
+        "minted": "2026-10-29",
+        "work_root": "sha256:a0b17915ce995657059ecf187fd07d372d00249848d7f233a26a1cf205ba7453",
+        "poaw_root": null
+      },
+      {
+        "quest": "sig_golf",
+        "domain": "sig.mages.city",
+        "lane": "sig-golf/full",
+        "entries": 5,
+        "minted": "2026-10-20",
+        "work_root": "sha256:2b0da29fc8ec150b596135cbc696ed68ff9d8495d48564087fb3b1cd640743f0",
+        "poaw_root": null
+      }
+    ],
+    "sources": [
+      {
+        "source": "mages_city/site/scrolls.json",
+        "source_sha256": "87fa6a16193321311832047d3f2039dfaf0d4732b185a25c70652546481c9537"
+      },
+      {
+        "source": "mages_city/site/chains.json",
+        "source_sha256": "302d28eece89f831b9dbca49283736cf40923513b6cba07a21f9007d2f1647c7"
+      }
+    ]
+  },
+  "register": {
+    "description": "The conjecture register as a status table: number, short name, confidence and one status word. The reasoning stays in the register. 'challenged' means a ruling or audit has put the conjecture in question as worded.",
+    "count": 97,
+    "by_status": {
+      "challenged": 5,
+      "open": 2,
+      "resolved": 1,
+      "active": 78,
+      "observation": 3,
+      "alias": 3,
+      "occupied": 4,
+      "reserved": 1
+    },
+    "rulings": [
+      "Ruling · 7 October 2026 · the strict ceiling is declared, not derived",
+      "Ruling · 25 October 2026 · the V7 formal audit",
+      "Ruling · 3 November 2026 · proof-enforced separation, a third kind named"
+    ],
+    "conjectures": [
+      {
+        "id": "C1",
+        "name": "Golden ratio φ is optimal S/M",
+        "confidence": "open",
+        "status": "challenged"
+      },
+      {
+        "id": "C2",
+        "name": "A",
+        "confidence": "open",
+        "status": "open"
+      },
+      {
+        "id": "C3",
+        "name": "Edge value is additive",
+        "confidence": "—",
+        "status": "challenged"
+      },
+      {
+        "id": "C4",
+        "name": "96 vs 64 discrepancy",
+        "confidence": "—",
+        "status": "challenged"
+      },
+      {
+        "id": "C5",
+        "name": "~3,000× ZKP reduction",
+        "confidence": "—",
+        "status": "resolved"
+      },
+      {
+        "id": "C6",
+        "name": "P^1.5 ↔ 96/64 is structural",
+        "confidence": "35% → open",
+        "status": "open"
+      },
+      {
+        "id": "C7",
+        "name": "Three-axis separation is multiplicative",
+        "confidence": "30%",
+        "status": "active"
+      },
+      {
+        "id": "C8",
+        "name": "BRAID compression reduces R_max",
+        "confidence": "45%",
+        "status": "active"
+      },
+      {
+        "id": "C9",
+        "name": "Holographic boundary sufficiency",
+        "confidence": "25%",
+        "status": "active"
+      },
+      {
+        "id": "C10",
+        "name": "O",
+        "confidence": "20%",
+        "status": "active"
+      },
+      {
+        "id": "C11",
+        "name": "Behavioural density ρ amplifies privacy, indicates maturity",
+        "confidence": "55%",
+        "status": "active"
+      },
+      {
+        "id": "C12",
+        "name": "Hexagram encoding is structurally resonant",
+        "confidence": "60%",
+        "status": "active"
+      },
+      {
+        "id": "C13",
+        "name": "Bilateral witness as quantum-resistant primitive",
+        "confidence": "65%",
+        "status": "active"
+      },
+      {
+        "id": "C14",
+        "name": "Φ_agent ≅ D₂ₙ dihedral isomorphism",
+        "confidence": "75%",
+        "status": "challenged"
+      },
+      {
+        "id": "C15",
+        "name": "T_∫",
+        "confidence": "65%",
+        "status": "active"
+      },
+      {
+        "id": "C16",
+        "name": "Topological trust invariants via Betti numbers",
+        "confidence": "25%",
+        "status": "active"
+      },
+      {
+        "id": "C17",
+        "name": "Amnesia-enforced separation tighter than policy-enforced",
+        "confidence": "60%",
+        "status": "active"
+      },
+      {
+        "id": "C18",
+        "name": "Sovereignty path exhibits strange attractor dynamics",
+        "confidence": "25%",
+        "status": "active"
+      },
+      {
+        "id": "C19",
+        "name": "ρ is Lyapunov divergence accumulated over the walk",
+        "confidence": "20%",
+        "status": "active"
+      },
+      {
+        "id": "C20",
+        "name": "Three axes couple as three Lorenz variables",
+        "confidence": "30%",
+        "status": "active"
+      },
+      {
+        "id": "C21",
+        "name": "Sovereignty manifold has fractal dimension",
+        "confidence": "10%",
+        "status": "active"
+      },
+      {
+        "id": "C22",
+        "name": "Reconstruction cost grows exponentially with EML tree depth",
+        "confidence": "20%",
+        "status": "active"
+      },
+      {
+        "id": "C23",
+        "name": "Blade forge grammar isomorphic to restricted EML grammar",
+        "confidence": "30%",
+        "status": "active"
+      },
+      {
+        "id": "C24",
+        "name": "Sovereignty computation requires complex intermediates",
+        "confidence": "15%",
+        "status": "active"
+      },
+      {
+        "id": "C25",
+        "name": "Minimal EML tree depth is hard floor for compression spectrum",
+        "confidence": "25%",
+        "status": "active"
+      },
+      {
+        "id": "C26",
+        "name": "ARCH-1 is canonical form of NAND, EML, succ as co-instances",
+        "confidence": "40%",
+        "status": "active"
+      },
+      {
+        "id": "C27",
+        "name": "ρ is the activation mechanism; Ω without ρ is inert",
+        "confidence": "35%",
+        "status": "active"
+      },
+      {
+        "id": "C28",
+        "name": "Three ceilings independent because ARCH-1 factors into β / μS / Ω",
+        "confidence": "30%",
+        "status": "active"
+      },
+      {
+        "id": "C29",
+        "name": "The Second Person Lift",
+        "confidence": "20%",
+        "status": "active"
+      },
+      {
+        "id": "C30",
+        "name": "Trust half-life begins at inscription; decays until renewed",
+        "confidence": "60%",
+        "status": "active"
+      },
+      {
+        "id": "C31",
+        "name": "Half-life differs by inscription register",
+        "confidence": "55%",
+        "status": "active"
+      },
+      {
+        "id": "C32",
+        "name": "Productive trust-edges have higher half-life than transactional",
+        "confidence": "50%",
+        "status": "active"
+      },
+      {
+        "id": "C33",
+        "name": "Half-lives compose multiplicatively across the three axes",
+        "confidence": "45%",
+        "status": "active"
+      },
+      {
+        "id": "C34",
+        "name": "Convergence requires a bijective cap",
+        "confidence": "55%",
+        "status": "active"
+      },
+      {
+        "id": "C35",
+        "name": "The wound is where the architectural asymmetry lives",
+        "confidence": "60%",
+        "status": "active"
+      },
+      {
+        "id": "C36",
+        "name": "The cap is where the bijection lives or breaks",
+        "confidence": "55%",
+        "status": "active"
+      },
+      {
+        "id": "C37",
+        "name": "Convergence is recognition, not coincidence",
+        "confidence": "50%",
+        "status": "active"
+      },
+      {
+        "id": "C38",
+        "name": "Bilateral ARCH-1",
+        "confidence": "~40%",
+        "status": "active"
+      },
+      {
+        "id": "C39",
+        "name": "Kindred-blade as ecosystem-layer primitive",
+        "confidence": "~80%",
+        "status": "active"
+      },
+      {
+        "id": "C40",
+        "name": "Zcash dual-ledger preserves Eight Cloak Properties",
+        "confidence": "~70%",
+        "status": "active"
+      },
+      {
+        "id": "C41",
+        "name": "61.8/38.2 transparent/shielded inscription ratio as cultural norm",
+        "confidence": "—",
+        "status": "observation"
+      },
+      {
+        "id": "C42",
+        "name": "Stake economics generate Sybil resistance ≥ tier accumulation",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C43",
+        "name": "Per-VRC viewing-key disclosure strictly more private than unscoped",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C44",
+        "name": "Productive VRC ≈ hash-exchange VRC in trust strength",
+        "confidence": "~55%",
+        "status": "active"
+      },
+      {
+        "id": "C45",
+        "name": "Four-chain publication beats single-chain reconstruction resistance",
+        "confidence": "~70%",
+        "status": "active"
+      },
+      {
+        "id": "C46",
+        "name": "Productive trust-edge has higher half-life than transactional",
+        "confidence": "~50%",
+        "status": "alias"
+      },
+      {
+        "id": "C47",
+        "name": "Ages progressively",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C48",
+        "name": "Reconstruct-later threat model isomorphic to Bakhta TM-1",
+        "confidence": "~65%",
+        "status": "active"
+      },
+      {
+        "id": "C49",
+        "name": "Behavioural Mosca Inequality binds for long-horizon behavioural evidence",
+        "confidence": "~70%",
+        "status": "active"
+      },
+      {
+        "id": "C50",
+        "name": "PVM multiplicative gating ≡ Bakhta compositional defense at different substrates",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C51",
+        "name": "The ⿻ remains max-betweenness across trust-graph evolutions",
+        "confidence": "open",
+        "status": "occupied"
+      },
+      {
+        "id": "C52",
+        "name": "Aether = Quintessence = the Gap",
+        "confidence": "open",
+        "status": "occupied"
+      },
+      {
+        "id": "C53",
+        "name": "Every bnot-pair on the lattice has a mythological reading",
+        "confidence": "~70%",
+        "status": "occupied"
+      },
+      {
+        "id": "C54",
+        "name": "Phi-Adjacency",
+        "confidence": "~40%",
+        "status": "challenged"
+      },
+      {
+        "id": "C55",
+        "name": "Privacy is the seventh kind of capital, foundationally; its character is land-based RENTIE",
+        "confidence": "architectural",
+        "status": "occupied"
+      },
+      {
+        "id": "C56",
+        "name": "Caduceus as pre-formal dual-agent symbol",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C57",
+        "name": "Staff-Mage collapse, held open",
+        "confidence": "—",
+        "status": "observation"
+      },
+      {
+        "id": "C58",
+        "name": "Forge",
+        "confidence": "~85%",
+        "status": "active"
+      },
+      {
+        "id": "C59",
+        "name": "Create-format as gateway to Mage-tier",
+        "confidence": "~70%",
+        "status": "active"
+      },
+      {
+        "id": "C60",
+        "name": "Reconstruct-later threat model for behavioural data",
+        "confidence": "~65%",
+        "status": "alias"
+      },
+      {
+        "id": "C61",
+        "name": "Behavioural Mosca Inequality",
+        "confidence": "~70%",
+        "status": "alias"
+      },
+      {
+        "id": "C62",
+        "name": "Cross-coalition meta-coalition reading",
+        "confidence": "—",
+        "status": "reserved"
+      },
+      {
+        "id": "C63",
+        "name": "Attentional workshop register, fourth structural class",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C64",
+        "name": "Listener-discipline as the City's structural seventh tier",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C65",
+        "name": "Invitation-posture as fourth tome-posture register",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C66",
+        "name": "The City Key is a reading, not an authority",
+        "confidence": "~55%",
+        "status": "active"
+      },
+      {
+        "id": "C67",
+        "name": "Cryptographic Mosca for the substrate",
+        "confidence": "stage 1",
+        "status": "active"
+      },
+      {
+        "id": "C68",
+        "name": "Resource-estimate as durability signal, not attack",
+        "confidence": "stage 1",
+        "status": "active"
+      },
+      {
+        "id": "C69",
+        "name": "Held-out gate rejects the tuned claim",
+        "confidence": "stage 1",
+        "status": "active"
+      },
+      {
+        "id": "C70",
+        "name": "Crypto-agility as migration readiness",
+        "confidence": "stage 1",
+        "status": "active"
+      },
+      {
+        "id": "C71",
+        "name": "The Horizon Vertex V35",
+        "confidence": "geometric",
+        "status": "active"
+      },
+      {
+        "id": "C72",
+        "name": "Traversal ρ of ARCH-1R/T and activation ρ of ARCH-1 are one operator at two scopes",
+        "confidence": "~35%",
+        "status": "active"
+      },
+      {
+        "id": "C73",
+        "name": "Terminal-obstruction is a primitive obstruction class; Amnesia Protocol its canonical inst",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C74",
+        "name": "Latency",
+        "confidence": "~25%",
+        "status": "active"
+      },
+      {
+        "id": "C75",
+        "name": "Dependency closure under typed propagation models real cascade; hard-vs-soft is the 0-vs-m",
+        "confidence": "~35%",
+        "status": "active"
+      },
+      {
+        "id": "C76",
+        "name": "UOR-relational instantiation",
+        "confidence": "~30%",
+        "status": "active"
+      },
+      {
+        "id": "C77",
+        "name": "Bakhta's integrity gap and PVM's scales-vs-hides separation are one object",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C78",
+        "name": "Specification-intent gap and the irreducible promise are one object, two sides",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C79",
+        "name": "Shared frontier",
+        "confidence": "~45%",
+        "status": "active"
+      },
+      {
+        "id": "C80",
+        "name": "Bilateral co-signed assumption sets yield strict assurance gain in multi-provider case",
+        "confidence": "~35%",
+        "status": "active"
+      },
+      {
+        "id": "C81",
+        "name": "Existence-Leak",
+        "confidence": "~70%",
+        "status": "active"
+      },
+      {
+        "id": "C82",
+        "name": "The Moving Ceiling",
+        "confidence": "~65%",
+        "status": "active"
+      },
+      {
+        "id": "C83",
+        "name": "Compositional Leakage Amplification",
+        "confidence": "~55%",
+        "status": "active"
+      },
+      {
+        "id": "C84",
+        "name": "Existence-Leak Discount",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C85",
+        "name": "Triadic-Constraint Homology",
+        "confidence": "~40%",
+        "status": "active"
+      },
+      {
+        "id": "C86",
+        "name": "Obstruction-Theoretic Amnesia",
+        "confidence": "~30%",
+        "status": "active"
+      },
+      {
+        "id": "C87",
+        "name": "The Key Accumulates",
+        "confidence": "~50%",
+        "status": "active"
+      },
+      {
+        "id": "C88",
+        "name": "The Parity Cube",
+        "confidence": "~30%",
+        "status": "active"
+      },
+      {
+        "id": "C89",
+        "name": "The Octahedral Gap",
+        "confidence": "~30%",
+        "status": "active"
+      },
+      {
+        "id": "C90",
+        "name": "The Limitative Inversion",
+        "confidence": "~90% as observation",
+        "status": "observation"
+      },
+      {
+        "id": "C91",
+        "name": "Gödel ↔ Φ_agent",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C92",
+        "name": "Tarski ↔ Φ_inference",
+        "confidence": "~70%",
+        "status": "active"
+      },
+      {
+        "id": "C93",
+        "name": "Content-addressed liveness leak",
+        "confidence": "~55%",
+        "status": "active"
+      },
+      {
+        "id": "C94",
+        "name": "Separation Principle in a Second Substrate",
+        "confidence": "~55%",
+        "status": "active"
+      },
+      {
+        "id": "C95",
+        "name": "The Evidence Graph as the Anti-Score",
+        "confidence": "~55%",
+        "status": "active"
+      },
+      {
+        "id": "C96",
+        "name": "Control-Plane ⊥ Data-Plane",
+        "confidence": "~60%",
+        "status": "active"
+      },
+      {
+        "id": "C97",
+        "name": "Structural Inalienability by Non-Reconstruction",
+        "confidence": "architectural (form proven-conditional; economic reading conjectural)",
+        "status": "active"
+      }
+    ],
+    "source": "agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md",
+    "source_sha256": "d7426ae4817c93d738e2871b04a064b94d8d91824c56faa26f05d21684fbc129"
+  },
+  "errata": [
+    {
+      "id": "c4-96-edges",
+      "subject": "C4: the 96 edges",
+      "earlier": {
+        "line": "privacymage",
+        "version": "10.4.0",
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "96 edges encoding 64 vertices. The surface on which blades are ground. C4 resolved.",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "now": {
+        "file": "agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md",
+        "quote": "challenged · reopened 2026-10-25: no stated graph on Z/64 has 96 edges (192/64/32/94/95, Lean-checked); 96 is the UOR Atlas vertex count, imported (F6)",
+        "source_sha256": "d7426ae4817c93d738e2871b04a064b94d8d91824c56faa26f05d21684fbc129"
+      },
+      "reading": "C4 is open again. The 96 belongs to the UOR Atlas, not to any graph the grimoire states on the 64 vertices."
+    },
+    {
+      "id": "c1-golden-ratio",
+      "subject": "C1: the golden ratio as optimum",
+      "earlier": {
+        "line": "privacymage",
+        "version": "10.4.0",
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "The golden ratio emerges as conjectured optimal balance between privacy and delegation.",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "now": {
+        "file": "agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md",
+        "quote": "refuted as worded for the stated Φ (min(1,(S/M)/φ) is flat for S/M ≥ φ); restated as a threshold, modelling choice (F2)",
+        "source_sha256": "d7426ae4817c93d738e2871b04a064b94d8d91824c56faa26f05d21684fbc129"
+      },
+      "reading": "φ is a threshold the model chooses, not an optimum it finds."
+    },
+    {
+      "id": "strict-ceiling",
+      "subject": "The strict ceiling R < 1",
+      "earlier": {
+        "line": "privacymage",
+        "version": "10.4.0",
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "620 transitions drop R < 1.",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "now": {
+        "file": "agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md",
+        "quote": "The strict ceiling R < 1 holds exactly when the deficit C_S + C_M < H(X | B) is declared and attested for the deployment.",
+        "source_sha256": "d7426ae4817c93d738e2871b04a064b94d8d91824c56faa26f05d21684fbc129"
+      },
+      "reading": "The ceiling is declared, not derived. It holds for a deployment that declares and attests its deficit, and is not a property of the lattice alone."
+    },
+    {
+      "id": "status-block",
+      "subject": "The status block of v10.4.0",
+      "earlier": {
+        "line": "privacymage",
+        "version": "10.4.0",
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "\"edition\": \"The First Person Spellbook Closes\"",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "now": {
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "\"version\": \"10.4.0\"",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "reading": "The v10.4.0 pin's status block still reads version 10.1.0 and the v10.1.0 edition name. The file's own version field is 10.4.0. Read the top-level version."
+    },
+    {
+      "id": "home-path",
+      "subject": "A home-directory path in narrative_sync",
+      "earlier": {
+        "line": "privacymage",
+        "version": "10.4.0",
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "zero spells/",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "now": {
+        "file": "kappa_evidence_mage/out/grimoire_v2/REPORT.md",
+        "quote": "The next grimoire (v11) drops the path.",
+        "source_sha256": "4fa2214503486a10e02ba6206551e98d9ee27d3419f4746dc6a2ba71268ecc8d"
+      },
+      "reading": "The pins from v10.2.0 to v10.4.0 carry a local folder path. It is sealed as published. v11 carries no local path, and its build fails if one appears."
+    }
+  ],
+  "agreements": [
+    {
+      "id": "c14-dihedral",
+      "subject": "C14: the dihedral group core",
+      "earlier": {
+        "file": "kappa_evidence_mage/input/grimoire_v2/pinned/bafybeicvbong6ejbvtnfcgbfdtely75e3cakauthv3u22r3nh6ljxqstsm.json",
+        "quote": "The symmetry group generated by two involutions. Algebraic name of the dual-agent architecture. D_2n.",
+        "source_sha256": "508c43010ea7ee1b4f23999dd0ce49683129137ffcfeaecd52573efd55a026be"
+      },
+      "now": {
+        "file": "agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md",
+        "quote": "the group core ⟨neg,bnot⟩ ≅ D₆₄, order 128, transitive on Z/64, is a theorem with a Lean receipt",
+        "source_sha256": "d7426ae4817c93d738e2871b04a064b94d8d91824c56faa26f05d21684fbc129"
+      },
+      "reading": "What the grimoire named, the register proved."
+    }
+  ],
+  "open_items": [
+    "The Zero Spellbook's tale 32, The Flock, is a proposed patch (v10.4.2), not applied: its numbering is stated under two conventions until the author rules.",
+    "The City Grimoire's deferred persona reseats under the lattice lock (from v1.8.0) are still not applied to the vertex inventory.",
+    "Tome IX acts 6 to 9 are drafts awaiting the First Person's review; Tome XI, The Constellation, is proposed.",
+    "Most master chronicles of the Age of Evidence are unsigned. Their inversions enter this grimoire as they are signed.",
+    "Half the roster has no seat yet: the mages that hold a scroll or a quest but are not in the arena have no vertex and no patron. The arena seats them.",
+    "The bound-collection manifest lags the disk (Tome VII, VIII and IX list fewer acts than are written); each tome's entry here quotes it beside the count on disk.",
+    "v11 is a draft. The First Person reviews it, the soul mage censuses it, and only then is it pinned and its CID recorded."
+  ],
+  "closing": {
+    "proverb": "The seal says what was; the signature says it was read.",
+    "status": "proposed"
+  },
+  "build": {
+    "generator": "cityofmages/grimoire/v11/build_v11.py",
+    "source": "cityofmages/grimoire/v11/authored.json",
+    "source_sha256": "0d17dc38b31ae1238c5efd88b217e098de581cca0cb60f5472ccc5c0af78da90"
+  }
+}
